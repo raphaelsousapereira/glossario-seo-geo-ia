@@ -1,0 +1,4315 @@
+{
+  "meta": {
+    "nome": "Glossário SEO, GEO e IA",
+    "versao": "1.0.0",
+    "atualizado_em": "2026-10-23",
+    "total": 306,
+    "idiomas": [
+      "pt-BR",
+      "en"
+    ],
+    "licenca": "CC BY 4.0",
+    "autor": "Raphael Sousa Pereira",
+    "site": "https://seonegocionomapa.com.br",
+    "repositorio": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia"
+  },
+  "termos": [
+    {
+      "slug": "scaled-content-abuse",
+      "categoria": "SEO",
+      "subcategoria": "Qualidade e atualizações",
+      "termo_en": "Scaled Content Abuse",
+      "termo_pt": "Abuso de conteúdo em escala",
+      "definicao_pt": "Política de spam do Google contra produzir muitas páginas sem valor para manipular ranking, seja com IA, com pessoas ou com automação.",
+      "definition_en": "Google spam policy against producing many low-value pages to manipulate rankings, whether by AI, people or automation.",
+      "relacionados": [
+        "thin-content",
+        "ai-slop"
+      ],
+      "fonte": "https://developers.google.com/search/docs/essentials/spam-policies"
+    },
+    {
+      "slug": "site-reputation-abuse",
+      "categoria": "SEO",
+      "subcategoria": "Qualidade e atualizações",
+      "termo_en": "Site Reputation Abuse",
+      "termo_pt": "Abuso de reputação do site",
+      "definicao_pt": "Política do Google contra hospedar conteúdo de terceiros sem supervisão para aproveitar a autoridade de um domínio forte.",
+      "definition_en": "Google policy against hosting third-party content without oversight to exploit a strong domain's authority.",
+      "relacionados": [
+        "scaled-content-abuse"
+      ],
+      "fonte": "https://developers.google.com/search/docs/essentials/spam-policies"
+    },
+    {
+      "slug": "dated-claim",
+      "categoria": "GEO",
+      "subcategoria": "Conteúdo citável",
+      "termo_en": "Dated Claim",
+      "termo_pt": "Afirmação datada",
+      "definicao_pt": "Fato que vale para um momento (\"em 2026\", \"o maior do Brasil\") e precisa de data e revisão. Sem data, a IA pode repetir um fato vencido.",
+      "definition_en": "Fact valid for a point in time (\"in 2026\", \"the largest in Brazil\") that needs a date and review. Without one, AI may repeat an expired fact.",
+      "relacionados": [
+        "content-freshness",
+        "citable-fact"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "ai-agent",
+      "categoria": "IA",
+      "subcategoria": "Agentes e ferramentas",
+      "termo_en": "AI Agent",
+      "termo_pt": "Agente de IA",
+      "definicao_pt": "Sistema em que um modelo planeja e executa várias etapas para cumprir um objetivo, usando ferramentas como busca, navegador, código e APIs.",
+      "definition_en": "System in which a model plans and carries out several steps toward a goal, using tools such as search, a browser, code and APIs.",
+      "relacionados": [
+        "function-calling",
+        "mcp",
+        "agentic-commerce"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "user-agent",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "User-Agent",
+      "termo_pt": "Agente de usuário",
+      "definicao_pt": "Identificação que um navegador ou robô envia em cada requisição HTTP, usada pelo robots.txt e pelos servidores para tratar cada visitante.",
+      "definition_en": "Identifier a browser or bot sends with each HTTP request, used by robots.txt and servers to handle each visitor.",
+      "relacionados": [
+        "crawler",
+        "robots-txt"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "clustering",
+      "categoria": "IA",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Clustering",
+      "termo_pt": "Agrupamento",
+      "definicao_pt": "Técnica que reúne itens parecidos em grupos sem rótulos prévios. Em SEO, é usada para agrupar palavras-chave por tema.",
+      "definition_en": "Technique that gathers similar items into groups without prior labels. In SEO it is used to group keywords by topic.",
+      "relacionados": [
+        "unsupervised-learning",
+        "embedding"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "fine-tuning",
+      "categoria": "IA",
+      "subcategoria": "Treinamento e ajuste",
+      "termo_en": "Fine-tuning",
+      "termo_pt": "Ajuste fino",
+      "definicao_pt": "Continuar o treino de um modelo pronto com dados específicos para especializá-lo numa tarefa, estilo ou domínio.",
+      "definition_en": "Continuing to train an existing model on specific data to specialize it in a task, style or domain.",
+      "relacionados": [
+        "lora",
+        "instruction-tuning"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "instruction-tuning",
+      "categoria": "IA",
+      "subcategoria": "Treinamento e ajuste",
+      "termo_en": "Instruction Tuning",
+      "termo_pt": "Ajuste por instruções",
+      "definicao_pt": "Ajuste fino com exemplos de pedidos e boas respostas, que ensina o modelo a seguir instruções.",
+      "definition_en": "Fine-tuning with examples of requests and good answers, teaching the model to follow instructions.",
+      "relacionados": [
+        "fine-tuning",
+        "post-training"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "algorithm",
+      "categoria": "IA",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Algorithm",
+      "termo_pt": "Algoritmo",
+      "definicao_pt": "Sequência definida de passos para resolver um problema. No uso comum, \"o algoritmo\" do buscador é o conjunto de sistemas que ordena os resultados.",
+      "definition_en": "Defined sequence of steps to solve a problem. In common usage, a search engine's \"algorithm\" is the set of systems that orders results.",
+      "relacionados": [
+        "ranking-factor"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "alignment",
+      "categoria": "IA",
+      "subcategoria": "Treinamento e ajuste",
+      "termo_en": "Alignment",
+      "termo_pt": "Alinhamento",
+      "definicao_pt": "Trabalho de fazer o modelo agir conforme as intenções e os valores das pessoas: útil, honesto e sem causar dano.",
+      "definition_en": "Work of making a model act according to people's intentions and values: helpful, honest and harmless.",
+      "relacionados": [
+        "rlhf",
+        "ai-safety"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "hallucination",
+      "categoria": "IA",
+      "subcategoria": "Avaliação e confiabilidade",
+      "termo_en": "Hallucination (Confabulation)",
+      "termo_pt": "Alucinação",
+      "definicao_pt": "Quando o modelo afirma com confiança algo falso ou sem base, como fato, número, citação ou fonte inexistente.",
+      "definition_en": "When the model confidently states something false or unsupported, such as a fact, figure, quote or nonexistent source.",
+      "relacionados": [
+        "grounding",
+        "faithfulness",
+        "answer-accuracy"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "grounding",
+      "categoria": "GEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Grounding",
+      "termo_pt": "Ancoragem em fontes",
+      "definicao_pt": "Ligar a resposta do modelo a documentos ou dados verificáveis, recuperados no momento da pergunta, para reduzir invenções e permitir citar a fonte.",
+      "definition_en": "Tying the model's answer to verifiable documents or data retrieved at question time, to reduce fabrication and allow citing the source.",
+      "relacionados": [
+        "rag",
+        "hallucination",
+        "ai-citation"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "log-file-analysis",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "Log File Analysis",
+      "termo_pt": "Análise de logs",
+      "definicao_pt": "Leitura dos registros do servidor para ver quais robôs visitaram quais URLs, com que frequência e com que resposta. Mostra o rastreamento real, não o estimado.",
+      "definition_en": "Reading server logs to see which bots visited which URLs, how often and with what response. It shows actual crawling, not an estimate.",
+      "relacionados": [
+        "crawl-budget",
+        "ai-crawler"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "self-supervised-learning",
+      "categoria": "IA",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Self-supervised Learning",
+      "termo_pt": "Aprendizado autossupervisionado",
+      "definicao_pt": "Treino em que o próprio dado gera o rótulo, como prever a próxima palavra de um texto. É como os LLMs são pré-treinados.",
+      "definition_en": "Training in which the data itself provides the label, such as predicting a text's next word. It is how LLMs are pretrained.",
+      "relacionados": [
+        "pretraining",
+        "next-token-prediction"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "machine-learning",
+      "categoria": "IA",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Machine Learning (ML)",
+      "termo_pt": "Aprendizado de máquina",
+      "definicao_pt": "Ramo da IA em que o sistema aprende padrões a partir de dados, em vez de seguir regras escritas à mão.",
+      "definition_en": "Branch of AI in which the system learns patterns from data instead of following hand-written rules.",
+      "relacionados": [
+        "deep-learning",
+        "training-data",
+        "supervised-learning"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "unsupervised-learning",
+      "categoria": "IA",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Unsupervised Learning",
+      "termo_pt": "Aprendizado não supervisionado",
+      "definicao_pt": "Treino sem rótulos, em que o modelo encontra estruturas nos dados, como grupos de clientes parecidos.",
+      "definition_en": "Training without labels, in which the model finds structure in the data, such as groups of similar customers.",
+      "relacionados": [
+        "supervised-learning",
+        "clustering"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "reinforcement-learning",
+      "categoria": "IA",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Reinforcement Learning (RL)",
+      "termo_pt": "Aprendizado por reforço",
+      "definicao_pt": "Treino por tentativa e erro, em que o modelo recebe recompensas pelas ações e aprende a maximizá-las.",
+      "definition_en": "Trial-and-error training in which the model receives rewards for its actions and learns to maximize them.",
+      "relacionados": [
+        "rlhf"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "rlhf",
+      "categoria": "IA",
+      "subcategoria": "Treinamento e ajuste",
+      "termo_en": "Reinforcement Learning from Human Feedback (RLHF)",
+      "termo_pt": "Aprendizado por reforço com feedback humano",
+      "definicao_pt": "Técnica em que pessoas comparam respostas, um modelo de recompensa aprende essas preferências e o LLM é otimizado para elas.",
+      "definition_en": "Technique in which people compare answers, a reward model learns those preferences and the LLM is optimized toward them.",
+      "relacionados": [
+        "reinforcement-learning",
+        "dpo",
+        "alignment"
+      ],
+      "fonte": "https://arxiv.org/abs/2203.02155"
+    },
+    {
+      "slug": "deep-learning",
+      "categoria": "IA",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Deep Learning",
+      "termo_pt": "Aprendizado profundo",
+      "definicao_pt": "Aprendizado de máquina com redes neurais de muitas camadas, base dos modelos atuais de linguagem, imagem e voz.",
+      "definition_en": "Machine learning with many-layered neural networks, the basis of today's language, image and speech models.",
+      "relacionados": [
+        "neural-network",
+        "machine-learning"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "supervised-learning",
+      "categoria": "IA",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Supervised Learning",
+      "termo_pt": "Aprendizado supervisionado",
+      "definicao_pt": "Treino com exemplos rotulados (entrada e resposta certa), como classificar e-mails em spam ou não spam.",
+      "definition_en": "Training with labeled examples (input and correct answer), such as classifying e-mails as spam or not.",
+      "relacionados": [
+        "machine-learning",
+        "unsupervised-learning"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "site-architecture",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "Site Architecture",
+      "termo_pt": "Arquitetura do site",
+      "definicao_pt": "Organização das páginas em categorias, hierarquia e links, que define como robôs e pessoas chegam a cada conteúdo.",
+      "definition_en": "Organization of pages into categories, hierarchy and links, defining how bots and people reach each piece of content.",
+      "relacionados": [
+        "internal-linking",
+        "crawl-depth",
+        "topic-cluster"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "llms-full-txt",
+      "categoria": "GEO",
+      "subcategoria": "Arquivos e acesso das IAs",
+      "termo_en": "llms-full.txt",
+      "termo_pt": "Arquivo llms-full.txt",
+      "definicao_pt": "Variante do llms.txt com o conteúdo completo das páginas em Markdown num único arquivo, para ser lido de uma vez por ferramentas de IA.",
+      "definition_en": "Variant of llms.txt with the full content of the pages in Markdown in a single file, to be read at once by AI tools.",
+      "relacionados": [
+        "llms-txt"
+      ],
+      "fonte": "https://llmstxt.org"
+    },
+    {
+      "slug": "llms-txt",
+      "categoria": "GEO",
+      "subcategoria": "Arquivos e acesso das IAs",
+      "termo_en": "llms.txt",
+      "termo_pt": "Arquivo llms.txt",
+      "definicao_pt": "Proposta de arquivo em Markdown na raiz do site que resume a marca e lista as páginas mais úteis para modelos de linguagem. Não é padrão oficial e não há confirmação pública de uso pelos grandes buscadores.",
+      "definition_en": "Proposed Markdown file at the site root summarizing the brand and listing the most useful pages for language models. It is not an official standard and major search engines have not publicly confirmed using it.",
+      "relacionados": [
+        "llms-full-txt",
+        "robots-txt"
+      ],
+      "fonte": "https://llmstxt.org"
+    },
+    {
+      "slug": "robots-txt",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "robots.txt",
+      "termo_pt": "Arquivo robots.txt",
+      "definicao_pt": "Arquivo na raiz do site que diz aos robôs quais caminhos podem ou não rastrear. Controla o rastreamento, não a indexação.",
+      "definition_en": "File at the site root that tells bots which paths they may or may not crawl. It controls crawling, not indexing.",
+      "relacionados": [
+        "crawler",
+        "noindex",
+        "ai-crawler"
+      ],
+      "fonte": "https://www.rfc-editor.org/rfc/rfc9309"
+    },
+    {
+      "slug": "people-also-ask",
+      "categoria": "SEO",
+      "subcategoria": "Qualidade e atualizações",
+      "termo_en": "People Also Ask (PAA)",
+      "termo_pt": "As pessoas também perguntam",
+      "definicao_pt": "Bloco de perguntas relacionadas que se expandem com respostas de diferentes páginas. Boa fonte de perguntas para conteúdo.",
+      "definition_en": "Block of related questions that expand into answers from different pages. A good source of questions for content.",
+      "relacionados": [
+        "serp-feature",
+        "query-fan-out"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "ai-assistant",
+      "categoria": "IA",
+      "subcategoria": "Modelos de linguagem",
+      "termo_en": "AI Assistant",
+      "termo_pt": "Assistente de IA",
+      "definicao_pt": "Produto que usa um modelo de IA para ajudar a pessoa em tarefas, como ChatGPT, Claude, Gemini e Copilot.",
+      "definition_en": "Product that uses an AI model to help a person with tasks, such as ChatGPT, Claude, Gemini and Copilot.",
+      "relacionados": [
+        "chatbot",
+        "ai-agent"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "entity-association",
+      "categoria": "GEO",
+      "subcategoria": "Citação e visibilidade",
+      "termo_en": "Entity Association",
+      "termo_pt": "Associação de entidade",
+      "definicao_pt": "Ligação que o modelo faz entre a marca e um conceito, como \"agência de GEO em Porto Alegre\". Construída por menções consistentes em várias fontes.",
+      "definition_en": "Link a model makes between the brand and a concept, such as \"GEO agency in Porto Alegre\". Built through consistent mentions across many sources.",
+      "relacionados": [
+        "co-citation",
+        "entity"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "source-attribution",
+      "categoria": "GEO",
+      "subcategoria": "Citação e visibilidade",
+      "termo_en": "Source Attribution",
+      "termo_pt": "Atribuição de fonte",
+      "definicao_pt": "Como o sistema de IA indica de onde veio cada informação: link inline, nota numerada, lista de fontes ou nenhum. Varia por plataforma.",
+      "definition_en": "How the AI system shows where each piece of information came from: inline link, numbered note, source list or none. It varies by platform.",
+      "relacionados": [
+        "ai-citation"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "hreflang",
+      "categoria": "SEO",
+      "subcategoria": "SEO internacional",
+      "termo_en": "hreflang",
+      "termo_pt": "Atributo hreflang",
+      "definicao_pt": "Anotação que liga versões da mesma página em idiomas ou países diferentes, para o buscador mostrar a versão certa a cada pessoa.",
+      "definition_en": "Annotation linking versions of the same page in different languages or countries, so the search engine shows each person the right version.",
+      "relacionados": [
+        "international-seo",
+        "canonical-url"
+      ],
+      "fonte": "https://developers.google.com/search/docs/specialty/international/localized-versions"
+    },
+    {
+      "slug": "nofollow",
+      "categoria": "SEO",
+      "subcategoria": "Links e autoridade",
+      "termo_en": "nofollow / sponsored / ugc",
+      "termo_pt": "Atributos nofollow, sponsored e ugc",
+      "definicao_pt": "Atributos de link que dizem ao buscador que o link não deve ser tratado como endosso: nofollow (genérico), sponsored (pago) e ugc (conteúdo de usuário).",
+      "definition_en": "Link attributes telling the search engine not to treat the link as an endorsement: nofollow (generic), sponsored (paid) and ugc (user content).",
+      "relacionados": [
+        "link-equity",
+        "link-spam"
+      ],
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links"
+    },
+    {
+      "slug": "content-freshness",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Content Freshness",
+      "termo_pt": "Atualidade do conteúdo",
+      "definicao_pt": "Quanto o conteúdo está em dia. Pesa mais em consultas sobre fatos que mudam, como preços, leis e notícias, e só conta quando a mudança é real.",
+      "definition_en": "How up to date content is. It weighs more for queries about changing facts, such as prices, laws and news, and only counts when the change is real.",
+      "relacionados": [
+        "lastmod",
+        "dated-claim"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "core-update",
+      "categoria": "SEO",
+      "subcategoria": "Qualidade e atualizações",
+      "termo_en": "Core Update",
+      "termo_pt": "Atualização principal",
+      "definicao_pt": "Mudança ampla nos sistemas de ranqueamento do Google, anunciada algumas vezes por ano, que reavalia a qualidade geral dos sites.",
+      "definition_en": "Broad change to Google's ranking systems, announced a few times a year, that reassesses the overall quality of sites.",
+      "relacionados": [
+        "helpful-content",
+        "ranking-factor"
+      ],
+      "fonte": "https://developers.google.com/search/updates/core-updates"
+    },
+    {
+      "slug": "ai-audit",
+      "categoria": "GEO",
+      "subcategoria": "Medição em GEO",
+      "termo_en": "AI Visibility Audit",
+      "termo_pt": "Auditoria de visibilidade em IA",
+      "definicao_pt": "Diagnóstico de como a marca aparece em várias IAs, das fontes que elas usam e dos erros que repetem, com plano de correção.",
+      "definition_en": "Diagnosis of how the brand appears across several AIs, the sources they use and the errors they repeat, with a correction plan.",
+      "relacionados": [
+        "ai-visibility",
+        "hallucination",
+        "citation-source-type"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "self-consistency",
+      "categoria": "IA",
+      "subcategoria": "Prompts",
+      "termo_en": "Self-consistency",
+      "termo_pt": "Autoconsistência",
+      "definicao_pt": "Gerar várias respostas para a mesma pergunta e ficar com a mais frequente, reduzindo erros aleatórios.",
+      "definition_en": "Generating several answers to the same question and keeping the most frequent one, reducing random errors.",
+      "relacionados": [
+        "chain-of-thought",
+        "response-variance"
+      ],
+      "fonte": "https://arxiv.org/abs/2203.11171"
+    },
+    {
+      "slug": "author-entity",
+      "categoria": "GEO",
+      "subcategoria": "Entidade e grafo de conhecimento",
+      "termo_en": "Author Entity",
+      "termo_pt": "Autor como entidade",
+      "definicao_pt": "Autor tratado como entidade identificável (Person em schema, página de autor, perfis sameAs, publicações), o que liga o conteúdo à experiência de alguém real.",
+      "definition_en": "Author treated as an identifiable entity (Person in schema, author page, sameAs profiles, publications), tying content to a real person's expertise.",
+      "relacionados": [
+        "e-e-a-t",
+        "article-schema"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "domain-authority",
+      "categoria": "SEO",
+      "subcategoria": "Links e autoridade",
+      "termo_en": "Domain Authority (DA/DR)",
+      "termo_pt": "Autoridade de domínio",
+      "definicao_pt": "Nota criada por ferramentas de SEO (Moz, Ahrefs, Semrush) para estimar a força de links de um domínio. Não é métrica do Google.",
+      "definition_en": "Score created by SEO tools (Moz, Ahrefs, Semrush) to estimate a domain's link strength. It is not a Google metric.",
+      "relacionados": [
+        "backlink",
+        "pagerank"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "topical-authority",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Topical Authority",
+      "termo_pt": "Autoridade temática",
+      "definicao_pt": "Percepção de que um site cobre um assunto com profundidade e consistência, por meio de muitas páginas relacionadas, bem ligadas e confiáveis.",
+      "definition_en": "Perception that a site covers a subject in depth and consistently, through many related, well-linked, trustworthy pages.",
+      "relacionados": [
+        "topic-cluster",
+        "e-e-a-t"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "evals",
+      "categoria": "IA",
+      "subcategoria": "Avaliação e confiabilidade",
+      "termo_en": "Evals",
+      "termo_pt": "Avaliações (evals)",
+      "definicao_pt": "Testes sistemáticos de um modelo ou sistema de IA com casos definidos e critérios de acerto, usados antes e depois de cada mudança.",
+      "definition_en": "Systematic tests of an AI model or system with defined cases and pass criteria, used before and after each change.",
+      "relacionados": [
+        "benchmark",
+        "llm-as-judge"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "online-reviews",
+      "categoria": "SEO",
+      "subcategoria": "SEO local",
+      "termo_en": "Online Reviews",
+      "termo_pt": "Avaliações online",
+      "definicao_pt": "Notas e comentários de clientes em plataformas como Google, Reclame Aqui e marketplaces. Influenciam o SEO local e o que as IAs dizem sobre a marca.",
+      "definition_en": "Customer ratings and comments on platforms such as Google, Reclame Aqui and marketplaces. They influence local SEO and what AI says about the brand.",
+      "relacionados": [
+        "local-seo",
+        "brand-sentiment"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "manual-action",
+      "categoria": "SEO",
+      "subcategoria": "Qualidade e atualizações",
+      "termo_en": "Manual Action",
+      "termo_pt": "Ação manual",
+      "definicao_pt": "Penalidade aplicada por um revisor do Google quando o site viola políticas de spam. Aparece no Search Console e exige correção e pedido de reconsideração.",
+      "definition_en": "Penalty applied by a Google reviewer when a site breaks spam policies. It appears in Search Console and requires a fix and a reconsideration request.",
+      "relacionados": [
+        "link-spam",
+        "google-search-console"
+      ],
+      "fonte": "https://support.google.com/webmasters/answer/9044175"
+    },
+    {
+      "slug": "backlink",
+      "categoria": "SEO",
+      "subcategoria": "Links e autoridade",
+      "termo_en": "Backlink",
+      "termo_pt": "Backlink (link de entrada)",
+      "definicao_pt": "Link de outro site apontando para o seu. Links de fontes relevantes e confiáveis contam como voto de confiança.",
+      "definition_en": "Link from another site pointing to yours. Links from relevant, trustworthy sources count as a vote of confidence.",
+      "relacionados": [
+        "link-building",
+        "anchor-text",
+        "pagerank"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "sycophancy",
+      "categoria": "IA",
+      "subcategoria": "Avaliação e confiabilidade",
+      "termo_en": "Sycophancy",
+      "termo_pt": "Bajulação",
+      "definicao_pt": "Tendência do modelo de concordar com o usuário ou dizer o que ele quer ouvir, mesmo contra os fatos.",
+      "definition_en": "A model's tendency to agree with the user or say what they want to hear, even against the facts.",
+      "relacionados": [
+        "alignment",
+        "hallucination"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "vector-database",
+      "categoria": "IA",
+      "subcategoria": "Recuperação (RAG) e busca semântica",
+      "termo_en": "Vector Database",
+      "termo_pt": "Banco de dados vetorial",
+      "definicao_pt": "Banco que guarda embeddings e encontra rapidamente os mais próximos de uma consulta. Usado em sistemas RAG.",
+      "definition_en": "Database that stores embeddings and quickly finds those closest to a query. Used in RAG systems.",
+      "relacionados": [
+        "embedding",
+        "rag",
+        "ann-search"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "knowledge-base",
+      "categoria": "IA",
+      "subcategoria": "Recuperação (RAG) e busca semântica",
+      "termo_en": "Knowledge Base",
+      "termo_pt": "Base de conhecimento",
+      "definicao_pt": "Coleção organizada de documentos e fatos que um sistema consulta, por exemplo num RAG interno de empresa.",
+      "definition_en": "Organized collection of documents and facts a system consults, for example in a company's internal RAG.",
+      "relacionados": [
+        "rag",
+        "knowledge-graph"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "benchmark",
+      "categoria": "IA",
+      "subcategoria": "Avaliação e confiabilidade",
+      "termo_en": "Benchmark",
+      "termo_pt": "Benchmark",
+      "definicao_pt": "Conjunto padronizado de tarefas para comparar modelos. Resultados podem ser inflados se os testes vazaram para os dados de treino.",
+      "definition_en": "Standardized set of tasks for comparing models. Results can be inflated if the tests leaked into training data.",
+      "relacionados": [
+        "evals",
+        "data-contamination"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "bing-webmaster-tools",
+      "categoria": "SEO",
+      "subcategoria": "Métricas e ferramentas",
+      "termo_en": "Bing Webmaster Tools",
+      "termo_pt": "Bing Webmaster Tools",
+      "definicao_pt": "Ferramenta da Microsoft equivalente ao Search Console para o Bing, cujo índice também alimenta o Copilot e outros assistentes.",
+      "definition_en": "Microsoft's Search Console equivalent for Bing, whose index also feeds Copilot and other assistants.",
+      "relacionados": [
+        "indexnow"
+      ],
+      "fonte": "https://www.bing.com/webmasters"
+    },
+    {
+      "slug": "ai-search",
+      "categoria": "GEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "AI Search",
+      "termo_pt": "Busca com IA",
+      "definicao_pt": "Busca em que a resposta é redigida por um modelo de IA a partir de fontes recuperadas, em vez de uma lista de links. Exemplos: ChatGPT Search, Perplexity, Google AI Mode.",
+      "definition_en": "Search in which the answer is written by an AI model from retrieved sources instead of a list of links. Examples: ChatGPT Search, Perplexity, Google AI Mode.",
+      "relacionados": [
+        "generative-engine",
+        "ai-overviews",
+        "ai-mode"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "hybrid-search",
+      "categoria": "IA",
+      "subcategoria": "Recuperação (RAG) e busca semântica",
+      "termo_en": "Hybrid Search",
+      "termo_pt": "Busca híbrida",
+      "definicao_pt": "Combinação de busca lexical e semântica para recuperar documentos que batem tanto nas palavras quanto no sentido.",
+      "definition_en": "Combining lexical and semantic search to retrieve documents that match both the words and the meaning.",
+      "relacionados": [
+        "lexical-search",
+        "semantic-search",
+        "reranking"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "lexical-search",
+      "categoria": "IA",
+      "subcategoria": "Recuperação (RAG) e busca semântica",
+      "termo_en": "Lexical Search (BM25)",
+      "termo_pt": "Busca lexical",
+      "definicao_pt": "Busca pelas palavras presentes no texto, ponderadas por frequência e raridade, como no algoritmo BM25. Ainda é muito usada, inclusive em RAG.",
+      "definition_en": "Search by the words present in the text, weighted by frequency and rarity, as in the BM25 algorithm. Still widely used, including in RAG.",
+      "relacionados": [
+        "semantic-search",
+        "hybrid-search"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "organic-search",
+      "categoria": "SEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Organic Search",
+      "termo_pt": "Busca orgânica",
+      "definicao_pt": "Resultados que o buscador ordena por relevância e qualidade, sem pagamento pela posição.",
+      "definition_en": "Results a search engine orders by relevance and quality, with no payment for position.",
+      "relacionados": [
+        "serp",
+        "paid-search"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "paid-search",
+      "categoria": "SEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Paid Search (SEM/PPC)",
+      "termo_pt": "Busca paga",
+      "definicao_pt": "Anúncios exibidos na página de resultados em troca de pagamento, normalmente por clique ou impressão.",
+      "definition_en": "Ads shown on the results page in exchange for payment, usually per click or impression.",
+      "relacionados": [
+        "organic-search"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "zero-click-search",
+      "categoria": "SEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Zero-click Search",
+      "termo_pt": "Busca sem clique",
+      "definicao_pt": "Consulta resolvida na própria página de resultados, sem clique para um site, por causa de trechos em destaque, painéis ou respostas geradas por IA.",
+      "definition_en": "Query resolved on the results page itself, with no click to a site, because of featured snippets, panels or AI-generated answers.",
+      "relacionados": [
+        "featured-snippet",
+        "ai-overviews",
+        "ctr"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "semantic-search",
+      "categoria": "IA",
+      "subcategoria": "Recuperação (RAG) e busca semântica",
+      "termo_en": "Semantic Search",
+      "termo_pt": "Busca semântica",
+      "definicao_pt": "Busca pelo significado da consulta, e não só pelas palavras exatas, normalmente com embeddings.",
+      "definition_en": "Search by the meaning of the query, not just its exact words, usually with embeddings.",
+      "relacionados": [
+        "embedding",
+        "lexical-search",
+        "hybrid-search"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "prompt-caching",
+      "categoria": "IA",
+      "subcategoria": "Inferência e uso",
+      "termo_en": "Prompt Caching",
+      "termo_pt": "Cache de prompt",
+      "definicao_pt": "Reaproveitar o processamento de um início de prompt repetido entre chamadas, reduzindo custo e latência.",
+      "definition_en": "Reusing the processing of a repeated prompt prefix across calls, cutting cost and latency.",
+      "relacionados": [
+        "inference",
+        "latency"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "chain-of-thought",
+      "categoria": "IA",
+      "subcategoria": "Prompts",
+      "termo_en": "Chain of Thought (CoT)",
+      "termo_pt": "Cadeia de raciocínio",
+      "definicao_pt": "Fazer o modelo explicitar passos intermediários antes da resposta final, o que melhora o desempenho em problemas de várias etapas.",
+      "definition_en": "Having the model spell out intermediate steps before the final answer, which improves performance on multi-step problems.",
+      "relacionados": [
+        "reasoning-model"
+      ],
+      "fonte": "https://arxiv.org/abs/2201.11903"
+    },
+    {
+      "slug": "redirect-chain",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "Redirect Chain",
+      "termo_pt": "Cadeia de redirecionamentos",
+      "definicao_pt": "Sequência de vários redirecionamentos até a URL final. Desperdiça rastreamento, deixa a página mais lenta e pode fazer o robô desistir.",
+      "definition_en": "Sequence of several redirects before the final URL. It wastes crawling, slows the page and may make the bot give up.",
+      "relacionados": [
+        "redirect-301"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "calibration",
+      "categoria": "IA",
+      "subcategoria": "Avaliação e confiabilidade",
+      "termo_en": "Calibration",
+      "termo_pt": "Calibração",
+      "definicao_pt": "Quanto a confiança declarada de um modelo bate com a taxa real de acerto. Um modelo bem calibrado que diz 80% acerta cerca de 80% das vezes.",
+      "definition_en": "How well a model's stated confidence matches its actual accuracy. A well-calibrated model that says 80% is right about 80% of the time.",
+      "relacionados": [
+        "hallucination",
+        "evals"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "retrieval-layer",
+      "categoria": "GEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Retrieval Layer",
+      "termo_pt": "Camada de recuperação",
+      "definicao_pt": "Parte do sistema de IA que busca documentos (na web, num índice próprio ou num banco vetorial) antes da geração. Quem não é recuperado não pode ser citado.",
+      "definition_en": "Part of the AI system that fetches documents (from the web, its own index or a vector database) before generation. What is not retrieved cannot be cited.",
+      "relacionados": [
+        "rag",
+        "ai-search",
+        "vector-database"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "keyword-cannibalization",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Keyword Cannibalization",
+      "termo_pt": "Canibalização de palavras-chave",
+      "definicao_pt": "Quando várias páginas do mesmo site disputam a mesma consulta e dividem sinais, e nenhuma se posiciona bem.",
+      "definition_en": "When several pages on the same site compete for the same query and split signals, so none ranks well.",
+      "relacionados": [
+        "content-pruning",
+        "canonical-url"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "primary-category",
+      "categoria": "SEO",
+      "subcategoria": "SEO local",
+      "termo_en": "Primary Category",
+      "termo_pt": "Categoria principal",
+      "definicao_pt": "Categoria escolhida como a principal no Perfil da Empresa. É um dos fatores mais fortes para aparecer em buscas locais.",
+      "definition_en": "Category chosen as the main one in the Business Profile. It is among the strongest factors for appearing in local searches.",
+      "relacionados": [
+        "google-business-profile"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "function-calling",
+      "categoria": "IA",
+      "subcategoria": "Agentes e ferramentas",
+      "termo_en": "Function Calling (Tool Use)",
+      "termo_pt": "Chamada de funções",
+      "definicao_pt": "Capacidade do modelo de pedir a execução de uma função descrita (buscar, consultar API, calcular) e usar o resultado na resposta.",
+      "definition_en": "Model's ability to request running a described function (search, query an API, calculate) and use the result in its answer.",
+      "relacionados": [
+        "ai-agent",
+        "structured-output"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "chatbot",
+      "categoria": "IA",
+      "subcategoria": "Modelos de linguagem",
+      "termo_en": "Chatbot",
+      "termo_pt": "Chatbot",
+      "definicao_pt": "Programa que conversa em linguagem natural. Os atuais usam LLMs e podem buscar na web, ler arquivos e usar ferramentas.",
+      "definition_en": "Program that converses in natural language. Current ones use LLMs and can search the web, read files and use tools.",
+      "relacionados": [
+        "llm",
+        "ai-assistant"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "local-citation",
+      "categoria": "SEO",
+      "subcategoria": "SEO local",
+      "termo_en": "Local Citation",
+      "termo_pt": "Citação local",
+      "definicao_pt": "Menção ao NAP da empresa em diretórios, guias e sites locais. Reforça a existência e a localização da empresa.",
+      "definition_en": "Mention of a business's NAP on directories, guides and local sites. It reinforces the business's existence and location.",
+      "relacionados": [
+        "nap",
+        "local-seo"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "ai-citation",
+      "categoria": "GEO",
+      "subcategoria": "Citação e visibilidade",
+      "termo_en": "AI Citation",
+      "termo_pt": "Citação por IA",
+      "definicao_pt": "Quando uma resposta de IA liga uma afirmação a uma fonte, com link ou nome. É o principal resultado visível de GEO.",
+      "definition_en": "When an AI answer ties a claim to a source, by link or by name. It is GEO's main visible outcome.",
+      "relacionados": [
+        "ai-mention",
+        "citation-rate",
+        "grounding"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "cloaking",
+      "categoria": "SEO",
+      "subcategoria": "Qualidade e atualizações",
+      "termo_en": "Cloaking",
+      "termo_pt": "Cloaking",
+      "definicao_pt": "Mostrar a robôs conteúdo diferente do que as pessoas veem. É spam para buscadores e também engana robôs de IA.",
+      "definition_en": "Showing bots different content from what people see. It is spam for search engines and also deceives AI bots.",
+      "relacionados": [
+        "link-spam"
+      ],
+      "fonte": "https://developers.google.com/search/docs/essentials/spam-policies"
+    },
+    {
+      "slug": "topic-cluster",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Topic Cluster",
+      "termo_pt": "Cluster de tópicos",
+      "definicao_pt": "Organização de conteúdo em uma página pilar sobre um tema amplo, ligada a páginas que aprofundam cada subtema.",
+      "definition_en": "Content structure with a pillar page on a broad topic, linked to pages that go deeper into each subtopic.",
+      "relacionados": [
+        "pillar-page",
+        "topical-authority",
+        "internal-linking"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "co-citation",
+      "categoria": "GEO",
+      "subcategoria": "Citação e visibilidade",
+      "termo_en": "Co-citation",
+      "termo_pt": "Cocitação",
+      "definicao_pt": "Quando duas entidades aparecem juntas nas mesmas fontes ou respostas. Faz a IA associar a marca a um tema, a uma categoria ou a concorrentes.",
+      "definition_en": "When two entities appear together in the same sources or answers. It makes AI associate the brand with a topic, a category or competitors.",
+      "relacionados": [
+        "brand-mention",
+        "entity-association"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "model-collapse",
+      "categoria": "IA",
+      "subcategoria": "Treinamento e ajuste",
+      "termo_en": "Model Collapse",
+      "termo_pt": "Colapso de modelo",
+      "definicao_pt": "Perda de qualidade e diversidade quando modelos são treinados repetidamente com conteúdo gerado por outros modelos.",
+      "definition_en": "Loss of quality and diversity when models are trained repeatedly on content generated by other models.",
+      "relacionados": [
+        "synthetic-data",
+        "ai-slop"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "common-crawl",
+      "categoria": "IA",
+      "subcategoria": "Treinamento e ajuste",
+      "termo_en": "Common Crawl",
+      "termo_pt": "Common Crawl",
+      "definicao_pt": "Organização sem fins lucrativos que publica coletas abertas e periódicas da web, uma das fontes mais usadas no treino de LLMs.",
+      "definition_en": "Nonprofit that publishes open, periodic crawls of the web, one of the most used sources for training LLMs.",
+      "relacionados": [
+        "training-data",
+        "ai-crawler"
+      ],
+      "fonte": "https://commoncrawl.org"
+    },
+    {
+      "slug": "test-time-compute",
+      "categoria": "IA",
+      "subcategoria": "Inferência e uso",
+      "termo_en": "Test-time Compute",
+      "termo_pt": "Computação no momento da resposta",
+      "definicao_pt": "Gastar mais processamento durante a resposta, por exemplo raciocinando por mais etapas, para obter resultados melhores.",
+      "definition_en": "Spending more processing while answering, for example reasoning over more steps, to get better results.",
+      "relacionados": [
+        "reasoning-model",
+        "chain-of-thought"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "agentic-commerce",
+      "categoria": "GEO",
+      "subcategoria": "Agentes e comércio",
+      "termo_en": "Agentic Commerce",
+      "termo_pt": "Comércio agêntico",
+      "definicao_pt": "Compras feitas ou preparadas por agentes de IA em nome da pessoa, que comparam produtos, preenchem formulários e pagam. Exige dados de produto estruturados e processos legíveis por máquina.",
+      "definition_en": "Purchases made or prepared by AI agents on a person's behalf, which compare products, fill in forms and pay. It requires structured product data and machine-readable processes.",
+      "relacionados": [
+        "ai-agent",
+        "product-schema",
+        "agent-readiness"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "parametric-knowledge",
+      "categoria": "GEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Parametric Knowledge",
+      "termo_pt": "Conhecimento paramétrico",
+      "definicao_pt": "O que o modelo \"sabe\" porque aprendeu no treinamento e ficou guardado nos pesos, sem consultar fontes. Fica desatualizado após a data de corte.",
+      "definition_en": "What the model \"knows\" from training, stored in its weights, without consulting sources. It goes stale after the cutoff date.",
+      "relacionados": [
+        "knowledge-cutoff",
+        "grounding",
+        "training-data"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "prompt-set",
+      "categoria": "GEO",
+      "subcategoria": "Medição em GEO",
+      "termo_en": "Prompt Set (Query Set)",
+      "termo_pt": "Conjunto de prompts",
+      "definicao_pt": "Lista fixa de perguntas usada para medir a visibilidade em IA ao longo do tempo. Precisa representar perguntas reais e ser estável para a comparação valer.",
+      "definition_en": "Fixed list of questions used to measure AI visibility over time. It must represent real questions and stay stable for comparisons to hold.",
+      "relacionados": [
+        "ai-visibility",
+        "citation-rate"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "entity-consistency",
+      "categoria": "GEO",
+      "subcategoria": "Entidade e grafo de conhecimento",
+      "termo_en": "Entity Consistency",
+      "termo_pt": "Consistência da entidade",
+      "definicao_pt": "Mesmo nome, descrição, contato e fatos em todas as fontes (site, schema, perfis, diretórios). Inconsistência faz a IA hesitar ou misturar entidades.",
+      "definition_en": "Same name, description, contact details and facts on every source (site, schema, profiles, directories). Inconsistency makes AI hesitate or mix up entities.",
+      "relacionados": [
+        "nap",
+        "entity-drift"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "link-building",
+      "categoria": "SEO",
+      "subcategoria": "Links e autoridade",
+      "termo_en": "Link Building",
+      "termo_pt": "Construção de links",
+      "definicao_pt": "Trabalho de conseguir backlinks relevantes, por exemplo com conteúdo de referência, pesquisa própria, relações públicas e parcerias.",
+      "definition_en": "Work of earning relevant backlinks, for example through reference content, original research, public relations and partnerships.",
+      "relacionados": [
+        "backlink",
+        "digital-pr"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "conversational-query",
+      "categoria": "GEO",
+      "subcategoria": "Conteúdo citável",
+      "termo_en": "Conversational Query",
+      "termo_pt": "Consulta conversacional",
+      "definicao_pt": "Pergunta longa em linguagem natural, com contexto e restrições, típica de chatbots (\"qual o melhor dentista infantil na zona sul de Porto Alegre que atenda convênio?\").",
+      "definition_en": "Long natural-language question with context and constraints, typical of chatbots (\"which is the best pediatric dentist in southern Porto Alegre that takes insurance?\").",
+      "relacionados": [
+        "long-tail-keyword",
+        "query-fan-out"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "data-contamination",
+      "categoria": "IA",
+      "subcategoria": "Avaliação e confiabilidade",
+      "termo_en": "Data Contamination",
+      "termo_pt": "Contaminação de dados",
+      "definicao_pt": "Quando questões de um teste estavam nos dados de treino, fazendo o modelo parecer melhor do que é.",
+      "definition_en": "When test questions were in the training data, making the model look better than it is.",
+      "relacionados": [
+        "benchmark"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "comparison-content",
+      "categoria": "GEO",
+      "subcategoria": "Conteúdo citável",
+      "termo_en": "Comparison Content",
+      "termo_pt": "Conteúdo comparativo",
+      "definicao_pt": "Páginas que comparam opções com critérios claros (X vs. Y, alternativas a Z). Atendem a perguntas de decisão, muito comuns em assistentes de IA.",
+      "definition_en": "Pages comparing options with clear criteria (X vs. Y, alternatives to Z). They serve decision questions, very common in AI assistants.",
+      "relacionados": [
+        "ai-ranking-list",
+        "query-fan-out"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "duplicate-content",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "Duplicate Content",
+      "termo_pt": "Conteúdo duplicado",
+      "definicao_pt": "Conteúdo igual ou quase igual acessível em mais de uma URL. Em geral não gera punição, mas divide sinais e faz o buscador escolher qual versão mostrar.",
+      "definition_en": "Identical or near-identical content reachable at more than one URL. It usually brings no penalty, but it splits signals and makes the search engine choose which version to show.",
+      "relacionados": [
+        "canonical-url"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "user-generated-content",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "User-generated Content (UGC)",
+      "termo_pt": "Conteúdo gerado pelo usuário",
+      "definicao_pt": "Conteúdo publicado por usuários, como avaliações, comentários e fóruns. Links nele devem levar rel=\"ugc\". Fóruns como o Reddit são muito citados por IAs.",
+      "definition_en": "Content published by users, such as reviews, comments and forums. Links in it should carry rel=\"ugc\". Forums such as Reddit are heavily cited by AI.",
+      "relacionados": [
+        "nofollow",
+        "brand-mention"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "thin-content",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Thin Content",
+      "termo_pt": "Conteúdo raso",
+      "definicao_pt": "Página com pouco valor próprio: texto curto e genérico, conteúdo copiado ou gerado em massa sem informação nova.",
+      "definition_en": "Page with little value of its own: short, generic text, copied content or mass-generated content with no new information.",
+      "relacionados": [
+        "helpful-content",
+        "scaled-content-abuse"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "helpful-content",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Helpful Content",
+      "termo_pt": "Conteúdo útil",
+      "definicao_pt": "Orientação do Google para conteúdo feito para pessoas, com experiência e informação original, e não para manipular ranking. Desde 2024 faz parte do sistema principal de ranqueamento.",
+      "definition_en": "Google guidance for content made for people, with first-hand experience and original information, not to manipulate rankings. Since 2024 it is part of the core ranking system.",
+      "relacionados": [
+        "e-e-a-t",
+        "thin-content"
+      ],
+      "fonte": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+    },
+    {
+      "slug": "core-web-vitals",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "Core Web Vitals",
+      "termo_pt": "Core Web Vitals",
+      "definicao_pt": "Três métricas do Google para a experiência real na página: LCP (carregamento), INP (resposta à interação) e CLS (estabilidade visual).",
+      "definition_en": "Google's three metrics for real page experience: LCP (loading), INP (interaction response) and CLS (visual stability).",
+      "relacionados": [
+        "lcp",
+        "inp",
+        "cls",
+        "page-experience"
+      ],
+      "fonte": "https://web.dev/articles/vitals"
+    },
+    {
+      "slug": "answer-capsule",
+      "categoria": "GEO",
+      "subcategoria": "Conteúdo citável",
+      "termo_en": "Answer Capsule",
+      "termo_pt": "Cápsula de resposta",
+      "definicao_pt": "Parágrafo curto e autossuficiente logo depois de um heading, que responde a pergunta do título sem depender do resto da página. É a unidade que a IA mais facilmente extrai e cita.",
+      "definition_en": "Short, self-contained paragraph right after a heading that answers the heading's question without depending on the rest of the page. It is the unit AI most easily extracts and cites.",
+      "relacionados": [
+        "chunking",
+        "citable-fact",
+        "heading-structure"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "http-status-code",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "HTTP Status Code",
+      "termo_pt": "Código de status HTTP",
+      "definicao_pt": "Número de três dígitos que o servidor devolve em cada requisição: 200 (sucesso), 301/302 (redirecionamento), 404/410 (não encontrado) e 5xx (erro do servidor).",
+      "definition_en": "Three-digit number the server returns for each request: 200 (success), 301/302 (redirect), 404/410 (not found) and 5xx (server error).",
+      "relacionados": [
+        "soft-404",
+        "redirect-301"
+      ],
+      "fonte": "https://www.rfc-editor.org/rfc/rfc9110"
+    },
+    {
+      "slug": "training-data",
+      "categoria": "IA",
+      "subcategoria": "Treinamento e ajuste",
+      "termo_en": "Training Data",
+      "termo_pt": "Dados de treino",
+      "definicao_pt": "Conjunto de dados usado para treinar o modelo. Para LLMs, inclui grandes coletas da web, livros, código e dados licenciados.",
+      "definition_en": "Dataset used to train the model. For LLMs it includes large web crawls, books, code and licensed data.",
+      "relacionados": [
+        "pretraining",
+        "common-crawl",
+        "knowledge-cutoff"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "structured-data",
+      "categoria": "SEO",
+      "subcategoria": "Dados estruturados",
+      "termo_en": "Structured Data",
+      "termo_pt": "Dados estruturados",
+      "definicao_pt": "Informações marcadas em formato padronizado (em geral Schema.org em JSON-LD) que dizem explicitamente a máquinas o que a página descreve.",
+      "definition_en": "Information marked up in a standard format (usually Schema.org in JSON-LD) that tells machines explicitly what a page describes.",
+      "relacionados": [
+        "schema-org",
+        "json-ld",
+        "rich-results"
+      ],
+      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data"
+    },
+    {
+      "slug": "synthetic-data",
+      "categoria": "IA",
+      "subcategoria": "Treinamento e ajuste",
+      "termo_en": "Synthetic Data",
+      "termo_pt": "Dados sintéticos",
+      "definicao_pt": "Dados gerados por modelos ou simulações, usados para treinar ou testar quando dados reais são escassos ou sensíveis.",
+      "definition_en": "Data generated by models or simulations, used for training or testing when real data is scarce or sensitive.",
+      "relacionados": [
+        "training-data",
+        "model-collapse"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "knowledge-cutoff",
+      "categoria": "IA",
+      "subcategoria": "Modelos de linguagem",
+      "termo_en": "Knowledge Cutoff",
+      "termo_pt": "Data de corte do conhecimento",
+      "definicao_pt": "Data até a qual vão os dados de treino do modelo. Fatos posteriores só entram se o sistema buscar fontes atuais.",
+      "definition_en": "Date up to which the model's training data goes. Later facts only come in if the system retrieves current sources.",
+      "relacionados": [
+        "parametric-knowledge",
+        "grounding"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "lastmod",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "lastmod",
+      "termo_pt": "Data de última modificação",
+      "definicao_pt": "Campo do sitemap XML que informa quando a página mudou de forma relevante. Só ajuda se for verdadeiro e consistente.",
+      "definition_en": "XML sitemap field stating when a page last changed meaningfully. It only helps if it is accurate and consistent.",
+      "relacionados": [
+        "xml-sitemap"
+      ],
+      "fonte": "https://www.sitemaps.org/protocol.html"
+    },
+    {
+      "slug": "deepfake",
+      "categoria": "IA",
+      "subcategoria": "Segurança e governança",
+      "termo_en": "Deepfake",
+      "termo_pt": "Deepfake",
+      "definicao_pt": "Vídeo, áudio ou imagem sintético que imita uma pessoa real de forma convincente.",
+      "definition_en": "Synthetic video, audio or image that convincingly imitates a real person.",
+      "relacionados": [
+        "content-provenance",
+        "generative-ai"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "defined-term-schema",
+      "categoria": "SEO",
+      "subcategoria": "Dados estruturados",
+      "termo_en": "DefinedTerm / DefinedTermSet",
+      "termo_pt": "DefinedTerm e DefinedTermSet",
+      "definicao_pt": "Tipos Schema.org para termos de glossário e o conjunto ao qual pertencem, usados para marcar definições como dados.",
+      "definition_en": "Schema.org types for glossary terms and the set they belong to, used to mark up definitions as data.",
+      "relacionados": [
+        "schema-org",
+        "structured-data"
+      ],
+      "fonte": "https://schema.org/DefinedTerm"
+    },
+    {
+      "slug": "entity-drift",
+      "categoria": "GEO",
+      "subcategoria": "Entidade e grafo de conhecimento",
+      "termo_en": "Entity Drift",
+      "termo_pt": "Deriva da entidade",
+      "definicao_pt": "Quando a descrição que as IAs fazem da marca se afasta dos fatos oficiais com o tempo, por fontes desatualizadas ou contraditórias.",
+      "definition_en": "When AI's description of the brand moves away from the official facts over time, through outdated or contradictory sources.",
+      "relacionados": [
+        "entity-consistency",
+        "hallucination"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "entity-disambiguation",
+      "categoria": "GEO",
+      "subcategoria": "Entidade e grafo de conhecimento",
+      "termo_en": "Entity Disambiguation",
+      "termo_pt": "Desambiguação de entidade",
+      "definicao_pt": "Deixar claro qual entidade é a sua quando há nomes parecidos, com identificadores, sameAs, descrição distintiva e fatos únicos.",
+      "definition_en": "Making clear which entity is yours when names are similar, using identifiers, sameAs, a distinctive description and unique facts.",
+      "relacionados": [
+        "same-as",
+        "wikidata",
+        "entity"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "query-fan-out",
+      "categoria": "GEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Query Fan-out",
+      "termo_pt": "Desdobramento da consulta",
+      "definicao_pt": "Técnica em que o sistema de IA divide a pergunta do usuário em várias subconsultas, busca cada uma e junta os resultados na resposta. Uma página pode ser citada por responder uma subconsulta que o usuário nem digitou.",
+      "definition_en": "Technique in which the AI system splits the user's question into several subqueries, searches each one and merges the results into the answer. A page can be cited for answering a subquery the user never typed.",
+      "relacionados": [
+        "ai-mode",
+        "search-intent",
+        "rag"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "distillation",
+      "categoria": "IA",
+      "subcategoria": "Treinamento e ajuste",
+      "termo_en": "Knowledge Distillation",
+      "termo_pt": "Destilação de conhecimento",
+      "definicao_pt": "Treinar um modelo menor para imitar as respostas de um maior, obtendo desempenho próximo com custo menor.",
+      "definition_en": "Training a smaller model to imitate a larger one's outputs, achieving close performance at lower cost.",
+      "relacionados": [
+        "slm"
+      ],
+      "fonte": "https://arxiv.org/abs/1503.02531"
+    },
+    {
+      "slug": "keyword-difficulty",
+      "categoria": "SEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Keyword Difficulty",
+      "termo_pt": "Dificuldade da palavra-chave",
+      "definicao_pt": "Nota estimada por ferramentas de SEO sobre o esforço necessário para alcançar a primeira página em uma consulta, baseada sobretudo na autoridade dos resultados atuais.",
+      "definition_en": "Score estimated by SEO tools for the effort needed to reach page one for a query, based mainly on the authority of the current results.",
+      "relacionados": [
+        "keyword"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "noindex",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "noindex",
+      "termo_pt": "Diretiva noindex",
+      "definicao_pt": "Instrução em meta tag ou cabeçalho HTTP que pede ao buscador para não incluir a página no índice. Só funciona se o robô puder rastrear a página.",
+      "definition_en": "Instruction in a meta tag or HTTP header asking the search engine not to include the page in its index. It only works if the bot can crawl the page.",
+      "relacionados": [
+        "indexing",
+        "robots-txt",
+        "meta-robots"
+      ],
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/block-indexing"
+    },
+    {
+      "slug": "nosnippet",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "nosnippet",
+      "termo_pt": "Diretiva nosnippet",
+      "definicao_pt": "Diretiva que impede o buscador de mostrar trecho de texto da página nos resultados, incluindo nos recursos de IA do Google.",
+      "definition_en": "Directive that stops the search engine from showing a text snippet of the page in results, including in Google's AI features.",
+      "relacionados": [
+        "meta-robots",
+        "ai-overviews"
+      ],
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag"
+    },
+    {
+      "slug": "cctld",
+      "categoria": "SEO",
+      "subcategoria": "SEO internacional",
+      "termo_en": "Country-code Top-level Domain (ccTLD)",
+      "termo_pt": "Domínio de país",
+      "definicao_pt": "Terminação de domínio associada a um país, como .br. Sinaliza ao buscador o país-alvo do site.",
+      "definition_en": "Domain ending tied to a country, such as .br. It signals the site's target country to the search engine.",
+      "relacionados": [
+        "international-seo"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "embedding",
+      "categoria": "IA",
+      "subcategoria": "Recuperação (RAG) e busca semântica",
+      "termo_en": "Embedding",
+      "termo_pt": "Embedding (vetor semântico)",
+      "definicao_pt": "Representação de um texto, imagem ou item como lista de números, em que significados parecidos ficam próximos. Base da busca semântica.",
+      "definition_en": "Representation of a text, image or item as a list of numbers in which similar meanings lie close together. The basis of semantic search.",
+      "relacionados": [
+        "vector-database",
+        "semantic-search",
+        "cosine-similarity"
+      ],
+      "fonte": "https://arxiv.org/abs/1301.3781"
+    },
+    {
+      "slug": "service-area-business",
+      "categoria": "SEO",
+      "subcategoria": "SEO local",
+      "termo_en": "Service-area Business (SAB)",
+      "termo_pt": "Empresa com área de atendimento",
+      "definicao_pt": "Empresa que atende no endereço do cliente, como encanadores, e pode ocultar o endereço no Perfil da Empresa e declarar as regiões atendidas.",
+      "definition_en": "Business that serves customers at their location, such as plumbers, and may hide its address in the Business Profile and list the areas served.",
+      "relacionados": [
+        "google-business-profile"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "context-engineering",
+      "categoria": "IA",
+      "subcategoria": "Prompts",
+      "termo_en": "Context Engineering",
+      "termo_pt": "Engenharia de contexto",
+      "definicao_pt": "Decidir quais informações, ferramentas, histórico e documentos entram na janela de contexto do modelo em cada passo, e em que ordem.",
+      "definition_en": "Deciding which information, tools, history and documents enter the model's context window at each step, and in what order.",
+      "relacionados": [
+        "context-window",
+        "rag",
+        "prompt-engineering"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "prompt-engineering",
+      "categoria": "IA",
+      "subcategoria": "Prompts",
+      "termo_en": "Prompt Engineering",
+      "termo_pt": "Engenharia de prompt",
+      "definicao_pt": "Prática de escrever e testar prompts para obter respostas melhores e mais estáveis.",
+      "definition_en": "Practice of writing and testing prompts to get better, more consistent answers.",
+      "relacionados": [
+        "prompt",
+        "context-engineering"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "entity",
+      "categoria": "GEO",
+      "subcategoria": "Entidade e grafo de conhecimento",
+      "termo_en": "Entity",
+      "termo_pt": "Entidade",
+      "definicao_pt": "Coisa única e identificável, como pessoa, empresa, lugar, produto ou conceito, com atributos e relações. Buscadores e IAs organizam o conhecimento em entidades, não em palavras.",
+      "definition_en": "Unique, identifiable thing, such as a person, company, place, product or concept, with attributes and relationships. Search engines and AI organize knowledge in entities, not words.",
+      "relacionados": [
+        "knowledge-graph",
+        "entity-disambiguation",
+        "semantic-seo"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "llm-poisoning",
+      "categoria": "GEO",
+      "subcategoria": "Riscos e qualidade",
+      "termo_en": "LLM Poisoning (Data Poisoning)",
+      "termo_pt": "Envenenamento de dados",
+      "definicao_pt": "Inserir conteúdo falso ou malicioso em fontes que alimentam treino ou recuperação, para distorcer o que o modelo diz.",
+      "definition_en": "Inserting false or malicious content into sources that feed training or retrieval, to distort what the model says.",
+      "relacionados": [
+        "geo-spam",
+        "prompt-injection",
+        "training-data"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "nist-ai-rmf",
+      "categoria": "IA",
+      "subcategoria": "Segurança e governança",
+      "termo_en": "NIST AI Risk Management Framework",
+      "termo_pt": "Estrutura de gestão de riscos de IA do NIST",
+      "definicao_pt": "Guia voluntário do instituto de padrões dos EUA para identificar, medir e gerir riscos de IA, organizado em Governar, Mapear, Medir e Gerir.",
+      "definition_en": "Voluntary guide from the US standards institute for identifying, measuring and managing AI risk, organized into Govern, Map, Measure and Manage.",
+      "relacionados": [
+        "ai-governance"
+      ],
+      "fonte": "https://www.nist.gov/itl/ai-risk-management-framework"
+    },
+    {
+      "slug": "heading-structure",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Heading Structure (H1–H6)",
+      "termo_pt": "Estrutura de headings",
+      "definicao_pt": "Hierarquia de títulos e subtítulos da página. Ajuda pessoas, buscadores e IAs a entender o assunto de cada trecho e a extraí-lo.",
+      "definition_en": "Hierarchy of a page's titles and subtitles. It helps people, search engines and AI understand each section's subject and extract it.",
+      "relacionados": [
+        "answer-capsule",
+        "chunking"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "answer-accuracy",
+      "categoria": "GEO",
+      "subcategoria": "Medição em GEO",
+      "termo_en": "Answer Accuracy (Brand)",
+      "termo_pt": "Exatidão das respostas sobre a marca",
+      "definicao_pt": "Proporção das afirmações de IA sobre a marca que conferem com os fatos oficiais. Mede se a IA fala certo, não só se fala.",
+      "definition_en": "Share of AI claims about the brand that match the official facts. It measures whether AI is right, not only whether it speaks.",
+      "relacionados": [
+        "hallucination",
+        "faithfulness",
+        "brand-facts-page"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "page-experience",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "Page Experience",
+      "termo_pt": "Experiência na página",
+      "definicao_pt": "Conjunto de sinais sobre como é usar a página: Core Web Vitals, HTTPS, ausência de intersticiais invasivos e boa exibição no celular.",
+      "definition_en": "Set of signals about using a page: Core Web Vitals, HTTPS, no intrusive interstitials and good mobile display.",
+      "relacionados": [
+        "core-web-vitals",
+        "mobile-first-indexing"
+      ],
+      "fonte": "https://developers.google.com/search/docs/appearance/page-experience"
+    },
+    {
+      "slug": "e-e-a-t",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "E-E-A-T",
+      "termo_pt": "Experiência, especialidade, autoridade e confiabilidade",
+      "definicao_pt": "Critério das diretrizes dos avaliadores de qualidade do Google: Experience, Expertise, Authoritativeness e Trustworthiness. Não é um sinal único, e sim o que vários sinais tentam refletir.",
+      "definition_en": "Criterion in Google's quality rater guidelines: Experience, Expertise, Authoritativeness and Trustworthiness. It is not a single signal but what many signals try to reflect.",
+      "relacionados": [
+        "ymyl",
+        "helpful-content",
+        "author-entity"
+      ],
+      "fonte": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+    },
+    {
+      "slug": "explainability",
+      "categoria": "IA",
+      "subcategoria": "Avaliação e confiabilidade",
+      "termo_en": "Explainability (XAI)",
+      "termo_pt": "Explicabilidade",
+      "definicao_pt": "Capacidade de entender e mostrar por que um sistema de IA chegou a um resultado.",
+      "definition_en": "Ability to understand and show why an AI system reached a result.",
+      "relacionados": [
+        "ai-governance"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "citable-fact",
+      "categoria": "GEO",
+      "subcategoria": "Conteúdo citável",
+      "termo_en": "Citable Fact",
+      "termo_pt": "Fato citável",
+      "definicao_pt": "Afirmação específica, verificável e com fonte, como número, data ou definição, que uma IA pode reproduzir com segurança.",
+      "definition_en": "Specific, verifiable, sourced claim, such as a figure, date or definition, that AI can reproduce safely.",
+      "relacionados": [
+        "answer-capsule",
+        "statistics-addition"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "ranking-factor",
+      "categoria": "SEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Ranking Factor",
+      "termo_pt": "Fator de ranqueamento",
+      "definicao_pt": "Sinal que o buscador usa para ordenar resultados, como relevância do conteúdo, links, experiência na página e qualidade. O peso exato de cada um não é público.",
+      "definition_en": "Signal a search engine uses to order results, such as content relevance, links, page experience and quality. The exact weight of each is not public.",
+      "relacionados": [
+        "seo"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "ai-visibility-tool",
+      "categoria": "GEO",
+      "subcategoria": "Medição em GEO",
+      "termo_en": "AI Visibility Tool",
+      "termo_pt": "Ferramenta de visibilidade em IA",
+      "definicao_pt": "Software que roda conjuntos de prompts em várias IAs e mede menções, citações, posição e sentimento da marca e dos concorrentes.",
+      "definition_en": "Software that runs prompt sets across several AIs and measures mentions, citations, position and sentiment for the brand and competitors.",
+      "relacionados": [
+        "prompt-set",
+        "share-of-voice"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "faithfulness",
+      "categoria": "GEO",
+      "subcategoria": "Medição em GEO",
+      "termo_en": "Faithfulness",
+      "termo_pt": "Fidelidade",
+      "definicao_pt": "Quanto a resposta reproduz o que as fontes dizem, sem distorcer, omitir ou acrescentar. Uma resposta pode ser correta e não ser fiel à fonte citada.",
+      "definition_en": "How closely the answer reproduces what the sources say, without distorting, omitting or adding. An answer can be correct without being faithful to the cited source.",
+      "relacionados": [
+        "grounding",
+        "answer-accuracy",
+        "hallucination"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "third-party-source",
+      "categoria": "GEO",
+      "subcategoria": "Citação e visibilidade",
+      "termo_en": "Third-party Source",
+      "termo_pt": "Fonte de terceiros",
+      "definicao_pt": "Página fora do controle da marca que fala dela, como notícia, avaliação, verbete ou fórum. IAs tendem a confiar mais nessas fontes do que no site da própria marca.",
+      "definition_en": "Page outside the brand's control that talks about it, such as news, a review, an encyclopedia entry or a forum. AI tends to trust these more than the brand's own site.",
+      "relacionados": [
+        "citation-source-type",
+        "brand-mention"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "chunking",
+      "categoria": "IA",
+      "subcategoria": "Recuperação (RAG) e busca semântica",
+      "termo_en": "Chunking",
+      "termo_pt": "Fragmentação em trechos",
+      "definicao_pt": "Divisão de documentos em pedaços menores antes de gerar embeddings, para que a recuperação traga só a parte relevante. Trechos que dependem de outros perdem sentido.",
+      "definition_en": "Splitting documents into smaller pieces before creating embeddings, so retrieval returns only the relevant part. Chunks that depend on others lose meaning.",
+      "relacionados": [
+        "rag",
+        "chunk-optimization",
+        "answer-capsule"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "information-gain",
+      "categoria": "GEO",
+      "subcategoria": "Conteúdo citável",
+      "termo_en": "Information Gain",
+      "termo_pt": "Ganho de informação",
+      "definicao_pt": "O quanto a página traz de novo em relação ao que já existe sobre o tema: dados próprios, experiência, exemplos e conclusões originais.",
+      "definition_en": "How much new the page brings compared with what already exists on the topic: own data, experience, examples and original conclusions.",
+      "relacionados": [
+        "helpful-content",
+        "original-research"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "geo-score",
+      "categoria": "GEO",
+      "subcategoria": "Medição em GEO",
+      "termo_en": "GEO Score",
+      "termo_pt": "GEO Score",
+      "definicao_pt": "Nota de prontidão de um site para ser lido e citado por IAs, calculada a partir do que ele publica (acesso de robôs, identidade, schema, respostas citáveis, E-E-A-T). Mede prontidão, não garante citação.",
+      "definition_en": "Score of a site's readiness to be read and cited by AI, calculated from what it publishes (bot access, identity, schema, citable answers, E-E-A-T). It measures readiness and does not guarantee citation.",
+      "relacionados": [
+        "ai-audit",
+        "machine-readability"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "rag",
+      "categoria": "IA",
+      "subcategoria": "Recuperação (RAG) e busca semântica",
+      "termo_en": "Retrieval-Augmented Generation (RAG)",
+      "termo_pt": "Geração aumentada por recuperação",
+      "definicao_pt": "Arquitetura em que o sistema busca documentos relevantes e os entrega ao modelo junto com a pergunta, para que a resposta se baseie neles e possa citá-los. É o mecanismo por trás da maioria das buscas com IA.",
+      "definition_en": "Architecture in which the system retrieves relevant documents and hands them to the model with the question, so the answer is based on them and can cite them. It is the mechanism behind most AI search.",
+      "relacionados": [
+        "retrieval-layer",
+        "grounding",
+        "embedding"
+      ],
+      "fonte": "https://arxiv.org/abs/2005.11401"
+    },
+    {
+      "slug": "ga4",
+      "categoria": "SEO",
+      "subcategoria": "Métricas e ferramentas",
+      "termo_en": "Google Analytics 4 (GA4)",
+      "termo_pt": "Google Analytics 4",
+      "definicao_pt": "Ferramenta de análise do Google baseada em eventos, usada para medir visitas, origem do tráfego e conversões, inclusive o tráfego vindo de IAs.",
+      "definition_en": "Google's event-based analytics tool, used to measure visits, traffic sources and conversions, including traffic from AI.",
+      "relacionados": [
+        "ai-referral-traffic",
+        "conversion-rate"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "google-search-console",
+      "categoria": "SEO",
+      "subcategoria": "Métricas e ferramentas",
+      "termo_en": "Google Search Console",
+      "termo_pt": "Google Search Console",
+      "definicao_pt": "Ferramenta gratuita do Google com dados de impressões, cliques, posições, indexação, Core Web Vitals e problemas do site na busca.",
+      "definition_en": "Free Google tool with data on impressions, clicks, positions, indexing, Core Web Vitals and site issues in search.",
+      "relacionados": [
+        "index-coverage",
+        "impressions",
+        "ctr"
+      ],
+      "fonte": "https://search.google.com/search-console/about"
+    },
+    {
+      "slug": "google-extended",
+      "categoria": "GEO",
+      "subcategoria": "Arquivos e acesso das IAs",
+      "termo_en": "Google-Extended",
+      "termo_pt": "Google-Extended",
+      "definicao_pt": "Token do robots.txt que controla se o conteúdo rastreado pelo Google pode ser usado para treinar e ancorar os modelos Gemini. Não afeta a busca nem os AI Overviews.",
+      "definition_en": "robots.txt token controlling whether content crawled by Google may be used to train and ground Gemini models. It does not affect Search or AI Overviews.",
+      "relacionados": [
+        "ai-crawler",
+        "robots-txt"
+      ],
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers"
+    },
+    {
+      "slug": "ai-governance",
+      "categoria": "IA",
+      "subcategoria": "Segurança e governança",
+      "termo_en": "AI Governance",
+      "termo_pt": "Governança de IA",
+      "definicao_pt": "Políticas, papéis, controles e registros que uma organização usa para decidir como desenvolve, compra e usa IA com responsabilidade.",
+      "definition_en": "Policies, roles, controls and records an organization uses to decide how it builds, buys and uses AI responsibly.",
+      "relacionados": [
+        "nist-ai-rmf",
+        "eu-ai-act",
+        "human-in-the-loop"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "knowledge-graph",
+      "categoria": "GEO",
+      "subcategoria": "Entidade e grafo de conhecimento",
+      "termo_en": "Knowledge Graph",
+      "termo_pt": "Grafo de conhecimento",
+      "definicao_pt": "Base de entidades e das relações entre elas. O do Google alimenta painéis e respostas; cada site também pode publicar o seu com JSON-LD.",
+      "definition_en": "Database of entities and the relationships between them. Google's feeds panels and answers; each site can also publish its own with JSON-LD.",
+      "relacionados": [
+        "entity",
+        "knowledge-panel",
+        "entity-graph"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "entity-graph",
+      "categoria": "GEO",
+      "subcategoria": "Entidade e grafo de conhecimento",
+      "termo_en": "Entity Graph (Site)",
+      "termo_pt": "Grafo de entidades do site",
+      "definicao_pt": "Rede de entidades que o site declara em JSON-LD (Organization, Person, WebSite, Service), ligadas por @id, que dá às máquinas um retrato coerente da marca.",
+      "definition_en": "Network of entities a site declares in JSON-LD (Organization, Person, WebSite, Service), linked by @id, giving machines a coherent picture of the brand.",
+      "relacionados": [
+        "schema-id",
+        "knowledge-graph"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "llm",
+      "categoria": "IA",
+      "subcategoria": "Modelos de linguagem",
+      "termo_en": "Large Language Model (LLM)",
+      "termo_pt": "Grande modelo de linguagem",
+      "definicao_pt": "Modelo de rede neural treinado em grandes volumes de texto para prever e gerar linguagem. Exemplos: GPT, Claude, Gemini, Llama.",
+      "definition_en": "Neural network model trained on large volumes of text to predict and generate language. Examples: GPT, Claude, Gemini, Llama.",
+      "relacionados": [
+        "transformer",
+        "token",
+        "generative-ai"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "graphrag",
+      "categoria": "IA",
+      "subcategoria": "Recuperação (RAG) e busca semântica",
+      "termo_en": "GraphRAG",
+      "termo_pt": "GraphRAG",
+      "definicao_pt": "Variante de RAG que usa um grafo de entidades e relações, além de trechos de texto, para responder perguntas que exigem ligar informações.",
+      "definition_en": "RAG variant that uses a graph of entities and relationships, in addition to text chunks, to answer questions that require connecting information.",
+      "relacionados": [
+        "rag",
+        "knowledge-graph"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "https",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "HTTPS",
+      "termo_pt": "HTTPS",
+      "definicao_pt": "Versão criptografada do HTTP, com certificado TLS. É requisito básico de confiança e sinal leve de ranqueamento.",
+      "definition_en": "Encrypted version of HTTP, using a TLS certificate. It is a basic trust requirement and a light ranking signal.",
+      "relacionados": [
+        "page-experience"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "human-in-the-loop",
+      "categoria": "IA",
+      "subcategoria": "Agentes e ferramentas",
+      "termo_en": "Human in the Loop",
+      "termo_pt": "Humano no circuito",
+      "definicao_pt": "Desenho em que uma pessoa revisa ou aprova etapas críticas do sistema de IA antes que tenham efeito.",
+      "definition_en": "Design in which a person reviews or approves critical steps of an AI system before they take effect.",
+      "relacionados": [
+        "ai-governance",
+        "ai-agent"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "generative-ai",
+      "categoria": "IA",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Generative AI",
+      "termo_pt": "IA generativa",
+      "definicao_pt": "Modelos que criam conteúdo novo, como texto, imagem, áudio, vídeo ou código, a partir de um pedido.",
+      "definition_en": "Models that create new content, such as text, images, audio, video or code, from a request.",
+      "relacionados": [
+        "llm",
+        "diffusion-model"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "schema-id",
+      "categoria": "SEO",
+      "subcategoria": "Dados estruturados",
+      "termo_en": "@id (Node Identifier)",
+      "termo_pt": "Identificador @id",
+      "definicao_pt": "Propriedade do JSON-LD que dá a cada entidade um identificador único, para ligar nós (Organization, Person, WebSite) entre páginas e formar um grafo.",
+      "definition_en": "JSON-LD property giving each entity a unique identifier, linking nodes (Organization, Person, WebSite) across pages into a graph.",
+      "relacionados": [
+        "json-ld",
+        "entity-graph"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "impressions",
+      "categoria": "SEO",
+      "subcategoria": "Métricas e ferramentas",
+      "termo_en": "Impressions",
+      "termo_pt": "Impressões",
+      "definicao_pt": "Quantas vezes uma página apareceu nos resultados para alguém, mesmo sem clique.",
+      "definition_en": "How many times a page appeared in someone's results, even without a click.",
+      "relacionados": [
+        "ctr",
+        "google-search-console"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "quotation-addition",
+      "categoria": "GEO",
+      "subcategoria": "Conteúdo citável",
+      "termo_en": "Quotation Addition",
+      "termo_pt": "Inclusão de citações",
+      "definicao_pt": "Acrescentar citações atribuídas a especialistas ou fontes. Também apareceu entre os métodos eficazes no estudo original de GEO.",
+      "definition_en": "Adding quotes attributed to experts or sources. It also appeared among the effective methods in the original GEO study.",
+      "relacionados": [
+        "statistics-addition"
+      ],
+      "fonte": "https://arxiv.org/abs/2311.09735"
+    },
+    {
+      "slug": "statistics-addition",
+      "categoria": "GEO",
+      "subcategoria": "Conteúdo citável",
+      "termo_en": "Statistics Addition",
+      "termo_pt": "Inclusão de estatísticas",
+      "definicao_pt": "Acrescentar dados quantitativos com fonte ao texto. No estudo original de GEO, estava entre os métodos que mais aumentaram a visibilidade nas respostas.",
+      "definition_en": "Adding sourced quantitative data to text. In the original GEO study it was among the methods that most increased visibility in answers.",
+      "relacionados": [
+        "citable-fact",
+        "quotation-addition"
+      ],
+      "fonte": "https://arxiv.org/abs/2311.09735"
+    },
+    {
+      "slug": "answer-inclusion",
+      "categoria": "GEO",
+      "subcategoria": "Citação e visibilidade",
+      "termo_en": "Answer Inclusion",
+      "termo_pt": "Inclusão na resposta",
+      "definicao_pt": "Quando o conteúdo da página é usado para compor a resposta, mesmo que a página não seja citada explicitamente.",
+      "definition_en": "When a page's content is used to build the answer, even if the page is not explicitly cited.",
+      "relacionados": [
+        "ai-citation",
+        "source-attribution"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "indexing",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "Indexing",
+      "termo_pt": "Indexação",
+      "definicao_pt": "Etapa em que o buscador processa a página rastreada, entende o conteúdo e a guarda no índice, de onde ela pode ser recuperada para uma consulta.",
+      "definition_en": "Step in which the search engine processes a crawled page, understands its content and stores it in the index, from which it can be retrieved for a query.",
+      "relacionados": [
+        "crawling",
+        "noindex",
+        "index-coverage"
+      ],
+      "fonte": "https://developers.google.com/search/docs/fundamentals/how-search-works"
+    },
+    {
+      "slug": "mobile-first-indexing",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "Mobile-first Indexing",
+      "termo_pt": "Indexação mobile-first",
+      "definicao_pt": "O Google usa a versão para celular da página para indexar e classificar. Conteúdo que falta no celular conta como ausente.",
+      "definition_en": "Google uses the mobile version of a page for indexing and ranking. Content missing on mobile counts as absent.",
+      "relacionados": [
+        "page-experience"
+      ],
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing"
+    },
+    {
+      "slug": "indexnow",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "IndexNow",
+      "termo_pt": "IndexNow",
+      "definicao_pt": "Protocolo aberto para o site avisar buscadores participantes, como Bing e Yandex, que uma URL foi criada, alterada ou removida. O Google não participa.",
+      "definition_en": "Open protocol for a site to notify participating search engines, such as Bing and Yandex, that a URL was created, changed or removed. Google does not participate.",
+      "relacionados": [
+        "xml-sitemap",
+        "crawling"
+      ],
+      "fonte": "https://www.indexnow.org"
+    },
+    {
+      "slug": "inference",
+      "categoria": "IA",
+      "subcategoria": "Inferência e uso",
+      "termo_en": "Inference",
+      "termo_pt": "Inferência",
+      "definicao_pt": "Uso do modelo já treinado para gerar uma resposta. É o custo pago a cada pergunta.",
+      "definition_en": "Using an already trained model to generate an answer. It is the cost paid for every question.",
+      "relacionados": [
+        "latency",
+        "token"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "prompt-injection",
+      "categoria": "IA",
+      "subcategoria": "Segurança e governança",
+      "termo_en": "Prompt Injection",
+      "termo_pt": "Injeção de prompt",
+      "definicao_pt": "Ataque em que um texto, inclusive escondido numa página ou documento, traz instruções que fazem o modelo desobedecer às regras originais. É o principal risco da lista OWASP para aplicações com LLM.",
+      "definition_en": "Attack in which text, including text hidden in a page or document, carries instructions that make the model disobey its original rules. It tops the OWASP list of risks for LLM applications.",
+      "relacionados": [
+        "geo-spam",
+        "jailbreak",
+        "ai-safety"
+      ],
+      "fonte": "https://genai.owasp.org/llm-top-10/"
+    },
+    {
+      "slug": "artificial-intelligence",
+      "categoria": "IA",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Artificial Intelligence (AI)",
+      "termo_pt": "Inteligência artificial (IA)",
+      "definicao_pt": "Área da computação que cria sistemas capazes de realizar tarefas associadas à inteligência humana, como entender linguagem, reconhecer imagens, prever e decidir.",
+      "definition_en": "Field of computing that builds systems able to perform tasks associated with human intelligence, such as understanding language, recognizing images, predicting and deciding.",
+      "relacionados": [
+        "machine-learning",
+        "generative-ai"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "search-intent",
+      "categoria": "SEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Search Intent",
+      "termo_pt": "Intenção de busca",
+      "definicao_pt": "O objetivo por trás de uma consulta: informar-se, navegar até um site, comparar opções ou comprar. Páginas que atendem a intenção dominante tendem a se posicionar melhor.",
+      "definition_en": "The goal behind a query: to learn, to reach a site, to compare options or to buy. Pages that match the dominant intent tend to rank better.",
+      "relacionados": [
+        "keyword",
+        "query-fan-out"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "inp",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "Interaction to Next Paint (INP)",
+      "termo_pt": "Interação até a próxima renderização",
+      "definicao_pt": "Tempo que a página leva para responder visualmente às interações do usuário ao longo da visita. Substituiu o FID em março de 2024. Bom: até 200 ms.",
+      "definition_en": "Time the page takes to respond visually to user interactions throughout the visit. It replaced FID in March 2024. Good: 200 ms or less.",
+      "relacionados": [
+        "core-web-vitals"
+      ],
+      "fonte": "https://web.dev/articles/inp"
+    },
+    {
+      "slug": "late-interaction",
+      "categoria": "IA",
+      "subcategoria": "Recuperação (RAG) e busca semântica",
+      "termo_en": "Late Interaction (ColBERT)",
+      "termo_pt": "Interação tardia",
+      "definicao_pt": "Método de recuperação que compara a pergunta e o documento token a token, mais preciso que um único vetor por documento.",
+      "definition_en": "Retrieval method that compares the question and the document token by token, more accurate than a single vector per document.",
+      "relacionados": [
+        "dense-retrieval"
+      ],
+      "fonte": "https://arxiv.org/abs/2004.12832"
+    },
+    {
+      "slug": "api",
+      "categoria": "IA",
+      "subcategoria": "Inferência e uso",
+      "termo_en": "Application Programming Interface (API)",
+      "termo_pt": "Interface de programação de aplicações",
+      "definicao_pt": "Forma padronizada de um programa usar outro. As empresas de IA vendem acesso a modelos por API, cobrando por token.",
+      "definition_en": "Standard way for one program to use another. AI companies sell model access through APIs, charging per token.",
+      "relacionados": [
+        "token",
+        "function-calling"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "jailbreak",
+      "categoria": "IA",
+      "subcategoria": "Segurança e governança",
+      "termo_en": "Jailbreak",
+      "termo_pt": "Jailbreak",
+      "definicao_pt": "Técnica de prompt para fazer o modelo ignorar suas regras de segurança.",
+      "definition_en": "Prompting technique to make a model ignore its safety rules.",
+      "relacionados": [
+        "prompt-injection",
+        "guardrails"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "context-window",
+      "categoria": "IA",
+      "subcategoria": "Modelos de linguagem",
+      "termo_en": "Context Window",
+      "termo_pt": "Janela de contexto",
+      "definicao_pt": "Quantidade máxima de tokens que o modelo considera de uma vez, somando instruções, documentos, conversa e resposta.",
+      "definition_en": "Maximum number of tokens the model considers at once, counting instructions, documents, conversation and answer.",
+      "relacionados": [
+        "token",
+        "lost-in-the-middle"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "json-ld",
+      "categoria": "SEO",
+      "subcategoria": "Dados estruturados",
+      "termo_en": "JSON-LD",
+      "termo_pt": "JSON-LD",
+      "definicao_pt": "Formato de dados ligados em JSON, recomendado pelo Google para dados estruturados. Fica num bloco <script> separado do HTML visível.",
+      "definition_en": "JSON-based linked-data format recommended by Google for structured data. It lives in a <script> block separate from the visible HTML.",
+      "relacionados": [
+        "structured-data",
+        "schema-id"
+      ],
+      "fonte": "https://www.w3.org/TR/json-ld11/"
+    },
+    {
+      "slug": "latency",
+      "categoria": "IA",
+      "subcategoria": "Inferência e uso",
+      "termo_en": "Latency",
+      "termo_pt": "Latência",
+      "definicao_pt": "Tempo até o modelo começar ou terminar de responder. Afeta a experiência e o custo de agentes que fazem muitas chamadas.",
+      "definition_en": "Time until the model starts or finishes answering. It affects the experience and the cost of agents making many calls.",
+      "relacionados": [
+        "inference",
+        "streaming"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "machine-readability",
+      "categoria": "GEO",
+      "subcategoria": "Arquivos e acesso das IAs",
+      "termo_en": "Machine Readability",
+      "termo_pt": "Legibilidade por máquina",
+      "definicao_pt": "O quanto o conteúdo pode ser lido sem esforço por robôs: HTML no servidor, estrutura semântica, dados estruturados e ausência de bloqueios por JavaScript, login ou CAPTCHA.",
+      "definition_en": "How easily bots can read content: server-rendered HTML, semantic structure, structured data and no blocking by JavaScript, login or CAPTCHA.",
+      "relacionados": [
+        "server-side-rendering",
+        "structured-data"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "eu-ai-act",
+      "categoria": "IA",
+      "subcategoria": "Segurança e governança",
+      "termo_en": "EU AI Act",
+      "termo_pt": "Lei de IA da União Europeia",
+      "definicao_pt": "Regulamento europeu de 2024 que classifica sistemas de IA por nível de risco e impõe obrigações, como transparência para conteúdo gerado por IA.",
+      "definition_en": "2024 European regulation that classifies AI systems by risk level and imposes obligations, such as transparency for AI-generated content.",
+      "relacionados": [
+        "ai-governance",
+        "ai-transparency"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "scaling-laws",
+      "categoria": "IA",
+      "subcategoria": "Treinamento e ajuste",
+      "termo_en": "Scaling Laws",
+      "termo_pt": "Leis de escala",
+      "definicao_pt": "Relações empíricas mostrando que o desempenho dos modelos melhora de forma previsível com mais parâmetros, dados e computação.",
+      "definition_en": "Empirical relationships showing model performance improves predictably with more parameters, data and compute.",
+      "relacionados": [
+        "parameters",
+        "pretraining"
+      ],
+      "fonte": "https://arxiv.org/abs/2001.08361"
+    },
+    {
+      "slug": "lgpd-ai",
+      "categoria": "IA",
+      "subcategoria": "Segurança e governança",
+      "termo_en": "LGPD and AI",
+      "termo_pt": "LGPD e IA",
+      "definicao_pt": "Aplicação da Lei Geral de Proteção de Dados (Lei 13.709/2018) ao uso de IA no Brasil: base legal para tratar dados pessoais, transparência e direito de revisão de decisões automatizadas.",
+      "definition_en": "Application of Brazil's General Data Protection Law (Law 13,709/2018) to AI: a legal basis for processing personal data, transparency and the right to review automated decisions.",
+      "relacionados": [
+        "ai-governance"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "internal-linking",
+      "categoria": "SEO",
+      "subcategoria": "Links e autoridade",
+      "termo_en": "Internal Linking",
+      "termo_pt": "Linkagem interna",
+      "definicao_pt": "Links entre páginas do mesmo site. Distribuem autoridade, mostram a hierarquia e ajudam robôs a descobrir conteúdo.",
+      "definition_en": "Links between pages on the same site. They spread authority, show hierarchy and help bots discover content.",
+      "relacionados": [
+        "site-architecture",
+        "anchor-text",
+        "orphan-page"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "ai-ranking-list",
+      "categoria": "GEO",
+      "subcategoria": "Citação e visibilidade",
+      "termo_en": "Listicle (Best-of List)",
+      "termo_pt": "Lista de \"melhores\"",
+      "definicao_pt": "Página do tipo \"as 10 melhores empresas de X\". Está entre os formatos mais citados por IAs em perguntas de recomendação, o que atrai abuso por listas autopromocionais.",
+      "definition_en": "Page of the \"top 10 companies for X\" kind. It is among the formats AI cites most for recommendation questions, which invites abuse through self-promotional lists.",
+      "relacionados": [
+        "ai-citation",
+        "citation-source-type"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "ai-slop",
+      "categoria": "GEO",
+      "subcategoria": "Riscos e qualidade",
+      "termo_en": "AI Slop",
+      "termo_pt": "Lixo gerado por IA",
+      "definicao_pt": "Conteúdo produzido por IA em massa, genérico e sem verificação. Polui a web, perde confiança e pode ser enquadrado como abuso de conteúdo em escala.",
+      "definition_en": "Mass-produced, generic, unverified AI content. It pollutes the web, loses trust and may count as scaled content abuse.",
+      "relacionados": [
+        "scaled-content-abuse",
+        "thin-content"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "llm-as-judge",
+      "categoria": "IA",
+      "subcategoria": "Avaliação e confiabilidade",
+      "termo_en": "LLM-as-a-judge",
+      "termo_pt": "LLM como avaliador",
+      "definicao_pt": "Usar um modelo para avaliar respostas de outro segundo critérios definidos. É barato, mas tem vieses e precisa ser calibrado com avaliação humana.",
+      "definition_en": "Using one model to grade another's answers against defined criteria. It is cheap but biased and needs calibration against human review.",
+      "relacionados": [
+        "evals"
+      ],
+      "fonte": "https://arxiv.org/abs/2306.05685"
+    },
+    {
+      "slug": "lora",
+      "categoria": "IA",
+      "subcategoria": "Treinamento e ajuste",
+      "termo_en": "LoRA (Low-Rank Adaptation)",
+      "termo_pt": "LoRA (adaptação de baixo posto)",
+      "definicao_pt": "Método de ajuste fino que treina poucas matrizes adicionais em vez de todos os pesos, reduzindo muito o custo.",
+      "definition_en": "Fine-tuning method that trains a few additional matrices instead of all weights, greatly cutting cost.",
+      "relacionados": [
+        "fine-tuning"
+      ],
+      "fonte": "https://arxiv.org/abs/2106.09685"
+    },
+    {
+      "slug": "lcp",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "Largest Contentful Paint (LCP)",
+      "termo_pt": "Maior renderização de conteúdo",
+      "definicao_pt": "Tempo até o maior elemento visível da tela (imagem ou bloco de texto) aparecer. Bom: até 2,5 segundos.",
+      "definition_en": "Time until the largest visible element (image or text block) renders. Good: 2.5 seconds or less.",
+      "relacionados": [
+        "core-web-vitals"
+      ],
+      "fonte": "https://web.dev/articles/lcp"
+    },
+    {
+      "slug": "watermarking",
+      "categoria": "IA",
+      "subcategoria": "Segurança e governança",
+      "termo_en": "AI Watermarking",
+      "termo_pt": "Marca d'água de IA",
+      "definicao_pt": "Sinal embutido em conteúdo gerado por IA, visível ou não, que permite identificá-lo depois, como o SynthID do Google.",
+      "definition_en": "Signal embedded in AI-generated content, visible or not, that lets it be identified later, such as Google's SynthID.",
+      "relacionados": [
+        "content-provenance"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "markdown-for-agents",
+      "categoria": "GEO",
+      "subcategoria": "Arquivos e acesso das IAs",
+      "termo_en": "Markdown for Agents",
+      "termo_pt": "Markdown para agentes",
+      "definicao_pt": "Prática de oferecer versões em Markdown das páginas (por exemplo, a mesma URL com .md) para que agentes e LLMs leiam o conteúdo sem ruído de layout.",
+      "definition_en": "Practice of offering Markdown versions of pages (for example, the same URL with .md) so agents and LLMs read the content without layout noise.",
+      "relacionados": [
+        "llms-txt",
+        "machine-readability"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "attention-mechanism",
+      "categoria": "IA",
+      "subcategoria": "Modelos de linguagem",
+      "termo_en": "Attention Mechanism",
+      "termo_pt": "Mecanismo de atenção",
+      "definicao_pt": "Parte do modelo que pesa quanto cada palavra do contexto importa para interpretar ou gerar cada outra palavra.",
+      "definition_en": "Part of the model that weighs how much each word in the context matters for interpreting or generating every other word.",
+      "relacionados": [
+        "transformer",
+        "context-window"
+      ],
+      "fonte": "https://arxiv.org/abs/1706.03762"
+    },
+    {
+      "slug": "agent-memory",
+      "categoria": "IA",
+      "subcategoria": "Agentes e ferramentas",
+      "termo_en": "Agent Memory",
+      "termo_pt": "Memória do agente",
+      "definicao_pt": "Informações que um agente guarda entre etapas ou conversas, como preferências do usuário e resultados anteriores.",
+      "definition_en": "Information an agent keeps across steps or conversations, such as user preferences and earlier results.",
+      "relacionados": [
+        "ai-agent",
+        "context-engineering"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "ai-mention",
+      "categoria": "GEO",
+      "subcategoria": "Citação e visibilidade",
+      "termo_en": "AI Mention",
+      "termo_pt": "Menção por IA",
+      "definicao_pt": "Quando a marca aparece no texto da resposta de IA, com ou sem link para o site.",
+      "definition_en": "When the brand appears in the AI answer text, with or without a link to the site.",
+      "relacionados": [
+        "ai-citation",
+        "share-of-voice"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "brand-mention",
+      "categoria": "SEO",
+      "subcategoria": "Links e autoridade",
+      "termo_en": "Brand Mention",
+      "termo_pt": "Menção à marca",
+      "definicao_pt": "Citação do nome da marca em outro site, com ou sem link. Para IAs, menções em fontes confiáveis pesam tanto quanto links.",
+      "definition_en": "Mention of the brand name on another site, with or without a link. For AI, mentions on trusted sources weigh as much as links.",
+      "relacionados": [
+        "backlink",
+        "share-of-voice",
+        "co-citation"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "meta-description",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Meta Description",
+      "termo_pt": "Meta descrição",
+      "definicao_pt": "Resumo da página em uma meta tag, que o buscador pode usar como trecho nos resultados. Não é fator de ranqueamento direto, mas afeta o clique.",
+      "definition_en": "Page summary in a meta tag that the search engine may use as the result snippet. It is not a direct ranking factor, but it affects clicks.",
+      "relacionados": [
+        "title-tag",
+        "ctr"
+      ],
+      "fonte": "https://developers.google.com/search/docs/appearance/snippet"
+    },
+    {
+      "slug": "meta-robots",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "Meta Robots Tag",
+      "termo_pt": "Meta tag robots",
+      "definicao_pt": "Meta tag no HTML que dá instruções de indexação e exibição por página, como noindex, nofollow, nosnippet e max-snippet.",
+      "definition_en": "HTML meta tag giving per-page indexing and display instructions, such as noindex, nofollow, nosnippet and max-snippet.",
+      "relacionados": [
+        "noindex",
+        "nosnippet"
+      ],
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag"
+    },
+    {
+      "slug": "mixture-of-experts",
+      "categoria": "IA",
+      "subcategoria": "Modelos de linguagem",
+      "termo_en": "Mixture of Experts (MoE)",
+      "termo_pt": "Mistura de especialistas",
+      "definicao_pt": "Arquitetura em que só parte dos parâmetros (os \"especialistas\" escolhidos) é usada para cada token, o que permite modelos grandes com custo de execução menor.",
+      "definition_en": "Architecture in which only part of the parameters (the chosen \"experts\") is used for each token, allowing large models with lower running cost.",
+      "relacionados": [
+        "parameters",
+        "transformer"
+      ],
+      "fonte": "https://arxiv.org/abs/1701.06538"
+    },
+    {
+      "slug": "diffusion-model",
+      "categoria": "IA",
+      "subcategoria": "Modelos de linguagem",
+      "termo_en": "Diffusion Model",
+      "termo_pt": "Modelo de difusão",
+      "definicao_pt": "Tipo de modelo generativo que cria imagens ou vídeos removendo ruído passo a passo, usado em ferramentas de geração de imagem.",
+      "definition_en": "Type of generative model that creates images or video by removing noise step by step, used in image generation tools.",
+      "relacionados": [
+        "generative-ai"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "foundation-model",
+      "categoria": "IA",
+      "subcategoria": "Modelos de linguagem",
+      "termo_en": "Foundation Model",
+      "termo_pt": "Modelo de fundação",
+      "definicao_pt": "Modelo grande treinado em dados amplos que serve de base para muitas tarefas, adaptado por instruções, ajuste fino ou ferramentas.",
+      "definition_en": "Large model trained on broad data that serves as the basis for many tasks, adapted through instructions, fine-tuning or tools.",
+      "relacionados": [
+        "llm",
+        "fine-tuning"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "slm",
+      "categoria": "IA",
+      "subcategoria": "Modelos de linguagem",
+      "termo_en": "Small Language Model (SLM)",
+      "termo_pt": "Modelo de linguagem pequeno",
+      "definicao_pt": "Modelo com menos parâmetros, mais barato e rápido, capaz de rodar no celular ou no computador, útil para tarefas específicas.",
+      "definition_en": "Model with fewer parameters, cheaper and faster, able to run on a phone or laptop, useful for specific tasks.",
+      "relacionados": [
+        "llm",
+        "distillation"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "open-weight-model",
+      "categoria": "IA",
+      "subcategoria": "Modelos de linguagem",
+      "termo_en": "Open-weight Model",
+      "termo_pt": "Modelo de pesos abertos",
+      "definicao_pt": "Modelo cujos pesos podem ser baixados e rodados por qualquer um, como Llama, Mistral e Qwen. Não significa que os dados de treino sejam abertos.",
+      "definition_en": "Model whose weights anyone can download and run, such as Llama, Mistral and Qwen. It does not mean the training data is open.",
+      "relacionados": [
+        "parameters",
+        "foundation-model"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "prompt-template",
+      "categoria": "IA",
+      "subcategoria": "Prompts",
+      "termo_en": "Prompt Template",
+      "termo_pt": "Modelo de prompt",
+      "definicao_pt": "Prompt com partes fixas e campos variáveis, reutilizado em escala com dados diferentes.",
+      "definition_en": "Prompt with fixed parts and variable fields, reused at scale with different data.",
+      "relacionados": [
+        "prompt"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "reasoning-model",
+      "categoria": "IA",
+      "subcategoria": "Modelos de linguagem",
+      "termo_en": "Reasoning Model",
+      "termo_pt": "Modelo de raciocínio",
+      "definicao_pt": "LLM treinado para \"pensar\" em etapas antes de responder, gastando mais tokens e tempo em troca de melhor desempenho em problemas difíceis.",
+      "definition_en": "LLM trained to \"think\" in steps before answering, spending more tokens and time in exchange for better performance on hard problems.",
+      "relacionados": [
+        "chain-of-thought",
+        "test-time-compute"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "vision-language-model",
+      "categoria": "IA",
+      "subcategoria": "Modelos de linguagem",
+      "termo_en": "Vision-language Model (VLM)",
+      "termo_pt": "Modelo de visão e linguagem",
+      "definicao_pt": "Modelo que lê imagens e texto juntos, capaz de descrever fotos, ler capturas de tela e interpretar gráficos.",
+      "definition_en": "Model that reads images and text together, able to describe photos, read screenshots and interpret charts.",
+      "relacionados": [
+        "multimodal-model"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "multimodal-model",
+      "categoria": "IA",
+      "subcategoria": "Modelos de linguagem",
+      "termo_en": "Multimodal Model",
+      "termo_pt": "Modelo multimodal",
+      "definicao_pt": "Modelo que entende ou gera mais de um tipo de dado, como texto, imagem, áudio e vídeo.",
+      "definition_en": "Model that understands or generates more than one data type, such as text, images, audio and video.",
+      "relacionados": [
+        "generative-ai",
+        "vision-language-model"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "ai-mode",
+      "categoria": "GEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "AI Mode",
+      "termo_pt": "Modo IA",
+      "definicao_pt": "Modo de busca conversacional do Google, em aba própria, que decompõe a pergunta em várias buscas (query fan-out) e responde com fontes.",
+      "definition_en": "Google's conversational search mode, in its own tab, that breaks the question into several searches (query fan-out) and answers with sources.",
+      "relacionados": [
+        "ai-overviews",
+        "query-fan-out"
+      ],
+      "fonte": "https://developers.google.com/search/docs/appearance/ai-features"
+    },
+    {
+      "slug": "rank-tracking",
+      "categoria": "SEO",
+      "subcategoria": "Métricas e ferramentas",
+      "termo_en": "Rank Tracking",
+      "termo_pt": "Monitoramento de posições",
+      "definicao_pt": "Acompanhamento periódico das posições do site para um conjunto de consultas, por local e dispositivo.",
+      "definition_en": "Periodic tracking of a site's positions for a set of queries, by location and device.",
+      "relacionados": [
+        "average-position"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "answer-engine",
+      "categoria": "GEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Answer Engine",
+      "termo_pt": "Motor de resposta",
+      "definicao_pt": "Sistema que devolve a resposta em vez de uma lista de documentos, como Perplexity, assistentes de voz e chatbots com busca.",
+      "definition_en": "System that returns the answer instead of a list of documents, such as Perplexity, voice assistants and chatbots with search.",
+      "relacionados": [
+        "generative-engine",
+        "aeo"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "generative-engine",
+      "categoria": "GEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Generative Engine",
+      "termo_pt": "Motor generativo",
+      "definicao_pt": "Sistema que responde a uma pergunta com texto gerado por um modelo de linguagem, em geral com base em documentos recuperados da web ou de um índice.",
+      "definition_en": "System that answers a question with text generated by a language model, usually grounded in documents retrieved from the web or an index.",
+      "relacionados": [
+        "geo",
+        "llm",
+        "rag"
+      ],
+      "fonte": "https://arxiv.org/abs/2311.09735"
+    },
+    {
+      "slug": "cls",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "Cumulative Layout Shift (CLS)",
+      "termo_pt": "Mudança cumulativa de layout",
+      "definicao_pt": "Mede quanto o conteúdo pula de lugar durante o carregamento. Bom: até 0,1.",
+      "definition_en": "Measures how much content jumps around while loading. Good: 0.1 or less.",
+      "relacionados": [
+        "core-web-vitals"
+      ],
+      "fonte": "https://web.dev/articles/cls"
+    },
+    {
+      "slug": "agentic-browser",
+      "categoria": "GEO",
+      "subcategoria": "Agentes e comércio",
+      "termo_en": "Agentic Browser",
+      "termo_pt": "Navegador agêntico",
+      "definicao_pt": "Navegador ou modo de assistente que navega, clica e preenche páginas sozinho para cumprir uma tarefa, como os modos agente do ChatGPT e do Gemini.",
+      "definition_en": "Browser or assistant mode that browses, clicks and fills in pages on its own to complete a task, such as the agent modes of ChatGPT and Gemini.",
+      "relacionados": [
+        "ai-agent",
+        "computer-use",
+        "agent-readiness"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "faceted-navigation",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "Faceted Navigation",
+      "termo_pt": "Navegação facetada",
+      "definicao_pt": "Filtros de listagem (cor, tamanho, preço) que geram muitas combinações de URL e podem consumir o rastreamento com páginas quase iguais.",
+      "definition_en": "Listing filters (color, size, price) that create many URL combinations and can waste crawling on near-identical pages.",
+      "relacionados": [
+        "crawl-budget",
+        "duplicate-content"
+      ],
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/crawling-managing-faceted-navigation"
+    },
+    {
+      "slug": "b2a",
+      "categoria": "GEO",
+      "subcategoria": "Agentes e comércio",
+      "termo_en": "Business-to-Agent (B2A)",
+      "termo_pt": "Negócio para agente",
+      "definicao_pt": "Modelo em que a empresa projeta produtos, dados e atendimento para serem consumidos por agentes de IA, não só por pessoas.",
+      "definition_en": "Model in which a company designs products, data and service to be consumed by AI agents, not only people.",
+      "relacionados": [
+        "agentic-commerce",
+        "agent-readiness"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "nap",
+      "categoria": "SEO",
+      "subcategoria": "SEO local",
+      "termo_en": "NAP (Name, Address, Phone)",
+      "termo_pt": "Nome, endereço e telefone",
+      "definicao_pt": "Dados de contato da empresa. Devem ser idênticos no site, no Perfil da Empresa, em diretórios e no schema, para que buscadores e IAs reconheçam a mesma entidade.",
+      "definition_en": "Business contact details. They must be identical on the site, the Business Profile, directories and schema so search engines and AI recognize the same entity.",
+      "relacionados": [
+        "local-citation",
+        "entity-consistency"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "orchestration",
+      "categoria": "IA",
+      "subcategoria": "Agentes e ferramentas",
+      "termo_en": "Orchestration",
+      "termo_pt": "Orquestração",
+      "definicao_pt": "Camada que coordena modelos, ferramentas e etapas de um fluxo de IA, decidindo o que roda, em que ordem e com quais dados.",
+      "definition_en": "Layer that coordinates models, tools and steps in an AI workflow, deciding what runs, in what order and with what data.",
+      "relacionados": [
+        "multi-agent-system"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "crawl-budget",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "Crawl Budget",
+      "termo_pt": "Orçamento de rastreamento",
+      "definicao_pt": "Quantidade de URLs que o robô se dispõe a rastrear num site em um período, limitada pela capacidade do servidor e pelo interesse do buscador. Importa sobretudo em sites grandes.",
+      "definition_en": "Number of URLs a bot is willing to crawl on a site in a period, limited by server capacity and the search engine's demand. It matters mostly for large sites.",
+      "relacionados": [
+        "crawling",
+        "log-file-analysis"
+      ],
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/large-site-managing-crawl-budget"
+    },
+    {
+      "slug": "cro",
+      "categoria": "SEO",
+      "subcategoria": "Métricas e ferramentas",
+      "termo_en": "Conversion Rate Optimization (CRO)",
+      "termo_pt": "Otimização da taxa de conversão",
+      "definicao_pt": "Melhoria da página para que mais visitantes realizem a ação desejada, com testes e análise de comportamento.",
+      "definition_en": "Improving a page so more visitors complete the desired action, using tests and behavior analysis.",
+      "relacionados": [
+        "conversion-rate"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "chunk-optimization",
+      "categoria": "GEO",
+      "subcategoria": "Conteúdo citável",
+      "termo_en": "Chunk Optimization",
+      "termo_pt": "Otimização de trechos",
+      "definicao_pt": "Escrever cada seção para funcionar sozinha quando for recortada em pedaços pelo sistema de recuperação: assunto explícito, sem pronomes soltos e com a resposta no início.",
+      "definition_en": "Writing each section to work on its own when the retrieval system cuts it into pieces: explicit subject, no dangling pronouns and the answer first.",
+      "relacionados": [
+        "chunking",
+        "answer-capsule"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "dpo",
+      "categoria": "IA",
+      "subcategoria": "Treinamento e ajuste",
+      "termo_en": "Direct Preference Optimization (DPO)",
+      "termo_pt": "Otimização direta de preferências",
+      "definicao_pt": "Alternativa mais simples ao RLHF que treina o modelo direto nas comparações de preferência, sem modelo de recompensa separado.",
+      "definition_en": "Simpler alternative to RLHF that trains the model directly on preference comparisons, without a separate reward model.",
+      "relacionados": [
+        "rlhf"
+      ],
+      "fonte": "https://arxiv.org/abs/2305.18290"
+    },
+    {
+      "slug": "llmo",
+      "categoria": "GEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "LLM Optimization (LLMO)",
+      "termo_pt": "Otimização para LLMs",
+      "definicao_pt": "Outro nome usado no mercado para GEO, com foco em como os modelos de linguagem representam e citam a marca.",
+      "definition_en": "Another market name for GEO, focused on how language models represent and cite the brand.",
+      "relacionados": [
+        "geo"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "seo",
+      "categoria": "SEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Search Engine Optimization (SEO)",
+      "termo_pt": "Otimização para mecanismos de busca",
+      "definicao_pt": "Conjunto de práticas técnicas, editoriais e de autoridade que aumentam a chance de uma página ser rastreada, indexada e bem posicionada nos resultados orgânicos de buscadores.",
+      "definition_en": "Set of technical, editorial and authority practices that increase the chance of a page being crawled, indexed and ranked well in a search engine's organic results.",
+      "relacionados": [
+        "serp",
+        "geo",
+        "crawling",
+        "indexing"
+      ],
+      "fonte": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+    },
+    {
+      "slug": "aeo",
+      "categoria": "GEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Answer Engine Optimization (AEO)",
+      "termo_pt": "Otimização para motores de resposta",
+      "definicao_pt": "Otimização para que o conteúdo seja escolhido como resposta direta, em trechos em destaque, assistentes de voz e respostas de IA. Muitas vezes usado como sinônimo parcial de GEO.",
+      "definition_en": "Optimization so content is chosen as the direct answer in featured snippets, voice assistants and AI answers. Often used as a partial synonym of GEO.",
+      "relacionados": [
+        "geo",
+        "featured-snippet"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "geo",
+      "categoria": "GEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Generative Engine Optimization (GEO)",
+      "termo_pt": "Otimização para motores generativos",
+      "definicao_pt": "Disciplina que aumenta a chance de uma marca, página ou fato ser encontrado, usado e citado corretamente por sistemas de IA generativa, como ChatGPT, Gemini, Perplexity, Copilot e os resumos de IA do Google. O termo vem do artigo de Aggarwal e colegas (2023).",
+      "definition_en": "Discipline that increases the chance of a brand, page or fact being found, used and correctly cited by generative AI systems such as ChatGPT, Gemini, Perplexity, Copilot and Google's AI summaries. The term comes from the paper by Aggarwal et al. (2023).",
+      "relacionados": [
+        "seo",
+        "aeo",
+        "generative-engine",
+        "ai-citation"
+      ],
+      "fonte": "https://arxiv.org/abs/2311.09735"
+    },
+    {
+      "slug": "local-pack",
+      "categoria": "SEO",
+      "subcategoria": "SEO local",
+      "termo_en": "Local Pack (Map Pack)",
+      "termo_pt": "Pacote local",
+      "definicao_pt": "Bloco com mapa e três empresas que aparece no topo de buscas com intenção local.",
+      "definition_en": "Block with a map and three businesses shown at the top of searches with local intent.",
+      "relacionados": [
+        "local-seo",
+        "serp-feature"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "pagerank",
+      "categoria": "SEO",
+      "subcategoria": "Links e autoridade",
+      "termo_en": "PageRank",
+      "termo_pt": "PageRank",
+      "definicao_pt": "Algoritmo original do Google que mede a importância de uma página pelos links que ela recebe, ponderados pela importância de quem linka. Segue em uso, com muitas variações.",
+      "definition_en": "Google's original algorithm measuring a page's importance by the links it receives, weighted by the importance of the linking pages. Still used, with many variations.",
+      "relacionados": [
+        "backlink",
+        "link-equity"
+      ],
+      "fonte": "https://research.google/pubs/the-anatomy-of-a-large-scale-hypertextual-web-search-engine/"
+    },
+    {
+      "slug": "pagination",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "Pagination",
+      "termo_pt": "Paginação",
+      "definicao_pt": "Divisão de uma lista longa em várias páginas. Cada página deve ter URL própria e rastreável e links para as outras.",
+      "definition_en": "Splitting a long list across several pages. Each page needs its own crawlable URL and links to the others.",
+      "relacionados": [
+        "crawling"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "knowledge-panel",
+      "categoria": "SEO",
+      "subcategoria": "Qualidade e atualizações",
+      "termo_en": "Knowledge Panel",
+      "termo_pt": "Painel de conhecimento",
+      "definicao_pt": "Quadro com fatos sobre uma entidade (pessoa, empresa, lugar), alimentado pelo Knowledge Graph do Google.",
+      "definition_en": "Box with facts about an entity (person, company, place), fed by Google's Knowledge Graph.",
+      "relacionados": [
+        "knowledge-graph",
+        "entity"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "keyword",
+      "categoria": "SEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Keyword",
+      "termo_pt": "Palavra-chave",
+      "definicao_pt": "Termo ou expressão que as pessoas digitam no buscador e que uma página pretende atender.",
+      "definition_en": "Word or phrase people type into a search engine and that a page aims to serve.",
+      "relacionados": [
+        "long-tail-keyword",
+        "search-volume",
+        "search-intent"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "long-tail-keyword",
+      "categoria": "SEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Long-tail Keyword",
+      "termo_pt": "Palavra-chave de cauda longa",
+      "definicao_pt": "Consulta mais específica e longa, com volume menor, concorrência menor e intenção geralmente mais clara.",
+      "definition_en": "Longer, more specific query with lower volume, lower competition and usually clearer intent.",
+      "relacionados": [
+        "keyword"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "share-of-voice",
+      "categoria": "GEO",
+      "subcategoria": "Citação e visibilidade",
+      "termo_en": "Share of Voice (AI)",
+      "termo_pt": "Participação de voz em IA",
+      "definicao_pt": "Proporção das respostas de IA, num conjunto de perguntas, em que a marca aparece, comparada aos concorrentes.",
+      "definition_en": "Share of AI answers, across a set of questions, in which the brand appears, compared with competitors.",
+      "relacionados": [
+        "ai-visibility",
+        "ai-mention"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "parameters",
+      "categoria": "IA",
+      "subcategoria": "Modelos de linguagem",
+      "termo_en": "Parameters (Weights)",
+      "termo_pt": "Parâmetros (pesos)",
+      "definicao_pt": "Números internos ajustados no treinamento que guardam o que o modelo aprendeu. Modelos atuais têm de bilhões a trilhões de parâmetros.",
+      "definition_en": "Internal numbers adjusted in training that store what the model learned. Current models have billions to trillions of parameters.",
+      "relacionados": [
+        "neural-network",
+        "parametric-knowledge"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "lost-in-the-middle",
+      "categoria": "IA",
+      "subcategoria": "Recuperação (RAG) e busca semântica",
+      "termo_en": "Lost in the Middle",
+      "termo_pt": "Perdido no meio",
+      "definicao_pt": "Efeito observado em LLMs que usam pior as informações no meio de um contexto longo do que as do começo e do fim.",
+      "definition_en": "Effect observed in LLMs, which use information in the middle of a long context worse than at the start and end.",
+      "relacionados": [
+        "context-window",
+        "chunking"
+      ],
+      "fonte": "https://arxiv.org/abs/2307.03172"
+    },
+    {
+      "slug": "google-business-profile",
+      "categoria": "SEO",
+      "subcategoria": "SEO local",
+      "termo_en": "Google Business Profile (GBP)",
+      "termo_pt": "Perfil da Empresa no Google",
+      "definicao_pt": "Ficha gratuita da empresa no Google Search e no Maps, com categoria, endereço, horário, fotos, avaliações e posts. Antigo Google Meu Negócio.",
+      "definition_en": "Free business listing on Google Search and Maps, with category, address, hours, photos, reviews and posts. Formerly Google My Business.",
+      "relacionados": [
+        "local-seo",
+        "primary-category"
+      ],
+      "fonte": "https://support.google.com/business"
+    },
+    {
+      "slug": "original-research",
+      "categoria": "GEO",
+      "subcategoria": "Conteúdo citável",
+      "termo_en": "Original Research",
+      "termo_pt": "Pesquisa própria",
+      "definicao_pt": "Dados coletados pela própria marca (pesquisas, testes, levantamentos). Geram links, menções e fatos que só ela pode oferecer, o que favorece a citação.",
+      "definition_en": "Data collected by the brand itself (surveys, tests, studies). It earns links, mentions and facts only that brand can offer, which favors citation.",
+      "relacionados": [
+        "information-gain",
+        "digital-pr"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "content-pruning",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Content Pruning",
+      "termo_pt": "Poda de conteúdo",
+      "definicao_pt": "Revisão de páginas fracas ou desatualizadas para melhorar, juntar, redirecionar ou remover.",
+      "definition_en": "Reviewing weak or outdated pages to improve, merge, redirect or remove them.",
+      "relacionados": [
+        "thin-content",
+        "keyword-cannibalization"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "citation-position",
+      "categoria": "GEO",
+      "subcategoria": "Citação e visibilidade",
+      "termo_en": "Citation Position",
+      "termo_pt": "Posição da citação",
+      "definicao_pt": "Ordem em que a fonte aparece na resposta ou na lista de fontes. Fontes citadas primeiro recebem mais atenção e cliques.",
+      "definition_en": "Order in which a source appears in the answer or the source list. Sources cited first get more attention and clicks.",
+      "relacionados": [
+        "ai-citation"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "average-position",
+      "categoria": "SEO",
+      "subcategoria": "Métricas e ferramentas",
+      "termo_en": "Average Position",
+      "termo_pt": "Posição média",
+      "definicao_pt": "Média da posição mais alta em que a página apareceu nas consultas em que foi exibida.",
+      "definition_en": "Average of the highest position the page held across the queries where it appeared.",
+      "relacionados": [
+        "google-search-console"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "next-token-prediction",
+      "categoria": "IA",
+      "subcategoria": "Modelos de linguagem",
+      "termo_en": "Next-token Prediction",
+      "termo_pt": "Previsão do próximo token",
+      "definicao_pt": "Tarefa básica de um LLM: estimar qual token vem a seguir dado o texto anterior. A geração repete isso token a token.",
+      "definition_en": "An LLM's basic task: estimating which token comes next given the preceding text. Generation repeats this token by token.",
+      "relacionados": [
+        "llm",
+        "self-supervised-learning"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "nlp",
+      "categoria": "IA",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Natural Language Processing (NLP)",
+      "termo_pt": "Processamento de linguagem natural",
+      "definicao_pt": "Área da IA dedicada a fazer computadores entenderem e produzirem linguagem humana.",
+      "definition_en": "Field of AI devoted to making computers understand and produce human language.",
+      "relacionados": [
+        "llm",
+        "named-entity-recognition"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "crawl-depth",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "Crawl Depth (Click Depth)",
+      "termo_pt": "Profundidade de clique",
+      "definicao_pt": "Quantos cliques separam uma página da home. Páginas muito profundas tendem a ser rastreadas com menos frequência.",
+      "definition_en": "How many clicks separate a page from the home page. Very deep pages tend to be crawled less often.",
+      "relacionados": [
+        "site-architecture",
+        "orphan-page"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "prompt",
+      "categoria": "IA",
+      "subcategoria": "Prompts",
+      "termo_en": "Prompt",
+      "termo_pt": "Prompt",
+      "definicao_pt": "Texto de entrada que diz ao modelo o que fazer, com instruções, contexto, exemplos e formato desejado.",
+      "definition_en": "Input text telling the model what to do, with instructions, context, examples and the desired format.",
+      "relacionados": [
+        "prompt-engineering",
+        "system-prompt"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "few-shot",
+      "categoria": "IA",
+      "subcategoria": "Prompts",
+      "termo_en": "Few-shot Prompting",
+      "termo_pt": "Prompt com poucos exemplos",
+      "definicao_pt": "Incluir alguns exemplos de entrada e saída no prompt para mostrar o padrão esperado.",
+      "definition_en": "Including a few input-output examples in the prompt to show the expected pattern.",
+      "relacionados": [
+        "zero-shot",
+        "prompt"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "system-prompt",
+      "categoria": "IA",
+      "subcategoria": "Prompts",
+      "termo_en": "System Prompt",
+      "termo_pt": "Prompt de sistema",
+      "definicao_pt": "Instruções de base que o desenvolvedor dá ao modelo, valendo para toda a conversa: papel, regras, tom e limites.",
+      "definition_en": "Baseline instructions the developer gives the model for the whole conversation: role, rules, tone and limits.",
+      "relacionados": [
+        "prompt"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "zero-shot",
+      "categoria": "IA",
+      "subcategoria": "Prompts",
+      "termo_en": "Zero-shot Prompting",
+      "termo_pt": "Prompt sem exemplos",
+      "definicao_pt": "Pedir a tarefa sem dar exemplos, contando só com as instruções.",
+      "definition_en": "Asking for the task without giving examples, relying only on instructions.",
+      "relacionados": [
+        "few-shot"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "agent-readiness",
+      "categoria": "GEO",
+      "subcategoria": "Agentes e comércio",
+      "termo_en": "Agent Readiness",
+      "termo_pt": "Prontidão para agentes",
+      "definicao_pt": "Quanto um site pode ser usado por agentes de IA: conteúdo legível, formulários com rótulos corretos, ações declaradas, APIs documentadas e políticas claras.",
+      "definition_en": "How usable a site is for AI agents: readable content, correctly labeled forms, declared actions, documented APIs and clear policies.",
+      "relacionados": [
+        "agentic-commerce",
+        "mcp",
+        "machine-readability"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "same-as",
+      "categoria": "SEO",
+      "subcategoria": "Dados estruturados",
+      "termo_en": "sameAs",
+      "termo_pt": "Propriedade sameAs",
+      "definicao_pt": "Propriedade Schema.org que aponta perfis oficiais da mesma entidade em outros lugares (Wikidata, LinkedIn, Instagram), ajudando a desambiguação.",
+      "definition_en": "Schema.org property pointing to the same entity's official profiles elsewhere (Wikidata, LinkedIn, Instagram), helping disambiguation.",
+      "relacionados": [
+        "entity-disambiguation",
+        "wikidata"
+      ],
+      "fonte": "https://schema.org/sameAs"
+    },
+    {
+      "slug": "brand-safety-ai",
+      "categoria": "GEO",
+      "subcategoria": "Riscos e qualidade",
+      "termo_en": "Brand Protection in AI",
+      "termo_pt": "Proteção de marca em IA",
+      "definicao_pt": "Monitorar e corrigir o que IAs dizem sobre a marca: fatos errados, confusão com homônimos, associação a temas negativos e conteúdo de concorrentes.",
+      "definition_en": "Monitoring and correcting what AI says about the brand: wrong facts, confusion with namesakes, association with negative topics and competitor content.",
+      "relacionados": [
+        "hallucination",
+        "entity-disambiguation",
+        "ai-audit"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "a2a",
+      "categoria": "IA",
+      "subcategoria": "Agentes e ferramentas",
+      "termo_en": "Agent2Agent Protocol (A2A)",
+      "termo_pt": "Protocolo Agent2Agent",
+      "definicao_pt": "Protocolo aberto, lançado pelo Google em 2025, para agentes de IA de fornecedores diferentes se descobrirem e trocarem tarefas.",
+      "definition_en": "Open protocol, launched by Google in 2025, for AI agents from different vendors to discover each other and exchange tasks.",
+      "relacionados": [
+        "mcp",
+        "ai-agent"
+      ],
+      "fonte": "https://a2a-protocol.org"
+    },
+    {
+      "slug": "mcp",
+      "categoria": "IA",
+      "subcategoria": "Agentes e ferramentas",
+      "termo_en": "Model Context Protocol (MCP)",
+      "termo_pt": "Protocolo de contexto de modelo",
+      "definicao_pt": "Protocolo aberto, criado pela Anthropic em 2024, que padroniza como aplicações de IA se conectam a ferramentas e fontes de dados externas.",
+      "definition_en": "Open protocol, created by Anthropic in 2024, that standardizes how AI applications connect to external tools and data sources.",
+      "relacionados": [
+        "function-calling",
+        "ai-agent",
+        "a2a"
+      ],
+      "fonte": "https://modelcontextprotocol.io"
+    },
+    {
+      "slug": "content-provenance",
+      "categoria": "IA",
+      "subcategoria": "Segurança e governança",
+      "termo_en": "Content Provenance (C2PA)",
+      "termo_pt": "Proveniência de conteúdo",
+      "definicao_pt": "Registro verificável da origem e das edições de um arquivo de mídia, como no padrão C2PA, que mostra se a peça foi criada ou alterada por IA.",
+      "definition_en": "Verifiable record of a media file's origin and edits, as in the C2PA standard, showing whether it was created or altered by AI.",
+      "relacionados": [
+        "ai-transparency",
+        "watermarking"
+      ],
+      "fonte": "https://c2pa.org"
+    },
+    {
+      "slug": "pretraining",
+      "categoria": "IA",
+      "subcategoria": "Treinamento e ajuste",
+      "termo_en": "Pretraining",
+      "termo_pt": "Pré-treinamento",
+      "definicao_pt": "Primeira e mais cara etapa do treino, em que o modelo aprende linguagem e conhecimento geral prevendo tokens em textos enormes.",
+      "definition_en": "First and most expensive training stage, in which the model learns language and general knowledge by predicting tokens in huge texts.",
+      "relacionados": [
+        "self-supervised-learning",
+        "post-training"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "brand-facts-page",
+      "categoria": "GEO",
+      "subcategoria": "Entidade e grafo de conhecimento",
+      "termo_en": "Brand Facts Page",
+      "termo_pt": "Página de fatos da marca",
+      "definicao_pt": "Página com os fatos oficiais e verificáveis da empresa (fundação, sede, serviços, números com fonte e data), feita para ser lida e citada por pessoas e IAs.",
+      "definition_en": "Page with the company's official, verifiable facts (founding, headquarters, services, sourced and dated figures), made to be read and cited by people and AI.",
+      "relacionados": [
+        "entity-home",
+        "citable-fact"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "serp",
+      "categoria": "SEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Search Engine Results Page (SERP)",
+      "termo_pt": "Página de resultados do buscador",
+      "definicao_pt": "Página que o buscador devolve para uma consulta, com resultados orgânicos, anúncios e recursos como mapas, vídeos, perguntas relacionadas e resumos gerados por IA.",
+      "definition_en": "Page a search engine returns for a query, combining organic results, ads and features such as maps, videos, related questions and AI-generated summaries.",
+      "relacionados": [
+        "serp-feature",
+        "ai-overviews",
+        "organic-search"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "pillar-page",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Pillar Page",
+      "termo_pt": "Página pilar",
+      "definicao_pt": "Página abrangente sobre um tema central que liga e recebe links das páginas de detalhe do cluster.",
+      "definition_en": "Comprehensive page on a core topic that links to and from the cluster's detail pages.",
+      "relacionados": [
+        "topic-cluster"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "orphan-page",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "Orphan Page",
+      "termo_pt": "Página órfã",
+      "definicao_pt": "Página sem nenhum link interno apontando para ela. Robôs e pessoas têm dificuldade para encontrá-la.",
+      "definition_en": "Page with no internal links pointing to it. Bots and people struggle to find it.",
+      "relacionados": [
+        "internal-linking",
+        "crawl-depth"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "entity-home",
+      "categoria": "GEO",
+      "subcategoria": "Entidade e grafo de conhecimento",
+      "termo_en": "Entity Home",
+      "termo_pt": "Página-casa da entidade",
+      "definicao_pt": "Página que a própria entidade controla e que define oficialmente quem ela é, normalmente a página \"Sobre\". Serve de referência para buscadores e IAs.",
+      "definition_en": "Page the entity itself controls that officially defines who it is, usually the \"About\" page. It is the reference for search engines and AI.",
+      "relacionados": [
+        "entity",
+        "organization-schema"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "post-training",
+      "categoria": "IA",
+      "subcategoria": "Treinamento e ajuste",
+      "termo_en": "Post-training",
+      "termo_pt": "Pós-treinamento",
+      "definicao_pt": "Etapas depois do pré-treino que tornam o modelo útil e seguro: ajuste com instruções, preferências humanas e reforço.",
+      "definition_en": "Stages after pretraining that make the model helpful and safe: instruction tuning, human preferences and reinforcement.",
+      "relacionados": [
+        "instruction-tuning",
+        "rlhf"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "quantization",
+      "categoria": "IA",
+      "subcategoria": "Inferência e uso",
+      "termo_en": "Quantization",
+      "termo_pt": "Quantização",
+      "definicao_pt": "Redução da precisão numérica dos pesos (por exemplo, de 16 para 4 bits) para o modelo ocupar menos memória e rodar mais rápido, com pequena perda de qualidade.",
+      "definition_en": "Reducing the numeric precision of weights (for example, from 16 to 4 bits) so the model uses less memory and runs faster, with a small quality loss.",
+      "relacionados": [
+        "inference",
+        "open-weight-model"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "crawling",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "Crawling",
+      "termo_pt": "Rastreamento",
+      "definicao_pt": "Processo pelo qual o robô do buscador descobre e baixa páginas seguindo links e sitemaps.",
+      "definition_en": "Process by which a search engine's bot discovers and downloads pages by following links and sitemaps.",
+      "relacionados": [
+        "crawler",
+        "indexing",
+        "crawl-budget"
+      ],
+      "fonte": "https://developers.google.com/search/docs/fundamentals/how-search-works"
+    },
+    {
+      "slug": "react-agent",
+      "categoria": "IA",
+      "subcategoria": "Agentes e ferramentas",
+      "termo_en": "ReAct",
+      "termo_pt": "ReAct",
+      "definicao_pt": "Padrão em que o modelo alterna raciocínio e ação (usar uma ferramenta, observar o resultado) até concluir a tarefa.",
+      "definition_en": "Pattern in which the model alternates reasoning and acting (using a tool, observing the result) until the task is done.",
+      "relacionados": [
+        "ai-agent",
+        "chain-of-thought"
+      ],
+      "fonte": "https://arxiv.org/abs/2210.03629"
+    },
+    {
+      "slug": "named-entity-recognition",
+      "categoria": "IA",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Named Entity Recognition (NER)",
+      "termo_pt": "Reconhecimento de entidades nomeadas",
+      "definicao_pt": "Tarefa de identificar no texto nomes de pessoas, empresas, lugares, datas e valores.",
+      "definition_en": "Task of identifying names of people, companies, places, dates and amounts in text.",
+      "relacionados": [
+        "nlp",
+        "entity"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "dense-retrieval",
+      "categoria": "IA",
+      "subcategoria": "Recuperação (RAG) e busca semântica",
+      "termo_en": "Dense Retrieval",
+      "termo_pt": "Recuperação densa",
+      "definicao_pt": "Recuperação de passagens comparando embeddings da pergunta e dos documentos, em vez de palavras.",
+      "definition_en": "Retrieving passages by comparing embeddings of the question and the documents instead of words.",
+      "relacionados": [
+        "embedding",
+        "semantic-search"
+      ],
+      "fonte": "https://arxiv.org/abs/2004.04906"
+    },
+    {
+      "slug": "serp-feature",
+      "categoria": "SEO",
+      "subcategoria": "Qualidade e atualizações",
+      "termo_en": "SERP Feature",
+      "termo_pt": "Recurso da página de resultados",
+      "definicao_pt": "Qualquer elemento além dos links azuis: trecho em destaque, painel de conhecimento, pacote local, carrossel, perguntas relacionadas, resumo por IA.",
+      "definition_en": "Any element beyond the blue links: featured snippet, knowledge panel, local pack, carousel, related questions, AI summary.",
+      "relacionados": [
+        "featured-snippet",
+        "knowledge-panel",
+        "people-also-ask"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "training-opt-out",
+      "categoria": "GEO",
+      "subcategoria": "Arquivos e acesso das IAs",
+      "termo_en": "Training Opt-out",
+      "termo_pt": "Recusa de uso para treino",
+      "definicao_pt": "Bloquear robôs de treino (por exemplo GPTBot) sem bloquear os de busca (OAI-SearchBot), para não ceder conteúdo ao treino e continuar aparecendo nas respostas.",
+      "definition_en": "Blocking training bots (for example GPTBot) without blocking search bots (OAI-SearchBot), so content is not given to training but still appears in answers.",
+      "relacionados": [
+        "ai-crawler",
+        "robots-txt"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "cdn",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "Content Delivery Network (CDN)",
+      "termo_pt": "Rede de distribuição de conteúdo",
+      "definicao_pt": "Rede de servidores espalhados que entrega arquivos do ponto mais próximo do visitante, reduzindo o tempo de carregamento. Alguns CDNs também bloqueiam robôs de IA por padrão.",
+      "definition_en": "Network of distributed servers that delivers files from the point closest to the visitor, cutting load time. Some CDNs also block AI bots by default.",
+      "relacionados": [
+        "ttfb",
+        "ai-crawler"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "neural-network",
+      "categoria": "IA",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Neural Network",
+      "termo_pt": "Rede neural",
+      "definicao_pt": "Modelo formado por camadas de unidades conectadas cujos pesos são ajustados no treinamento para transformar entradas em saídas.",
+      "definition_en": "Model made of layers of connected units whose weights are adjusted in training to turn inputs into outputs.",
+      "relacionados": [
+        "deep-learning",
+        "parameters"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "redirect-301",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "301 Redirect",
+      "termo_pt": "Redirecionamento 301",
+      "definicao_pt": "Resposta HTTP que indica mudança permanente de endereço e transfere os sinais da URL antiga para a nova.",
+      "definition_en": "HTTP response indicating a permanent move, passing the old URL's signals to the new one.",
+      "relacionados": [
+        "redirect-chain",
+        "http-status-code"
+      ],
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/301-redirects"
+    },
+    {
+      "slug": "index-coverage",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "Index Coverage (Page Indexing Report)",
+      "termo_pt": "Relatório de indexação",
+      "definicao_pt": "Relatório do Google Search Console que mostra quais URLs estão indexadas e o motivo das que não estão.",
+      "definition_en": "Google Search Console report showing which URLs are indexed and why the others are not.",
+      "relacionados": [
+        "google-search-console",
+        "indexing"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "digital-pr",
+      "categoria": "SEO",
+      "subcategoria": "Links e autoridade",
+      "termo_en": "Digital PR",
+      "termo_pt": "Relações públicas digitais",
+      "definicao_pt": "Produção de notícias, dados e histórias para conseguir menções e links em veículos e sites de autoridade.",
+      "definition_en": "Producing news, data and stories to earn mentions and links from media and authoritative sites.",
+      "relacionados": [
+        "link-building",
+        "brand-mention"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "proximity-relevance-prominence",
+      "categoria": "SEO",
+      "subcategoria": "SEO local",
+      "termo_en": "Relevance, Distance and Prominence",
+      "termo_pt": "Relevância, distância e proeminência",
+      "definicao_pt": "Os três critérios que o Google declara para ordenar resultados locais: quanto a empresa combina com a busca, quão perto está e quão conhecida é.",
+      "definition_en": "The three criteria Google states for ordering local results: how well the business matches the search, how close it is and how well known it is.",
+      "relacionados": [
+        "local-seo",
+        "local-pack"
+      ],
+      "fonte": "https://support.google.com/business/answer/7091"
+    },
+    {
+      "slug": "rendering",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "Rendering",
+      "termo_pt": "Renderização",
+      "definicao_pt": "Execução do HTML, CSS e JavaScript da página para obter o conteúdo final que o usuário vê. Conteúdo que só aparece depois do JavaScript pode ser lido com atraso ou não ser lido por alguns robôs.",
+      "definition_en": "Executing a page's HTML, CSS and JavaScript to obtain the final content the user sees. Content that only appears after JavaScript may be read late, or not at all, by some bots.",
+      "relacionados": [
+        "javascript-seo",
+        "server-side-rendering"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "server-side-rendering",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "Server-side Rendering (SSR)",
+      "termo_pt": "Renderização no servidor",
+      "definicao_pt": "O servidor entrega o HTML já montado, em vez de deixar o navegador montar a página com JavaScript. Robôs, inclusive os de IA que não executam JavaScript, leem o conteúdo na hora.",
+      "definition_en": "The server delivers fully built HTML instead of letting the browser build the page with JavaScript. Bots, including AI bots that do not run JavaScript, read the content immediately.",
+      "relacionados": [
+        "rendering",
+        "javascript-seo",
+        "ai-crawler"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "reranking",
+      "categoria": "IA",
+      "subcategoria": "Recuperação (RAG) e busca semântica",
+      "termo_en": "Reranking",
+      "termo_pt": "Reordenação",
+      "definicao_pt": "Segunda etapa que reavalia os documentos recuperados com um modelo mais preciso e escolhe os melhores para o contexto.",
+      "definition_en": "Second step that re-scores retrieved documents with a more accurate model and picks the best for the context.",
+      "relacionados": [
+        "hybrid-search",
+        "rag"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "rich-results",
+      "categoria": "SEO",
+      "subcategoria": "Dados estruturados",
+      "termo_en": "Rich Results",
+      "termo_pt": "Resultados aprimorados",
+      "definicao_pt": "Resultados com elementos extras, como estrelas, preço, perguntas ou eventos, gerados a partir de dados estruturados válidos.",
+      "definition_en": "Results with extra elements, such as stars, price, questions or events, generated from valid structured data.",
+      "relacionados": [
+        "structured-data",
+        "serp-feature"
+      ],
+      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/search-gallery"
+    },
+    {
+      "slug": "ai-crawler",
+      "categoria": "GEO",
+      "subcategoria": "Arquivos e acesso das IAs",
+      "termo_en": "AI Crawler",
+      "termo_pt": "Robô de IA",
+      "definicao_pt": "Robô que coleta páginas para empresas de IA. Há três usos: treino (GPTBot, ClaudeBot, Google-Extended como controle), busca (OAI-SearchBot, Claude-SearchBot, PerplexityBot) e acesso a pedido do usuário (ChatGPT-User, Claude-User, Perplexity-User).",
+      "definition_en": "Bot that collects pages for AI companies. There are three uses: training (GPTBot, ClaudeBot, Google-Extended as a control), search (OAI-SearchBot, Claude-SearchBot, PerplexityBot) and on-demand user fetches (ChatGPT-User, Claude-User, Perplexity-User).",
+      "relacionados": [
+        "crawler",
+        "robots-txt",
+        "google-extended"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "crawler",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "Crawler (Bot, Spider)",
+      "termo_pt": "Robô de rastreamento",
+      "definicao_pt": "Programa que visita páginas automaticamente para coletar o conteúdo, como o Googlebot, o Bingbot e os robôs das empresas de IA.",
+      "definition_en": "Program that visits pages automatically to collect content, such as Googlebot, Bingbot and AI companies' bots.",
+      "relacionados": [
+        "crawling",
+        "ai-crawler",
+        "user-agent"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "entity-salience",
+      "categoria": "GEO",
+      "subcategoria": "Entidade e grafo de conhecimento",
+      "termo_en": "Entity Salience",
+      "termo_pt": "Saliência da entidade",
+      "definicao_pt": "Quão central uma entidade é num texto. Páginas em que a marca é o assunto principal, e não uma menção de passagem, reforçam a associação.",
+      "definition_en": "How central an entity is in a text. Pages where the brand is the main subject, not a passing mention, strengthen the association.",
+      "relacionados": [
+        "entity",
+        "entity-association"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "guardrails",
+      "categoria": "IA",
+      "subcategoria": "Segurança e governança",
+      "termo_en": "Guardrails",
+      "termo_pt": "Salvaguardas",
+      "definicao_pt": "Controles em volta do modelo (filtros, validações, regras, revisões) que limitam o que ele recebe e o que pode responder ou fazer.",
+      "definition_en": "Controls around the model (filters, validations, rules, reviews) that limit what it receives and what it can answer or do.",
+      "relacionados": [
+        "ai-safety",
+        "human-in-the-loop"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "structured-output",
+      "categoria": "IA",
+      "subcategoria": "Inferência e uso",
+      "termo_en": "Structured Output",
+      "termo_pt": "Saída estruturada",
+      "definicao_pt": "Resposta do modelo num formato definido, como JSON que segue um esquema, para ser usada direto por programas.",
+      "definition_en": "Model answer in a defined format, such as JSON following a schema, to be used directly by programs.",
+      "relacionados": [
+        "function-calling",
+        "api"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "article-schema",
+      "categoria": "SEO",
+      "subcategoria": "Dados estruturados",
+      "termo_en": "Article Schema",
+      "termo_pt": "Schema Article",
+      "definicao_pt": "Marcação de artigos com título, autor, data de publicação e de modificação e imagem. Liga o conteúdo ao autor como entidade.",
+      "definition_en": "Article markup with headline, author, published and modified dates and image. It ties content to the author as an entity.",
+      "relacionados": [
+        "author-entity",
+        "structured-data"
+      ],
+      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/article"
+    },
+    {
+      "slug": "faqpage-schema",
+      "categoria": "SEO",
+      "subcategoria": "Dados estruturados",
+      "termo_en": "FAQPage Schema",
+      "termo_pt": "Schema FAQPage",
+      "definicao_pt": "Marcação de perguntas e respostas. Desde 2023 o Google só mostra o resultado aprimorado de FAQ para sites governamentais e de saúde, mas a marcação continua legível por outros sistemas e IAs.",
+      "definition_en": "Question-and-answer markup. Since 2023 Google shows the FAQ rich result only for government and health sites, but other systems and AI can still read the markup.",
+      "relacionados": [
+        "structured-data",
+        "answer-capsule"
+      ],
+      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/faqpage"
+    },
+    {
+      "slug": "local-business-schema",
+      "categoria": "SEO",
+      "subcategoria": "Dados estruturados",
+      "termo_en": "LocalBusiness Schema",
+      "termo_pt": "Schema LocalBusiness",
+      "definicao_pt": "Subtipo de Organization para negócios com atendimento físico, com endereço, geolocalização, horário e área atendida.",
+      "definition_en": "Organization subtype for businesses with physical service, including address, geo coordinates, hours and area served.",
+      "relacionados": [
+        "organization-schema",
+        "local-seo"
+      ],
+      "fonte": "https://schema.org/LocalBusiness"
+    },
+    {
+      "slug": "organization-schema",
+      "categoria": "SEO",
+      "subcategoria": "Dados estruturados",
+      "termo_en": "Organization Schema",
+      "termo_pt": "Schema Organization",
+      "definicao_pt": "Marcação que descreve a empresa: nome, logo, URL, contato, endereço, fundador e perfis sameAs. Base da identidade da marca para buscadores e IAs.",
+      "definition_en": "Markup describing the company: name, logo, URL, contact, address, founder and sameAs profiles. The basis of brand identity for search engines and AI.",
+      "relacionados": [
+        "schema-org",
+        "same-as",
+        "entity"
+      ],
+      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/organization"
+    },
+    {
+      "slug": "product-schema",
+      "categoria": "SEO",
+      "subcategoria": "Dados estruturados",
+      "termo_en": "Product Schema",
+      "termo_pt": "Schema Product",
+      "definicao_pt": "Marcação de produto com nome, imagem, preço, disponibilidade, avaliações e identificadores como GTIN. Usada por buscadores e por assistentes de compra.",
+      "definition_en": "Product markup with name, image, price, availability, reviews and identifiers such as GTIN. Used by search engines and shopping assistants.",
+      "relacionados": [
+        "structured-data",
+        "agentic-commerce"
+      ],
+      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/product"
+    },
+    {
+      "slug": "schema-org",
+      "categoria": "SEO",
+      "subcategoria": "Dados estruturados",
+      "termo_en": "Schema.org",
+      "termo_pt": "Schema.org",
+      "definicao_pt": "Vocabulário mantido por Google, Microsoft, Yahoo e Yandex para descrever entidades (Organization, Person, Product, LocalBusiness, FAQPage e centenas de outras) e suas propriedades.",
+      "definition_en": "Vocabulary maintained by Google, Microsoft, Yahoo and Yandex to describe entities (Organization, Person, Product, LocalBusiness, FAQPage and hundreds more) and their properties.",
+      "relacionados": [
+        "structured-data",
+        "json-ld"
+      ],
+      "fonte": "https://schema.org"
+    },
+    {
+      "slug": "ai-safety",
+      "categoria": "IA",
+      "subcategoria": "Segurança e governança",
+      "termo_en": "AI Safety",
+      "termo_pt": "Segurança de IA",
+      "definicao_pt": "Campo que estuda como evitar que sistemas de IA causem danos, por erro, mau uso ou comportamento inesperado.",
+      "definition_en": "Field studying how to keep AI systems from causing harm, through error, misuse or unexpected behavior.",
+      "relacionados": [
+        "alignment",
+        "guardrails"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "brand-sentiment",
+      "categoria": "GEO",
+      "subcategoria": "Citação e visibilidade",
+      "termo_en": "Brand Sentiment (AI)",
+      "termo_pt": "Sentimento da marca em IA",
+      "definicao_pt": "Tom com que as respostas de IA descrevem a marca: positivo, neutro ou negativo, e os motivos citados.",
+      "definition_en": "Tone in which AI answers describe the brand: positive, neutral or negative, and the reasons given.",
+      "relacionados": [
+        "ai-visibility",
+        "online-reviews"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "image-seo",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Image SEO",
+      "termo_pt": "SEO de imagens",
+      "definicao_pt": "Práticas para imagens serem encontradas e não atrasarem a página: nome de arquivo e alt descritivos, formato moderno, dimensões definidas e carregamento tardio fora da tela.",
+      "definition_en": "Practices that make images findable without slowing the page: descriptive file names and alt text, modern formats, set dimensions and lazy loading below the fold.",
+      "relacionados": [
+        "alt-text",
+        "lcp"
+      ],
+      "fonte": "https://developers.google.com/search/docs/appearance/google-images"
+    },
+    {
+      "slug": "international-seo",
+      "categoria": "SEO",
+      "subcategoria": "SEO internacional",
+      "termo_en": "International SEO",
+      "termo_pt": "SEO internacional",
+      "definicao_pt": "Estrutura e conteúdo para atender vários países ou idiomas: domínios ou pastas por mercado, hreflang, tradução de verdade e sinais locais.",
+      "definition_en": "Structure and content to serve several countries or languages: domains or folders per market, hreflang, genuine translation and local signals.",
+      "relacionados": [
+        "hreflang",
+        "cctld"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "local-seo",
+      "categoria": "SEO",
+      "subcategoria": "SEO local",
+      "termo_en": "Local SEO",
+      "termo_pt": "SEO local",
+      "definicao_pt": "Otimização para buscas com intenção local, como \"dentista perto de mim\", com foco no Perfil da Empresa no Google, no mapa e nas avaliações.",
+      "definition_en": "Optimization for searches with local intent, such as \"dentist near me\", focused on the Google Business Profile, the map and reviews.",
+      "relacionados": [
+        "google-business-profile",
+        "local-pack",
+        "nap"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "off-page-seo",
+      "categoria": "SEO",
+      "subcategoria": "Links e autoridade",
+      "termo_en": "Off-page SEO",
+      "termo_pt": "SEO off-page",
+      "definicao_pt": "Ações fora do site que aumentam a autoridade e a reputação: backlinks, menções à marca, avaliações e presença em fontes de referência.",
+      "definition_en": "Actions outside the site that build authority and reputation: backlinks, brand mentions, reviews and presence on reference sources.",
+      "relacionados": [
+        "backlink",
+        "brand-mention",
+        "on-page-seo"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "on-page-seo",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "On-page SEO",
+      "termo_pt": "SEO on-page",
+      "definicao_pt": "Otimização feita dentro da página: título, headings, texto, imagens, links internos e dados estruturados.",
+      "definition_en": "Optimization done within the page: title, headings, text, images, internal links and structured data.",
+      "relacionados": [
+        "title-tag",
+        "heading-structure",
+        "off-page-seo"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "javascript-seo",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "JavaScript SEO",
+      "termo_pt": "SEO para JavaScript",
+      "definicao_pt": "Práticas para que sites que dependem de JavaScript sejam rastreados e indexados: links reais em <a href>, conteúdo essencial no HTML e renderização no servidor quando possível.",
+      "definition_en": "Practices that let JavaScript-heavy sites be crawled and indexed: real <a href> links, essential content in the HTML and server-side rendering when possible.",
+      "relacionados": [
+        "rendering",
+        "server-side-rendering"
+      ],
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics"
+    },
+    {
+      "slug": "semantic-seo",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Semantic SEO",
+      "termo_pt": "SEO semântico",
+      "definicao_pt": "Otimização por entidades, temas e relações entre conceitos, em vez de repetir palavras-chave exatas.",
+      "definition_en": "Optimization around entities, topics and relationships between concepts instead of repeating exact keywords.",
+      "relacionados": [
+        "entity",
+        "topical-authority",
+        "knowledge-graph"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "technical-seo",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "Technical SEO",
+      "termo_pt": "SEO técnico",
+      "definicao_pt": "Parte do SEO que cuida de rastreamento, indexação, renderização, velocidade, arquitetura, dados estruturados e segurança, para que o conteúdo possa ser encontrado e lido.",
+      "definition_en": "Part of SEO that handles crawling, indexing, rendering, speed, architecture, structured data and security so content can be found and read.",
+      "relacionados": [
+        "crawling",
+        "core-web-vitals",
+        "structured-data"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "ymyl",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Your Money or Your Life (YMYL)",
+      "termo_pt": "Seu dinheiro ou sua vida",
+      "definicao_pt": "Temas que podem afetar saúde, finanças, segurança ou direitos das pessoas. Neles, o Google exige padrão mais alto de confiabilidade.",
+      "definition_en": "Topics that can affect people's health, finances, safety or rights. For them, Google demands a higher trust standard.",
+      "relacionados": [
+        "e-e-a-t"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "cosine-similarity",
+      "categoria": "IA",
+      "subcategoria": "Recuperação (RAG) e busca semântica",
+      "termo_en": "Cosine Similarity",
+      "termo_pt": "Similaridade de cosseno",
+      "definicao_pt": "Medida de proximidade entre dois embeddings pelo ângulo entre eles: perto de 1 significa sentidos muito parecidos.",
+      "definition_en": "Measure of closeness between two embeddings by the angle between them: near 1 means very similar meanings.",
+      "relacionados": [
+        "embedding"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "multi-agent-system",
+      "categoria": "IA",
+      "subcategoria": "Agentes e ferramentas",
+      "termo_en": "Multi-agent System",
+      "termo_pt": "Sistema multiagente",
+      "definicao_pt": "Arranjo em que vários agentes, cada um com uma função, colaboram ou se revisam para cumprir uma tarefa maior.",
+      "definition_en": "Setup in which several agents, each with a role, collaborate or review each other to complete a larger task.",
+      "relacionados": [
+        "ai-agent",
+        "orchestration"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "xml-sitemap",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "XML Sitemap",
+      "termo_pt": "Sitemap XML",
+      "definicao_pt": "Arquivo que lista as URLs que o site quer ver rastreadas, com data de última modificação opcional, para ajudar os buscadores a descobrir páginas.",
+      "definition_en": "File listing the URLs a site wants crawled, with an optional last-modified date, to help search engines discover pages.",
+      "relacionados": [
+        "crawling",
+        "lastmod"
+      ],
+      "fonte": "https://www.sitemaps.org/protocol.html"
+    },
+    {
+      "slug": "url-slug",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "URL Slug",
+      "termo_pt": "Slug da URL",
+      "definicao_pt": "Parte final e legível da URL que identifica a página, como /glossario-seo/. Deve ser curta, estável e descritiva.",
+      "definition_en": "Final, readable part of the URL identifying the page, such as /seo-glossary/. It should be short, stable and descriptive.",
+      "relacionados": [
+        "site-architecture"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "overfitting",
+      "categoria": "IA",
+      "subcategoria": "Treinamento e ajuste",
+      "termo_en": "Overfitting",
+      "termo_pt": "Sobreajuste",
+      "definicao_pt": "Quando o modelo decora os exemplos de treino e erra em dados novos.",
+      "definition_en": "When a model memorizes training examples and fails on new data.",
+      "relacionados": [
+        "machine-learning"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "soft-404",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "Soft 404",
+      "termo_pt": "Soft 404",
+      "definicao_pt": "Página que responde 200 (sucesso), mas mostra conteúdo de \"não encontrado\" ou vazio. O buscador a trata como erro.",
+      "definition_en": "Page that returns 200 (success) but shows \"not found\" or empty content. The search engine treats it as an error.",
+      "relacionados": [
+        "http-status-code"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "geo-spam",
+      "categoria": "GEO",
+      "subcategoria": "Riscos e qualidade",
+      "termo_en": "GEO Spam",
+      "termo_pt": "Spam de GEO",
+      "definicao_pt": "Tentativas de manipular respostas de IA com texto escondido, instruções para o modelo, listas autopromocionais falsas ou páginas criadas só para serem citadas.",
+      "definition_en": "Attempts to manipulate AI answers with hidden text, instructions to the model, fake self-promotional lists or pages made only to be cited.",
+      "relacionados": [
+        "prompt-injection",
+        "ai-ranking-list",
+        "cloaking"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "link-spam",
+      "categoria": "SEO",
+      "subcategoria": "Links e autoridade",
+      "termo_en": "Link Spam",
+      "termo_pt": "Spam de links",
+      "definicao_pt": "Links comprados, trocados em massa ou gerados automaticamente para manipular ranking. Vai contra as políticas do Google e pode levar a ação manual.",
+      "definition_en": "Links bought, exchanged in bulk or auto-generated to manipulate rankings. It breaks Google's policies and may lead to a manual action.",
+      "relacionados": [
+        "manual-action",
+        "nofollow"
+      ],
+      "fonte": "https://developers.google.com/search/docs/essentials/spam-policies"
+    },
+    {
+      "slug": "streaming",
+      "categoria": "IA",
+      "subcategoria": "Inferência e uso",
+      "termo_en": "Streaming",
+      "termo_pt": "Streaming",
+      "definicao_pt": "Envio da resposta em pedaços à medida que é gerada, em vez de esperar o texto inteiro.",
+      "definition_en": "Sending the answer in pieces as it is generated instead of waiting for the full text.",
+      "relacionados": [
+        "latency"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "title-tag",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Title Tag",
+      "termo_pt": "Tag de título",
+      "definicao_pt": "Elemento <title> do HTML, usado como base do título azul nos resultados. Deve descrever a página com clareza e ser único no site.",
+      "definition_en": "HTML <title> element, used as the basis for the blue headline in results. It should describe the page clearly and be unique on the site.",
+      "relacionados": [
+        "meta-description",
+        "on-page-seo"
+      ],
+      "fonte": "https://developers.google.com/search/docs/appearance/title-link"
+    },
+    {
+      "slug": "citation-rate",
+      "categoria": "GEO",
+      "subcategoria": "Citação e visibilidade",
+      "termo_en": "Citation Rate",
+      "termo_pt": "Taxa de citação",
+      "definicao_pt": "Porcentagem das respostas que citam o domínio da marca como fonte, num conjunto definido de perguntas e plataformas.",
+      "definition_en": "Percentage of answers citing the brand's domain as a source, over a defined set of questions and platforms.",
+      "relacionados": [
+        "ai-citation",
+        "prompt-set"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "ctr",
+      "categoria": "SEO",
+      "subcategoria": "Métricas e ferramentas",
+      "termo_en": "Click-through Rate (CTR)",
+      "termo_pt": "Taxa de cliques",
+      "definicao_pt": "Cliques divididos por impressões. Cai quando a resposta já aparece na página de resultados.",
+      "definition_en": "Clicks divided by impressions. It drops when the answer already appears on the results page.",
+      "relacionados": [
+        "impressions",
+        "zero-click-search"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "conversion-rate",
+      "categoria": "SEO",
+      "subcategoria": "Métricas e ferramentas",
+      "termo_en": "Conversion Rate",
+      "termo_pt": "Taxa de conversão",
+      "definicao_pt": "Porcentagem de visitas que realizam a ação desejada, como compra, contato ou cadastro.",
+      "definition_en": "Percentage of visits that complete the desired action, such as a purchase, contact or sign-up.",
+      "relacionados": [
+        "ga4",
+        "cro"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "temperature",
+      "categoria": "IA",
+      "subcategoria": "Inferência e uso",
+      "termo_en": "Temperature",
+      "termo_pt": "Temperatura",
+      "definicao_pt": "Parâmetro que controla o grau de aleatoriedade da geração: baixo deixa a resposta mais previsível, alto deixa mais variada.",
+      "definition_en": "Parameter controlling how random generation is: low makes the answer more predictable, high makes it more varied.",
+      "relacionados": [
+        "top-p",
+        "response-variance"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "ttfb",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "Time to First Byte (TTFB)",
+      "termo_pt": "Tempo até o primeiro byte",
+      "definicao_pt": "Tempo entre a requisição e o primeiro byte da resposta do servidor. Servidor lento atrasa todas as outras métricas.",
+      "definition_en": "Time between the request and the first byte of the server's response. A slow server delays every other metric.",
+      "relacionados": [
+        "lcp",
+        "cdn"
+      ],
+      "fonte": "https://web.dev/articles/ttfb"
+    },
+    {
+      "slug": "alt-text",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Alt Text",
+      "termo_pt": "Texto alternativo",
+      "definicao_pt": "Descrição textual de uma imagem no atributo alt. Serve à acessibilidade e ajuda buscadores a entender a imagem.",
+      "definition_en": "Text description of an image in the alt attribute. It serves accessibility and helps search engines understand the image.",
+      "relacionados": [
+        "image-seo"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "anchor-text",
+      "categoria": "SEO",
+      "subcategoria": "Links e autoridade",
+      "termo_en": "Anchor Text",
+      "termo_pt": "Texto âncora",
+      "definicao_pt": "Texto clicável de um link. Indica ao buscador o assunto da página de destino.",
+      "definition_en": "Clickable text of a link. It tells the search engine what the target page is about.",
+      "relacionados": [
+        "backlink",
+        "internal-linking"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "citation-source-type",
+      "categoria": "GEO",
+      "subcategoria": "Citação e visibilidade",
+      "termo_en": "Citation Source Type",
+      "termo_pt": "Tipo de fonte citada",
+      "definicao_pt": "Classificação das fontes que a IA cita: site da marca, imprensa, fórum, diretório, enciclopédia, avaliações, vídeo. Mostra onde a marca precisa estar presente.",
+      "definition_en": "Classification of the sources AI cites: brand site, press, forum, directory, encyclopedia, reviews, video. It shows where the brand needs to be present.",
+      "relacionados": [
+        "ai-citation",
+        "third-party-source"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "token",
+      "categoria": "IA",
+      "subcategoria": "Modelos de linguagem",
+      "termo_en": "Token",
+      "termo_pt": "Token",
+      "definicao_pt": "Pedaço de texto (palavra, parte de palavra ou sinal) que o modelo processa. Preço, limite de contexto e velocidade são medidos em tokens.",
+      "definition_en": "Piece of text (word, word part or symbol) the model processes. Price, context limit and speed are measured in tokens.",
+      "relacionados": [
+        "tokenization",
+        "context-window"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "tokenization",
+      "categoria": "IA",
+      "subcategoria": "Modelos de linguagem",
+      "termo_en": "Tokenization",
+      "termo_pt": "Tokenização",
+      "definicao_pt": "Divisão do texto em tokens antes de entrar no modelo. Português costuma gastar mais tokens por palavra do que inglês.",
+      "definition_en": "Splitting text into tokens before it enters the model. Portuguese usually takes more tokens per word than English.",
+      "relacionados": [
+        "token"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "top-p",
+      "categoria": "IA",
+      "subcategoria": "Inferência e uso",
+      "termo_en": "Top-p (Nucleus Sampling)",
+      "termo_pt": "Top-p (amostragem por núcleo)",
+      "definicao_pt": "Parâmetro que limita a escolha do próximo token aos mais prováveis cuja probabilidade somada chega a p.",
+      "definition_en": "Parameter limiting the next-token choice to the most likely tokens whose combined probability reaches p.",
+      "relacionados": [
+        "temperature"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "transformer",
+      "categoria": "IA",
+      "subcategoria": "Modelos de linguagem",
+      "termo_en": "Transformer",
+      "termo_pt": "Transformer",
+      "definicao_pt": "Arquitetura de rede neural baseada em atenção, apresentada em 2017 no artigo \"Attention Is All You Need\". É a base de quase todos os LLMs.",
+      "definition_en": "Attention-based neural network architecture introduced in 2017 in the paper \"Attention Is All You Need\". It underlies almost every LLM.",
+      "relacionados": [
+        "attention-mechanism",
+        "llm"
+      ],
+      "fonte": "https://arxiv.org/abs/1706.03762"
+    },
+    {
+      "slug": "ai-transparency",
+      "categoria": "IA",
+      "subcategoria": "Segurança e governança",
+      "termo_en": "AI Transparency",
+      "termo_pt": "Transparência em IA",
+      "definicao_pt": "Informar quando e como a IA foi usada, por exemplo rotulando conteúdo gerado por IA e explicando decisões automatizadas.",
+      "definition_en": "Disclosing when and how AI was used, for example by labeling AI-generated content and explaining automated decisions.",
+      "relacionados": [
+        "content-provenance",
+        "eu-ai-act"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "featured-snippet",
+      "categoria": "SEO",
+      "subcategoria": "Qualidade e atualizações",
+      "termo_en": "Featured Snippet",
+      "termo_pt": "Trecho em destaque",
+      "definicao_pt": "Bloco no topo dos resultados com um trecho de uma página que responde diretamente à pergunta.",
+      "definition_en": "Block at the top of results with an excerpt from a page that answers the question directly.",
+      "relacionados": [
+        "serp-feature",
+        "zero-click-search",
+        "answer-capsule"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "breadcrumb",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "Breadcrumb",
+      "termo_pt": "Trilha de navegação",
+      "definicao_pt": "Linha de links que mostra onde a página está na hierarquia do site, como Início > Blog > SEO. Pode ser marcada com BreadcrumbList.",
+      "definition_en": "Line of links showing where a page sits in the site hierarchy, such as Home > Blog > SEO. It can be marked up with BreadcrumbList.",
+      "relacionados": [
+        "site-architecture",
+        "structured-data"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "ai-referral-traffic",
+      "categoria": "GEO",
+      "subcategoria": "Citação e visibilidade",
+      "termo_en": "AI Referral Traffic",
+      "termo_pt": "Tráfego vindo de IAs",
+      "definicao_pt": "Visitas ao site originadas de cliques em respostas de IA (chatgpt.com, perplexity.ai, gemini.google.com, copilot). Medido por referência e parâmetros como utm_source=chatgpt.com.",
+      "definition_en": "Site visits from clicks in AI answers (chatgpt.com, perplexity.ai, gemini.google.com, copilot). Measured by referrer and parameters such as utm_source=chatgpt.com.",
+      "relacionados": [
+        "ga4",
+        "ai-visibility"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "canonical-url",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "Canonical URL",
+      "termo_pt": "URL canônica",
+      "definicao_pt": "Versão preferida de uma página entre várias URLs com conteúdo igual ou muito parecido, indicada com rel=\"canonical\". É uma sugestão; o buscador pode escolher outra.",
+      "definition_en": "Preferred version of a page among several URLs with the same or very similar content, indicated with rel=\"canonical\". It is a hint; the search engine may choose another.",
+      "relacionados": [
+        "duplicate-content",
+        "indexing"
+      ],
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls"
+    },
+    {
+      "slug": "computer-use",
+      "categoria": "IA",
+      "subcategoria": "Agentes e ferramentas",
+      "termo_en": "Computer Use",
+      "termo_pt": "Uso do computador",
+      "definicao_pt": "Capacidade de um modelo operar telas como uma pessoa: ver capturas, mover o mouse, clicar e digitar.",
+      "definition_en": "A model's ability to operate screens like a person: viewing screenshots, moving the mouse, clicking and typing.",
+      "relacionados": [
+        "agentic-browser",
+        "ai-agent"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "link-equity",
+      "categoria": "SEO",
+      "subcategoria": "Links e autoridade",
+      "termo_en": "Link Equity (Link Juice)",
+      "termo_pt": "Valor de link",
+      "definicao_pt": "Valor de autoridade que um link passa para a página de destino, dependente da página de origem, do contexto e da posição do link.",
+      "definition_en": "Authority value a link passes to the target page, depending on the source page, the context and the link's position.",
+      "relacionados": [
+        "pagerank",
+        "nofollow"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "response-variance",
+      "categoria": "GEO",
+      "subcategoria": "Medição em GEO",
+      "termo_en": "Response Variance",
+      "termo_pt": "Variância das respostas",
+      "definicao_pt": "As respostas de IA mudam entre execuções da mesma pergunta. Medições sérias repetem cada pergunta várias vezes e informam a margem de variação.",
+      "definition_en": "AI answers change between runs of the same question. Serious measurement repeats each question several times and reports the margin of variation.",
+      "relacionados": [
+        "temperature",
+        "prompt-set"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "ai-visibility",
+      "categoria": "GEO",
+      "subcategoria": "Citação e visibilidade",
+      "termo_en": "AI Visibility",
+      "termo_pt": "Visibilidade em IA",
+      "definicao_pt": "Quanto e como uma marca aparece nas respostas de IA para um conjunto de perguntas: presença, posição, citação, sentimento e exatidão.",
+      "definition_en": "How much and how a brand appears in AI answers for a set of questions: presence, position, citation, sentiment and accuracy.",
+      "relacionados": [
+        "share-of-voice",
+        "citation-rate",
+        "prompt-set"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "ai-overviews",
+      "categoria": "GEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "AI Overviews",
+      "termo_pt": "Visão geral criada por IA",
+      "definicao_pt": "Resumo gerado pelo Gemini no topo de parte dos resultados do Google, com links para as fontes. Chegou ao Brasil em 2024.",
+      "definition_en": "Gemini-generated summary at the top of some Google results, with links to its sources. It reached Brazil in 2024.",
+      "relacionados": [
+        "ai-mode",
+        "zero-click-search",
+        "ai-citation"
+      ],
+      "fonte": "https://developers.google.com/search/docs/appearance/ai-features"
+    },
+    {
+      "slug": "ann-search",
+      "categoria": "IA",
+      "subcategoria": "Recuperação (RAG) e busca semântica",
+      "termo_en": "Approximate Nearest Neighbor (ANN)",
+      "termo_pt": "Vizinho mais próximo aproximado",
+      "definicao_pt": "Algoritmos (como HNSW) que encontram rapidamente embeddings próximos aceitando pequena imprecisão, essenciais para buscar entre milhões de vetores.",
+      "definition_en": "Algorithms (such as HNSW) that quickly find nearby embeddings at the cost of slight imprecision, essential for searching millions of vectors.",
+      "relacionados": [
+        "vector-database"
+      ],
+      "fonte": "https://arxiv.org/abs/1603.09320"
+    },
+    {
+      "slug": "bias",
+      "categoria": "IA",
+      "subcategoria": "Avaliação e confiabilidade",
+      "termo_en": "Bias",
+      "termo_pt": "Viés",
+      "definicao_pt": "Distorção sistemática nas respostas do modelo, herdada dos dados ou do treino, que favorece ou prejudica grupos, marcas ou pontos de vista.",
+      "definition_en": "Systematic distortion in a model's answers, inherited from data or training, that favors or harms groups, brands or viewpoints.",
+      "relacionados": [
+        "training-data",
+        "ai-governance"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "search-volume",
+      "categoria": "SEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Search Volume",
+      "termo_pt": "Volume de busca",
+      "definicao_pt": "Estimativa de quantas vezes uma consulta é feita em um período e região. É uma estimativa das ferramentas, não um dado exato do buscador.",
+      "definition_en": "Estimate of how often a query is searched in a given period and region. Tools estimate it; it is not an exact figure from the search engine.",
+      "relacionados": [
+        "keyword"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "prompt-volume",
+      "categoria": "GEO",
+      "subcategoria": "Conteúdo citável",
+      "termo_en": "Prompt Volume",
+      "termo_pt": "Volume de prompts",
+      "definicao_pt": "Estimativa de quantas vezes um tema é perguntado em assistentes de IA. Diferente do volume de busca, não há dado oficial; ferramentas estimam por painéis e modelagem.",
+      "definition_en": "Estimate of how often a topic is asked in AI assistants. Unlike search volume, there is no official data; tools estimate it from panels and modeling.",
+      "relacionados": [
+        "search-volume",
+        "prompt-set"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "wikidata",
+      "categoria": "GEO",
+      "subcategoria": "Entidade e grafo de conhecimento",
+      "termo_en": "Wikidata",
+      "termo_pt": "Wikidata",
+      "definicao_pt": "Base aberta de dados estruturados da Wikimedia, com um identificador (Q-ID) por entidade. É fonte usada por buscadores e por modelos para reconhecer entidades.",
+      "definition_en": "Wikimedia's open structured database, with one identifier (Q-ID) per entity. Search engines and models use it to recognize entities.",
+      "relacionados": [
+        "same-as",
+        "knowledge-graph",
+        "entity-disambiguation"
+      ],
+      "fonte": "https://www.wikidata.org"
+    }
+  ]
+}
