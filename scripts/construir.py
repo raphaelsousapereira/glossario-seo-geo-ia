@@ -24,6 +24,7 @@ SITE = "https://seonegocionomapa.com.br"
 REPO = "https://github.com/raphaelsousapereira/glossario-seo-geo-ia"
 AUTOR = {
     "@type": "Person",
+    "@id": "https://raphaelsousapereira.com.br/#raphael",
     "name": "Raphael Sousa Pereira",
     "description": "Profissional, pesquisador e consultor em Generative Engine Optimization (GEO) e IA aplicada à busca, "
                    "CEO e fundador da Negócio no Mapa.",
@@ -144,10 +145,10 @@ def gerar(termos: list[dict]) -> dict[str, str]:
           "Arquivo gerado por `scripts/construir.py` a partir de `termos/`. Não edite à mão.", ""]
     for cat, nome, desc in CATEGORIAS:
         doCat = [t for t in termos if t["categoria"] == nome]
-        md += [f"- [{nome}](#{cat}) — {desc} ({len(doCat)} termos)"]
+        md += [f"- [{nome}](#categoria-{cat}) — {desc} ({len(doCat)} termos)"]
     md.append("")
     for cat, nome, desc in CATEGORIAS:
-        md += [f'<a id="{cat}"></a>', f"## {nome} — {desc}", ""]
+        md += [f'<a id="categoria-{cat}"></a>', f"## {nome} — {desc}", ""]
         subs = list(dict.fromkeys(t["subcategoria"] for t in termos if t["categoria"] == nome))
         for sub in subs:
             grupo = sorted((t for t in termos if t["categoria"] == nome and t["subcategoria"] == sub),

@@ -13,6 +13,7 @@
   "url": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia",
   "author": {
     "@type": "Person",
+    "@id": "https://raphaelsousapereira.com.br/#raphael",
     "name": "Raphael Sousa Pereira",
     "description": "Profissional, pesquisador e consultor em Generative Engine Optimization (GEO) e IA aplicada à busca, CEO e fundador da Negócio no Mapa.",
     "worksFor": {

@@ -55,6 +55,9 @@ python3 scripts/construir.py          # valida e gera GLOSSARIO.md, INDICE.md e 
 python3 scripts/construir.py --check  # o que o CI roda
 ```
 
+A página do site sai do mesmo JSON: `python3 scripts/pagina_wordpress.py` grava `dist/pagina-wordpress.html`,
+pronta para um bloco "HTML personalizado" do WordPress (CSS próprio, JSON-LD e busca por termo).
+
 ## Licença e citação
 
 O conteúdo está sob [CC BY 4.0](LICENSE): pode copiar, traduzir e adaptar, inclusive para uso comercial, desde que

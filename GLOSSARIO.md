@@ -4,11 +4,11 @@ Versão 1.0.0 · atualizado em 2026-10-23 · português do Brasil e inglês · [
 
 Arquivo gerado por `scripts/construir.py` a partir de `termos/`. Não edite à mão.
 
-- [SEO](#seo) — Busca orgânica, SEO técnico, local e dados estruturados (123 termos)
-- [GEO](#geo) — Visibilidade e citação em motores generativos (71 termos)
-- [IA](#ia) — Inteligência artificial aplicada à busca e ao conteúdo (112 termos)
+- [SEO](#categoria-seo) — Busca orgânica, SEO técnico, local e dados estruturados (123 termos)
+- [GEO](#categoria-geo) — Visibilidade e citação em motores generativos (71 termos)
+- [IA](#categoria-ia) — Inteligência artificial aplicada à busca e ao conteúdo (112 termos)
 
-<a id="seo"></a>
+<a id="categoria-seo"></a>
 ## SEO — Busca orgânica, SEO técnico, local e dados estruturados
 
 ### SEO · Fundamentos
@@ -1261,7 +1261,7 @@ Bloco no topo dos resultados com um trecho de uma página que responde diretamen
 
 Veja também: [Recurso da página de resultados](#serp-feature), [Busca sem clique](#zero-click-search), [Cápsula de resposta](#answer-capsule)
 
-<a id="geo"></a>
+<a id="categoria-geo"></a>
 ## GEO — Visibilidade e citação em motores generativos
 
 ### GEO · Fundamentos
@@ -1990,7 +1990,7 @@ Quanto um site pode ser usado por agentes de IA: conteúdo legível, formulário
 
 Veja também: [Comércio agêntico](#agentic-commerce), [Protocolo de contexto de modelo](#mcp), [Legibilidade por máquina](#machine-readability)
 
-<a id="ia"></a>
+<a id="categoria-ia"></a>
 ## IA — Inteligência artificial aplicada à busca e ao conteúdo
 
 ### IA · Fundamentos
