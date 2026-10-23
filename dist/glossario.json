@@ -1,9 +1,9 @@
 {
   "meta": {
     "nome": "Glossário SEO, GEO e IA",
-    "versao": "1.3.2",
+    "versao": "1.4.0",
     "atualizado_em": "2026-10-23",
-    "total": 431,
+    "total": 463,
     "idiomas": [
       "pt-BR",
       "en"
@@ -31,7 +31,8 @@
         "Medição em GEO",
         "Riscos e qualidade",
         "Agentes e comércio",
-        "Resultado de negócio"
+        "Resultado de negócio",
+        "Plataformas e fontes"
       ],
       "IA": [
         "Fundamentos",
@@ -417,7 +418,7 @@
       "slug": "armadilha-do-espelho",
       "categoria": "Autorais",
       "subcategoria": "Autoridade e manipulação de citação",
-      "termo_en": "The Mirror Trap (GEO)",
+      "termo_en": "The GEO Mirror Trap",
       "termo_pt": "Armadilha do Espelho",
       "definicao_pt": "Estudo de Raphael Sousa Pereira (preprint no Zenodo, junho de 2026, DOI 10.5281/zenodo.21068730) sobre autopromoção e listas autocitadas como fonte de viés na citação por modelos de linguagem.",
       "definition_en": "Study by Raphael Sousa Pereira (Zenodo preprint, June 2026, DOI 10.5281/zenodo.21068730) on self-promotion and self-cited lists as a source of citation bias in language models.",
@@ -883,6 +884,21 @@
       "fonte": ""
     },
     {
+      "slug": "chatgpt-search",
+      "categoria": "GEO",
+      "subcategoria": "Plataformas e fontes",
+      "termo_en": "ChatGPT Search (formerly SearchGPT)",
+      "termo_pt": "Busca do ChatGPT",
+      "definicao_pt": "Recurso de busca na web do ChatGPT, testado como protótipo com o nome SearchGPT em julho de 2024 e integrado ao ChatGPT em outubro de 2024. Mostra links e fontes nas respostas.",
+      "definition_en": "ChatGPT's web search feature, tested as a prototype named SearchGPT in July 2024 and integrated into ChatGPT in October 2024. It shows links and sources in answers.",
+      "relacionados": [
+        "chatgpt",
+        "ai-search",
+        "linked-citation"
+      ],
+      "fonte": "https://en.wikipedia.org/wiki/ChatGPT_Search"
+    },
+    {
       "slug": "hybrid-search",
       "categoria": "IA",
       "subcategoria": "Recuperação (RAG) e busca semântica",
@@ -1136,6 +1152,21 @@
       "fonte": ""
     },
     {
+      "slug": "chatgpt",
+      "categoria": "GEO",
+      "subcategoria": "Plataformas e fontes",
+      "termo_en": "ChatGPT",
+      "termo_pt": "ChatGPT",
+      "definicao_pt": "Assistente de IA da OpenAI, lançado em novembro de 2022, baseado nos modelos GPT. Busca na web (ChatGPT Search) e cita fontes; para GEO, importam os robôs OAI-SearchBot e ChatGPT-User.",
+      "definition_en": "OpenAI's AI assistant, launched in November 2022, based on GPT models. It searches the web (ChatGPT Search) and cites sources; for GEO, the OAI-SearchBot and ChatGPT-User bots matter.",
+      "relacionados": [
+        "chatgpt-search",
+        "ai-assistant",
+        "ai-crawler"
+      ],
+      "fonte": "https://en.wikipedia.org/wiki/ChatGPT"
+    },
+    {
       "slug": "citability",
       "categoria": "GEO",
       "subcategoria": "Fundamentos",
@@ -1164,6 +1195,21 @@
         "ai-referral-traffic"
       ],
       "fonte": ""
+    },
+    {
+      "slug": "cite-sources",
+      "categoria": "GEO",
+      "subcategoria": "Conteúdo citável",
+      "termo_en": "Cite Sources",
+      "termo_pt": "Citação de fontes",
+      "definicao_pt": "Método testado no artigo original de GEO (Aggarwal e colegas, 2023): acrescentar ao texto referências explícitas a fontes confiáveis. Ficou entre os que mais aumentaram a visibilidade nas respostas, ao lado de citações e estatísticas.",
+      "definition_en": "Method tested in the original GEO paper (Aggarwal et al., 2023): adding explicit references to reliable sources to the text. It was among those that most increased visibility in answers, alongside quotations and statistics.",
+      "relacionados": [
+        "statistics-addition",
+        "quotation-addition",
+        "citable-fact"
+      ],
+      "fonte": "https://arxiv.org/abs/2311.09735"
     },
     {
       "slug": "local-citation",
@@ -1208,6 +1254,21 @@
         "information-gain"
       ],
       "fonte": "https://seonegocionomapa.com.br/claim-saturado-guia-2026-como-criar-citabilidade-em-mercados-competitivos/"
+    },
+    {
+      "slug": "claude",
+      "categoria": "GEO",
+      "subcategoria": "Plataformas e fontes",
+      "termo_en": "Claude",
+      "termo_pt": "Claude",
+      "definicao_pt": "Assistente de IA da Anthropic, com busca na web e citação de fontes. Para GEO, importam os robôs Claude-SearchBot e Claude-User.",
+      "definition_en": "Anthropic's AI assistant, with web search and source citation. For GEO, the Claude-SearchBot and Claude-User bots matter.",
+      "relacionados": [
+        "ai-assistant",
+        "ai-crawler",
+        "mcp"
+      ],
+      "fonte": "https://en.wikipedia.org/wiki/Claude_(language_model)"
     },
     {
       "slug": "cloaking",
@@ -1335,6 +1396,21 @@
         "ai-crawler"
       ],
       "fonte": "https://commoncrawl.org"
+    },
+    {
+      "slug": "competitive-benchmarking",
+      "categoria": "GEO",
+      "subcategoria": "Medição em GEO",
+      "termo_en": "Competitive Benchmarking (AI)",
+      "termo_pt": "Comparação com concorrentes em IA",
+      "definicao_pt": "Medir a visibilidade da marca e dos concorrentes diretos com o mesmo conjunto de perguntas, plataformas e método, para que a comparação seja justa.",
+      "definition_en": "Measuring the visibility of the brand and its direct competitors with the same question set, platforms and method, so the comparison is fair.",
+      "relacionados": [
+        "share-of-voice",
+        "prompt-set",
+        "comparable-change"
+      ],
+      "fonte": ""
     },
     {
       "slug": "test-time-compute",
@@ -1544,6 +1620,20 @@
       "relacionados": [
         "nofollow",
         "brand-mention"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "evergreen-content",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Evergreen Content",
+      "termo_pt": "Conteúdo perene",
+      "definicao_pt": "Conteúdo que não perde a validade rapidamente, como guias, definições e glossários. Acumula links e menções por anos, mas precisa de revisão nas partes datadas.",
+      "definition_en": "Content that does not expire quickly, such as guides, definitions and glossaries. It accumulates links and mentions for years but needs reviewing in its dated parts.",
+      "relacionados": [
+        "content-freshness",
+        "dated-claim"
       ],
       "fonte": ""
     },
@@ -1805,6 +1895,20 @@
         "generative-ai"
       ],
       "fonte": ""
+    },
+    {
+      "slug": "deepseek",
+      "categoria": "GEO",
+      "subcategoria": "Plataformas e fontes",
+      "termo_en": "DeepSeek",
+      "termo_pt": "DeepSeek",
+      "definicao_pt": "Empresa chinesa de IA que ganhou projeção em janeiro de 2025 com o modelo de raciocínio DeepSeek-R1, de pesos abertos e baixo custo de treino.",
+      "definition_en": "Chinese AI company that rose to prominence in January 2025 with the DeepSeek-R1 reasoning model, open-weight and low-cost to train.",
+      "relacionados": [
+        "open-weight-model",
+        "reasoning-model"
+      ],
+      "fonte": "https://www.deepseek.com"
     },
     {
       "slug": "defined-term-schema",
@@ -2109,6 +2213,20 @@
       "fonte": "https://seonegocionomapa.com.br/a-equacao-da-entidade-citavel/"
     },
     {
+      "slug": "scannability",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Scannability",
+      "termo_pt": "Escaneabilidade",
+      "definicao_pt": "Facilidade de percorrer um texto em segundos: títulos descritivos, parágrafos curtos, listas e tabelas. O que é fácil de escanear também é fácil de recortar em trechos.",
+      "definition_en": "How easily a text can be skimmed in seconds: descriptive headings, short paragraphs, lists and tables. What is easy to scan is also easy to cut into passages.",
+      "relacionados": [
+        "heading-structure",
+        "chunk-optimization"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "answer-first-writing",
       "categoria": "GEO",
       "subcategoria": "Conteúdo citável",
@@ -2165,6 +2283,20 @@
       "fonte": ""
     },
     {
+      "slug": "case-study",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Case Study",
+      "termo_pt": "Estudo de caso",
+      "definicao_pt": "Conteúdo que documenta um trabalho real, com contexto, método e resultado mensurável. Junta experiência de primeira mão, dado próprio e prova, três sinais valorizados por buscadores e IAs.",
+      "definition_en": "Content documenting real work, with context, method and measurable results. It combines first-hand experience, own data and proof, three signals valued by search engines and AI.",
+      "relacionados": [
+        "e-e-a-t",
+        "original-research"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "key-event",
       "categoria": "SEO",
       "subcategoria": "Métricas e ferramentas",
@@ -2206,6 +2338,34 @@
         "brand-facts-page"
       ],
       "fonte": ""
+    },
+    {
+      "slug": "keyword-stuffing",
+      "categoria": "SEO",
+      "subcategoria": "Qualidade e atualizações",
+      "termo_en": "Keyword Stuffing",
+      "termo_pt": "Excesso de palavras-chave",
+      "definicao_pt": "Repetir a palavra-chave de forma artificial para tentar subir no ranking. É spam para o Google e, no artigo original de GEO, foi o método de pior resultado nas respostas de IA.",
+      "definition_en": "Repeating the keyword artificially to try to rank higher. It is spam for Google and, in the original GEO paper, it was the worst-performing method in AI answers.",
+      "relacionados": [
+        "link-spam",
+        "thin-content"
+      ],
+      "fonte": "https://developers.google.com/search/docs/essentials/spam-policies"
+    },
+    {
+      "slug": "sge",
+      "categoria": "GEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Search Generative Experience (SGE)",
+      "termo_pt": "Experiência generativa de busca",
+      "definicao_pt": "Experimento do Google, lançado em maio de 2023 no Search Labs, que colocava respostas geradas por IA no topo da busca. Deu origem aos AI Overviews, lançados em 2024. O nome não é mais usado.",
+      "definition_en": "Google experiment, launched in May 2023 in Search Labs, that placed AI-generated answers at the top of search. It led to AI Overviews, launched in 2024. The name is no longer used.",
+      "relacionados": [
+        "ai-overviews",
+        "ai-mode"
+      ],
+      "fonte": "https://blog.google/products/search/generative-ai-search/"
     },
     {
       "slug": "page-experience",
@@ -2439,6 +2599,21 @@
       "fonte": ""
     },
     {
+      "slug": "gemini",
+      "categoria": "GEO",
+      "subcategoria": "Plataformas e fontes",
+      "termo_en": "Google Gemini",
+      "termo_pt": "Google Gemini",
+      "definicao_pt": "Família de modelos e assistente de IA do Google, que substituiu o Bard em fevereiro de 2024. Os mesmos modelos estão por trás dos AI Overviews e do Modo IA.",
+      "definition_en": "Google's family of models and AI assistant, which replaced Bard in February 2024. The same models power AI Overviews and AI Mode.",
+      "relacionados": [
+        "ai-overviews",
+        "ai-mode",
+        "google-extended"
+      ],
+      "fonte": "https://gemini.google.com"
+    },
+    {
       "slug": "google-merchant-center",
       "categoria": "GEO",
       "subcategoria": "Agentes e comércio",
@@ -2583,10 +2758,23 @@
       "fonte": ""
     },
     {
+      "slug": "grok",
+      "categoria": "GEO",
+      "subcategoria": "Plataformas e fontes",
+      "termo_en": "Grok",
+      "termo_pt": "Grok",
+      "definicao_pt": "Assistente de IA da xAI, integrado ao X (antigo Twitter), que usa publicações do X e a web como fontes.",
+      "definition_en": "xAI's AI assistant, integrated into X (formerly Twitter), which uses X posts and the web as sources.",
+      "relacionados": [
+        "ai-assistant"
+      ],
+      "fonte": "https://grok.com"
+    },
+    {
       "slug": "hospedeiro-geo",
       "categoria": "Autorais",
       "subcategoria": "Autoridade e manipulação de citação",
-      "termo_en": "Host Site (GEO)",
+      "termo_en": "Host Site (in GEO)",
       "termo_pt": "Hospedeiro (em GEO)",
       "definicao_pt": "Nome dado por Raphael Sousa Pereira a um site de conteúdo que publica listas, rankings ou guias em que uma marca de terceiro recebe destaque, funcionando para buscadores e IAs como fonte aparentemente independente sobre essa marca.",
       "definition_en": "Name given by Raphael Sousa Pereira to a content site that publishes lists, rankings or guides in which a third-party brand is featured, acting for search engines and AI as a seemingly independent source about that brand.",
@@ -2990,6 +3178,20 @@
       "fonte": ""
     },
     {
+      "slug": "mistral-le-chat",
+      "categoria": "GEO",
+      "subcategoria": "Plataformas e fontes",
+      "termo_en": "Le Chat (Mistral AI)",
+      "termo_pt": "Le Chat (Mistral AI)",
+      "definicao_pt": "Assistente de IA da francesa Mistral AI, principal desenvolvedora europeia de modelos de linguagem. Relevante para marcas com atuação na Europa.",
+      "definition_en": "AI assistant from French company Mistral AI, Europe's leading language-model developer. Relevant for brands operating in Europe.",
+      "relacionados": [
+        "ai-assistant",
+        "open-weight-model"
+      ],
+      "fonte": "https://en.wikipedia.org/wiki/Mistral_AI"
+    },
+    {
       "slug": "machine-readability",
       "categoria": "GEO",
       "subcategoria": "Arquivos e acesso das IAs",
@@ -3074,6 +3276,21 @@
       "fonte": ""
     },
     {
+      "slug": "thought-leadership",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Thought Leadership",
+      "termo_pt": "Liderança de pensamento",
+      "definicao_pt": "Posicionar pessoas da empresa como referência no setor com conteúdo autoral de opinião própria: análises, previsões e posições defendidas em público. Gera menções e associação da pessoa ao tema.",
+      "definition_en": "Positioning a company's people as references in the sector with original, opinionated content: analyses, forecasts and positions defended in public. It generates mentions and associates the person with the topic.",
+      "relacionados": [
+        "author-entity",
+        "brand-mention",
+        "information-gain"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "limiar-de-confianca",
       "categoria": "Autorais",
       "subcategoria": "Física Semântica",
@@ -3086,6 +3303,33 @@
         "loop-de-feedback-semantico"
       ],
       "fonte": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
+    },
+    {
+      "slug": "authoritative-language",
+      "categoria": "GEO",
+      "subcategoria": "Conteúdo citável",
+      "termo_en": "Authoritative Language",
+      "termo_pt": "Linguagem com autoridade",
+      "definicao_pt": "Método testado no artigo original de GEO: reescrever o texto com tom mais assertivo e confiante. Teve efeito menor e variável, e tom sem prova não substitui fonte.",
+      "definition_en": "Method tested in the original GEO paper: rewriting text in a more assertive, confident tone. Its effect was smaller and variable, and tone without proof does not replace a source.",
+      "relacionados": [
+        "cite-sources",
+        "imperativo-de-formato"
+      ],
+      "fonte": "https://arxiv.org/abs/2311.09735"
+    },
+    {
+      "slug": "easy-to-understand",
+      "categoria": "GEO",
+      "subcategoria": "Conteúdo citável",
+      "termo_en": "Easy-to-Understand Language",
+      "termo_pt": "Linguagem fácil de entender",
+      "definicao_pt": "Método testado no artigo original de GEO: simplificar vocabulário e frases. Ajudou de forma moderada, parecida com a otimização de fluência.",
+      "definition_en": "Method tested in the original GEO paper: simplifying vocabulary and sentences. It helped moderately, similar to fluency optimization.",
+      "relacionados": [
+        "fluency-optimization"
+      ],
+      "fonte": "https://arxiv.org/abs/2311.09735"
     },
     {
       "slug": "internal-linking",
@@ -3323,6 +3567,20 @@
       "fonte": ""
     },
     {
+      "slug": "meta-ai",
+      "categoria": "GEO",
+      "subcategoria": "Plataformas e fontes",
+      "termo_en": "Meta AI",
+      "termo_pt": "Meta AI",
+      "definicao_pt": "Assistente de IA da Meta dentro do WhatsApp, do Instagram e do Facebook. No Brasil, a presença no WhatsApp lhe dá um alcance que nenhum outro assistente tem.",
+      "definition_en": "Meta's AI assistant inside WhatsApp, Instagram and Facebook. In Brazil, its presence in WhatsApp gives it a reach no other assistant has.",
+      "relacionados": [
+        "ai-assistant",
+        "open-weight-model"
+      ],
+      "fonte": "https://en.wikipedia.org/wiki/Meta_AI"
+    },
+    {
       "slug": "meta-description",
       "categoria": "SEO",
       "subcategoria": "Conteúdo e on-page",
@@ -3349,6 +3607,20 @@
         "nosnippet"
       ],
       "fonte": "https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag"
+    },
+    {
+      "slug": "microsoft-copilot",
+      "categoria": "GEO",
+      "subcategoria": "Plataformas e fontes",
+      "termo_en": "Microsoft Copilot",
+      "termo_pt": "Microsoft Copilot",
+      "definicao_pt": "Assistente de IA da Microsoft, presente no Windows, no Edge e no Microsoft 365, que busca no índice do Bing. Estar bem no Bing é pré-requisito para aparecer nele.",
+      "definition_en": "Microsoft's AI assistant, built into Windows, Edge and Microsoft 365, which searches the Bing index. Doing well on Bing is a prerequisite for appearing in it.",
+      "relacionados": [
+        "bing-webmaster-tools",
+        "indexnow"
+      ],
+      "fonte": "https://copilot.microsoft.com"
     },
     {
       "slug": "mixture-of-experts",
@@ -3643,6 +3915,20 @@
       "fonte": ""
     },
     {
+      "slug": "notebooklm",
+      "categoria": "GEO",
+      "subcategoria": "Plataformas e fontes",
+      "termo_en": "NotebookLM",
+      "termo_pt": "NotebookLM",
+      "definicao_pt": "Ferramenta do Google em que a pessoa monta um assistente de IA só com as fontes que escolhe (documentos, links, vídeos). Conteúdo bem estruturado e citável é o que acaba nessas coleções.",
+      "definition_en": "Google tool in which a person builds an AI assistant from only the sources they choose (documents, links, videos). Well-structured, citable content is what ends up in these collections.",
+      "relacionados": [
+        "grounding",
+        "rag"
+      ],
+      "fonte": "https://notebooklm.google"
+    },
+    {
       "slug": "notability",
       "categoria": "GEO",
       "subcategoria": "Entidade e grafo de conhecimento",
@@ -3752,6 +4038,20 @@
         "conversion-rate"
       ],
       "fonte": ""
+    },
+    {
+      "slug": "fluency-optimization",
+      "categoria": "GEO",
+      "subcategoria": "Conteúdo citável",
+      "termo_en": "Fluency Optimization",
+      "termo_pt": "Otimização de fluência",
+      "definicao_pt": "Método testado no artigo original de GEO: reescrever o texto para ficar mais fluente e claro, sem mudar o conteúdo. Melhorou a visibilidade, mas menos que acrescentar fontes, citações e estatísticas.",
+      "definition_en": "Method tested in the original GEO paper: rewriting text to be more fluent and clear without changing the content. It improved visibility, but less than adding sources, quotations and statistics.",
+      "relacionados": [
+        "cite-sources",
+        "easy-to-understand"
+      ],
+      "fonte": "https://arxiv.org/abs/2311.09735"
     },
     {
       "slug": "chunk-optimization",
@@ -4065,6 +4365,35 @@
         "knowledge-graph"
       ],
       "fonte": ""
+    },
+    {
+      "slug": "perplexity",
+      "categoria": "GEO",
+      "subcategoria": "Plataformas e fontes",
+      "termo_en": "Perplexity",
+      "termo_pt": "Perplexity",
+      "definicao_pt": "Motor de resposta que busca na web e sempre mostra as fontes usadas. Por citar com links clicáveis, é uma das plataformas em que o tráfego de IA é mais fácil de medir.",
+      "definition_en": "Answer engine that searches the web and always shows the sources used. Because it cites with clickable links, it is one of the platforms where AI traffic is easiest to measure.",
+      "relacionados": [
+        "answer-engine",
+        "linked-citation",
+        "ai-referral-traffic"
+      ],
+      "fonte": "https://www.perplexity.ai"
+    },
+    {
+      "slug": "deep-research",
+      "categoria": "GEO",
+      "subcategoria": "Agentes e comércio",
+      "termo_en": "Deep Research",
+      "termo_pt": "Pesquisa aprofundada",
+      "definicao_pt": "Modo de assistentes como ChatGPT, Gemini e Perplexity em que a IA passa vários minutos consultando dezenas de fontes e entrega um relatório com citações. Favorece páginas com dados, método e fontes claras.",
+      "definition_en": "Mode in assistants such as ChatGPT, Gemini and Perplexity in which AI spends several minutes consulting dozens of sources and delivers a report with citations. It favors pages with clear data, method and sources.",
+      "relacionados": [
+        "ai-agent",
+        "ai-citation"
+      ],
+      "fonte": "https://en.wikipedia.org/wiki/ChatGPT_Deep_Research"
     },
     {
       "slug": "original-research",
@@ -4648,6 +4977,21 @@
       "fonte": ""
     },
     {
+      "slug": "information-retrieval",
+      "categoria": "IA",
+      "subcategoria": "Recuperação (RAG) e busca semântica",
+      "termo_en": "Information Retrieval (IR)",
+      "termo_pt": "Recuperação de informação",
+      "definicao_pt": "Área da computação que estuda como encontrar, numa grande coleção de documentos, os mais relevantes para uma necessidade de informação. É a base dos buscadores e da camada de recuperação dos sistemas de IA.",
+      "definition_en": "Field of computing that studies how to find, in a large collection of documents, those most relevant to an information need. It underlies search engines and the retrieval layer of AI systems.",
+      "relacionados": [
+        "rag",
+        "lexical-search",
+        "dense-retrieval"
+      ],
+      "fonte": "https://en.wikipedia.org/wiki/Information_retrieval"
+    },
+    {
       "slug": "dense-retrieval",
       "categoria": "IA",
       "subcategoria": "Recuperação (RAG) e busca semântica",
@@ -4689,6 +5033,20 @@
         "robots-txt"
       ],
       "fonte": ""
+    },
+    {
+      "slug": "reddit",
+      "categoria": "GEO",
+      "subcategoria": "Plataformas e fontes",
+      "termo_en": "Reddit",
+      "termo_pt": "Reddit",
+      "definicao_pt": "Fórum global muito citado por IAs em perguntas de opinião e comparação. Em 2024 o Google fechou acordo para usar os dados do Reddit, e a OpenAI fez acordo semelhante.",
+      "definition_en": "Global forum heavily cited by AI for opinion and comparison questions. In 2024 Google signed a deal to use Reddit data, and OpenAI made a similar deal.",
+      "relacionados": [
+        "user-generated-content",
+        "third-party-source"
+      ],
+      "fonte": "https://blog.google/inside-google/company-announcements/expanded-reddit-partnership/"
     },
     {
       "slug": "cdn",
@@ -4903,6 +5261,20 @@
       "fonte": "https://developers.google.com/search/docs/appearance/structured-data/search-gallery"
     },
     {
+      "slug": "tldr",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "TL;DR (Executive Summary)",
+      "termo_pt": "Resumo inicial",
+      "definicao_pt": "Bloco curto que condensa os pontos principais logo no começo do conteúdo. Serve ao leitor apressado e oferece um trecho pronto para ser extraído.",
+      "definition_en": "Short block condensing the main points at the start of the content. It serves hurried readers and offers a passage ready to be extracted.",
+      "relacionados": [
+        "answer-first-writing",
+        "answer-capsule"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "ai-crawler",
       "categoria": "GEO",
       "subcategoria": "Arquivos e acesso das IAs",
@@ -5029,6 +5401,20 @@
         "answer-capsule"
       ],
       "fonte": "https://developers.google.com/search/docs/appearance/structured-data/faqpage"
+    },
+    {
+      "slug": "howto-schema",
+      "categoria": "SEO",
+      "subcategoria": "Dados estruturados",
+      "termo_en": "HowTo Schema",
+      "termo_pt": "Schema HowTo",
+      "definicao_pt": "Marcação Schema.org para passo a passo, com etapas, ferramentas e tempo. Desde setembro de 2023 o Google não mostra mais o resultado aprimorado de HowTo, mas a marcação continua legível por outros sistemas.",
+      "definition_en": "Schema.org markup for step-by-step content, with steps, tools and time. Since September 2023 Google no longer shows the HowTo rich result, but the markup is still readable by other systems.",
+      "relacionados": [
+        "structured-data",
+        "faqpage-schema"
+      ],
+      "fonte": "https://developers.google.com/search/blog/2023/08/howto-faq-changes"
     },
     {
       "slug": "local-business-schema",
@@ -5656,6 +6042,19 @@
       "fonte": "https://web.dev/articles/ttfb"
     },
     {
+      "slug": "technical-terms",
+      "categoria": "GEO",
+      "subcategoria": "Conteúdo citável",
+      "termo_en": "Technical Terms",
+      "termo_pt": "Termos técnicos",
+      "definicao_pt": "Método testado no artigo original de GEO: usar a terminologia própria do domínio. Ajuda quando a pergunta do usuário usa o mesmo vocabulário especializado.",
+      "definition_en": "Method tested in the original GEO paper: using the domain's own terminology. It helps when the user's question uses the same specialized vocabulary.",
+      "relacionados": [
+        "semantic-seo"
+      ],
+      "fonte": "https://arxiv.org/abs/2311.09735"
+    },
+    {
       "slug": "rich-results-test",
       "categoria": "SEO",
       "subcategoria": "Dados estruturados",
@@ -5763,6 +6162,20 @@
         "llm"
       ],
       "fonte": "https://arxiv.org/abs/1706.03762"
+    },
+    {
+      "slug": "editorial-transparency",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Editorial Transparency",
+      "termo_pt": "Transparência editorial",
+      "definicao_pt": "Deixar explícito quem produz o conteúdo e como: página de autor, política editorial, datas de publicação e atualização, fontes e política de correções.",
+      "definition_en": "Making explicit who produces the content and how: author page, editorial policy, publication and update dates, sources and corrections policy.",
+      "relacionados": [
+        "e-e-a-t",
+        "author-entity"
+      ],
+      "fonte": ""
     },
     {
       "slug": "ai-transparency",
@@ -6089,6 +6502,21 @@
       "fonte": ""
     },
     {
+      "slug": "agentic-web",
+      "categoria": "GEO",
+      "subcategoria": "Agentes e comércio",
+      "termo_en": "Agentic Web",
+      "termo_pt": "Web agêntica",
+      "definicao_pt": "Cenário em que agentes de IA navegam, comparam, preenchem formulários e concluem transações em nome das pessoas. Os sites passam a ter dois públicos: pessoas e agentes.",
+      "definition_en": "Scenario in which AI agents browse, compare, fill in forms and complete transactions on people's behalf. Sites come to have two audiences: people and agents.",
+      "relacionados": [
+        "agent-readiness",
+        "agentic-browser",
+        "agentic-commerce"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "wikidata",
       "categoria": "GEO",
       "subcategoria": "Entidade e grafo de conhecimento",
@@ -6102,6 +6530,35 @@
         "entity-disambiguation"
       ],
       "fonte": "https://www.wikidata.org"
+    },
+    {
+      "slug": "wikipedia",
+      "categoria": "GEO",
+      "subcategoria": "Plataformas e fontes",
+      "termo_en": "Wikipedia",
+      "termo_pt": "Wikipédia",
+      "definicao_pt": "Enciclopédia colaborativa que está entre as fontes mais usadas no treino de modelos e nas respostas de IA. Só aceita verbete de quem tem notoriedade comprovada por fontes independentes.",
+      "definition_en": "Collaborative encyclopedia that is among the most used sources in model training and AI answers. It only accepts articles about subjects with notability proven by independent sources.",
+      "relacionados": [
+        "notability",
+        "wikidata",
+        "training-data"
+      ],
+      "fonte": "https://pt.wikipedia.org"
+    },
+    {
+      "slug": "youtube",
+      "categoria": "GEO",
+      "subcategoria": "Plataformas e fontes",
+      "termo_en": "YouTube (and Transcripts)",
+      "termo_pt": "YouTube e transcrições",
+      "definicao_pt": "Maior plataforma de vídeo e fonte crescente para IAs multimodais. Títulos, descrições e o que é dito no vídeo (transcrição) são lidos como texto e associam a marca ao tema.",
+      "definition_en": "Largest video platform and a growing source for multimodal AI. Titles, descriptions and what is said in the video (transcript) are read as text and associate the brand with the topic.",
+      "relacionados": [
+        "multimodal-model",
+        "brand-mention"
+      ],
+      "fonte": "https://www.youtube.com"
     },
     {
       "slug": "cbci",

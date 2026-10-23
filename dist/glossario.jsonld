@@ -7,7 +7,7 @@
     "pt-BR",
     "en"
   ],
-  "version": "1.3.2",
+  "version": "1.4.0",
   "dateModified": "2026-10-23",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "url": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia",
@@ -738,7 +738,7 @@
         },
         {
           "@language": "en",
-          "@value": "The Mirror Trap (GEO)"
+          "@value": "The GEO Mirror Trap"
         }
       ],
       "description": [
@@ -1667,6 +1667,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#chatgpt-search",
+      "termCode": "chatgpt-search",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Busca do ChatGPT"
+        },
+        {
+          "@language": "en",
+          "@value": "ChatGPT Search (formerly SearchGPT)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Recurso de busca na web do ChatGPT, testado como protótipo com o nome SearchGPT em julho de 2024 e integrado ao ChatGPT em outubro de 2024. Mostra links e fontes nas respostas."
+        },
+        {
+          "@language": "en",
+          "@value": "ChatGPT's web search feature, tested as a prototype named SearchGPT in July 2024 and integrated into ChatGPT in October 2024. It shows links and sources in answers."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://en.wikipedia.org/wiki/ChatGPT_Search"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#hybrid-search",
       "termCode": "hybrid-search",
       "name": [
@@ -2173,6 +2202,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#chatgpt",
+      "termCode": "chatgpt",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "ChatGPT"
+        },
+        {
+          "@language": "en",
+          "@value": "ChatGPT"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Assistente de IA da OpenAI, lançado em novembro de 2022, baseado nos modelos GPT. Busca na web (ChatGPT Search) e cita fontes; para GEO, importam os robôs OAI-SearchBot e ChatGPT-User."
+        },
+        {
+          "@language": "en",
+          "@value": "OpenAI's AI assistant, launched in November 2022, based on GPT models. It searches the web (ChatGPT Search) and cites sources; for GEO, the OAI-SearchBot and ChatGPT-User bots matter."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://en.wikipedia.org/wiki/ChatGPT"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#citability",
       "termCode": "citability",
       "name": [
@@ -2226,6 +2284,35 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#cite-sources",
+      "termCode": "cite-sources",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Citação de fontes"
+        },
+        {
+          "@language": "en",
+          "@value": "Cite Sources"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Método testado no artigo original de GEO (Aggarwal e colegas, 2023): acrescentar ao texto referências explícitas a fontes confiáveis. Ficou entre os que mais aumentaram a visibilidade nas respostas, ao lado de citações e estatísticas."
+        },
+        {
+          "@language": "en",
+          "@value": "Method tested in the original GEO paper (Aggarwal et al., 2023): adding explicit references to reliable sources to the text. It was among those that most increased visibility in answers, alongside quotations and statistics."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://arxiv.org/abs/2311.09735"
     },
     {
       "@type": "DefinedTerm",
@@ -2311,6 +2398,35 @@
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
       "subjectOf": "https://seonegocionomapa.com.br/claim-saturado-guia-2026-como-criar-citabilidade-em-mercados-competitivos/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#claude",
+      "termCode": "claude",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Claude"
+        },
+        {
+          "@language": "en",
+          "@value": "Claude"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Assistente de IA da Anthropic, com busca na web e citação de fontes. Para GEO, importam os robôs Claude-SearchBot e Claude-User."
+        },
+        {
+          "@language": "en",
+          "@value": "Anthropic's AI assistant, with web search and source citation. For GEO, the Claude-SearchBot and Claude-User bots matter."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://en.wikipedia.org/wiki/Claude_(language_model)"
     },
     {
       "@type": "DefinedTerm",
@@ -2567,6 +2683,34 @@
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
       "subjectOf": "https://commoncrawl.org"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#competitive-benchmarking",
+      "termCode": "competitive-benchmarking",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Comparação com concorrentes em IA"
+        },
+        {
+          "@language": "en",
+          "@value": "Competitive Benchmarking (AI)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Medir a visibilidade da marca e dos concorrentes diretos com o mesmo conjunto de perguntas, plataformas e método, para que a comparação seja justa."
+        },
+        {
+          "@language": "en",
+          "@value": "Measuring the visibility of the brand and its direct competitors with the same question set, platforms and method, so the comparison is fair."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
     },
     {
       "@type": "DefinedTerm",
@@ -2983,6 +3127,34 @@
         {
           "@language": "en",
           "@value": "Content published by users, such as reviews, comments and forums. Links in it should carry rel=\"ugc\". Forums such as Reddit are heavily cited by AI."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#evergreen-content",
+      "termCode": "evergreen-content",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Conteúdo perene"
+        },
+        {
+          "@language": "en",
+          "@value": "Evergreen Content"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Conteúdo que não perde a validade rapidamente, como guias, definições e glossários. Acumula links e menções por anos, mas precisa de revisão nas partes datadas."
+        },
+        {
+          "@language": "en",
+          "@value": "Content that does not expire quickly, such as guides, definitions and glossaries. It accumulates links and mentions for years but needs reviewing in its dated parts."
         }
       ],
       "inDefinedTermSet": {
@@ -3499,6 +3671,35 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#deepseek",
+      "termCode": "deepseek",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "DeepSeek"
+        },
+        {
+          "@language": "en",
+          "@value": "DeepSeek"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Empresa chinesa de IA que ganhou projeção em janeiro de 2025 com o modelo de raciocínio DeepSeek-R1, de pesos abertos e baixo custo de treino."
+        },
+        {
+          "@language": "en",
+          "@value": "Chinese AI company that rose to prominence in January 2025 with the DeepSeek-R1 reasoning model, open-weight and low-cost to train."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://www.deepseek.com"
     },
     {
       "@type": "DefinedTerm",
@@ -4099,6 +4300,34 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#scannability",
+      "termCode": "scannability",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Escaneabilidade"
+        },
+        {
+          "@language": "en",
+          "@value": "Scannability"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Facilidade de percorrer um texto em segundos: títulos descritivos, parágrafos curtos, listas e tabelas. O que é fácil de escanear também é fácil de recortar em trechos."
+        },
+        {
+          "@language": "en",
+          "@value": "How easily a text can be skimmed in seconds: descriptive headings, short paragraphs, lists and tables. What is easy to scan is also easy to cut into passages."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#answer-first-writing",
       "termCode": "answer-first-writing",
       "name": [
@@ -4213,6 +4442,34 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#case-study",
+      "termCode": "case-study",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Estudo de caso"
+        },
+        {
+          "@language": "en",
+          "@value": "Case Study"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Conteúdo que documenta um trabalho real, com contexto, método e resultado mensurável. Junta experiência de primeira mão, dado próprio e prova, três sinais valorizados por buscadores e IAs."
+        },
+        {
+          "@language": "en",
+          "@value": "Content documenting real work, with context, method and measurable results. It combines first-hand experience, own data and proof, three signals valued by search engines and AI."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#key-event",
       "termCode": "key-event",
       "name": [
@@ -4295,6 +4552,64 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#keyword-stuffing",
+      "termCode": "keyword-stuffing",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Excesso de palavras-chave"
+        },
+        {
+          "@language": "en",
+          "@value": "Keyword Stuffing"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Repetir a palavra-chave de forma artificial para tentar subir no ranking. É spam para o Google e, no artigo original de GEO, foi o método de pior resultado nas respostas de IA."
+        },
+        {
+          "@language": "en",
+          "@value": "Repeating the keyword artificially to try to rank higher. It is spam for Google and, in the original GEO paper, it was the worst-performing method in AI answers."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://developers.google.com/search/docs/essentials/spam-policies"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#sge",
+      "termCode": "sge",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Experiência generativa de busca"
+        },
+        {
+          "@language": "en",
+          "@value": "Search Generative Experience (SGE)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Experimento do Google, lançado em maio de 2023 no Search Labs, que colocava respostas geradas por IA no topo da busca. Deu origem aos AI Overviews, lançados em 2024. O nome não é mais usado."
+        },
+        {
+          "@language": "en",
+          "@value": "Google experiment, launched in May 2023 in Search Labs, that placed AI-generated answers at the top of search. It led to AI Overviews, launched in 2024. The name is no longer used."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://blog.google/products/search/generative-ai-search/"
     },
     {
       "@type": "DefinedTerm",
@@ -4753,6 +5068,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#gemini",
+      "termCode": "gemini",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Google Gemini"
+        },
+        {
+          "@language": "en",
+          "@value": "Google Gemini"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Família de modelos e assistente de IA do Google, que substituiu o Bard em fevereiro de 2024. Os mesmos modelos estão por trás dos AI Overviews e do Modo IA."
+        },
+        {
+          "@language": "en",
+          "@value": "Google's family of models and AI assistant, which replaced Bard in February 2024. The same models power AI Overviews and AI Mode."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://gemini.google.com"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#google-merchant-center",
       "termCode": "google-merchant-center",
       "name": [
@@ -5037,6 +5381,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#grok",
+      "termCode": "grok",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Grok"
+        },
+        {
+          "@language": "en",
+          "@value": "Grok"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Assistente de IA da xAI, integrado ao X (antigo Twitter), que usa publicações do X e a web como fontes."
+        },
+        {
+          "@language": "en",
+          "@value": "xAI's AI assistant, integrated into X (formerly Twitter), which uses X posts and the web as sources."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://grok.com"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#hospedeiro-geo",
       "termCode": "hospedeiro-geo",
       "name": [
@@ -5046,7 +5419,7 @@
         },
         {
           "@language": "en",
-          "@value": "Host Site (GEO)"
+          "@value": "Host Site (in GEO)"
         }
       ],
       "description": [
@@ -5863,6 +6236,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#mistral-le-chat",
+      "termCode": "mistral-le-chat",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Le Chat (Mistral AI)"
+        },
+        {
+          "@language": "en",
+          "@value": "Le Chat (Mistral AI)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Assistente de IA da francesa Mistral AI, principal desenvolvedora europeia de modelos de linguagem. Relevante para marcas com atuação na Europa."
+        },
+        {
+          "@language": "en",
+          "@value": "AI assistant from French company Mistral AI, Europe's leading language-model developer. Relevant for brands operating in Europe."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://en.wikipedia.org/wiki/Mistral_AI"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#machine-readability",
       "termCode": "machine-readability",
       "name": [
@@ -6034,6 +6436,34 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#thought-leadership",
+      "termCode": "thought-leadership",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Liderança de pensamento"
+        },
+        {
+          "@language": "en",
+          "@value": "Thought Leadership"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Posicionar pessoas da empresa como referência no setor com conteúdo autoral de opinião própria: análises, previsões e posições defendidas em público. Gera menções e associação da pessoa ao tema."
+        },
+        {
+          "@language": "en",
+          "@value": "Positioning a company's people as references in the sector with original, opinionated content: analyses, forecasts and positions defended in public. It generates mentions and associates the person with the topic."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#limiar-de-confianca",
       "termCode": "limiar-de-confianca",
       "name": [
@@ -6060,6 +6490,64 @@
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
       "subjectOf": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#authoritative-language",
+      "termCode": "authoritative-language",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Linguagem com autoridade"
+        },
+        {
+          "@language": "en",
+          "@value": "Authoritative Language"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Método testado no artigo original de GEO: reescrever o texto com tom mais assertivo e confiante. Teve efeito menor e variável, e tom sem prova não substitui fonte."
+        },
+        {
+          "@language": "en",
+          "@value": "Method tested in the original GEO paper: rewriting text in a more assertive, confident tone. Its effect was smaller and variable, and tone without proof does not replace a source."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://arxiv.org/abs/2311.09735"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#easy-to-understand",
+      "termCode": "easy-to-understand",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Linguagem fácil de entender"
+        },
+        {
+          "@language": "en",
+          "@value": "Easy-to-Understand Language"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Método testado no artigo original de GEO: simplificar vocabulário e frases. Ajudou de forma moderada, parecida com a otimização de fluência."
+        },
+        {
+          "@language": "en",
+          "@value": "Method tested in the original GEO paper: simplifying vocabulary and sentences. It helped moderately, similar to fluency optimization."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://arxiv.org/abs/2311.09735"
     },
     {
       "@type": "DefinedTerm",
@@ -6547,6 +7035,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#meta-ai",
+      "termCode": "meta-ai",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Meta AI"
+        },
+        {
+          "@language": "en",
+          "@value": "Meta AI"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Assistente de IA da Meta dentro do WhatsApp, do Instagram e do Facebook. No Brasil, a presença no WhatsApp lhe dá um alcance que nenhum outro assistente tem."
+        },
+        {
+          "@language": "en",
+          "@value": "Meta's AI assistant inside WhatsApp, Instagram and Facebook. In Brazil, its presence in WhatsApp gives it a reach no other assistant has."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://en.wikipedia.org/wiki/Meta_AI"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#meta-description",
       "termCode": "meta-description",
       "name": [
@@ -6602,6 +7119,35 @@
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
       "subjectOf": "https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#microsoft-copilot",
+      "termCode": "microsoft-copilot",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Microsoft Copilot"
+        },
+        {
+          "@language": "en",
+          "@value": "Microsoft Copilot"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Assistente de IA da Microsoft, presente no Windows, no Edge e no Microsoft 365, que busca no índice do Bing. Estar bem no Bing é pré-requisito para aparecer nele."
+        },
+        {
+          "@language": "en",
+          "@value": "Microsoft's AI assistant, built into Windows, Edge and Microsoft 365, which searches the Bing index. Doing well on Bing is a prerequisite for appearing in it."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://copilot.microsoft.com"
     },
     {
       "@type": "DefinedTerm",
@@ -7199,6 +7745,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#notebooklm",
+      "termCode": "notebooklm",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "NotebookLM"
+        },
+        {
+          "@language": "en",
+          "@value": "NotebookLM"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Ferramenta do Google em que a pessoa monta um assistente de IA só com as fontes que escolhe (documentos, links, vídeos). Conteúdo bem estruturado e citável é o que acaba nessas coleções."
+        },
+        {
+          "@language": "en",
+          "@value": "Google tool in which a person builds an AI assistant from only the sources they choose (documents, links, videos). Well-structured, citable content is what ends up in these collections."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://notebooklm.google"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#notability",
       "termCode": "notability",
       "name": [
@@ -7424,6 +7999,35 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#fluency-optimization",
+      "termCode": "fluency-optimization",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Otimização de fluência"
+        },
+        {
+          "@language": "en",
+          "@value": "Fluency Optimization"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Método testado no artigo original de GEO: reescrever o texto para ficar mais fluente e claro, sem mudar o conteúdo. Melhorou a visibilidade, mas menos que acrescentar fontes, citações e estatísticas."
+        },
+        {
+          "@language": "en",
+          "@value": "Method tested in the original GEO paper: rewriting text to be more fluent and clear without changing the content. It improved visibility, but less than adding sources, quotations and statistics."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://arxiv.org/abs/2311.09735"
     },
     {
       "@type": "DefinedTerm",
@@ -8046,6 +8650,64 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#perplexity",
+      "termCode": "perplexity",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Perplexity"
+        },
+        {
+          "@language": "en",
+          "@value": "Perplexity"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Motor de resposta que busca na web e sempre mostra as fontes usadas. Por citar com links clicáveis, é uma das plataformas em que o tráfego de IA é mais fácil de medir."
+        },
+        {
+          "@language": "en",
+          "@value": "Answer engine that searches the web and always shows the sources used. Because it cites with clickable links, it is one of the platforms where AI traffic is easiest to measure."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://www.perplexity.ai"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#deep-research",
+      "termCode": "deep-research",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Pesquisa aprofundada"
+        },
+        {
+          "@language": "en",
+          "@value": "Deep Research"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Modo de assistentes como ChatGPT, Gemini e Perplexity em que a IA passa vários minutos consultando dezenas de fontes e entrega um relatório com citações. Favorece páginas com dados, método e fontes claras."
+        },
+        {
+          "@language": "en",
+          "@value": "Mode in assistants such as ChatGPT, Gemini and Perplexity in which AI spends several minutes consulting dozens of sources and delivers a report with citations. It favors pages with clear data, method and sources."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://en.wikipedia.org/wiki/ChatGPT_Deep_Research"
     },
     {
       "@type": "DefinedTerm",
@@ -9209,6 +9871,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#information-retrieval",
+      "termCode": "information-retrieval",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Recuperação de informação"
+        },
+        {
+          "@language": "en",
+          "@value": "Information Retrieval (IR)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Área da computação que estuda como encontrar, numa grande coleção de documentos, os mais relevantes para uma necessidade de informação. É a base dos buscadores e da camada de recuperação dos sistemas de IA."
+        },
+        {
+          "@language": "en",
+          "@value": "Field of computing that studies how to find, in a large collection of documents, those most relevant to an information need. It underlies search engines and the retrieval layer of AI systems."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://en.wikipedia.org/wiki/Information_retrieval"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#dense-retrieval",
       "termCode": "dense-retrieval",
       "name": [
@@ -9291,6 +9982,35 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#reddit",
+      "termCode": "reddit",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Reddit"
+        },
+        {
+          "@language": "en",
+          "@value": "Reddit"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Fórum global muito citado por IAs em perguntas de opinião e comparação. Em 2024 o Google fechou acordo para usar os dados do Reddit, e a OpenAI fez acordo semelhante."
+        },
+        {
+          "@language": "en",
+          "@value": "Global forum heavily cited by AI for opinion and comparison questions. In 2024 Google signed a deal to use Reddit data, and OpenAI made a similar deal."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://blog.google/inside-google/company-announcements/expanded-reddit-partnership/"
     },
     {
       "@type": "DefinedTerm",
@@ -9719,6 +10439,34 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#tldr",
+      "termCode": "tldr",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Resumo inicial"
+        },
+        {
+          "@language": "en",
+          "@value": "TL;DR (Executive Summary)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Bloco curto que condensa os pontos principais logo no começo do conteúdo. Serve ao leitor apressado e oferece um trecho pronto para ser extraído."
+        },
+        {
+          "@language": "en",
+          "@value": "Short block condensing the main points at the start of the content. It serves hurried readers and offers a passage ready to be extracted."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#ai-crawler",
       "termCode": "ai-crawler",
       "name": [
@@ -9972,6 +10720,35 @@
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
       "subjectOf": "https://developers.google.com/search/docs/appearance/structured-data/faqpage"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#howto-schema",
+      "termCode": "howto-schema",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Schema HowTo"
+        },
+        {
+          "@language": "en",
+          "@value": "HowTo Schema"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Marcação Schema.org para passo a passo, com etapas, ferramentas e tempo. Desde setembro de 2023 o Google não mostra mais o resultado aprimorado de HowTo, mas a marcação continua legível por outros sistemas."
+        },
+        {
+          "@language": "en",
+          "@value": "Schema.org markup for step-by-step content, with steps, tools and time. Since September 2023 Google no longer shows the HowTo rich result, but the markup is still readable by other systems."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://developers.google.com/search/blog/2023/08/howto-faq-changes"
     },
     {
       "@type": "DefinedTerm",
@@ -11227,6 +12004,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#technical-terms",
+      "termCode": "technical-terms",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Termos técnicos"
+        },
+        {
+          "@language": "en",
+          "@value": "Technical Terms"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Método testado no artigo original de GEO: usar a terminologia própria do domínio. Ajuda quando a pergunta do usuário usa o mesmo vocabulário especializado."
+        },
+        {
+          "@language": "en",
+          "@value": "Method tested in the original GEO paper: using the domain's own terminology. It helps when the user's question uses the same specialized vocabulary."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://arxiv.org/abs/2311.09735"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#rich-results-test",
       "termCode": "rich-results-test",
       "name": [
@@ -11450,6 +12256,34 @@
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
       "subjectOf": "https://arxiv.org/abs/1706.03762"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#editorial-transparency",
+      "termCode": "editorial-transparency",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Transparência editorial"
+        },
+        {
+          "@language": "en",
+          "@value": "Editorial Transparency"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Deixar explícito quem produz o conteúdo e como: página de autor, política editorial, datas de publicação e atualização, fontes e política de correções."
+        },
+        {
+          "@language": "en",
+          "@value": "Making explicit who produces the content and how: author page, editorial policy, publication and update dates, sources and corrections policy."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
     },
     {
       "@type": "DefinedTerm",
@@ -12103,6 +12937,34 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#agentic-web",
+      "termCode": "agentic-web",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Web agêntica"
+        },
+        {
+          "@language": "en",
+          "@value": "Agentic Web"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Cenário em que agentes de IA navegam, comparam, preenchem formulários e concluem transações em nome das pessoas. Os sites passam a ter dois públicos: pessoas e agentes."
+        },
+        {
+          "@language": "en",
+          "@value": "Scenario in which AI agents browse, compare, fill in forms and complete transactions on people's behalf. Sites come to have two audiences: people and agents."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#wikidata",
       "termCode": "wikidata",
       "name": [
@@ -12129,6 +12991,64 @@
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
       "subjectOf": "https://www.wikidata.org"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#wikipedia",
+      "termCode": "wikipedia",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Wikipédia"
+        },
+        {
+          "@language": "en",
+          "@value": "Wikipedia"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Enciclopédia colaborativa que está entre as fontes mais usadas no treino de modelos e nas respostas de IA. Só aceita verbete de quem tem notoriedade comprovada por fontes independentes."
+        },
+        {
+          "@language": "en",
+          "@value": "Collaborative encyclopedia that is among the most used sources in model training and AI answers. It only accepts articles about subjects with notability proven by independent sources."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://pt.wikipedia.org"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#youtube",
+      "termCode": "youtube",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "YouTube e transcrições"
+        },
+        {
+          "@language": "en",
+          "@value": "YouTube (and Transcripts)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Maior plataforma de vídeo e fonte crescente para IAs multimodais. Títulos, descrições e o que é dito no vídeo (transcrição) são lidos como texto e associam a marca ao tema."
+        },
+        {
+          "@language": "en",
+          "@value": "Largest video platform and a growing source for multimodal AI. Titles, descriptions and what is said in the video (transcript) are read as text and associate the brand with the topic."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://www.youtube.com"
     },
     {
       "@type": "DefinedTerm",

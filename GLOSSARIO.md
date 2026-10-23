@@ -1,12 +1,12 @@
-# Glossário SEO, GEO e IA — 431 termos
+# Glossário SEO, GEO e IA — 463 termos
 
-Versão 1.3.2 · atualizado em 2026-10-23 · português do Brasil e inglês · [CC BY 4.0](LICENSE) · Raphael Sousa Pereira, [Negócio no Mapa](https://seonegocionomapa.com.br)
+Versão 1.4.0 · atualizado em 2026-10-23 · português do Brasil e inglês · [CC BY 4.0](LICENSE) · Raphael Sousa Pereira, [Negócio no Mapa](https://seonegocionomapa.com.br)
 
 Arquivo gerado por `scripts/construir.py` a partir de `termos/`. Não edite à mão.
 
-- [SEO](#categoria-seo) — Busca orgânica, SEO técnico, local e dados estruturados (154 termos)
-- [GEO](#categoria-geo) — Visibilidade e citação em motores generativos (111 termos)
-- [IA](#categoria-ia) — Inteligência artificial aplicada à busca e ao conteúdo (117 termos)
+- [SEO](#categoria-seo) — Busca orgânica, SEO técnico, local e dados estruturados (162 termos)
+- [GEO](#categoria-geo) — Visibilidade e citação em motores generativos (134 termos)
+- [IA](#categoria-ia) — Inteligência artificial aplicada à busca e ao conteúdo (118 termos)
 - [Autorais](#categoria-autorais) — Conceitos cunhados por Raphael Sousa Pereira (49 termos)
 
 <a id="categoria-seo"></a>
@@ -720,6 +720,16 @@ Conteúdo publicado por usuários, como avaliações, comentários e fóruns. Li
 
 Veja também: [Atributos nofollow, sponsored e ugc](#nofollow), [Menção à marca](#brand-mention)
 
+#### Conteúdo perene
+
+<a id="evergreen-content"></a>**EN:** Evergreen Content
+
+Conteúdo que não perde a validade rapidamente, como guias, definições e glossários. Acumula links e menções por anos, mas precisa de revisão nas partes datadas.
+
+> *Content that does not expire quickly, such as guides, definitions and glossaries. It accumulates links and mentions for years but needs reviewing in its dated parts.*
+
+Veja também: [Atualidade do conteúdo](#content-freshness), [Afirmação datada](#dated-claim)
+
 #### Conteúdo raso
 
 <a id="thin-content"></a>**EN:** Thin Content
@@ -740,6 +750,16 @@ Orientação do Google para conteúdo feito para pessoas, com experiência e inf
 
 Veja também: [Experiência, especialidade, autoridade e confiabilidade](#e-e-a-t), [Conteúdo raso](#thin-content) · Fonte: <https://developers.google.com/search/docs/fundamentals/creating-helpful-content>
 
+#### Escaneabilidade
+
+<a id="scannability"></a>**EN:** Scannability
+
+Facilidade de percorrer um texto em segundos: títulos descritivos, parágrafos curtos, listas e tabelas. O que é fácil de escanear também é fácil de recortar em trechos.
+
+> *How easily a text can be skimmed in seconds: descriptive headings, short paragraphs, lists and tables. What is easy to scan is also easy to cut into passages.*
+
+Veja também: [Estrutura de headings](#heading-structure), [Otimização de trechos](#chunk-optimization)
+
 #### Estrutura de headings
 
 <a id="heading-structure"></a>**EN:** Heading Structure (H1–H6)
@@ -750,6 +770,16 @@ Hierarquia de títulos e subtítulos da página. Ajuda pessoas, buscadores e IAs
 
 Veja também: [Cápsula de resposta](#answer-capsule), [Fragmentação em trechos](#chunking)
 
+#### Estudo de caso
+
+<a id="case-study"></a>**EN:** Case Study
+
+Conteúdo que documenta um trabalho real, com contexto, método e resultado mensurável. Junta experiência de primeira mão, dado próprio e prova, três sinais valorizados por buscadores e IAs.
+
+> *Content documenting real work, with context, method and measurable results. It combines first-hand experience, own data and proof, three signals valued by search engines and AI.*
+
+Veja também: [Experiência, especialidade, autoridade e confiabilidade](#e-e-a-t), [Pesquisa própria](#original-research)
+
 #### Experiência, especialidade, autoridade e confiabilidade
 
 <a id="e-e-a-t"></a>**EN:** E-E-A-T
@@ -759,6 +789,16 @@ Critério das diretrizes dos avaliadores de qualidade do Google: Experience, Exp
 > *Criterion in Google's quality rater guidelines: Experience, Expertise, Authoritativeness and Trustworthiness. It is not a single signal but what many signals try to reflect.*
 
 Veja também: [Seu dinheiro ou sua vida](#ymyl), [Conteúdo útil](#helpful-content), [Autor como entidade](#author-entity) · Fonte: <https://developers.google.com/search/docs/fundamentals/creating-helpful-content>
+
+#### Liderança de pensamento
+
+<a id="thought-leadership"></a>**EN:** Thought Leadership
+
+Posicionar pessoas da empresa como referência no setor com conteúdo autoral de opinião própria: análises, previsões e posições defendidas em público. Gera menções e associação da pessoa ao tema.
+
+> *Positioning a company's people as references in the sector with original, opinionated content: analyses, forecasts and positions defended in public. It generates mentions and associates the person with the topic.*
+
+Veja também: [Autor como entidade](#author-entity), [Menção à marca](#brand-mention), [Ganho de informação](#information-gain)
 
 #### Mapa de tópicos
 
@@ -809,6 +849,16 @@ Página abrangente sobre um tema central que liga e recebe links das páginas de
 > *Comprehensive page on a core topic that links to and from the cluster's detail pages.*
 
 Veja também: [Cluster de tópicos](#topic-cluster)
+
+#### Resumo inicial
+
+<a id="tldr"></a>**EN:** TL;DR (Executive Summary)
+
+Bloco curto que condensa os pontos principais logo no começo do conteúdo. Serve ao leitor apressado e oferece um trecho pronto para ser extraído.
+
+> *Short block condensing the main points at the start of the content. It serves hurried readers and offers a passage ready to be extracted.*
+
+Veja também: [Escrita com a resposta primeiro](#answer-first-writing), [Cápsula de resposta](#answer-capsule)
 
 #### SEO de imagens
 
@@ -869,6 +919,16 @@ Descrição textual de uma imagem no atributo alt. Serve à acessibilidade e aju
 > *Text description of an image in the alt attribute. It serves accessibility and helps search engines understand the image.*
 
 Veja também: [SEO de imagens](#image-seo)
+
+#### Transparência editorial
+
+<a id="editorial-transparency"></a>**EN:** Editorial Transparency
+
+Deixar explícito quem produz o conteúdo e como: página de autor, política editorial, datas de publicação e atualização, fontes e política de correções.
+
+> *Making explicit who produces the content and how: author page, editorial policy, publication and update dates, sources and corrections policy.*
+
+Veja também: [Experiência, especialidade, autoridade e confiabilidade](#e-e-a-t), [Autor como entidade](#author-entity)
 
 #### Técnica arranha-céu
 
@@ -1238,6 +1298,16 @@ Marcação de perguntas e respostas. Desde 2023 o Google só mostra o resultado 
 
 Veja também: [Dados estruturados](#structured-data), [Cápsula de resposta](#answer-capsule) · Fonte: <https://developers.google.com/search/docs/appearance/structured-data/faqpage>
 
+#### Schema HowTo
+
+<a id="howto-schema"></a>**EN:** HowTo Schema
+
+Marcação Schema.org para passo a passo, com etapas, ferramentas e tempo. Desde setembro de 2023 o Google não mostra mais o resultado aprimorado de HowTo, mas a marcação continua legível por outros sistemas.
+
+> *Schema.org markup for step-by-step content, with steps, tools and time. Since September 2023 Google no longer shows the HowTo rich result, but the markup is still readable by other systems.*
+
+Veja também: [Dados estruturados](#structured-data), [Schema FAQPage](#faqpage-schema) · Fonte: <https://developers.google.com/search/blog/2023/08/howto-faq-changes>
+
 #### Schema LocalBusiness
 
 <a id="local-business-schema"></a>**EN:** LocalBusiness Schema
@@ -1542,6 +1612,16 @@ Mostrar a robôs conteúdo diferente do que as pessoas veem. É spam para buscad
 
 Veja também: [Spam de links](#link-spam) · Fonte: <https://developers.google.com/search/docs/essentials/spam-policies>
 
+#### Excesso de palavras-chave
+
+<a id="keyword-stuffing"></a>**EN:** Keyword Stuffing
+
+Repetir a palavra-chave de forma artificial para tentar subir no ranking. É spam para o Google e, no artigo original de GEO, foi o método de pior resultado nas respostas de IA.
+
+> *Repeating the keyword artificially to try to rank higher. It is spam for Google and, in the original GEO paper, it was the worst-performing method in AI answers.*
+
+Veja também: [Spam de links](#link-spam), [Conteúdo raso](#thin-content) · Fonte: <https://developers.google.com/search/docs/essentials/spam-policies>
+
 #### Painel de conhecimento
 
 <a id="knowledge-panel"></a>**EN:** Knowledge Panel
@@ -1646,6 +1726,16 @@ Técnica em que o sistema de IA divide a pergunta do usuário em várias subcons
 > *Technique in which the AI system splits the user's question into several subqueries, searches each one and merges the results into the answer. A page can be cited for answering a subquery the user never typed.*
 
 Veja também: [Modo IA](#ai-mode), [Intenção de busca](#search-intent), [Geração aumentada por recuperação](#rag)
+
+#### Experiência generativa de busca
+
+<a id="sge"></a>**EN:** Search Generative Experience (SGE)
+
+Experimento do Google, lançado em maio de 2023 no Search Labs, que colocava respostas geradas por IA no topo da busca. Deu origem aos AI Overviews, lançados em 2024. O nome não é mais usado.
+
+> *Google experiment, launched in May 2023 in Search Labs, that placed AI-generated answers at the top of search. It led to AI Overviews, launched in 2024. The name is no longer used.*
+
+Veja também: [Visão geral criada por IA](#ai-overviews), [Modo IA](#ai-mode) · Fonte: <https://blog.google/products/search/generative-ai-search/>
 
 #### Modo IA
 
@@ -2163,6 +2253,16 @@ Fato que vale para um momento ("em 2026", "o maior do Brasil") e precisa de data
 
 Veja também: [Atualidade do conteúdo](#content-freshness), [Fato citável](#citable-fact)
 
+#### Citação de fontes
+
+<a id="cite-sources"></a>**EN:** Cite Sources
+
+Método testado no artigo original de GEO (Aggarwal e colegas, 2023): acrescentar ao texto referências explícitas a fontes confiáveis. Ficou entre os que mais aumentaram a visibilidade nas respostas, ao lado de citações e estatísticas.
+
+> *Method tested in the original GEO paper (Aggarwal et al., 2023): adding explicit references to reliable sources to the text. It was among those that most increased visibility in answers, alongside quotations and statistics.*
+
+Veja também: [Inclusão de estatísticas](#statistics-addition), [Inclusão de citações](#quotation-addition), [Fato citável](#citable-fact) · Fonte: <https://arxiv.org/abs/2311.09735>
+
 #### Consulta conversacional
 
 <a id="conversational-query"></a>**EN:** Conversational Query
@@ -2243,6 +2343,36 @@ Acrescentar dados quantitativos com fonte ao texto. No estudo original de GEO, e
 
 Veja também: [Fato citável](#citable-fact), [Inclusão de citações](#quotation-addition) · Fonte: <https://arxiv.org/abs/2311.09735>
 
+#### Linguagem com autoridade
+
+<a id="authoritative-language"></a>**EN:** Authoritative Language
+
+Método testado no artigo original de GEO: reescrever o texto com tom mais assertivo e confiante. Teve efeito menor e variável, e tom sem prova não substitui fonte.
+
+> *Method tested in the original GEO paper: rewriting text in a more assertive, confident tone. Its effect was smaller and variable, and tone without proof does not replace a source.*
+
+Veja também: [Citação de fontes](#cite-sources), [Imperativo de Formato](#imperativo-de-formato) · Fonte: <https://arxiv.org/abs/2311.09735>
+
+#### Linguagem fácil de entender
+
+<a id="easy-to-understand"></a>**EN:** Easy-to-Understand Language
+
+Método testado no artigo original de GEO: simplificar vocabulário e frases. Ajudou de forma moderada, parecida com a otimização de fluência.
+
+> *Method tested in the original GEO paper: simplifying vocabulary and sentences. It helped moderately, similar to fluency optimization.*
+
+Veja também: [Otimização de fluência](#fluency-optimization) · Fonte: <https://arxiv.org/abs/2311.09735>
+
+#### Otimização de fluência
+
+<a id="fluency-optimization"></a>**EN:** Fluency Optimization
+
+Método testado no artigo original de GEO: reescrever o texto para ficar mais fluente e claro, sem mudar o conteúdo. Melhorou a visibilidade, mas menos que acrescentar fontes, citações e estatísticas.
+
+> *Method tested in the original GEO paper: rewriting text to be more fluent and clear without changing the content. It improved visibility, but less than adding sources, quotations and statistics.*
+
+Veja também: [Citação de fontes](#cite-sources), [Linguagem fácil de entender](#easy-to-understand) · Fonte: <https://arxiv.org/abs/2311.09735>
+
 #### Otimização de trechos
 
 <a id="chunk-optimization"></a>**EN:** Chunk Optimization
@@ -2262,6 +2392,16 @@ Dados coletados pela própria marca (pesquisas, testes, levantamentos). Geram li
 > *Data collected by the brand itself (surveys, tests, studies). It earns links, mentions and facts only that brand can offer, which favors citation.*
 
 Veja também: [Ganho de informação](#information-gain), [Relações públicas digitais](#digital-pr)
+
+#### Termos técnicos
+
+<a id="technical-terms"></a>**EN:** Technical Terms
+
+Método testado no artigo original de GEO: usar a terminologia própria do domínio. Ajuda quando a pergunta do usuário usa o mesmo vocabulário especializado.
+
+> *Method tested in the original GEO paper: using the domain's own terminology. It helps when the user's question uses the same specialized vocabulary.*
+
+Veja também: [SEO semântico](#semantic-seo) · Fonte: <https://arxiv.org/abs/2311.09735>
 
 #### Volume de prompts
 
@@ -2386,6 +2526,16 @@ Quanto do que se queria medir foi de fato medido: plataformas, perguntas, regiõ
 > *How much of what was meant to be measured was actually measured: platforms, questions, regions and repetitions collected successfully. A score without stated coverage cannot be compared.*
 
 Veja também: [Resposta válida](#valid-response), [Conjunto de prompts](#prompt-set)
+
+#### Comparação com concorrentes em IA
+
+<a id="competitive-benchmarking"></a>**EN:** Competitive Benchmarking (AI)
+
+Medir a visibilidade da marca e dos concorrentes diretos com o mesmo conjunto de perguntas, plataformas e método, para que a comparação seja justa.
+
+> *Measuring the visibility of the brand and its direct competitors with the same question set, platforms and method, so the comparison is fair.*
+
+Veja também: [Participação de voz em IA](#share-of-voice), [Conjunto de prompts](#prompt-set), [Mudança comparável](#comparable-change)
 
 #### Conjunto de prompts
 
@@ -2621,6 +2771,16 @@ Modelo em que a empresa projeta produtos, dados e atendimento para serem consumi
 
 Veja também: [Comércio agêntico](#agentic-commerce), [Prontidão para agentes](#agent-readiness)
 
+#### Pesquisa aprofundada
+
+<a id="deep-research"></a>**EN:** Deep Research
+
+Modo de assistentes como ChatGPT, Gemini e Perplexity em que a IA passa vários minutos consultando dezenas de fontes e entrega um relatório com citações. Favorece páginas com dados, método e fontes claras.
+
+> *Mode in assistants such as ChatGPT, Gemini and Perplexity in which AI spends several minutes consulting dozens of sources and delivers a report with citations. It favors pages with clear data, method and sources.*
+
+Veja também: [Agente de IA](#ai-agent), [Citação por IA](#ai-citation) · Fonte: <https://en.wikipedia.org/wiki/ChatGPT_Deep_Research>
+
 #### Prontidão para agentes
 
 <a id="agent-readiness"></a>**EN:** Agent Readiness
@@ -2640,6 +2800,16 @@ Padrão aberto, lançado pela OpenAI e pela Stripe em 2025, para agentes de IA c
 > *Open standard, launched by OpenAI and Stripe in 2025, for AI agents to complete purchases with merchants, who remain the seller of record.*
 
 Veja também: [Comércio agêntico](#agentic-commerce), [Protocolo Agent2Agent](#a2a), [Protocolo de contexto de modelo](#mcp) · Fonte: <https://www.agenticcommerce.dev>
+
+#### Web agêntica
+
+<a id="agentic-web"></a>**EN:** Agentic Web
+
+Cenário em que agentes de IA navegam, comparam, preenchem formulários e concluem transações em nome das pessoas. Os sites passam a ter dois públicos: pessoas e agentes.
+
+> *Scenario in which AI agents browse, compare, fill in forms and complete transactions on people's behalf. Sites come to have two audiences: people and agents.*
+
+Veja também: [Prontidão para agentes](#agent-readiness), [Navegador agêntico](#agentic-browser), [Comércio agêntico](#agentic-commerce)
 
 ### GEO · Resultado de negócio
 
@@ -2702,6 +2872,148 @@ Visitas vindas de IAs que chegam sem referência e aparecem como tráfego direto
 > *Visits from AI that arrive without a referrer and show up as direct traffic, for example when the user copies the address from the answer or the app does not send the source. It makes AI traffic look smaller than it is.*
 
 Veja também: [Tráfego vindo de IAs](#ai-referral-traffic), [Origem declarada](#self-reported-attribution)
+
+### GEO · Plataformas e fontes
+
+#### Busca do ChatGPT
+
+<a id="chatgpt-search"></a>**EN:** ChatGPT Search (formerly SearchGPT)
+
+Recurso de busca na web do ChatGPT, testado como protótipo com o nome SearchGPT em julho de 2024 e integrado ao ChatGPT em outubro de 2024. Mostra links e fontes nas respostas.
+
+> *ChatGPT's web search feature, tested as a prototype named SearchGPT in July 2024 and integrated into ChatGPT in October 2024. It shows links and sources in answers.*
+
+Veja também: [ChatGPT](#chatgpt), [Busca com IA](#ai-search), [Citação com link](#linked-citation) · Fonte: <https://en.wikipedia.org/wiki/ChatGPT_Search>
+
+#### ChatGPT
+
+<a id="chatgpt"></a>**EN:** ChatGPT
+
+Assistente de IA da OpenAI, lançado em novembro de 2022, baseado nos modelos GPT. Busca na web (ChatGPT Search) e cita fontes; para GEO, importam os robôs OAI-SearchBot e ChatGPT-User.
+
+> *OpenAI's AI assistant, launched in November 2022, based on GPT models. It searches the web (ChatGPT Search) and cites sources; for GEO, the OAI-SearchBot and ChatGPT-User bots matter.*
+
+Veja também: [Busca do ChatGPT](#chatgpt-search), [Assistente de IA](#ai-assistant), [Robô de IA](#ai-crawler) · Fonte: <https://en.wikipedia.org/wiki/ChatGPT>
+
+#### Claude
+
+<a id="claude"></a>**EN:** Claude
+
+Assistente de IA da Anthropic, com busca na web e citação de fontes. Para GEO, importam os robôs Claude-SearchBot e Claude-User.
+
+> *Anthropic's AI assistant, with web search and source citation. For GEO, the Claude-SearchBot and Claude-User bots matter.*
+
+Veja também: [Assistente de IA](#ai-assistant), [Robô de IA](#ai-crawler), [Protocolo de contexto de modelo](#mcp) · Fonte: <https://en.wikipedia.org/wiki/Claude_(language_model)>
+
+#### DeepSeek
+
+<a id="deepseek"></a>**EN:** DeepSeek
+
+Empresa chinesa de IA que ganhou projeção em janeiro de 2025 com o modelo de raciocínio DeepSeek-R1, de pesos abertos e baixo custo de treino.
+
+> *Chinese AI company that rose to prominence in January 2025 with the DeepSeek-R1 reasoning model, open-weight and low-cost to train.*
+
+Veja também: [Modelo de pesos abertos](#open-weight-model), [Modelo de raciocínio](#reasoning-model) · Fonte: <https://www.deepseek.com>
+
+#### Google Gemini
+
+<a id="gemini"></a>**EN:** Google Gemini
+
+Família de modelos e assistente de IA do Google, que substituiu o Bard em fevereiro de 2024. Os mesmos modelos estão por trás dos AI Overviews e do Modo IA.
+
+> *Google's family of models and AI assistant, which replaced Bard in February 2024. The same models power AI Overviews and AI Mode.*
+
+Veja também: [Visão geral criada por IA](#ai-overviews), [Modo IA](#ai-mode), [Google-Extended](#google-extended) · Fonte: <https://gemini.google.com>
+
+#### Grok
+
+<a id="grok"></a>**EN:** Grok
+
+Assistente de IA da xAI, integrado ao X (antigo Twitter), que usa publicações do X e a web como fontes.
+
+> *xAI's AI assistant, integrated into X (formerly Twitter), which uses X posts and the web as sources.*
+
+Veja também: [Assistente de IA](#ai-assistant) · Fonte: <https://grok.com>
+
+#### Le Chat (Mistral AI)
+
+<a id="mistral-le-chat"></a>**EN:** Le Chat (Mistral AI)
+
+Assistente de IA da francesa Mistral AI, principal desenvolvedora europeia de modelos de linguagem. Relevante para marcas com atuação na Europa.
+
+> *AI assistant from French company Mistral AI, Europe's leading language-model developer. Relevant for brands operating in Europe.*
+
+Veja também: [Assistente de IA](#ai-assistant), [Modelo de pesos abertos](#open-weight-model) · Fonte: <https://en.wikipedia.org/wiki/Mistral_AI>
+
+#### Meta AI
+
+<a id="meta-ai"></a>**EN:** Meta AI
+
+Assistente de IA da Meta dentro do WhatsApp, do Instagram e do Facebook. No Brasil, a presença no WhatsApp lhe dá um alcance que nenhum outro assistente tem.
+
+> *Meta's AI assistant inside WhatsApp, Instagram and Facebook. In Brazil, its presence in WhatsApp gives it a reach no other assistant has.*
+
+Veja também: [Assistente de IA](#ai-assistant), [Modelo de pesos abertos](#open-weight-model) · Fonte: <https://en.wikipedia.org/wiki/Meta_AI>
+
+#### Microsoft Copilot
+
+<a id="microsoft-copilot"></a>**EN:** Microsoft Copilot
+
+Assistente de IA da Microsoft, presente no Windows, no Edge e no Microsoft 365, que busca no índice do Bing. Estar bem no Bing é pré-requisito para aparecer nele.
+
+> *Microsoft's AI assistant, built into Windows, Edge and Microsoft 365, which searches the Bing index. Doing well on Bing is a prerequisite for appearing in it.*
+
+Veja também: [Bing Webmaster Tools](#bing-webmaster-tools), [IndexNow](#indexnow) · Fonte: <https://copilot.microsoft.com>
+
+#### NotebookLM
+
+<a id="notebooklm"></a>**EN:** NotebookLM
+
+Ferramenta do Google em que a pessoa monta um assistente de IA só com as fontes que escolhe (documentos, links, vídeos). Conteúdo bem estruturado e citável é o que acaba nessas coleções.
+
+> *Google tool in which a person builds an AI assistant from only the sources they choose (documents, links, videos). Well-structured, citable content is what ends up in these collections.*
+
+Veja também: [Ancoragem em fontes](#grounding), [Geração aumentada por recuperação](#rag) · Fonte: <https://notebooklm.google>
+
+#### Perplexity
+
+<a id="perplexity"></a>**EN:** Perplexity
+
+Motor de resposta que busca na web e sempre mostra as fontes usadas. Por citar com links clicáveis, é uma das plataformas em que o tráfego de IA é mais fácil de medir.
+
+> *Answer engine that searches the web and always shows the sources used. Because it cites with clickable links, it is one of the platforms where AI traffic is easiest to measure.*
+
+Veja também: [Motor de resposta](#answer-engine), [Citação com link](#linked-citation), [Tráfego vindo de IAs](#ai-referral-traffic) · Fonte: <https://www.perplexity.ai>
+
+#### Reddit
+
+<a id="reddit"></a>**EN:** Reddit
+
+Fórum global muito citado por IAs em perguntas de opinião e comparação. Em 2024 o Google fechou acordo para usar os dados do Reddit, e a OpenAI fez acordo semelhante.
+
+> *Global forum heavily cited by AI for opinion and comparison questions. In 2024 Google signed a deal to use Reddit data, and OpenAI made a similar deal.*
+
+Veja também: [Conteúdo gerado pelo usuário](#user-generated-content), [Fonte de terceiros](#third-party-source) · Fonte: <https://blog.google/inside-google/company-announcements/expanded-reddit-partnership/>
+
+#### Wikipédia
+
+<a id="wikipedia"></a>**EN:** Wikipedia
+
+Enciclopédia colaborativa que está entre as fontes mais usadas no treino de modelos e nas respostas de IA. Só aceita verbete de quem tem notoriedade comprovada por fontes independentes.
+
+> *Collaborative encyclopedia that is among the most used sources in model training and AI answers. It only accepts articles about subjects with notability proven by independent sources.*
+
+Veja também: [Notoriedade](#notability), [Wikidata](#wikidata), [Dados de treino](#training-data) · Fonte: <https://pt.wikipedia.org>
+
+#### YouTube e transcrições
+
+<a id="youtube"></a>**EN:** YouTube (and Transcripts)
+
+Maior plataforma de vídeo e fonte crescente para IAs multimodais. Títulos, descrições e o que é dito no vídeo (transcrição) são lidos como texto e associam a marca ao tema.
+
+> *Largest video platform and a growing source for multimodal AI. Titles, descriptions and what is said in the video (transcript) are read as text and associate the brand with the topic.*
+
+Veja também: [Modelo multimodal](#multimodal-model), [Menção à marca](#brand-mention) · Fonte: <https://www.youtube.com>
 
 <a id="categoria-ia"></a>
 ## IA — Inteligência artificial aplicada à busca e ao conteúdo
@@ -3518,6 +3830,16 @@ Pergunta que só se responde juntando fatos de fontes diferentes, como "o fundad
 
 Veja também: [GraphRAG](#graphrag), [Grafo de conhecimento](#knowledge-graph)
 
+#### Recuperação de informação
+
+<a id="information-retrieval"></a>**EN:** Information Retrieval (IR)
+
+Área da computação que estuda como encontrar, numa grande coleção de documentos, os mais relevantes para uma necessidade de informação. É a base dos buscadores e da camada de recuperação dos sistemas de IA.
+
+> *Field of computing that studies how to find, in a large collection of documents, those most relevant to an information need. It underlies search engines and the retrieval layer of AI systems.*
+
+Veja também: [Geração aumentada por recuperação](#rag), [Busca lexical](#lexical-search), [Recuperação densa](#dense-retrieval) · Fonte: <https://en.wikipedia.org/wiki/Information_retrieval>
+
 #### Recuperação densa
 
 <a id="dense-retrieval"></a>**EN:** Dense Retrieval
@@ -3901,7 +4223,7 @@ Veja também: [Proveniência de conteúdo](#content-provenance), [Lei de IA da U
 
 #### Armadilha do Espelho
 
-<a id="armadilha-do-espelho"></a>**EN:** The Mirror Trap (GEO)
+<a id="armadilha-do-espelho"></a>**EN:** The GEO Mirror Trap
 
 Estudo de Raphael Sousa Pereira (preprint no Zenodo, junho de 2026, DOI 10.5281/zenodo.21068730) sobre autopromoção e listas autocitadas como fonte de viés na citação por modelos de linguagem.
 
@@ -3951,7 +4273,7 @@ Veja também: [Tráfego de IA não identificado](#dark-ai-traffic), [Origem decl
 
 #### Hospedeiro (em GEO)
 
-<a id="hospedeiro-geo"></a>**EN:** Host Site (GEO)
+<a id="hospedeiro-geo"></a>**EN:** Host Site (in GEO)
 
 Nome dado por Raphael Sousa Pereira a um site de conteúdo que publica listas, rankings ou guias em que uma marca de terceiro recebe destaque, funcionando para buscadores e IAs como fonte aparentemente independente sobre essa marca.
 
