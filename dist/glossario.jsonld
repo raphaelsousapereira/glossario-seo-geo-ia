@@ -7,7 +7,7 @@
     "pt-BR",
     "en"
   ],
-  "version": "1.3.0",
+  "version": "1.3.1",
   "dateModified": "2026-10-23",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "url": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia",
@@ -1252,13 +1252,13 @@
         },
         {
           "@language": "en",
-          "@value": "Domain Authority (DA/DR)"
+          "@value": "Domain Authority (DA, DR, Authority Score)"
         }
       ],
       "description": [
         {
           "@language": "pt-BR",
-          "@value": "Nota criada por ferramentas de SEO (Moz, Ahrefs, Semrush) para estimar a força de links de um domínio. Não é métrica do Google."
+          "@value": "Nota criada por ferramentas de SEO para estimar a força de um domínio: Domain Authority (Moz), Domain Rating (Ahrefs) e Authority Score (Semrush). Cada ferramenta calcula de um jeito, e nenhuma é métrica do Google."
         },
         {
           "@language": "en",
@@ -2324,13 +2324,13 @@
         },
         {
           "@language": "en",
-          "@value": "Topic Cluster"
+          "@value": "Topic Cluster (Hub-and-Spoke)"
         }
       ],
       "description": [
         {
           "@language": "pt-BR",
-          "@value": "Organização de conteúdo em uma página pilar sobre um tema amplo, ligada a páginas que aprofundam cada subtema."
+          "@value": "Organização de conteúdo em uma página pilar sobre um tema amplo, ligada a páginas que aprofundam cada subtema e que devolvem links a ela. Também chamado de modelo hub-and-spoke (eixo e raios)."
         },
         {
           "@language": "en",
@@ -4068,6 +4068,34 @@
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
       "subjectOf": "https://seonegocionomapa.com.br/a-equacao-da-entidade-citavel/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#answer-first-writing",
+      "termCode": "answer-first-writing",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Escrita com a resposta primeiro"
+        },
+        {
+          "@language": "en",
+          "@value": "Answer-first Writing"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Estilo em que a resposta direta vem na primeira frase ou parágrafo, antes de contexto, história ou ressalvas, como na pirâmide invertida do jornalismo. Facilita a extração do trecho por buscadores e IAs."
+        },
+        {
+          "@language": "en",
+          "@value": "Writing style in which the direct answer comes in the first sentence or paragraph, before context, background or caveats, as in journalism's inverted pyramid. It makes the passage easier for search engines and AI to extract."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
     },
     {
       "@type": "DefinedTerm",
@@ -9745,6 +9773,35 @@
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
       "subjectOf": "https://seonegocionomapa.com.br/schema-authority-2026-guia-de-schema-org-geo-e-ia/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#dataset-schema",
+      "termCode": "dataset-schema",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Schema Dataset"
+        },
+        {
+          "@language": "en",
+          "@value": "Dataset Schema"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Marcação Schema.org para conjuntos de dados (tabelas, pesquisas, séries), com nome, descrição, autor, licença, cobertura e links de download. Faz o dado aparecer no Google Dataset Search e o torna citável como fonte."
+        },
+        {
+          "@language": "en",
+          "@value": "Schema.org markup for datasets (tables, surveys, series), with name, description, creator, license, coverage and download links. It makes the data appear in Google Dataset Search and citable as a source."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://developers.google.com/search/docs/appearance/structured-data/dataset"
     },
     {
       "@type": "DefinedTerm",

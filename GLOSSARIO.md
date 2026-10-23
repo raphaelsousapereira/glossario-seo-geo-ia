@@ -1,11 +1,11 @@
-# Glossário SEO, GEO e IA — 424 termos
+# Glossário SEO, GEO e IA — 426 termos
 
-Versão 1.3.0 · atualizado em 2026-10-23 · português do Brasil e inglês · [CC BY 4.0](LICENSE) · Raphael Sousa Pereira, [Negócio no Mapa](https://seonegocionomapa.com.br)
+Versão 1.3.1 · atualizado em 2026-10-23 · português do Brasil e inglês · [CC BY 4.0](LICENSE) · Raphael Sousa Pereira, [Negócio no Mapa](https://seonegocionomapa.com.br)
 
 Arquivo gerado por `scripts/construir.py` a partir de `termos/`. Não edite à mão.
 
-- [SEO](#categoria-seo) — Busca orgânica, SEO técnico, local e dados estruturados (150 termos)
-- [GEO](#categoria-geo) — Visibilidade e citação em motores generativos (108 termos)
+- [SEO](#categoria-seo) — Busca orgânica, SEO técnico, local e dados estruturados (151 termos)
+- [GEO](#categoria-geo) — Visibilidade e citação em motores generativos (109 termos)
 - [IA](#categoria-ia) — Inteligência artificial aplicada à busca e ao conteúdo (117 termos)
 - [Autorais](#categoria-autorais) — Conceitos cunhados por Raphael Sousa Pereira (49 termos)
 
@@ -662,9 +662,9 @@ Veja também: [Poda de conteúdo](#content-pruning), [URL canônica](#canonical-
 
 #### Cluster de tópicos
 
-<a id="topic-cluster"></a>**EN:** Topic Cluster
+<a id="topic-cluster"></a>**EN:** Topic Cluster (Hub-and-Spoke)
 
-Organização de conteúdo em uma página pilar sobre um tema amplo, ligada a páginas que aprofundam cada subtema.
+Organização de conteúdo em uma página pilar sobre um tema amplo, ligada a páginas que aprofundam cada subtema e que devolvem links a ela. Também chamado de modelo hub-and-spoke (eixo e raios).
 
 > *Content structure with a pillar page on a broad topic, linked to pages that go deeper into each subtopic.*
 
@@ -864,9 +864,9 @@ Veja também: [Valor de link](#link-equity), [Spam de links](#link-spam) · Font
 
 #### Autoridade de domínio
 
-<a id="domain-authority"></a>**EN:** Domain Authority (DA/DR)
+<a id="domain-authority"></a>**EN:** Domain Authority (DA, DR, Authority Score)
 
-Nota criada por ferramentas de SEO (Moz, Ahrefs, Semrush) para estimar a força de links de um domínio. Não é métrica do Google.
+Nota criada por ferramentas de SEO para estimar a força de um domínio: Domain Authority (Moz), Domain Rating (Ahrefs) e Authority Score (Semrush). Cada ferramenta calcula de um jeito, e nenhuma é métrica do Google.
 
 > *Score created by SEO tools (Moz, Ahrefs, Semrush) to estimate a domain's link strength. It is not a Google metric.*
 
@@ -1187,6 +1187,16 @@ Marcação de artigos com título, autor, data de publicação e de modificaçã
 > *Article markup with headline, author, published and modified dates and image. It ties content to the author as an entity.*
 
 Veja também: [Autor como entidade](#author-entity), [Dados estruturados](#structured-data) · Fonte: <https://developers.google.com/search/docs/appearance/structured-data/article>
+
+#### Schema Dataset
+
+<a id="dataset-schema"></a>**EN:** Dataset Schema
+
+Marcação Schema.org para conjuntos de dados (tabelas, pesquisas, séries), com nome, descrição, autor, licença, cobertura e links de download. Faz o dado aparecer no Google Dataset Search e o torna citável como fonte.
+
+> *Schema.org markup for datasets (tables, surveys, series), with name, description, creator, license, coverage and download links. It makes the data appear in Google Dataset Search and citable as a source.*
+
+Veja também: [Dados estruturados](#structured-data), [Pesquisa própria](#original-research) · Fonte: <https://developers.google.com/search/docs/appearance/structured-data/dataset>
 
 #### Schema FAQPage
 
@@ -2142,6 +2152,16 @@ Parágrafo curto e autossuficiente logo depois de um heading, que responde a per
 > *Short, self-contained paragraph right after a heading that answers the heading's question without depending on the rest of the page. It is the unit AI most easily extracts and cites.*
 
 Veja também: [Fragmentação em trechos](#chunking), [Fato citável](#citable-fact), [Estrutura de headings](#heading-structure)
+
+#### Escrita com a resposta primeiro
+
+<a id="answer-first-writing"></a>**EN:** Answer-first Writing
+
+Estilo em que a resposta direta vem na primeira frase ou parágrafo, antes de contexto, história ou ressalvas, como na pirâmide invertida do jornalismo. Facilita a extração do trecho por buscadores e IAs.
+
+> *Writing style in which the direct answer comes in the first sentence or paragraph, before context, background or caveats, as in journalism's inverted pyramid. It makes the passage easier for search engines and AI to extract.*
+
+Veja também: [Cápsula de resposta](#answer-capsule), [Trecho em destaque](#featured-snippet), [Otimização de trechos](#chunk-optimization)
 
 #### Fato citável
 

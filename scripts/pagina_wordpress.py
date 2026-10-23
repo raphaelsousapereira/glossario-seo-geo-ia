@@ -167,6 +167,15 @@ def main() -> None:
                              "name": [{"@language": "pt-BR", "@value": t["termo_pt"]},
                                       {"@language": "en", "@value": t["termo_en"]}],
                              "description": t["definicao_pt"]} for t in termos]},
+        {"@type": "Dataset", "@id": f"{URL}#dados", "name": "Glossário SEO, GEO e IA (dados abertos)",
+         "description": f"{total} termos de SEO, GEO e IA com termo e definição em português e inglês, termos relacionados "
+                        "e fonte primária, em JSON, CSV e JSON-LD.",
+         "url": URL, "sameAs": REPO, "version": meta["versao"], "dateModified": meta["atualizado_em"],
+         "inLanguage": ["pt-BR", "en"], "license": "https://creativecommons.org/licenses/by/4.0/",
+         "isAccessibleForFree": True, "creator": {"@id": PESSOA}, "publisher": {"@id": ORG},
+         "keywords": ["SEO", "GEO", "Generative Engine Optimization", "inteligência artificial", "glossário"],
+         "distribution": [{"@type": "DataDownload", "encodingFormat": f, "contentUrl": f"{RAW}/glossario.{x}"}
+                          for x, f in (("json", "application/json"), ("csv", "text/csv"), ("jsonld", "application/ld+json"))]},
         {"@type": "Person", "@id": PESSOA, "name": "Raphael Sousa Pereira", "url": "https://raphaelsousapereira.com.br/"},
         {"@type": "Organization", "@id": ORG, "name": "Negócio no Mapa", "url": f"{SITE}/"},
     ]}

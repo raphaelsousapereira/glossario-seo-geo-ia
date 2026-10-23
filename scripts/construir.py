@@ -18,7 +18,7 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 TERMOS = RAIZ / "termos"
-VERSAO = "1.3.0"
+VERSAO = "1.3.1"
 DATA = "2026-10-23"
 SITE = "https://seonegocionomapa.com.br"
 REPO = "https://github.com/raphaelsousapereira/glossario-seo-geo-ia"

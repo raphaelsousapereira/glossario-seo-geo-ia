@@ -1,9 +1,9 @@
 {
   "meta": {
     "nome": "Glossário SEO, GEO e IA",
-    "versao": "1.3.0",
+    "versao": "1.3.1",
     "atualizado_em": "2026-10-23",
-    "total": 424,
+    "total": 426,
     "idiomas": [
       "pt-BR",
       "en"
@@ -672,9 +672,9 @@
       "slug": "domain-authority",
       "categoria": "SEO",
       "subcategoria": "Links e autoridade",
-      "termo_en": "Domain Authority (DA/DR)",
+      "termo_en": "Domain Authority (DA, DR, Authority Score)",
       "termo_pt": "Autoridade de domínio",
-      "definicao_pt": "Nota criada por ferramentas de SEO (Moz, Ahrefs, Semrush) para estimar a força de links de um domínio. Não é métrica do Google.",
+      "definicao_pt": "Nota criada por ferramentas de SEO para estimar a força de um domínio: Domain Authority (Moz), Domain Rating (Ahrefs) e Authority Score (Semrush). Cada ferramenta calcula de um jeito, e nenhuma é métrica do Google.",
       "definition_en": "Score created by SEO tools (Moz, Ahrefs, Semrush) to estimate a domain's link strength. It is not a Google metric.",
       "relacionados": [
         "backlink",
@@ -1211,9 +1211,9 @@
       "slug": "topic-cluster",
       "categoria": "SEO",
       "subcategoria": "Conteúdo e on-page",
-      "termo_en": "Topic Cluster",
+      "termo_en": "Topic Cluster (Hub-and-Spoke)",
       "termo_pt": "Cluster de tópicos",
-      "definicao_pt": "Organização de conteúdo em uma página pilar sobre um tema amplo, ligada a páginas que aprofundam cada subtema.",
+      "definicao_pt": "Organização de conteúdo em uma página pilar sobre um tema amplo, ligada a páginas que aprofundam cada subtema e que devolvem links a ela. Também chamado de modelo hub-and-spoke (eixo e raios).",
       "definition_en": "Content structure with a pillar page on a broad topic, linked to pages that go deeper into each subtopic.",
       "relacionados": [
         "pillar-page",
@@ -2092,6 +2092,21 @@
         "author-entity"
       ],
       "fonte": "https://seonegocionomapa.com.br/a-equacao-da-entidade-citavel/"
+    },
+    {
+      "slug": "answer-first-writing",
+      "categoria": "GEO",
+      "subcategoria": "Conteúdo citável",
+      "termo_en": "Answer-first Writing",
+      "termo_pt": "Escrita com a resposta primeiro",
+      "definicao_pt": "Estilo em que a resposta direta vem na primeira frase ou parágrafo, antes de contexto, história ou ressalvas, como na pirâmide invertida do jornalismo. Facilita a extração do trecho por buscadores e IAs.",
+      "definition_en": "Writing style in which the direct answer comes in the first sentence or paragraph, before context, background or caveats, as in journalism's inverted pyramid. It makes the passage easier for search engines and AI to extract.",
+      "relacionados": [
+        "answer-capsule",
+        "featured-snippet",
+        "chunk-optimization"
+      ],
+      "fonte": ""
     },
     {
       "slug": "estrategista-de-citacao-de-entidade",
@@ -4910,6 +4925,20 @@
         "entity-graph"
       ],
       "fonte": "https://seonegocionomapa.com.br/schema-authority-2026-guia-de-schema-org-geo-e-ia/"
+    },
+    {
+      "slug": "dataset-schema",
+      "categoria": "SEO",
+      "subcategoria": "Dados estruturados",
+      "termo_en": "Dataset Schema",
+      "termo_pt": "Schema Dataset",
+      "definicao_pt": "Marcação Schema.org para conjuntos de dados (tabelas, pesquisas, séries), com nome, descrição, autor, licença, cobertura e links de download. Faz o dado aparecer no Google Dataset Search e o torna citável como fonte.",
+      "definition_en": "Schema.org markup for datasets (tables, surveys, series), with name, description, creator, license, coverage and download links. It makes the data appear in Google Dataset Search and citable as a source.",
+      "relacionados": [
+        "structured-data",
+        "original-research"
+      ],
+      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/dataset"
     },
     {
       "slug": "faqpage-schema",

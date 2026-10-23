@@ -1,6 +1,6 @@
 # Índice A–Z
 
-424 termos em ordem alfabética do termo em português.
+426 termos em ordem alfabética do termo em português.
 
 | Termo (pt-BR) | Term (en) | Categoria |
 |---|---|---|
@@ -47,7 +47,7 @@
 | [Autoconsistência](GLOSSARIO.md#self-consistency) | Self-consistency | IA |
 | [Autor como entidade](GLOSSARIO.md#author-entity) | Author Entity | GEO |
 | [Autoridade Canônica Auditável](GLOSSARIO.md#autoridade-canonica-auditavel) | Auditable Canonical Authority | Autorais |
-| [Autoridade de domínio](GLOSSARIO.md#domain-authority) | Domain Authority (DA/DR) | SEO |
+| [Autoridade de domínio](GLOSSARIO.md#domain-authority) | Domain Authority (DA, DR, Authority Score) | SEO |
 | [Autoridade Sintética](GLOSSARIO.md#autoridade-sintetica) | Synthetic Authority | Autorais |
 | [Autoridade temática](GLOSSARIO.md#topical-authority) | Topical Authority | SEO |
 | [Avaliações (evals)](GLOSSARIO.md#evals) | Evals | IA |
@@ -85,7 +85,7 @@
 | [Citação por IA](GLOSSARIO.md#ai-citation) | AI Citation | GEO |
 | [Claim Saturado](GLOSSARIO.md#claim-saturado) | Saturated Claim | Autorais |
 | [Cloaking](GLOSSARIO.md#cloaking) | Cloaking | SEO |
-| [Cluster de tópicos](GLOSSARIO.md#topic-cluster) | Topic Cluster | SEO |
+| [Cluster de tópicos](GLOSSARIO.md#topic-cluster) | Topic Cluster (Hub-and-Spoke) | SEO |
 | [CMS headless](GLOSSARIO.md#headless-cms) | Headless CMS | SEO |
 | [Cobertura da medição](GLOSSARIO.md#measurement-coverage) | Measurement Coverage | GEO |
 | [Cocitação](GLOSSARIO.md#co-citation) | Co-citation | GEO |
@@ -147,6 +147,7 @@
 | [Entity Health Score (EHS)](GLOSSARIO.md#entity-health-score) | Entity Health Score (EHS) | Autorais |
 | [Envenenamento de dados](GLOSSARIO.md#llm-poisoning) | LLM Poisoning (Data Poisoning) | GEO |
 | [Equação da Entidade Citável (EEC)](GLOSSARIO.md#equacao-da-entidade-citavel) | Citable Entity Equation (EEC) | Autorais |
+| [Escrita com a resposta primeiro](GLOSSARIO.md#answer-first-writing) | Answer-first Writing | GEO |
 | [Estrategista de Citação de Entidade](GLOSSARIO.md#estrategista-de-citacao-de-entidade) | Entity Citation Strategist | Autorais |
 | [Estrutura de gestão de riscos de IA do NIST](GLOSSARIO.md#nist-ai-rmf) | NIST AI Risk Management Framework | IA |
 | [Estrutura de headings](GLOSSARIO.md#heading-structure) | Heading Structure (H1–H6) | SEO |
@@ -347,6 +348,7 @@
 | [Saída estruturada](GLOSSARIO.md#structured-output) | Structured Output | IA |
 | [Schema Article](GLOSSARIO.md#article-schema) | Article Schema | SEO |
 | [Schema Authority](GLOSSARIO.md#schema-authority) | Schema Authority | Autorais |
+| [Schema Dataset](GLOSSARIO.md#dataset-schema) | Dataset Schema | SEO |
 | [Schema FAQPage](GLOSSARIO.md#faqpage-schema) | FAQPage Schema | SEO |
 | [Schema LocalBusiness](GLOSSARIO.md#local-business-schema) | LocalBusiness Schema | SEO |
 | [Schema Organization](GLOSSARIO.md#organization-schema) | Organization Schema | SEO |
