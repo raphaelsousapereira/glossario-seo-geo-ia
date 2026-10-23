@@ -1,6 +1,6 @@
 # Glossário SEO, GEO e IA — 463 termos
 
-Versão 1.4.0 · atualizado em 2026-10-23 · português do Brasil e inglês · [CC BY 4.0](LICENSE) · Raphael Sousa Pereira, [Negócio no Mapa](https://seonegocionomapa.com.br)
+Versão 1.5.0 · atualizado em 2026-10-23 · português do Brasil e inglês · [CC BY 4.0](LICENSE) · Raphael Sousa Pereira, [Negócio no Mapa](https://seonegocionomapa.com.br)
 
 Arquivo gerado por `scripts/construir.py` a partir de `termos/`. Não edite à mão.
 
@@ -92,7 +92,7 @@ O objetivo por trás de uma consulta: informar-se, navegar até um site, compara
 
 > *The goal behind a query: to learn, to reach a site, to compare options or to buy. Pages that match the dominant intent tend to rank better.*
 
-Veja também: [Palavra-chave](#keyword), [Desdobramento da consulta](#query-fan-out)
+Veja também: [Palavra-chave](#keyword), [Desdobramento da consulta](#query-fan-out) · Leia no site: <https://seonegocionomapa.com.br/otimizacao-de-paginas-seo/>
 
 #### Otimização da experiência de busca
 
@@ -294,7 +294,7 @@ Etapa em que o buscador processa a página rastreada, entende o conteúdo e a gu
 
 > *Step in which the search engine processes a crawled page, understands its content and stores it in the index, from which it can be retrieved for a query.*
 
-Veja também: [Rastreamento](#crawling), [Diretiva noindex](#noindex), [Relatório de indexação](#index-coverage) · Fonte: <https://developers.google.com/search/docs/fundamentals/how-search-works>
+Veja também: [Rastreamento](#crawling), [Diretiva noindex](#noindex), [Relatório de indexação](#index-coverage) · Fonte: <https://developers.google.com/search/docs/fundamentals/how-search-works> · Leia no site: <https://seonegocionomapa.com.br/livro-seo-tecnico-crawling-indexacao-e-arquitetura-de-informacao/>
 
 #### IndexNow
 
@@ -324,7 +324,7 @@ Quantidade de URLs que o robô se dispõe a rastrear num site em um período, li
 
 > *Number of URLs a bot is willing to crawl on a site in a period, limited by server capacity and the search engine's demand. It matters mostly for large sites.*
 
-Veja também: [Rastreamento](#crawling), [Análise de logs](#log-file-analysis) · Fonte: <https://developers.google.com/search/docs/crawling-indexing/large-site-managing-crawl-budget>
+Veja também: [Rastreamento](#crawling), [Análise de logs](#log-file-analysis) · Fonte: <https://developers.google.com/search/docs/crawling-indexing/large-site-managing-crawl-budget> · Leia no site: <https://raphaelsousapereira.com.br/crawl-budget-quando-importa-quando-e-ruido/>
 
 #### Profundidade de clique
 
@@ -334,7 +334,7 @@ Quantos cliques separam uma página da home. Páginas muito profundas tendem a s
 
 > *How many clicks separate a page from the home page. Very deep pages tend to be crawled less often.*
 
-Veja também: [Arquitetura do site](#site-architecture), [Página órfã](#orphan-page)
+Veja também: [Arquitetura do site](#site-architecture), [Página órfã](#orphan-page) · Leia no site: <https://raphaelsousapereira.com.br/orfa-faceta-profundidade-clique/>
 
 #### Página órfã
 
@@ -354,7 +354,7 @@ Facilidade com que robôs chegam a uma página e baixam o conteúdo: links inter
 
 > *How easily bots can reach a page and download its content: crawlable internal links, a robots.txt that does not block, a server returning 200 and no barriers such as login, CAPTCHA or CDN blocking.*
 
-Veja também: [Rastreamento](#crawling), [Arquivo robots.txt](#robots-txt), [Robô de IA](#ai-crawler)
+Veja também: [Rastreamento](#crawling), [Arquivo robots.txt](#robots-txt), [Robô de IA](#ai-crawler) · Leia no site: <https://seonegocionomapa.com.br/2026/06/22/seo-2026-engenharia-de-visibilidade-para-google-maps-e-ia/>
 
 #### Rastreamento
 
@@ -364,7 +364,7 @@ Processo pelo qual o robô do buscador descobre e baixa páginas seguindo links 
 
 > *Process by which a search engine's bot discovers and downloads pages by following links and sitemaps.*
 
-Veja também: [Robô de rastreamento](#crawler), [Indexação](#indexing), [Orçamento de rastreamento](#crawl-budget) · Fonte: <https://developers.google.com/search/docs/fundamentals/how-search-works>
+Veja também: [Robô de rastreamento](#crawler), [Indexação](#indexing), [Orçamento de rastreamento](#crawl-budget) · Fonte: <https://developers.google.com/search/docs/fundamentals/how-search-works> · Leia no site: <https://seonegocionomapa.com.br/livro-seo-tecnico-crawling-indexacao-e-arquitetura-de-informacao/>
 
 #### Redirecionamento 301
 
@@ -476,7 +476,7 @@ Três métricas do Google para a experiência real na página: LCP (carregamento
 
 > *Google's three metrics for real page experience: LCP (loading), INP (interaction response) and CLS (visual stability).*
 
-Veja também: [Maior renderização de conteúdo](#lcp), [Interação até a próxima renderização](#inp), [Mudança cumulativa de layout](#cls), [Experiência na página](#page-experience) · Fonte: <https://web.dev/articles/vitals>
+Veja também: [Maior renderização de conteúdo](#lcp), [Interação até a próxima renderização](#inp), [Mudança cumulativa de layout](#cls), [Experiência na página](#page-experience) · Fonte: <https://web.dev/articles/vitals> · Leia no site: <https://seonegocionomapa.com.br/como-otimizar-inp-guia-completo-de-core-web-vitals-2026/>
 
 #### Experiência na página
 
@@ -526,7 +526,7 @@ Tempo que a página leva para responder visualmente às interações do usuário
 
 > *Time the page takes to respond visually to user interactions throughout the visit. It replaced FID in March 2024. Good: 200 ms or less.*
 
-Veja também: [Core Web Vitals](#core-web-vitals) · Fonte: <https://web.dev/articles/inp>
+Veja também: [Core Web Vitals](#core-web-vitals) · Fonte: <https://web.dev/articles/inp> · Leia no site: <https://seonegocionomapa.com.br/como-otimizar-inp-guia-completo-de-core-web-vitals-2026/>
 
 #### Maior renderização de conteúdo
 
@@ -606,7 +606,7 @@ Parte do SEO que cuida de rastreamento, indexação, renderização, velocidade,
 
 > *Part of SEO that handles crawling, indexing, rendering, speed, architecture, structured data and security so content can be found and read.*
 
-Veja também: [Rastreamento](#crawling), [Core Web Vitals](#core-web-vitals), [Dados estruturados](#structured-data)
+Veja também: [Rastreamento](#crawling), [Core Web Vitals](#core-web-vitals), [Dados estruturados](#structured-data) · Leia no site: <https://seonegocionomapa.com.br/livro-seo-tecnico-crawling-indexacao-e-arquitetura-de-informacao/>
 
 #### Slug da URL
 
@@ -748,7 +748,7 @@ Orientação do Google para conteúdo feito para pessoas, com experiência e inf
 
 > *Google guidance for content made for people, with first-hand experience and original information, not to manipulate rankings. Since 2024 it is part of the core ranking system.*
 
-Veja também: [Experiência, especialidade, autoridade e confiabilidade](#e-e-a-t), [Conteúdo raso](#thin-content) · Fonte: <https://developers.google.com/search/docs/fundamentals/creating-helpful-content>
+Veja também: [Experiência, especialidade, autoridade e confiabilidade](#e-e-a-t), [Conteúdo raso](#thin-content) · Fonte: <https://developers.google.com/search/docs/fundamentals/creating-helpful-content> · Leia no site: <https://seonegocionomapa.com.br/2026/06/22/seo-2026-engenharia-de-visibilidade-para-google-maps-e-ia/>
 
 #### Escaneabilidade
 
@@ -788,7 +788,7 @@ Critério das diretrizes dos avaliadores de qualidade do Google: Experience, Exp
 
 > *Criterion in Google's quality rater guidelines: Experience, Expertise, Authoritativeness and Trustworthiness. It is not a single signal but what many signals try to reflect.*
 
-Veja também: [Seu dinheiro ou sua vida](#ymyl), [Conteúdo útil](#helpful-content), [Autor como entidade](#author-entity) · Fonte: <https://developers.google.com/search/docs/fundamentals/creating-helpful-content>
+Veja também: [Seu dinheiro ou sua vida](#ymyl), [Conteúdo útil](#helpful-content), [Autor como entidade](#author-entity) · Fonte: <https://developers.google.com/search/docs/fundamentals/creating-helpful-content> · Leia no site: <https://seonegocionomapa.com.br/2026/04/30/google-e-e-a-t-o-que-e-como-funciona-e-quais-sao-os-fatores-de-avaliacao-de-paginas-da-web-guia-completo-2026/>
 
 #### Liderança de pensamento
 
@@ -898,7 +898,7 @@ Temas que podem afetar saúde, finanças, segurança ou direitos das pessoas. Ne
 
 > *Topics that can affect people's health, finances, safety or rights. For them, Google demands a higher trust standard.*
 
-Veja também: [Experiência, especialidade, autoridade e confiabilidade](#e-e-a-t)
+Veja também: [Experiência, especialidade, autoridade e confiabilidade](#e-e-a-t) · Leia no site: <https://seonegocionomapa.com.br/e-e-a-t-os-sinais-que-google-e-ia-exigem-antes-de-confiar-em-voce/>
 
 #### Tag de título
 
@@ -970,7 +970,7 @@ Link de outro site apontando para o seu. Links de fontes relevantes e confiávei
 
 > *Link from another site pointing to yours. Links from relevant, trustworthy sources count as a vote of confidence.*
 
-Veja também: [Construção de links](#link-building), [Texto âncora](#anchor-text), [PageRank](#pagerank)
+Veja também: [Construção de links](#link-building), [Texto âncora](#anchor-text), [PageRank](#pagerank) · Leia no site: <https://seonegocionomapa.com.br/como-usar-backlinks-em-sua-estrategia-de-seo-e-geo-guia-2026/>
 
 #### Construção de links
 
@@ -990,7 +990,7 @@ Links entre páginas do mesmo site. Distribuem autoridade, mostram a hierarquia 
 
 > *Links between pages on the same site. They spread authority, show hierarchy and help bots discover content.*
 
-Veja também: [Arquitetura do site](#site-architecture), [Texto âncora](#anchor-text), [Página órfã](#orphan-page)
+Veja também: [Arquitetura do site](#site-architecture), [Texto âncora](#anchor-text), [Página órfã](#orphan-page) · Leia no site: <https://raphaelsousapereira.com.br/ferramenta-vs-metodo-linkagem-interna/>
 
 #### Menção à marca
 
@@ -1010,7 +1010,7 @@ Algoritmo original do Google que mede a importância de uma página pelos links 
 
 > *Google's original algorithm measuring a page's importance by the links it receives, weighted by the importance of the linking pages. Still used, with many variations.*
 
-Veja também: [Backlink (link de entrada)](#backlink), [Valor de link](#link-equity) · Fonte: <https://research.google/pubs/the-anatomy-of-a-large-scale-hypertextual-web-search-engine/>
+Veja também: [Backlink (link de entrada)](#backlink), [Valor de link](#link-equity) · Fonte: <https://research.google/pubs/the-anatomy-of-a-large-scale-hypertextual-web-search-engine/> · Leia no site: <https://raphaelsousapereira.com.br/matematica-esquecida-do-pagerank/>
 
 #### Relações públicas digitais
 
@@ -1050,7 +1050,7 @@ Texto clicável de um link. Indica ao buscador o assunto da página de destino.
 
 > *Clickable text of a link. It tells the search engine what the target page is about.*
 
-Veja também: [Backlink (link de entrada)](#backlink), [Linkagem interna](#internal-linking)
+Veja também: [Backlink (link de entrada)](#backlink), [Linkagem interna](#internal-linking) · Leia no site: <https://seonegocionomapa.com.br/arquitetura-semantica-profissional-de-geo/>
 
 #### Valor de link
 
@@ -1132,7 +1132,7 @@ Bloco com mapa e três empresas que aparece no topo de buscas com intenção loc
 
 > *Block with a map and three businesses shown at the top of searches with local intent.*
 
-Veja também: [SEO local](#local-seo), [Recurso da página de resultados](#serp-feature)
+Veja também: [SEO local](#local-seo), [Recurso da página de resultados](#serp-feature) · Leia no site: <https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/>
 
 #### Perfil da Empresa no Google
 
@@ -1142,7 +1142,7 @@ Ficha gratuita da empresa no Google Search e no Maps, com categoria, endereço, 
 
 > *Free business listing on Google Search and Maps, with category, address, hours, photos, reviews and posts. Formerly Google My Business.*
 
-Veja também: [SEO local](#local-seo), [Categoria principal](#primary-category) · Fonte: <https://support.google.com/business>
+Veja também: [SEO local](#local-seo), [Categoria principal](#primary-category) · Fonte: <https://support.google.com/business> · Leia no site: <https://seonegocionomapa.com.br/auditoria-paridade-site-google-business-profile/>
 
 #### Relevância, distância e proeminência
 
@@ -1162,7 +1162,7 @@ Otimização para buscas com intenção local, como "dentista perto de mim", com
 
 > *Optimization for searches with local intent, such as "dentist near me", focused on the Google Business Profile, the map and reviews.*
 
-Veja também: [Perfil da Empresa no Google](#google-business-profile), [Pacote local](#local-pack), [Nome, endereço e telefone](#nap)
+Veja também: [Perfil da Empresa no Google](#google-business-profile), [Pacote local](#local-pack), [Nome, endereço e telefone](#nap) · Leia no site: <https://seonegocionomapa.com.br/seo-local-em-porto-alegre/>
 
 ### SEO · SEO internacional
 
@@ -1236,7 +1236,7 @@ Formato de dados ligados em JSON, recomendado pelo Google para dados estruturado
 
 > *JSON-based linked-data format recommended by Google for structured data. It lives in a <script> block separate from the visible HTML.*
 
-Veja também: [Dados estruturados](#structured-data), [Identificador @id](#schema-id) · Fonte: <https://www.w3.org/TR/json-ld11/>
+Veja também: [Dados estruturados](#structured-data), [Identificador @id](#schema-id) · Fonte: <https://www.w3.org/TR/json-ld11/> · Leia no site: <https://raphaelsousapereira.com.br/schema-markup-json-ld-entidades-grafo-conhecimento-geo-2026/>
 
 #### Propriedade knowsAbout
 
@@ -1366,7 +1366,7 @@ Vocabulário mantido por Google, Microsoft, Yahoo e Yandex para descrever entida
 
 > *Vocabulary maintained by Google, Microsoft, Yahoo and Yandex to describe entities (Organization, Person, Product, LocalBusiness, FAQPage and hundreds more) and their properties.*
 
-Veja também: [Dados estruturados](#structured-data), [JSON-LD](#json-ld) · Fonte: <https://schema.org>
+Veja também: [Dados estruturados](#structured-data), [JSON-LD](#json-ld) · Fonte: <https://schema.org> · Leia no site: <https://seonegocionomapa.com.br/schema-authority-2026-guia-de-schema-org-geo-e-ia/>
 
 #### Teste de pesquisa aprimorada
 
@@ -1418,7 +1418,7 @@ Total gasto em marketing e vendas num período dividido pelo número de clientes
 
 > *Total marketing and sales spend in a period divided by the number of new customers in that period.*
 
-Veja também: [Valor do tempo de vida do cliente](#ltv), [Receita atribuída](#attributed-revenue)
+Veja também: [Valor do tempo de vida do cliente](#ltv), [Receita atribuída](#attributed-revenue) · Leia no site: <https://seonegocionomapa.com.br/brand-led-growth-architecture/>
 
 #### Evento principal
 
@@ -1438,7 +1438,7 @@ Ferramenta de análise do Google baseada em eventos, usada para medir visitas, o
 
 > *Google's event-based analytics tool, used to measure visits, traffic sources and conversions, including traffic from AI.*
 
-Veja também: [Tráfego vindo de IAs](#ai-referral-traffic), [Taxa de conversão](#conversion-rate)
+Veja também: [Tráfego vindo de IAs](#ai-referral-traffic), [Taxa de conversão](#conversion-rate) · Leia no site: <https://seonegocionomapa.com.br/trafego-de-ias-o-que-e-como-medir-no-ga4-e-o-tamanho-real-no-brasil-em-2026/>
 
 #### Google Search Console
 
@@ -1580,7 +1580,7 @@ Bloco de perguntas relacionadas que se expandem com respostas de diferentes pág
 
 > *Block of related questions that expand into answers from different pages. A good source of questions for content.*
 
-Veja também: [Recurso da página de resultados](#serp-feature), [Desdobramento da consulta](#query-fan-out)
+Veja também: [Recurso da página de resultados](#serp-feature), [Desdobramento da consulta](#query-fan-out) · Leia no site: <https://seonegocionomapa.com.br/arquitetura-semantica-profissional-de-geo/>
 
 #### Atualização principal
 
@@ -1675,7 +1675,7 @@ Busca em que a resposta é redigida por um modelo de IA a partir de fontes recup
 
 > *Search in which the answer is written by an AI model from retrieved sources instead of a list of links. Examples: ChatGPT Search, Perplexity, Google AI Mode.*
 
-Veja também: [Motor generativo](#generative-engine), [Visão geral criada por IA](#ai-overviews), [Modo IA](#ai-mode)
+Veja também: [Motor generativo](#generative-engine), [Visão geral criada por IA](#ai-overviews), [Modo IA](#ai-mode) · Leia no site: <https://seonegocionomapa.com.br/o-que-e-llmo-em-2026-guia-tecnico-sobre-otimizacao-para-llms-geo-e-ai-search/>
 
 #### Camada de recuperação
 
@@ -1695,7 +1695,7 @@ Quanto um conteúdo está pronto para ser usado e citado por uma IA: acessível 
 
 > *How ready content is to be used and cited by AI: accessible to bots, with self-contained answers, specific sourced facts and clear authorship and entity. Readiness does not guarantee citation.*
 
-Veja também: [Cápsula de resposta](#answer-capsule), [Fato citável](#citable-fact), [Recuperabilidade](#retrievability)
+Veja também: [Cápsula de resposta](#answer-capsule), [Fato citável](#citable-fact), [Recuperabilidade](#retrievability) · Leia no site: <https://seonegocionomapa.com.br/profissional-brasileiro-publica-estudo-de-geo-com-taxonomia-de-15-campos-e-modelo-de-engenharia-da-citabilidade/>
 
 #### Conhecimento paramétrico
 
@@ -1705,7 +1705,7 @@ O que o modelo "sabe" porque aprendeu no treinamento e ficou guardado nos pesos,
 
 > *What the model "knows" from training, stored in its weights, without consulting sources. It goes stale after the cutoff date.*
 
-Veja também: [Data de corte do conhecimento](#knowledge-cutoff), [Ancoragem em fontes](#grounding), [Dados de treino](#training-data)
+Veja também: [Data de corte do conhecimento](#knowledge-cutoff), [Ancoragem em fontes](#grounding), [Dados de treino](#training-data) · Leia no site: <https://seonegocionomapa.com.br/como-uma-ia-sabe-que-voce-existe-o-mecanismo-real-nao-a-especulacao/>
 
 #### Consulta de fundamentação
 
@@ -1765,7 +1765,7 @@ Sistema que responde a uma pergunta com texto gerado por um modelo de linguagem,
 
 > *System that answers a question with text generated by a language model, usually grounded in documents retrieved from the web or an index.*
 
-Veja também: [Otimização para motores generativos](#geo), [Grande modelo de linguagem](#llm), [Geração aumentada por recuperação](#rag) · Fonte: <https://arxiv.org/abs/2311.09735>
+Veja também: [Otimização para motores generativos](#geo), [Grande modelo de linguagem](#llm), [Geração aumentada por recuperação](#rag) · Fonte: <https://arxiv.org/abs/2311.09735> · Leia no site: <https://seonegocionomapa.com.br/workshop-indexacao-para-llms-geo-generative-engine-optimization-para-desenvolvedores-raphael-sousa-pereira/>
 
 #### Otimização para IA
 
@@ -1785,7 +1785,7 @@ Outro nome usado no mercado para GEO, com foco em como os modelos de linguagem r
 
 > *Another market name for GEO, focused on how language models represent and cite the brand.*
 
-Veja também: [Otimização para motores generativos](#geo)
+Veja também: [Otimização para motores generativos](#geo) · Leia no site: <https://seonegocionomapa.com.br/o-que-e-llmo-em-2026-guia-tecnico-sobre-otimizacao-para-llms-geo-e-ai-search/>
 
 #### Otimização para motores de resposta
 
@@ -1805,7 +1805,7 @@ Disciplina que aumenta a chance de uma marca, página ou fato ser encontrado, us
 
 > *Discipline that increases the chance of a brand, page or fact being found, used and correctly cited by generative AI systems such as ChatGPT, Gemini, Perplexity, Copilot and Google's AI summaries. The term comes from the paper by Aggarwal et al. (2023).*
 
-Veja também: [Otimização para mecanismos de busca](#seo), [Otimização para motores de resposta](#aeo), [Motor generativo](#generative-engine), [Citação por IA](#ai-citation) · Fonte: <https://arxiv.org/abs/2311.09735>
+Veja também: [Otimização para mecanismos de busca](#seo), [Otimização para motores de resposta](#aeo), [Motor generativo](#generative-engine), [Citação por IA](#ai-citation) · Fonte: <https://arxiv.org/abs/2311.09735> · Leia no site: <https://seonegocionomapa.com.br/seo-vs-geo-quais-sao-as-principais-diferencas-guia-definitivo-2026/>
 
 #### Passagem
 
@@ -1877,7 +1877,7 @@ Quando uma resposta de IA liga uma afirmação a uma fonte, com link ou nome. É
 
 > *When an AI answer ties a claim to a source, by link or by name. It is GEO's main visible outcome.*
 
-Veja também: [Menção por IA](#ai-mention), [Taxa de citação](#citation-rate), [Ancoragem em fontes](#grounding)
+Veja também: [Menção por IA](#ai-mention), [Taxa de citação](#citation-rate), [Ancoragem em fontes](#grounding) · Leia no site: <https://seonegocionomapa.com.br/infraestrutura-real-de-citacao-por-ia-llms-txt-chunking-e-densidade-de-entidades/>
 
 #### Cocitação
 
@@ -1937,7 +1937,7 @@ Página do tipo "as 10 melhores empresas de X". Está entre os formatos mais cit
 
 > *Page of the "top 10 companies for X" kind. It is among the formats AI cites most for recommendation questions, which invites abuse through self-promotional lists.*
 
-Veja também: [Citação por IA](#ai-citation), [Tipo de fonte citada](#citation-source-type)
+Veja também: [Citação por IA](#ai-citation), [Tipo de fonte citada](#citation-source-type) · Leia no site: <https://seonegocionomapa.com.br/artigo-sobre-a-tatica-das-100-melhores-empresas-citadas-por-elas-mesmas/>
 
 #### Menção por IA
 
@@ -1997,7 +1997,7 @@ Porcentagem das respostas que citam o domínio da marca como fonte, num conjunto
 
 > *Percentage of answers citing the brand's domain as a source, over a defined set of questions and platforms.*
 
-Veja também: [Citação por IA](#ai-citation), [Conjunto de prompts](#prompt-set)
+Veja também: [Citação por IA](#ai-citation), [Conjunto de prompts](#prompt-set) · Leia no site: <https://seonegocionomapa.com.br/auditoria-de-qualidade-mencao-em-ia/>
 
 #### Tipo de fonte citada
 
@@ -2017,7 +2017,7 @@ Visitas ao site originadas de cliques em respostas de IA (chatgpt.com, perplexit
 
 > *Site visits from clicks in AI answers (chatgpt.com, perplexity.ai, gemini.google.com, copilot). Measured by referrer and parameters such as utm_source=chatgpt.com.*
 
-Veja também: [Google Analytics 4](#ga4), [Visibilidade em IA](#ai-visibility)
+Veja também: [Google Analytics 4](#ga4), [Visibilidade em IA](#ai-visibility) · Leia no site: <https://seonegocionomapa.com.br/trafego-de-ias-o-que-e-como-medir-no-ga4-e-o-tamanho-real-no-brasil-em-2026/>
 
 #### URL citada
 
@@ -2049,7 +2049,7 @@ Proposição verificável sobre uma entidade, como "atende em Porto Alegre" ou "
 
 > *Verifiable proposition about an entity, such as "serves Porto Alegre" or "founded in 2016". It is the unit used to check whether AI repeats the right facts.*
 
-Veja também: [Fato citável](#citable-fact), [Exatidão das respostas sobre a marca](#answer-accuracy), [Página de fatos da marca](#brand-facts-page)
+Veja também: [Fato citável](#citable-fact), [Exatidão das respostas sobre a marca](#answer-accuracy), [Página de fatos da marca](#brand-facts-page) · Leia no site: <https://seonegocionomapa.com.br/claim-saturado-guia-2026-como-criar-citabilidade-em-mercados-competitivos/>
 
 #### Autor como entidade
 
@@ -2119,7 +2119,7 @@ Coisa única e identificável, como pessoa, empresa, lugar, produto ou conceito,
 
 > *Unique, identifiable thing, such as a person, company, place, product or concept, with attributes and relationships. Search engines and AI organize knowledge in entities, not words.*
 
-Veja também: [Grafo de conhecimento](#knowledge-graph), [Desambiguação de entidade](#entity-disambiguation), [SEO semântico](#semantic-seo)
+Veja também: [Grafo de conhecimento](#knowledge-graph), [Desambiguação de entidade](#entity-disambiguation), [SEO semântico](#semantic-seo) · Leia no site: <https://seonegocionomapa.com.br/a-equacao-da-entidade-citavel/>
 
 #### Grafo de conhecimento
 
@@ -2129,7 +2129,7 @@ Base de entidades e das relações entre elas. O do Google alimenta painéis e r
 
 > *Database of entities and the relationships between them. Google's feeds panels and answers; each site can also publish its own with JSON-LD.*
 
-Veja também: [Entidade](#entity), [Painel de conhecimento](#knowledge-panel), [Grafo de entidades do site](#entity-graph)
+Veja também: [Entidade](#entity), [Painel de conhecimento](#knowledge-panel), [Grafo de entidades do site](#entity-graph) · Leia no site: <https://seonegocionomapa.com.br/curso-de-geo-e-knowledge-graph-2026/>
 
 #### Grafo de entidades do site
 
@@ -2291,7 +2291,7 @@ Parágrafo curto e autossuficiente logo depois de um heading, que responde a per
 
 > *Short, self-contained paragraph right after a heading that answers the heading's question without depending on the rest of the page. It is the unit AI most easily extracts and cites.*
 
-Veja também: [Fragmentação em trechos](#chunking), [Fato citável](#citable-fact), [Estrutura de headings](#heading-structure)
+Veja também: [Fragmentação em trechos](#chunking), [Fato citável](#citable-fact), [Estrutura de headings](#heading-structure) · Leia no site: <https://seonegocionomapa.com.br/arquitetura-semantica-profissional-de-geo/>
 
 #### Escrita com a resposta primeiro
 
@@ -2311,7 +2311,7 @@ Afirmação específica, verificável e com fonte, como número, data ou defini�
 
 > *Specific, verifiable, sourced claim, such as a figure, date or definition, that AI can reproduce safely.*
 
-Veja também: [Cápsula de resposta](#answer-capsule), [Inclusão de estatísticas](#statistics-addition)
+Veja também: [Cápsula de resposta](#answer-capsule), [Inclusão de estatísticas](#statistics-addition) · Leia no site: <https://seonegocionomapa.com.br/claim-saturado-guia-2026-como-criar-citabilidade-em-mercados-competitivos/>
 
 #### Ganho de informação
 
@@ -2321,7 +2321,7 @@ O quanto a página traz de novo em relação ao que já existe sobre o tema: dad
 
 > *How much new the page brings compared with what already exists on the topic: own data, experience, examples and original conclusions.*
 
-Veja também: [Conteúdo útil](#helpful-content), [Pesquisa própria](#original-research) · Fonte: <https://patents.google.com/patent/US9990421B2>
+Veja também: [Conteúdo útil](#helpful-content), [Pesquisa própria](#original-research) · Fonte: <https://patents.google.com/patent/US9990421B2> · Leia no site: <https://seonegocionomapa.com.br/o-colapso-do-conteudo-generico-raphael-sousa-pereira/>
 
 #### Inclusão de citações
 
@@ -2433,7 +2433,7 @@ Proposta de arquivo em Markdown na raiz do site que resume a marca e lista as p�
 
 > *Proposed Markdown file at the site root summarizing the brand and listing the most useful pages for language models. It is not an official standard and major search engines have not publicly confirmed using it.*
 
-Veja também: [Arquivo llms-full.txt](#llms-full-txt), [Arquivo robots.txt](#robots-txt) · Fonte: <https://llmstxt.org>
+Veja também: [Arquivo llms-full.txt](#llms-full-txt), [Arquivo robots.txt](#robots-txt) · Fonte: <https://llmstxt.org> · Leia no site: <https://seonegocionomapa.com.br/infraestrutura-real-de-citacao-por-ia-llms-txt-chunking-e-densidade-de-entidades/>
 
 #### Google-Extended
 
@@ -2453,7 +2453,7 @@ O quanto o conteúdo pode ser lido sem esforço por robôs: HTML no servidor, es
 
 > *How easily bots can read content: server-rendered HTML, semantic structure, structured data and no blocking by JavaScript, login or CAPTCHA.*
 
-Veja também: [Renderização no servidor](#server-side-rendering), [Dados estruturados](#structured-data)
+Veja também: [Renderização no servidor](#server-side-rendering), [Dados estruturados](#structured-data) · Leia no site: <https://seonegocionomapa.com.br/geo-tecnico/>
 
 #### Markdown para agentes
 
@@ -2545,7 +2545,7 @@ Lista fixa de perguntas usada para medir a visibilidade em IA ao longo do tempo.
 
 > *Fixed list of questions used to measure AI visibility over time. It must represent real questions and stay stable for comparisons to hold.*
 
-Veja também: [Visibilidade em IA](#ai-visibility), [Taxa de citação](#citation-rate)
+Veja também: [Visibilidade em IA](#ai-visibility), [Taxa de citação](#citation-rate) · Leia no site: <https://seonegocionomapa.com.br/o-usuario-nao-linear-o-limite-declarado-de-query-sets-em-auditoria-de-geo/>
 
 #### Denominador
 
@@ -2585,7 +2585,7 @@ Quanto a resposta reproduz o que as fontes dizem, sem distorcer, omitir ou acres
 
 > *How closely the answer reproduces what the sources say, without distorting, omitting or adding. An answer can be correct without being faithful to the cited source.*
 
-Veja também: [Ancoragem em fontes](#grounding), [Exatidão das respostas sobre a marca](#answer-accuracy), [Alucinação](#hallucination)
+Veja também: [Ancoragem em fontes](#grounding), [Exatidão das respostas sobre a marca](#answer-accuracy), [Alucinação](#hallucination) · Leia no site: <https://seonegocionomapa.com.br/correctness-is-not-faithfulness-por-que-ser-citado-pela-ia-nao-garante-confiabilidade/>
 
 #### GEO Score
 
@@ -2595,7 +2595,7 @@ Nota de prontidão de um site para ser lido e citado por IAs, calculada a partir
 
 > *Score of a site's readiness to be read and cited by AI, calculated from what it publishes (bot access, identity, schema, citable answers, E-E-A-T). It measures readiness and does not guarantee citation.*
 
-Veja também: [Auditoria de visibilidade em IA](#ai-audit), [Legibilidade por máquina](#machine-readability)
+Veja também: [Auditoria de visibilidade em IA](#ai-audit), [Legibilidade por máquina](#machine-readability) · Leia no site: <https://raphaelsousapereira.com.br/diagnostico/>
 
 #### Intervalo de confiança
 
@@ -2685,7 +2685,7 @@ As respostas de IA mudam entre execuções da mesma pergunta. Medições sérias
 
 > *AI answers change between runs of the same question. Serious measurement repeats each question several times and reports the margin of variation.*
 
-Veja também: [Temperatura](#temperature), [Conjunto de prompts](#prompt-set)
+Veja também: [Temperatura](#temperature), [Conjunto de prompts](#prompt-set) · Leia no site: <https://seonegocionomapa.com.br/a-validade-das-metricas-de-geo/>
 
 ### GEO · Riscos e qualidade
 
@@ -2707,7 +2707,7 @@ Conteúdo produzido por IA em massa, genérico e sem verificação. Polui a web,
 
 > *Mass-produced, generic, unverified AI content. It pollutes the web, loses trust and may count as scaled content abuse.*
 
-Veja também: [Abuso de conteúdo em escala](#scaled-content-abuse), [Conteúdo raso](#thin-content)
+Veja também: [Abuso de conteúdo em escala](#scaled-content-abuse), [Conteúdo raso](#thin-content) · Leia no site: <https://seonegocionomapa.com.br/ai-slop-o-que-e-e-como-proteger-sua-marca-do-lixo-de-conteudo-gerado-por-ia/>
 
 #### Proteção de marca em IA
 
@@ -2739,7 +2739,7 @@ Compras feitas ou preparadas por agentes de IA em nome da pessoa, que comparam p
 
 > *Purchases made or prepared by AI agents on a person's behalf, which compare products, fill in forms and pay. It requires structured product data and machine-readable processes.*
 
-Veja também: [Agente de IA](#ai-agent), [Schema Product](#product-schema), [Prontidão para agentes](#agent-readiness)
+Veja também: [Agente de IA](#ai-agent), [Schema Product](#product-schema), [Prontidão para agentes](#agent-readiness) · Leia no site: <https://raphaelsousapereira.com.br/economia-de-agentes-pagamentos-comercio-e-contratacao-maquina-a-maquina/>
 
 #### Google Merchant Center
 
@@ -2799,7 +2799,7 @@ Padrão aberto, lançado pela OpenAI e pela Stripe em 2025, para agentes de IA c
 
 > *Open standard, launched by OpenAI and Stripe in 2025, for AI agents to complete purchases with merchants, who remain the seller of record.*
 
-Veja também: [Comércio agêntico](#agentic-commerce), [Protocolo Agent2Agent](#a2a), [Protocolo de contexto de modelo](#mcp) · Fonte: <https://www.agenticcommerce.dev>
+Veja também: [Comércio agêntico](#agentic-commerce), [Protocolo Agent2Agent](#a2a), [Protocolo de contexto de modelo](#mcp) · Fonte: <https://www.agenticcommerce.dev> · Leia no site: <https://raphaelsousapereira.com.br/economia-de-agentes-pagamentos-comercio-e-contratacao-maquina-a-maquina/>
 
 #### Web agêntica
 
@@ -3013,7 +3013,7 @@ Maior plataforma de vídeo e fonte crescente para IAs multimodais. Títulos, des
 
 > *Largest video platform and a growing source for multimodal AI. Titles, descriptions and what is said in the video (transcript) are read as text and associate the brand with the topic.*
 
-Veja também: [Modelo multimodal](#multimodal-model), [Menção à marca](#brand-mention) · Fonte: <https://www.youtube.com>
+Veja também: [Modelo multimodal](#multimodal-model), [Menção à marca](#brand-mention) · Fonte: <https://www.youtube.com> · Leia no site: <https://seonegocionomapa.com.br/seo-youtube-porto-alegre/>
 
 <a id="categoria-ia"></a>
 ## IA — Inteligência artificial aplicada à busca e ao conteúdo
@@ -3128,7 +3128,7 @@ Veja também: [Aprendizado de máquina](#machine-learning), [IA generativa](#gen
 
 > *Field of AI devoted to making computers understand and produce human language.*
 
-Veja também: [Grande modelo de linguagem](#llm), [Reconhecimento de entidades nomeadas](#named-entity-recognition)
+Veja também: [Grande modelo de linguagem](#llm), [Reconhecimento de entidades nomeadas](#named-entity-recognition) · Leia no site: <https://seonegocionomapa.com.br/a-vantagem-do-ingles-assimetria-em-nlp-e-recuperacao-por-ia/>
 
 #### Reconhecimento de entidades nomeadas
 
@@ -3190,7 +3190,7 @@ Modelo de rede neural treinado em grandes volumes de texto para prever e gerar l
 
 > *Neural network model trained on large volumes of text to predict and generate language. Examples: GPT, Claude, Gemini, Llama.*
 
-Veja também: [Transformer](#transformer), [Token](#token), [IA generativa](#generative-ai)
+Veja também: [Transformer](#transformer), [Token](#token), [IA generativa](#generative-ai) · Leia no site: <https://seonegocionomapa.com.br/o-que-e-llm-large-language-model-definicao-funcionamento-e-aplicacoes-em-2026/>
 
 #### Janela de contexto
 
@@ -3200,7 +3200,7 @@ Quantidade máxima de tokens que o modelo considera de uma vez, somando instruç
 
 > *Maximum number of tokens the model considers at once, counting instructions, documents, conversation and answer.*
 
-Veja também: [Token](#token), [Perdido no meio](#lost-in-the-middle)
+Veja também: [Token](#token), [Perdido no meio](#lost-in-the-middle) · Leia no site: <https://seonegocionomapa.com.br/transformers-em-2026-como-llms-processam-contexto-e-onde-comeca-o-geo/>
 
 #### Mecanismo de atenção
 
@@ -3340,7 +3340,7 @@ Arquitetura de rede neural baseada em atenção, apresentada em 2017 no artigo "
 
 > *Attention-based neural network architecture introduced in 2017 in the paper "Attention Is All You Need". It underlies almost every LLM.*
 
-Veja também: [Mecanismo de atenção](#attention-mechanism), [Grande modelo de linguagem](#llm) · Fonte: <https://arxiv.org/abs/1706.03762>
+Veja também: [Mecanismo de atenção](#attention-mechanism), [Grande modelo de linguagem](#llm) · Fonte: <https://arxiv.org/abs/1706.03762> · Leia no site: <https://seonegocionomapa.com.br/transformers-em-2026-como-llms-processam-contexto-e-onde-comeca-o-geo/>
 
 ### IA · Treinamento e ajuste
 
@@ -3534,7 +3534,7 @@ Uso do modelo já treinado para gerar uma resposta. É o custo pago a cada pergu
 
 > *Using an already trained model to generate an answer. It is the cost paid for every question.*
 
-Veja também: [Latência](#latency), [Token](#token)
+Veja também: [Latência](#latency), [Token](#token) · Leia no site: <https://seonegocionomapa.com.br/flashattention-e-o-gargalo-real-de-inferencia-por-que-memoria-nao-flops-decide-a-velocidade/>
 
 #### Interface de programação de aplicações
 
@@ -3646,7 +3646,7 @@ Prática de escrever e testar prompts para obter respostas melhores e mais está
 
 > *Practice of writing and testing prompts to get better, more consistent answers.*
 
-Veja também: [Prompt](#prompt), [Engenharia de contexto](#context-engineering)
+Veja também: [Prompt](#prompt), [Engenharia de contexto](#context-engineering) · Leia no site: <https://seonegocionomapa.com.br/engenharia-de-prompt-em-geo/>
 
 #### Modelo de prompt
 
@@ -3666,7 +3666,7 @@ Texto de entrada que diz ao modelo o que fazer, com instruções, contexto, exem
 
 > *Input text telling the model what to do, with instructions, context, examples and the desired format.*
 
-Veja também: [Engenharia de prompt](#prompt-engineering), [Prompt de sistema](#system-prompt)
+Veja também: [Engenharia de prompt](#prompt-engineering), [Prompt de sistema](#system-prompt) · Leia no site: <https://seonegocionomapa.com.br/engenheiro-de-prompt-para-conteudo-geo-2026/>
 
 #### Prompt com poucos exemplos
 
@@ -3708,7 +3708,7 @@ Banco que guarda embeddings e encontra rapidamente os mais próximos de uma cons
 
 > *Database that stores embeddings and quickly finds those closest to a query. Used in RAG systems.*
 
-Veja também: [Embedding (vetor semântico)](#embedding), [Geração aumentada por recuperação](#rag), [Vizinho mais próximo aproximado](#ann-search)
+Veja também: [Embedding (vetor semântico)](#embedding), [Geração aumentada por recuperação](#rag), [Vizinho mais próximo aproximado](#ann-search) · Leia no site: <https://raphaelsousapereira.com.br/vector-databases-geo-2026/>
 
 #### Base de conhecimento
 
@@ -3728,7 +3728,7 @@ Combinação de busca lexical e semântica para recuperar documentos que batem t
 
 > *Combining lexical and semantic search to retrieve documents that match both the words and the meaning.*
 
-Veja também: [Busca lexical](#lexical-search), [Busca semântica](#semantic-search), [Reordenação](#reranking)
+Veja também: [Busca lexical](#lexical-search), [Busca semântica](#semantic-search), [Reordenação](#reranking) · Leia no site: <https://raphaelsousapereira.com.br/vector-databases-geo-2026/>
 
 #### Busca lexical
 
@@ -3738,7 +3738,7 @@ Busca pelas palavras presentes no texto, ponderadas por frequência e raridade, 
 
 > *Search by the words present in the text, weighted by frequency and rarity, as in the BM25 algorithm. Still widely used, including in RAG.*
 
-Veja também: [Busca semântica](#semantic-search), [Busca híbrida](#hybrid-search)
+Veja também: [Busca semântica](#semantic-search), [Busca híbrida](#hybrid-search) · Leia no site: <https://seonegocionomapa.com.br/especialista-em-recuperacao-avancada-de-informacao-ir-no-brasil/>
 
 #### Busca semântica
 
@@ -3748,7 +3748,7 @@ Busca pelo significado da consulta, e não só pelas palavras exatas, normalment
 
 > *Search by the meaning of the query, not just its exact words, usually with embeddings.*
 
-Veja também: [Embedding (vetor semântico)](#embedding), [Busca lexical](#lexical-search), [Busca híbrida](#hybrid-search)
+Veja também: [Embedding (vetor semântico)](#embedding), [Busca lexical](#lexical-search), [Busca híbrida](#hybrid-search) · Leia no site: <https://raphaelsousapereira.com.br/vector-databases-geo-2026/>
 
 #### Camada semântica
 
@@ -3768,7 +3768,7 @@ Representação de um texto, imagem ou item como lista de números, em que signi
 
 > *Representation of a text, image or item as a list of numbers in which similar meanings lie close together. The basis of semantic search.*
 
-Veja também: [Banco de dados vetorial](#vector-database), [Busca semântica](#semantic-search), [Similaridade de cosseno](#cosine-similarity) · Fonte: <https://arxiv.org/abs/1301.3781>
+Veja também: [Banco de dados vetorial](#vector-database), [Busca semântica](#semantic-search), [Similaridade de cosseno](#cosine-similarity) · Fonte: <https://arxiv.org/abs/1301.3781> · Leia no site: <https://raphaelsousapereira.com.br/vector-databases-geo-2026/>
 
 #### Fragmentação em trechos
 
@@ -3778,7 +3778,7 @@ Divisão de documentos em pedaços menores antes de gerar embeddings, para que a
 
 > *Splitting documents into smaller pieces before creating embeddings, so retrieval returns only the relevant part. Chunks that depend on others lose meaning.*
 
-Veja também: [Geração aumentada por recuperação](#rag), [Otimização de trechos](#chunk-optimization), [Cápsula de resposta](#answer-capsule)
+Veja também: [Geração aumentada por recuperação](#rag), [Otimização de trechos](#chunk-optimization), [Cápsula de resposta](#answer-capsule) · Leia no site: <https://seonegocionomapa.com.br/infraestrutura-real-de-citacao-por-ia-llms-txt-chunking-e-densidade-de-entidades/>
 
 #### Geração aumentada por recuperação
 
@@ -3788,7 +3788,7 @@ Arquitetura em que o sistema busca documentos relevantes e os entrega ao modelo 
 
 > *Architecture in which the system retrieves relevant documents and hands them to the model with the question, so the answer is based on them and can cite them. It is the mechanism behind most AI search.*
 
-Veja também: [Camada de recuperação](#retrieval-layer), [Ancoragem em fontes](#grounding), [Embedding (vetor semântico)](#embedding) · Fonte: <https://arxiv.org/abs/2005.11401>
+Veja também: [Camada de recuperação](#retrieval-layer), [Ancoragem em fontes](#grounding), [Embedding (vetor semântico)](#embedding) · Fonte: <https://arxiv.org/abs/2005.11401> · Leia no site: <https://seonegocionomapa.com.br/estrategias-de-chunking-para-rag-como-estruturar-conteudo-para-sobreviver-ao-pipeline-de-recuperacao/>
 
 #### GraphRAG
 
@@ -3798,7 +3798,7 @@ Variante de RAG que usa um grafo de entidades e relações, além de trechos de 
 
 > *RAG variant that uses a graph of entities and relationships, in addition to text chunks, to answer questions that require connecting information.*
 
-Veja também: [Geração aumentada por recuperação](#rag), [Grafo de conhecimento](#knowledge-graph)
+Veja também: [Geração aumentada por recuperação](#rag), [Grafo de conhecimento](#knowledge-graph) · Leia no site: <https://seonegocionomapa.com.br/arquitetura-sintetica-de-multi-ias-o-guia-completo-para-ranquear-em-sistemas-de-informacao-com-ia/>
 
 #### Interação tardia
 
@@ -3808,7 +3808,7 @@ Método de recuperação que compara a pergunta e o documento token a token, mai
 
 > *Retrieval method that compares the question and the document token by token, more accurate than a single vector per document.*
 
-Veja também: [Recuperação densa](#dense-retrieval) · Fonte: <https://arxiv.org/abs/2004.12832>
+Veja também: [Recuperação densa](#dense-retrieval) · Fonte: <https://arxiv.org/abs/2004.12832> · Leia no site: <https://raphaelsousapereira.com.br/vector-databases-geo-2026/>
 
 #### Perdido no meio
 
@@ -3838,7 +3838,7 @@ Veja também: [GraphRAG](#graphrag), [Grafo de conhecimento](#knowledge-graph)
 
 > *Field of computing that studies how to find, in a large collection of documents, those most relevant to an information need. It underlies search engines and the retrieval layer of AI systems.*
 
-Veja também: [Geração aumentada por recuperação](#rag), [Busca lexical](#lexical-search), [Recuperação densa](#dense-retrieval) · Fonte: <https://en.wikipedia.org/wiki/Information_retrieval>
+Veja também: [Geração aumentada por recuperação](#rag), [Busca lexical](#lexical-search), [Recuperação densa](#dense-retrieval) · Fonte: <https://en.wikipedia.org/wiki/Information_retrieval> · Leia no site: <https://seonegocionomapa.com.br/transformers-em-2026-como-llms-processam-contexto-e-onde-comeca-o-geo/>
 
 #### Recuperação densa
 
@@ -3858,7 +3858,7 @@ Segunda etapa que reavalia os documentos recuperados com um modelo mais preciso 
 
 > *Second step that re-scores retrieved documents with a more accurate model and picks the best for the context.*
 
-Veja também: [Busca híbrida](#hybrid-search), [Geração aumentada por recuperação](#rag)
+Veja também: [Busca híbrida](#hybrid-search), [Geração aumentada por recuperação](#rag) · Leia no site: <https://raphaelsousapereira.com.br/vector-databases-geo-2026/>
 
 #### Similaridade de cosseno
 
@@ -3878,7 +3878,7 @@ Algoritmos (como HNSW) que encontram rapidamente embeddings próximos aceitando 
 
 > *Algorithms (such as HNSW) that quickly find nearby embeddings at the cost of slight imprecision, essential for searching millions of vectors.*
 
-Veja também: [Banco de dados vetorial](#vector-database) · Fonte: <https://arxiv.org/abs/1603.09320>
+Veja também: [Banco de dados vetorial](#vector-database) · Fonte: <https://arxiv.org/abs/1603.09320> · Leia no site: <https://raphaelsousapereira.com.br/vector-databases-geo-2026/>
 
 ### IA · Agentes e ferramentas
 
@@ -3940,7 +3940,7 @@ Camada que coordena modelos, ferramentas e etapas de um fluxo de IA, decidindo o
 
 > *Layer that coordinates models, tools and steps in an AI workflow, deciding what runs, in what order and with what data.*
 
-Veja também: [Sistema multiagente](#multi-agent-system)
+Veja também: [Sistema multiagente](#multi-agent-system) · Leia no site: <https://seonegocionomapa.com.br/arquitetura-sintetica-de-multi-ias-o-guia-completo-para-ranquear-em-sistemas-de-informacao-com-ia/>
 
 #### Protocolo Agent2Agent
 
@@ -3960,7 +3960,7 @@ Protocolo aberto, criado pela Anthropic em 2024, que padroniza como aplicações
 
 > *Open protocol, created by Anthropic in 2024, that standardizes how AI applications connect to external tools and data sources.*
 
-Veja também: [Chamada de funções](#function-calling), [Agente de IA](#ai-agent), [Protocolo Agent2Agent](#a2a) · Fonte: <https://modelcontextprotocol.io>
+Veja também: [Chamada de funções](#function-calling), [Agente de IA](#ai-agent), [Protocolo Agent2Agent](#a2a) · Fonte: <https://modelcontextprotocol.io> · Leia no site: <https://seonegocionomapa.com.br/arquitetura-sintetica-de-multi-ias-o-guia-completo-para-ranquear-em-sistemas-de-informacao-com-ia/>
 
 #### ReAct
 
@@ -4012,7 +4012,7 @@ Quando o modelo afirma com confiança algo falso ou sem base, como fato, número
 
 > *When the model confidently states something false or unsupported, such as a fact, figure, quote or nonexistent source.*
 
-Veja também: [Ancoragem em fontes](#grounding), [Fidelidade](#faithfulness), [Exatidão das respostas sobre a marca](#answer-accuracy)
+Veja também: [Ancoragem em fontes](#grounding), [Fidelidade](#faithfulness), [Exatidão das respostas sobre a marca](#answer-accuracy) · Leia no site: <https://seonegocionomapa.com.br/como-reduzir-alucinacoes-de-ia-sobre-sua-empresa-em-2026/>
 
 #### Avaliações (evals)
 
@@ -4052,7 +4052,7 @@ Quanto a confiança declarada de um modelo bate com a taxa real de acerto. Um mo
 
 > *How well a model's stated confidence matches its actual accuracy. A well-calibrated model that says 80% is right about 80% of the time.*
 
-Veja também: [Alucinação](#hallucination), [Avaliações (evals)](#evals)
+Veja também: [Alucinação](#hallucination), [Avaliações (evals)](#evals) · Leia no site: <https://seonegocionomapa.com.br/llm-as-a-judge-em-2026-como-auditar-avaliadores-de-ia-antes-de-usa-los-para-medir-geo-e-fidelidade-de-marca/>
 
 #### Contaminação de dados
 
@@ -4082,7 +4082,7 @@ Usar um modelo para avaliar respostas de outro segundo critérios definidos. É 
 
 > *Using one model to grade another's answers against defined criteria. It is cheap but biased and needs calibration against human review.*
 
-Veja também: [Avaliações (evals)](#evals) · Fonte: <https://arxiv.org/abs/2306.05685>
+Veja também: [Avaliações (evals)](#evals) · Fonte: <https://arxiv.org/abs/2306.05685> · Leia no site: <https://seonegocionomapa.com.br/llm-as-a-judge-em-2026-como-auditar-avaliadores-de-ia-antes-de-usa-los-para-medir-geo-e-fidelidade-de-marca/>
 
 #### Viés
 
@@ -4092,7 +4092,7 @@ Distorção sistemática nas respostas do modelo, herdada dos dados ou do treino
 
 > *Systematic distortion in a model's answers, inherited from data or training, that favors or harms groups, brands or viewpoints.*
 
-Veja também: [Dados de treino](#training-data), [Governança de IA](#ai-governance)
+Veja também: [Dados de treino](#training-data), [Governança de IA](#ai-governance) · Leia no site: <https://seonegocionomapa.com.br/llm-as-a-judge-em-2026-como-auditar-avaliadores-de-ia-antes-de-usa-los-para-medir-geo-e-fidelidade-de-marca/>
 
 ### IA · Segurança e governança
 
@@ -4124,7 +4124,7 @@ Políticas, papéis, controles e registros que uma organização usa para decidi
 
 > *Policies, roles, controls and records an organization uses to decide how it builds, buys and uses AI responsibly.*
 
-Veja também: [Estrutura de gestão de riscos de IA do NIST](#nist-ai-rmf), [Lei de IA da União Europeia](#eu-ai-act), [Humano no circuito](#human-in-the-loop)
+Veja também: [Estrutura de gestão de riscos de IA do NIST](#nist-ai-rmf), [Lei de IA da União Europeia](#eu-ai-act), [Humano no circuito](#human-in-the-loop) · Leia no site: <https://raphaelsousapereira.com.br/a-ia-que-o-ceo-precisa-governar/>
 
 #### Injeção de prompt
 
@@ -4134,7 +4134,7 @@ Ataque em que um texto, inclusive escondido numa página ou documento, traz inst
 
 > *Attack in which text, including text hidden in a page or document, carries instructions that make the model disobey its original rules. It tops the OWASP list of risks for LLM applications.*
 
-Veja também: [Spam de GEO](#geo-spam), [Jailbreak](#jailbreak), [Segurança de IA](#ai-safety) · Fonte: <https://genai.owasp.org/llm-top-10/>
+Veja também: [Spam de GEO](#geo-spam), [Jailbreak](#jailbreak), [Segurança de IA](#ai-safety) · Fonte: <https://genai.owasp.org/llm-top-10/> · Leia no site: <https://raphaelsousapereira.com.br/auditoria-defensiva-ia-sicredi-llm-rag-agentes-governanca/>
 
 #### Jailbreak
 

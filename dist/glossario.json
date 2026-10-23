@@ -1,7 +1,7 @@
 {
   "meta": {
     "nome": "Glossário SEO, GEO e IA",
-    "versao": "1.4.0",
+    "versao": "1.5.0",
     "atualizado_em": "2026-10-23",
     "total": 463,
     "idiomas": [
@@ -72,7 +72,8 @@
         "compression-fidelity",
         "ai-citation"
       ],
-      "fonte": "https://seonegocionomapa.com.br/transformers-em-2026-como-llms-processam-contexto-e-onde-comeca-o-geo/"
+      "fonte": "https://seonegocionomapa.com.br/transformers-em-2026-como-llms-processam-contexto-e-onde-comeca-o-geo/",
+      "artigo": ""
     },
     {
       "slug": "scaled-content-abuse",
@@ -86,7 +87,8 @@
         "thin-content",
         "ai-slop"
       ],
-      "fonte": "https://developers.google.com/search/docs/essentials/spam-policies"
+      "fonte": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "artigo": ""
     },
     {
       "slug": "site-reputation-abuse",
@@ -99,7 +101,8 @@
       "relacionados": [
         "scaled-content-abuse"
       ],
-      "fonte": "https://developers.google.com/search/docs/essentials/spam-policies"
+      "fonte": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "artigo": ""
     },
     {
       "slug": "claim",
@@ -114,7 +117,8 @@
         "answer-accuracy",
         "brand-facts-page"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/claim-saturado-guia-2026-como-criar-citabilidade-em-mercados-competitivos/"
     },
     {
       "slug": "dated-claim",
@@ -128,7 +132,8 @@
         "content-freshness",
         "citable-fact"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "ai-agent",
@@ -143,7 +148,8 @@
         "mcp",
         "agentic-commerce"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "user-agent",
@@ -157,7 +163,8 @@
         "crawler",
         "robots-txt"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "clustering",
@@ -171,7 +178,8 @@
         "unsupervised-learning",
         "embedding"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "fine-tuning",
@@ -185,7 +193,8 @@
         "lora",
         "instruction-tuning"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "instruction-tuning",
@@ -199,7 +208,8 @@
         "fine-tuning",
         "post-training"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "algorithm",
@@ -212,7 +222,8 @@
       "relacionados": [
         "ranking-factor"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "alignment",
@@ -226,7 +237,8 @@
         "rlhf",
         "ai-safety"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "hallucination",
@@ -241,7 +253,8 @@
         "faithfulness",
         "answer-accuracy"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/como-reduzir-alucinacoes-de-ia-sobre-sua-empresa-em-2026/"
     },
     {
       "slug": "paired-sample",
@@ -255,7 +268,8 @@
         "comparable-change",
         "response-variance"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "content-breadth",
@@ -270,7 +284,8 @@
         "topical-authority",
         "topical-map"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "grounding",
@@ -285,7 +300,8 @@
         "hallucination",
         "ai-citation"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "content-gap-analysis",
@@ -299,7 +315,8 @@
         "information-gain",
         "topical-map"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "log-file-analysis",
@@ -313,7 +330,8 @@
         "crawl-budget",
         "ai-crawler"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "self-supervised-learning",
@@ -327,7 +345,8 @@
         "pretraining",
         "next-token-prediction"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "machine-learning",
@@ -342,7 +361,8 @@
         "training-data",
         "supervised-learning"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "unsupervised-learning",
@@ -356,7 +376,8 @@
         "supervised-learning",
         "clustering"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "reinforcement-learning",
@@ -369,7 +390,8 @@
       "relacionados": [
         "rlhf"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "rlhf",
@@ -384,7 +406,8 @@
         "dpo",
         "alignment"
       ],
-      "fonte": "https://arxiv.org/abs/2203.02155"
+      "fonte": "https://arxiv.org/abs/2203.02155",
+      "artigo": ""
     },
     {
       "slug": "deep-learning",
@@ -398,7 +421,8 @@
         "neural-network",
         "machine-learning"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "supervised-learning",
@@ -412,7 +436,8 @@
         "machine-learning",
         "unsupervised-learning"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "armadilha-do-espelho",
@@ -426,7 +451,8 @@
         "autoridade-sintetica",
         "ai-ranking-list"
       ],
-      "fonte": "https://raphaelsousapereira.com.br/publicacoes-em-seo-geo/"
+      "fonte": "https://raphaelsousapereira.com.br/publicacoes-em-seo-geo/",
+      "artigo": ""
     },
     {
       "slug": "site-architecture",
@@ -441,7 +467,8 @@
         "crawl-depth",
         "topic-cluster"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "llms-full-txt",
@@ -454,7 +481,8 @@
       "relacionados": [
         "llms-txt"
       ],
-      "fonte": "https://llmstxt.org"
+      "fonte": "https://llmstxt.org",
+      "artigo": ""
     },
     {
       "slug": "llms-txt",
@@ -468,7 +496,8 @@
         "llms-full-txt",
         "robots-txt"
       ],
-      "fonte": "https://llmstxt.org"
+      "fonte": "https://llmstxt.org",
+      "artigo": "https://seonegocionomapa.com.br/infraestrutura-real-de-citacao-por-ia-llms-txt-chunking-e-densidade-de-entidades/"
     },
     {
       "slug": "robots-txt",
@@ -483,7 +512,8 @@
         "noindex",
         "ai-crawler"
       ],
-      "fonte": "https://www.rfc-editor.org/rfc/rfc9309"
+      "fonte": "https://www.rfc-editor.org/rfc/rfc9309",
+      "artigo": ""
     },
     {
       "slug": "people-also-ask",
@@ -497,7 +527,8 @@
         "serp-feature",
         "query-fan-out"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/arquitetura-semantica-profissional-de-geo/"
     },
     {
       "slug": "ai-assistant",
@@ -511,7 +542,8 @@
         "chatbot",
         "ai-agent"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "entity-association",
@@ -525,7 +557,8 @@
         "co-citation",
         "entity"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "source-attribution",
@@ -538,7 +571,8 @@
       "relacionados": [
         "ai-citation"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "hreflang",
@@ -552,7 +586,8 @@
         "international-seo",
         "canonical-url"
       ],
-      "fonte": "https://developers.google.com/search/docs/specialty/international/localized-versions"
+      "fonte": "https://developers.google.com/search/docs/specialty/international/localized-versions",
+      "artigo": ""
     },
     {
       "slug": "nofollow",
@@ -566,7 +601,8 @@
         "link-equity",
         "link-spam"
       ],
-      "fonte": "https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links"
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links",
+      "artigo": ""
     },
     {
       "slug": "content-freshness",
@@ -580,7 +616,8 @@
         "lastmod",
         "dated-claim"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "core-update",
@@ -594,7 +631,8 @@
         "helpful-content",
         "ranking-factor"
       ],
-      "fonte": "https://developers.google.com/search/updates/core-updates"
+      "fonte": "https://developers.google.com/search/updates/core-updates",
+      "artigo": ""
     },
     {
       "slug": "jva-8",
@@ -609,7 +647,8 @@
         "gbfa",
         "calibration"
       ],
-      "fonte": "https://seonegocionomapa.com.br/llm-as-a-judge-em-2026-como-auditar-avaliadores-de-ia-antes-de-usa-los-para-medir-geo-e-fidelidade-de-marca/"
+      "fonte": "https://seonegocionomapa.com.br/llm-as-a-judge-em-2026-como-auditar-avaliadores-de-ia-antes-de-usa-los-para-medir-geo-e-fidelidade-de-marca/",
+      "artigo": ""
     },
     {
       "slug": "ai-audit",
@@ -624,7 +663,8 @@
         "hallucination",
         "citation-source-type"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "self-consistency",
@@ -638,7 +678,8 @@
         "chain-of-thought",
         "response-variance"
       ],
-      "fonte": "https://arxiv.org/abs/2203.11171"
+      "fonte": "https://arxiv.org/abs/2203.11171",
+      "artigo": ""
     },
     {
       "slug": "author-entity",
@@ -652,7 +693,8 @@
         "e-e-a-t",
         "article-schema"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "autoridade-canonica-auditavel",
@@ -667,7 +709,8 @@
         "hallucination",
         "entity-home"
       ],
-      "fonte": "https://seonegocionomapa.com.br/autoridade-canonica-auditavel-para-llms/"
+      "fonte": "https://seonegocionomapa.com.br/autoridade-canonica-auditavel-para-llms/",
+      "artigo": ""
     },
     {
       "slug": "domain-authority",
@@ -681,7 +724,8 @@
         "backlink",
         "pagerank"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "autoridade-sintetica",
@@ -697,7 +741,8 @@
         "hospedeiro-geo",
         "armadilha-do-espelho"
       ],
-      "fonte": "https://seonegocionomapa.com.br/melhores-agencias-geo-brasil-fontes-ia/"
+      "fonte": "https://seonegocionomapa.com.br/melhores-agencias-geo-brasil-fontes-ia/",
+      "artigo": ""
     },
     {
       "slug": "topical-authority",
@@ -711,7 +756,8 @@
         "topic-cluster",
         "e-e-a-t"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "evals",
@@ -725,7 +771,8 @@
         "benchmark",
         "llm-as-judge"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "online-reviews",
@@ -739,7 +786,8 @@
         "local-seo",
         "brand-sentiment"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "manual-action",
@@ -753,7 +801,8 @@
         "link-spam",
         "google-search-console"
       ],
-      "fonte": "https://support.google.com/webmasters/answer/9044175"
+      "fonte": "https://support.google.com/webmasters/answer/9044175",
+      "artigo": ""
     },
     {
       "slug": "backlink",
@@ -768,7 +817,8 @@
         "anchor-text",
         "pagerank"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/como-usar-backlinks-em-sua-estrategia-de-seo-e-geo-guia-2026/"
     },
     {
       "slug": "sycophancy",
@@ -782,7 +832,8 @@
         "alignment",
         "hallucination"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "vector-database",
@@ -797,7 +848,8 @@
         "rag",
         "ann-search"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://raphaelsousapereira.com.br/vector-databases-geo-2026/"
     },
     {
       "slug": "knowledge-base",
@@ -811,7 +863,8 @@
         "rag",
         "knowledge-graph"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "benchmark",
@@ -825,7 +878,8 @@
         "evals",
         "data-contamination"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "bing-webmaster-tools",
@@ -838,7 +892,8 @@
       "relacionados": [
         "indexnow"
       ],
-      "fonte": "https://www.bing.com/webmasters"
+      "fonte": "https://www.bing.com/webmasters",
+      "artigo": ""
     },
     {
       "slug": "brand-led-growth-architecture",
@@ -852,7 +907,8 @@
         "geo",
         "cro"
       ],
-      "fonte": "https://seonegocionomapa.com.br/brand-led-growth-architecture/"
+      "fonte": "https://seonegocionomapa.com.br/brand-led-growth-architecture/",
+      "artigo": ""
     },
     {
       "slug": "ai-search",
@@ -867,7 +923,8 @@
         "ai-overviews",
         "ai-mode"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/o-que-e-llmo-em-2026-guia-tecnico-sobre-otimizacao-para-llms-geo-e-ai-search/"
     },
     {
       "slug": "branded-search",
@@ -881,7 +938,8 @@
         "brand-serp",
         "share-of-search"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "chatgpt-search",
@@ -896,7 +954,8 @@
         "ai-search",
         "linked-citation"
       ],
-      "fonte": "https://en.wikipedia.org/wiki/ChatGPT_Search"
+      "fonte": "https://en.wikipedia.org/wiki/ChatGPT_Search",
+      "artigo": ""
     },
     {
       "slug": "hybrid-search",
@@ -911,7 +970,8 @@
         "semantic-search",
         "reranking"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://raphaelsousapereira.com.br/vector-databases-geo-2026/"
     },
     {
       "slug": "lexical-search",
@@ -925,7 +985,8 @@
         "semantic-search",
         "hybrid-search"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/especialista-em-recuperacao-avancada-de-informacao-ir-no-brasil/"
     },
     {
       "slug": "organic-search",
@@ -939,7 +1000,8 @@
         "serp",
         "paid-search"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "paid-search",
@@ -952,7 +1014,8 @@
       "relacionados": [
         "organic-search"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "voice-search",
@@ -967,7 +1030,8 @@
         "speakable-schema",
         "featured-snippet"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "zero-click-search",
@@ -982,7 +1046,8 @@
         "ai-overviews",
         "ctr"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "semantic-search",
@@ -997,7 +1062,8 @@
         "lexical-search",
         "hybrid-search"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://raphaelsousapereira.com.br/vector-databases-geo-2026/"
     },
     {
       "slug": "prompt-caching",
@@ -1011,7 +1077,8 @@
         "inference",
         "latency"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "chain-of-thought",
@@ -1024,7 +1091,8 @@
       "relacionados": [
         "reasoning-model"
       ],
-      "fonte": "https://arxiv.org/abs/2201.11903"
+      "fonte": "https://arxiv.org/abs/2201.11903",
+      "artigo": ""
     },
     {
       "slug": "redirect-chain",
@@ -1037,7 +1105,8 @@
       "relacionados": [
         "redirect-301"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "calibration",
@@ -1051,7 +1120,8 @@
         "hallucination",
         "evals"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/llm-as-a-judge-em-2026-como-auditar-avaliadores-de-ia-antes-de-usa-los-para-medir-geo-e-fidelidade-de-marca/"
     },
     {
       "slug": "retrieval-layer",
@@ -1066,7 +1136,8 @@
         "ai-search",
         "vector-database"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "semantic-layer",
@@ -1080,7 +1151,8 @@
         "ontology",
         "knowledge-base"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "campo-semantico-digital",
@@ -1094,7 +1166,8 @@
         "fisica-semantica",
         "semantic-mass"
       ],
-      "fonte": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
+      "fonte": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/",
+      "artigo": ""
     },
     {
       "slug": "keyword-cannibalization",
@@ -1108,7 +1181,8 @@
         "content-pruning",
         "canonical-url"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "primary-category",
@@ -1121,7 +1195,8 @@
       "relacionados": [
         "google-business-profile"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "function-calling",
@@ -1135,7 +1210,8 @@
         "ai-agent",
         "structured-output"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "chatbot",
@@ -1149,7 +1225,8 @@
         "llm",
         "ai-assistant"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "chatgpt",
@@ -1164,7 +1241,8 @@
         "ai-assistant",
         "ai-crawler"
       ],
-      "fonte": "https://en.wikipedia.org/wiki/ChatGPT"
+      "fonte": "https://en.wikipedia.org/wiki/ChatGPT",
+      "artigo": ""
     },
     {
       "slug": "citability",
@@ -1179,7 +1257,8 @@
         "citable-fact",
         "retrievability"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/profissional-brasileiro-publica-estudo-de-geo-com-taxonomia-de-15-campos-e-modelo-de-engenharia-da-citabilidade/"
     },
     {
       "slug": "linked-citation",
@@ -1194,7 +1273,8 @@
         "ai-mention",
         "ai-referral-traffic"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "cite-sources",
@@ -1209,7 +1289,8 @@
         "quotation-addition",
         "citable-fact"
       ],
-      "fonte": "https://arxiv.org/abs/2311.09735"
+      "fonte": "https://arxiv.org/abs/2311.09735",
+      "artigo": ""
     },
     {
       "slug": "local-citation",
@@ -1223,7 +1304,8 @@
         "nap",
         "local-seo"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "ai-citation",
@@ -1238,7 +1320,8 @@
         "citation-rate",
         "grounding"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/infraestrutura-real-de-citacao-por-ia-llms-txt-chunking-e-densidade-de-entidades/"
     },
     {
       "slug": "claim-saturado",
@@ -1253,7 +1336,8 @@
         "citable-fact",
         "information-gain"
       ],
-      "fonte": "https://seonegocionomapa.com.br/claim-saturado-guia-2026-como-criar-citabilidade-em-mercados-competitivos/"
+      "fonte": "https://seonegocionomapa.com.br/claim-saturado-guia-2026-como-criar-citabilidade-em-mercados-competitivos/",
+      "artigo": ""
     },
     {
       "slug": "claude",
@@ -1268,7 +1352,8 @@
         "ai-crawler",
         "mcp"
       ],
-      "fonte": "https://en.wikipedia.org/wiki/Claude_(language_model)"
+      "fonte": "https://en.wikipedia.org/wiki/Claude_(language_model)",
+      "artigo": ""
     },
     {
       "slug": "cloaking",
@@ -1281,7 +1366,8 @@
       "relacionados": [
         "link-spam"
       ],
-      "fonte": "https://developers.google.com/search/docs/essentials/spam-policies"
+      "fonte": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "artigo": ""
     },
     {
       "slug": "topic-cluster",
@@ -1296,7 +1382,8 @@
         "topical-authority",
         "internal-linking"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "headless-cms",
@@ -1311,7 +1398,8 @@
         "javascript-seo",
         "page-source"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "measurement-coverage",
@@ -1325,7 +1413,8 @@
         "valid-response",
         "prompt-set"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "co-citation",
@@ -1339,7 +1428,8 @@
         "brand-mention",
         "entity-association"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "coerencia-de-entidade-distribuida",
@@ -1353,7 +1443,8 @@
         "lei-da-coerencia-distribuida",
         "indice-de-coerencia-semantica"
       ],
-      "fonte": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
+      "fonte": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/",
+      "artigo": ""
     },
     {
       "slug": "things-not-strings",
@@ -1367,7 +1458,8 @@
         "knowledge-graph",
         "entity-seo"
       ],
-      "fonte": "https://blog.google/products/search/introducing-knowledge-graph-things-not/"
+      "fonte": "https://blog.google/products/search/introducing-knowledge-graph-things-not/",
+      "artigo": ""
     },
     {
       "slug": "model-collapse",
@@ -1381,7 +1473,8 @@
         "synthetic-data",
         "ai-slop"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "common-crawl",
@@ -1395,7 +1488,8 @@
         "training-data",
         "ai-crawler"
       ],
-      "fonte": "https://commoncrawl.org"
+      "fonte": "https://commoncrawl.org",
+      "artigo": ""
     },
     {
       "slug": "competitive-benchmarking",
@@ -1410,7 +1504,8 @@
         "prompt-set",
         "comparable-change"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "test-time-compute",
@@ -1424,7 +1519,8 @@
         "reasoning-model",
         "chain-of-thought"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "agentic-commerce",
@@ -1439,7 +1535,8 @@
         "product-schema",
         "agent-readiness"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://raphaelsousapereira.com.br/economia-de-agentes-pagamentos-comercio-e-contratacao-maquina-a-maquina/"
     },
     {
       "slug": "source-authority-concentration",
@@ -1454,7 +1551,8 @@
         "citation-source-type",
         "cited-domain"
       ],
-      "fonte": "https://seonegocionomapa.com.br/estado-da-arte-generative-engine-optimization-geo-em-2026-citacao-por-ia/"
+      "fonte": "https://seonegocionomapa.com.br/estado-da-arte-generative-engine-optimization-geo-em-2026-citacao-por-ia/",
+      "artigo": ""
     },
     {
       "slug": "parametric-knowledge",
@@ -1469,7 +1567,8 @@
         "grounding",
         "training-data"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/como-uma-ia-sabe-que-voce-existe-o-mecanismo-real-nao-a-especulacao/"
     },
     {
       "slug": "prompt-set",
@@ -1483,7 +1582,8 @@
         "ai-visibility",
         "citation-rate"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/o-usuario-nao-linear-o-limite-declarado-de-query-sets-em-auditoria-de-geo/"
     },
     {
       "slug": "entity-consistency",
@@ -1497,7 +1597,8 @@
         "nap",
         "entity-drift"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "link-building",
@@ -1511,7 +1612,8 @@
         "backlink",
         "digital-pr"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "conversational-query",
@@ -1525,7 +1627,8 @@
         "long-tail-keyword",
         "query-fan-out"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "grounding-query",
@@ -1539,7 +1642,8 @@
         "grounding",
         "query-fan-out"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "data-contamination",
@@ -1552,7 +1656,8 @@
       "relacionados": [
         "benchmark"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "qualified-lead",
@@ -1566,7 +1671,8 @@
         "key-event",
         "conversion-rate"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "ten-x-content",
@@ -1580,7 +1686,8 @@
         "information-gain",
         "skyscraper-technique"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "comparison-content",
@@ -1594,7 +1701,8 @@
         "ai-ranking-list",
         "query-fan-out"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "duplicate-content",
@@ -1607,7 +1715,8 @@
       "relacionados": [
         "canonical-url"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "user-generated-content",
@@ -1621,7 +1730,8 @@
         "nofollow",
         "brand-mention"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "evergreen-content",
@@ -1635,7 +1745,8 @@
         "content-freshness",
         "dated-claim"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "thin-content",
@@ -1649,7 +1760,8 @@
         "helpful-content",
         "scaled-content-abuse"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "helpful-content",
@@ -1663,7 +1775,8 @@
         "e-e-a-t",
         "thin-content"
       ],
-      "fonte": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+      "fonte": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "artigo": "https://seonegocionomapa.com.br/2026/06/22/seo-2026-engenharia-de-visibilidade-para-google-maps-e-ia/"
     },
     {
       "slug": "assisted-conversion",
@@ -1677,7 +1790,8 @@
         "attributed-revenue",
         "key-event"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "core-web-vitals",
@@ -1693,7 +1807,8 @@
         "cls",
         "page-experience"
       ],
-      "fonte": "https://web.dev/articles/vitals"
+      "fonte": "https://web.dev/articles/vitals",
+      "artigo": "https://seonegocionomapa.com.br/como-otimizar-inp-guia-completo-de-core-web-vitals-2026/"
     },
     {
       "slug": "external-corroboration",
@@ -1708,7 +1823,8 @@
         "claim",
         "lei-da-coerencia-distribuida"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "cac",
@@ -1722,7 +1838,8 @@
         "ltv",
         "attributed-revenue"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/brand-led-growth-architecture/"
     },
     {
       "slug": "cost-per-task",
@@ -1736,7 +1853,8 @@
         "ai-agent",
         "token"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "answer-capsule",
@@ -1751,7 +1869,8 @@
         "citable-fact",
         "heading-structure"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/arquitetura-semantica-profissional-de-geo/"
     },
     {
       "slug": "http-status-code",
@@ -1765,7 +1884,8 @@
         "soft-404",
         "redirect-301"
       ],
-      "fonte": "https://www.rfc-editor.org/rfc/rfc9110"
+      "fonte": "https://www.rfc-editor.org/rfc/rfc9110",
+      "artigo": ""
     },
     {
       "slug": "codigo-de-etica-geo",
@@ -1779,7 +1899,8 @@
         "geo",
         "geo-spam"
       ],
-      "fonte": "https://seonegocionomapa.com.br/codigo-de-etica-para-geo-brasil-2026/"
+      "fonte": "https://seonegocionomapa.com.br/codigo-de-etica-para-geo-brasil-2026/",
+      "artigo": ""
     },
     {
       "slug": "page-source",
@@ -1794,7 +1915,8 @@
         "server-side-rendering",
         "ai-crawler"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "training-data",
@@ -1809,7 +1931,8 @@
         "common-crawl",
         "knowledge-cutoff"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "structured-data",
@@ -1824,7 +1947,8 @@
         "json-ld",
         "rich-results"
       ],
-      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data"
+      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+      "artigo": ""
     },
     {
       "slug": "synthetic-data",
@@ -1838,7 +1962,8 @@
         "training-data",
         "model-collapse"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "dark-geo",
@@ -1853,7 +1978,8 @@
         "self-reported-attribution",
         "ai-referral-traffic"
       ],
-      "fonte": "https://seonegocionomapa.com.br/como-conduzir-uma-auditoria-tecnica-de-seo-o-metodo-completo-etapa-por-etapa-guia-2026/"
+      "fonte": "https://seonegocionomapa.com.br/como-conduzir-uma-auditoria-tecnica-de-seo-o-metodo-completo-etapa-por-etapa-guia-2026/",
+      "artigo": ""
     },
     {
       "slug": "knowledge-cutoff",
@@ -1867,7 +1993,8 @@
         "parametric-knowledge",
         "grounding"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "lastmod",
@@ -1880,7 +2007,8 @@
       "relacionados": [
         "xml-sitemap"
       ],
-      "fonte": "https://www.sitemaps.org/protocol.html"
+      "fonte": "https://www.sitemaps.org/protocol.html",
+      "artigo": ""
     },
     {
       "slug": "deepfake",
@@ -1894,7 +2022,8 @@
         "content-provenance",
         "generative-ai"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "deepseek",
@@ -1908,7 +2037,8 @@
         "open-weight-model",
         "reasoning-model"
       ],
-      "fonte": "https://www.deepseek.com"
+      "fonte": "https://www.deepseek.com",
+      "artigo": ""
     },
     {
       "slug": "defined-term-schema",
@@ -1922,7 +2052,8 @@
         "schema-org",
         "structured-data"
       ],
-      "fonte": "https://schema.org/DefinedTerm"
+      "fonte": "https://schema.org/DefinedTerm",
+      "artigo": ""
     },
     {
       "slug": "measurement-denominator",
@@ -1936,7 +2067,8 @@
         "mention-rate",
         "valid-response"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "entity-drift",
@@ -1950,7 +2082,8 @@
         "entity-consistency",
         "hallucination"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "entity-disambiguation",
@@ -1965,7 +2098,8 @@
         "wikidata",
         "entity"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "query-fan-out",
@@ -1980,7 +2114,8 @@
         "search-intent",
         "rag"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "distillation",
@@ -1993,7 +2128,8 @@
       "relacionados": [
         "slm"
       ],
-      "fonte": "https://arxiv.org/abs/1503.02531"
+      "fonte": "https://arxiv.org/abs/1503.02531",
+      "artigo": ""
     },
     {
       "slug": "keyword-difficulty",
@@ -2006,7 +2142,8 @@
       "relacionados": [
         "keyword"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "noindex",
@@ -2021,7 +2158,8 @@
         "robots-txt",
         "meta-robots"
       ],
-      "fonte": "https://developers.google.com/search/docs/crawling-indexing/block-indexing"
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/block-indexing",
+      "artigo": ""
     },
     {
       "slug": "nosnippet",
@@ -2035,7 +2173,8 @@
         "meta-robots",
         "ai-overviews"
       ],
-      "fonte": "https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag"
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag",
+      "artigo": ""
     },
     {
       "slug": "cited-domain",
@@ -2049,7 +2188,8 @@
         "cited-url",
         "citation-source-type"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "cctld",
@@ -2062,7 +2202,8 @@
       "relacionados": [
         "international-seo"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "embedding",
@@ -2077,7 +2218,8 @@
         "semantic-search",
         "cosine-similarity"
       ],
-      "fonte": "https://arxiv.org/abs/1301.3781"
+      "fonte": "https://arxiv.org/abs/1301.3781",
+      "artigo": "https://raphaelsousapereira.com.br/vector-databases-geo-2026/"
     },
     {
       "slug": "service-area-business",
@@ -2090,7 +2232,8 @@
       "relacionados": [
         "google-business-profile"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "engenharia-da-presenca-generativa",
@@ -2105,7 +2248,8 @@
         "geo-causal",
         "gbfa"
       ],
-      "fonte": "https://seonegocionomapa.com.br/geo-ficou-pequeno-lancamento-do-livro-engenharia-da-presenca-generativa/"
+      "fonte": "https://seonegocionomapa.com.br/geo-ficou-pequeno-lancamento-do-livro-engenharia-da-presenca-generativa/",
+      "artigo": ""
     },
     {
       "slug": "context-engineering",
@@ -2120,7 +2264,8 @@
         "rag",
         "prompt-engineering"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "gbfa",
@@ -2136,7 +2281,8 @@
         "jva-8",
         "seo-de-protecao-de-marca"
       ],
-      "fonte": "https://raphaelsousapereira.com.br/raphael-sousa-pereira/"
+      "fonte": "https://raphaelsousapereira.com.br/raphael-sousa-pereira/",
+      "artigo": ""
     },
     {
       "slug": "prompt-engineering",
@@ -2150,7 +2296,8 @@
         "prompt",
         "context-engineering"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/engenharia-de-prompt-em-geo/"
     },
     {
       "slug": "entity",
@@ -2165,7 +2312,8 @@
         "entity-disambiguation",
         "semantic-seo"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/a-equacao-da-entidade-citavel/"
     },
     {
       "slug": "entity-health-score",
@@ -2180,7 +2328,8 @@
         "entity-consistency",
         "indice-de-coerencia-semantica"
       ],
-      "fonte": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
+      "fonte": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/",
+      "artigo": ""
     },
     {
       "slug": "llm-poisoning",
@@ -2195,7 +2344,8 @@
         "prompt-injection",
         "training-data"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "equacao-da-entidade-citavel",
@@ -2210,7 +2360,8 @@
         "entity",
         "author-entity"
       ],
-      "fonte": "https://seonegocionomapa.com.br/a-equacao-da-entidade-citavel/"
+      "fonte": "https://seonegocionomapa.com.br/a-equacao-da-entidade-citavel/",
+      "artigo": ""
     },
     {
       "slug": "scannability",
@@ -2224,7 +2375,8 @@
         "heading-structure",
         "chunk-optimization"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "answer-first-writing",
@@ -2239,7 +2391,8 @@
         "featured-snippet",
         "chunk-optimization"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "estrategista-de-citacao-de-entidade",
@@ -2253,7 +2406,8 @@
         "entity-disambiguation",
         "entity-graph"
       ],
-      "fonte": "https://seonegocionomapa.com.br/quem-e-raphael-sousa-pereira-estrategista-de-citacao-de-entidade/"
+      "fonte": "https://seonegocionomapa.com.br/quem-e-raphael-sousa-pereira-estrategista-de-citacao-de-entidade/",
+      "artigo": ""
     },
     {
       "slug": "nist-ai-rmf",
@@ -2266,7 +2420,8 @@
       "relacionados": [
         "ai-governance"
       ],
-      "fonte": "https://www.nist.gov/itl/ai-risk-management-framework"
+      "fonte": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "artigo": ""
     },
     {
       "slug": "heading-structure",
@@ -2280,7 +2435,8 @@
         "answer-capsule",
         "chunking"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "case-study",
@@ -2294,7 +2450,8 @@
         "e-e-a-t",
         "original-research"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "key-event",
@@ -2308,7 +2465,8 @@
         "ga4",
         "conversion-rate"
       ],
-      "fonte": "https://support.google.com/analytics/answer/13128484"
+      "fonte": "https://support.google.com/analytics/answer/13128484",
+      "artigo": ""
     },
     {
       "slug": "causal-evidence",
@@ -2322,7 +2480,8 @@
         "incrementality",
         "paired-sample"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "answer-accuracy",
@@ -2337,7 +2496,8 @@
         "faithfulness",
         "brand-facts-page"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "keyword-stuffing",
@@ -2351,7 +2511,8 @@
         "link-spam",
         "thin-content"
       ],
-      "fonte": "https://developers.google.com/search/docs/essentials/spam-policies"
+      "fonte": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "artigo": ""
     },
     {
       "slug": "sge",
@@ -2365,7 +2526,8 @@
         "ai-overviews",
         "ai-mode"
       ],
-      "fonte": "https://blog.google/products/search/generative-ai-search/"
+      "fonte": "https://blog.google/products/search/generative-ai-search/",
+      "artigo": ""
     },
     {
       "slug": "page-experience",
@@ -2379,7 +2541,8 @@
         "core-web-vitals",
         "mobile-first-indexing"
       ],
-      "fonte": "https://developers.google.com/search/docs/appearance/page-experience"
+      "fonte": "https://developers.google.com/search/docs/appearance/page-experience",
+      "artigo": ""
     },
     {
       "slug": "e-e-a-t",
@@ -2394,7 +2557,8 @@
         "helpful-content",
         "author-entity"
       ],
-      "fonte": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+      "fonte": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "artigo": "https://seonegocionomapa.com.br/2026/04/30/google-e-e-a-t-o-que-e-como-funciona-e-quais-sao-os-fatores-de-avaliacao-de-paginas-da-web-guia-completo-2026/"
     },
     {
       "slug": "explainability",
@@ -2407,7 +2571,8 @@
       "relacionados": [
         "ai-governance"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "citable-fact",
@@ -2421,7 +2586,8 @@
         "answer-capsule",
         "statistics-addition"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/claim-saturado-guia-2026-como-criar-citabilidade-em-mercados-competitivos/"
     },
     {
       "slug": "ranking-factor",
@@ -2434,7 +2600,8 @@
       "relacionados": [
         "seo"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "ai-visibility-tool",
@@ -2448,7 +2615,8 @@
         "prompt-set",
         "share-of-voice"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "faithfulness",
@@ -2463,7 +2631,8 @@
         "answer-accuracy",
         "hallucination"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/correctness-is-not-faithfulness-por-que-ser-citado-pela-ia-nao-garante-confiabilidade/"
     },
     {
       "slug": "compression-fidelity",
@@ -2478,7 +2647,8 @@
         "citation-absorption",
         "claim-scope-preservation"
       ],
-      "fonte": "https://seonegocionomapa.com.br/transformers-em-2026-como-llms-processam-contexto-e-onde-comeca-o-geo/"
+      "fonte": "https://seonegocionomapa.com.br/transformers-em-2026-como-llms-processam-contexto-e-onde-comeca-o-geo/",
+      "artigo": ""
     },
     {
       "slug": "third-party-source",
@@ -2492,7 +2662,8 @@
         "citation-source-type",
         "brand-mention"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "chunking",
@@ -2507,7 +2678,8 @@
         "chunk-optimization",
         "answer-capsule"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/infraestrutura-real-de-citacao-por-ia-llms-txt-chunking-e-densidade-de-entidades/"
     },
     {
       "slug": "fisica-semantica",
@@ -2523,7 +2695,8 @@
         "entropia-semantica",
         "campo-semantico-digital"
       ],
-      "fonte": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
+      "fonte": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/",
+      "artigo": ""
     },
     {
       "slug": "information-gain",
@@ -2537,7 +2710,8 @@
         "helpful-content",
         "original-research"
       ],
-      "fonte": "https://patents.google.com/patent/US9990421B2"
+      "fonte": "https://patents.google.com/patent/US9990421B2",
+      "artigo": "https://seonegocionomapa.com.br/o-colapso-do-conteudo-generico-raphael-sousa-pereira/"
     },
     {
       "slug": "geo-causal",
@@ -2553,7 +2727,8 @@
         "recommendation-rate",
         "incrementality"
       ],
-      "fonte": "https://raphaelsousapereira.com.br/metricas-de-geo/"
+      "fonte": "https://raphaelsousapereira.com.br/metricas-de-geo/",
+      "artigo": ""
     },
     {
       "slug": "geo-score",
@@ -2567,7 +2742,8 @@
         "ai-audit",
         "machine-readability"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://raphaelsousapereira.com.br/diagnostico/"
     },
     {
       "slug": "rag",
@@ -2582,7 +2758,8 @@
         "grounding",
         "embedding"
       ],
-      "fonte": "https://arxiv.org/abs/2005.11401"
+      "fonte": "https://arxiv.org/abs/2005.11401",
+      "artigo": "https://seonegocionomapa.com.br/estrategias-de-chunking-para-rag-como-estruturar-conteudo-para-sobreviver-ao-pipeline-de-recuperacao/"
     },
     {
       "slug": "ga4",
@@ -2596,7 +2773,8 @@
         "ai-referral-traffic",
         "conversion-rate"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/trafego-de-ias-o-que-e-como-medir-no-ga4-e-o-tamanho-real-no-brasil-em-2026/"
     },
     {
       "slug": "gemini",
@@ -2611,7 +2789,8 @@
         "ai-mode",
         "google-extended"
       ],
-      "fonte": "https://gemini.google.com"
+      "fonte": "https://gemini.google.com",
+      "artigo": ""
     },
     {
       "slug": "google-merchant-center",
@@ -2625,7 +2804,8 @@
         "product-schema",
         "agentic-commerce"
       ],
-      "fonte": "https://support.google.com/merchants/answer/188924"
+      "fonte": "https://support.google.com/merchants/answer/188924",
+      "artigo": ""
     },
     {
       "slug": "google-search-console",
@@ -2640,7 +2820,8 @@
         "impressions",
         "ctr"
       ],
-      "fonte": "https://search.google.com/search-console/about"
+      "fonte": "https://search.google.com/search-console/about",
+      "artigo": ""
     },
     {
       "slug": "google-extended",
@@ -2654,7 +2835,8 @@
         "ai-crawler",
         "robots-txt"
       ],
-      "fonte": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers"
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers",
+      "artigo": ""
     },
     {
       "slug": "ai-governance",
@@ -2669,7 +2851,8 @@
         "eu-ai-act",
         "human-in-the-loop"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://raphaelsousapereira.com.br/a-ia-que-o-ceo-precisa-governar/"
     },
     {
       "slug": "knowledge-graph",
@@ -2684,7 +2867,8 @@
         "knowledge-panel",
         "entity-graph"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/curso-de-geo-e-knowledge-graph-2026/"
     },
     {
       "slug": "code-graph",
@@ -2698,7 +2882,8 @@
         "ai-agent",
         "knowledge-graph"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "qf-geo",
@@ -2712,7 +2897,8 @@
         "query-fan-out",
         "grounding-query"
       ],
-      "fonte": "https://raphaelsousapereira.com.br/publicacoes-em-seo-geo/"
+      "fonte": "https://raphaelsousapereira.com.br/publicacoes-em-seo-geo/",
+      "artigo": ""
     },
     {
       "slug": "entity-graph",
@@ -2726,7 +2912,8 @@
         "schema-id",
         "knowledge-graph"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "llm",
@@ -2741,7 +2928,8 @@
         "token",
         "generative-ai"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/o-que-e-llm-large-language-model-definicao-funcionamento-e-aplicacoes-em-2026/"
     },
     {
       "slug": "graphrag",
@@ -2755,7 +2943,8 @@
         "rag",
         "knowledge-graph"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/arquitetura-sintetica-de-multi-ias-o-guia-completo-para-ranquear-em-sistemas-de-informacao-com-ia/"
     },
     {
       "slug": "grok",
@@ -2768,7 +2957,8 @@
       "relacionados": [
         "ai-assistant"
       ],
-      "fonte": "https://grok.com"
+      "fonte": "https://grok.com",
+      "artigo": ""
     },
     {
       "slug": "hospedeiro-geo",
@@ -2783,7 +2973,8 @@
         "ai-ranking-list",
         "third-party-source"
       ],
-      "fonte": "https://seonegocionomapa.com.br/anatomia-de-um-hospedeiro-em-geo/"
+      "fonte": "https://seonegocionomapa.com.br/anatomia-de-um-hospedeiro-em-geo/",
+      "artigo": ""
     },
     {
       "slug": "semantic-html",
@@ -2798,7 +2989,8 @@
         "machine-readability",
         "page-source"
       ],
-      "fonte": "https://developer.mozilla.org/en-US/docs/Glossary/Semantics"
+      "fonte": "https://developer.mozilla.org/en-US/docs/Glossary/Semantics",
+      "artigo": ""
     },
     {
       "slug": "https",
@@ -2811,7 +3003,8 @@
       "relacionados": [
         "page-experience"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "human-in-the-loop",
@@ -2825,7 +3018,8 @@
         "ai-governance",
         "ai-agent"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "constitutional-ai",
@@ -2839,7 +3033,8 @@
         "alignment",
         "rlhf"
       ],
-      "fonte": "https://arxiv.org/abs/2212.08073"
+      "fonte": "https://arxiv.org/abs/2212.08073",
+      "artigo": ""
     },
     {
       "slug": "generative-ai",
@@ -2853,7 +3048,8 @@
         "llm",
         "diffusion-model"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "schema-id",
@@ -2867,7 +3063,8 @@
         "json-ld",
         "entity-graph"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "place-id",
@@ -2881,7 +3078,8 @@
         "google-business-profile",
         "entity-disambiguation"
       ],
-      "fonte": "https://developers.google.com/maps/documentation/places/web-service/place-id"
+      "fonte": "https://developers.google.com/maps/documentation/places/web-service/place-id",
+      "artigo": ""
     },
     {
       "slug": "imperativo-de-formato",
@@ -2896,7 +3094,8 @@
         "hallucination",
         "sycophancy"
       ],
-      "fonte": "https://seonegocionomapa.com.br/engenharia-de-prompt-em-geo/"
+      "fonte": "https://seonegocionomapa.com.br/engenharia-de-prompt-em-geo/",
+      "artigo": ""
     },
     {
       "slug": "generative-impression",
@@ -2911,7 +3110,8 @@
         "ai-overviews",
         "linked-citation"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "impressions",
@@ -2925,7 +3125,8 @@
         "ctr",
         "google-search-console"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "quotation-addition",
@@ -2938,7 +3139,8 @@
       "relacionados": [
         "statistics-addition"
       ],
-      "fonte": "https://arxiv.org/abs/2311.09735"
+      "fonte": "https://arxiv.org/abs/2311.09735",
+      "artigo": ""
     },
     {
       "slug": "statistics-addition",
@@ -2952,7 +3154,8 @@
         "citable-fact",
         "quotation-addition"
       ],
-      "fonte": "https://arxiv.org/abs/2311.09735"
+      "fonte": "https://arxiv.org/abs/2311.09735",
+      "artigo": ""
     },
     {
       "slug": "answer-inclusion",
@@ -2966,7 +3169,8 @@
         "ai-citation",
         "source-attribution"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "indexing",
@@ -2981,7 +3185,8 @@
         "noindex",
         "index-coverage"
       ],
-      "fonte": "https://developers.google.com/search/docs/fundamentals/how-search-works"
+      "fonte": "https://developers.google.com/search/docs/fundamentals/how-search-works",
+      "artigo": "https://seonegocionomapa.com.br/livro-seo-tecnico-crawling-indexacao-e-arquitetura-de-informacao/"
     },
     {
       "slug": "mobile-first-indexing",
@@ -2994,7 +3199,8 @@
       "relacionados": [
         "page-experience"
       ],
-      "fonte": "https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing"
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing",
+      "artigo": ""
     },
     {
       "slug": "indexnow",
@@ -3008,7 +3214,8 @@
         "xml-sitemap",
         "crawling"
       ],
-      "fonte": "https://www.indexnow.org"
+      "fonte": "https://www.indexnow.org",
+      "artigo": ""
     },
     {
       "slug": "inference",
@@ -3022,7 +3229,8 @@
         "latency",
         "token"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/flashattention-e-o-gargalo-real-de-inferencia-por-que-memoria-nao-flops-decide-a-velocidade/"
     },
     {
       "slug": "prompt-injection",
@@ -3037,7 +3245,8 @@
         "jailbreak",
         "ai-safety"
       ],
-      "fonte": "https://genai.owasp.org/llm-top-10/"
+      "fonte": "https://genai.owasp.org/llm-top-10/",
+      "artigo": "https://raphaelsousapereira.com.br/auditoria-defensiva-ia-sicredi-llm-rag-agentes-governanca/"
     },
     {
       "slug": "artificial-intelligence",
@@ -3051,7 +3260,8 @@
         "machine-learning",
         "generative-ai"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "search-intent",
@@ -3065,7 +3275,8 @@
         "keyword",
         "query-fan-out"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/otimizacao-de-paginas-seo/"
     },
     {
       "slug": "inp",
@@ -3078,7 +3289,8 @@
       "relacionados": [
         "core-web-vitals"
       ],
-      "fonte": "https://web.dev/articles/inp"
+      "fonte": "https://web.dev/articles/inp",
+      "artigo": "https://seonegocionomapa.com.br/como-otimizar-inp-guia-completo-de-core-web-vitals-2026/"
     },
     {
       "slug": "late-interaction",
@@ -3091,7 +3303,8 @@
       "relacionados": [
         "dense-retrieval"
       ],
-      "fonte": "https://arxiv.org/abs/2004.12832"
+      "fonte": "https://arxiv.org/abs/2004.12832",
+      "artigo": "https://raphaelsousapereira.com.br/vector-databases-geo-2026/"
     },
     {
       "slug": "api",
@@ -3105,7 +3318,8 @@
         "token",
         "function-calling"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "confidence-interval",
@@ -3119,7 +3333,8 @@
         "response-variance",
         "paired-sample"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "jailbreak",
@@ -3133,7 +3348,8 @@
         "prompt-injection",
         "guardrails"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "context-window",
@@ -3147,7 +3363,8 @@
         "token",
         "lost-in-the-middle"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/transformers-em-2026-como-llms-processam-contexto-e-onde-comeca-o-geo/"
     },
     {
       "slug": "json-ld",
@@ -3161,7 +3378,8 @@
         "structured-data",
         "schema-id"
       ],
-      "fonte": "https://www.w3.org/TR/json-ld11/"
+      "fonte": "https://www.w3.org/TR/json-ld11/",
+      "artigo": "https://raphaelsousapereira.com.br/schema-markup-json-ld-entidades-grafo-conhecimento-geo-2026/"
     },
     {
       "slug": "latency",
@@ -3175,7 +3393,8 @@
         "inference",
         "streaming"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "mistral-le-chat",
@@ -3189,7 +3408,8 @@
         "ai-assistant",
         "open-weight-model"
       ],
-      "fonte": "https://en.wikipedia.org/wiki/Mistral_AI"
+      "fonte": "https://en.wikipedia.org/wiki/Mistral_AI",
+      "artigo": ""
     },
     {
       "slug": "machine-readability",
@@ -3203,7 +3423,8 @@
         "server-side-rendering",
         "structured-data"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/geo-tecnico/"
     },
     {
       "slug": "lei-da-coerencia-distribuida",
@@ -3218,7 +3439,8 @@
         "coerencia-de-entidade-distribuida",
         "entity-consistency"
       ],
-      "fonte": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
+      "fonte": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/",
+      "artigo": ""
     },
     {
       "slug": "entropia-semantica",
@@ -3232,7 +3454,8 @@
         "fisica-semantica",
         "entity-drift"
       ],
-      "fonte": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
+      "fonte": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/",
+      "artigo": ""
     },
     {
       "slug": "eu-ai-act",
@@ -3246,7 +3469,8 @@
         "ai-governance",
         "ai-transparency"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "scaling-laws",
@@ -3260,7 +3484,8 @@
         "parameters",
         "pretraining"
       ],
-      "fonte": "https://arxiv.org/abs/2001.08361"
+      "fonte": "https://arxiv.org/abs/2001.08361",
+      "artigo": ""
     },
     {
       "slug": "lgpd-ai",
@@ -3273,7 +3498,8 @@
       "relacionados": [
         "ai-governance"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "thought-leadership",
@@ -3288,7 +3514,8 @@
         "brand-mention",
         "information-gain"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "limiar-de-confianca",
@@ -3302,7 +3529,8 @@
         "fisica-semantica",
         "loop-de-feedback-semantico"
       ],
-      "fonte": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
+      "fonte": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/",
+      "artigo": ""
     },
     {
       "slug": "authoritative-language",
@@ -3316,7 +3544,8 @@
         "cite-sources",
         "imperativo-de-formato"
       ],
-      "fonte": "https://arxiv.org/abs/2311.09735"
+      "fonte": "https://arxiv.org/abs/2311.09735",
+      "artigo": ""
     },
     {
       "slug": "easy-to-understand",
@@ -3329,7 +3558,8 @@
       "relacionados": [
         "fluency-optimization"
       ],
-      "fonte": "https://arxiv.org/abs/2311.09735"
+      "fonte": "https://arxiv.org/abs/2311.09735",
+      "artigo": ""
     },
     {
       "slug": "internal-linking",
@@ -3344,7 +3574,8 @@
         "anchor-text",
         "orphan-page"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://raphaelsousapereira.com.br/ferramenta-vs-metodo-linkagem-interna/"
     },
     {
       "slug": "ai-ranking-list",
@@ -3358,7 +3589,8 @@
         "ai-citation",
         "citation-source-type"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/artigo-sobre-a-tatica-das-100-melhores-empresas-citadas-por-elas-mesmas/"
     },
     {
       "slug": "ai-slop",
@@ -3372,7 +3604,8 @@
         "scaled-content-abuse",
         "thin-content"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/ai-slop-o-que-e-e-como-proteger-sua-marca-do-lixo-de-conteudo-gerado-por-ia/"
     },
     {
       "slug": "llm-as-judge",
@@ -3385,7 +3618,8 @@
       "relacionados": [
         "evals"
       ],
-      "fonte": "https://arxiv.org/abs/2306.05685"
+      "fonte": "https://arxiv.org/abs/2306.05685",
+      "artigo": "https://seonegocionomapa.com.br/llm-as-a-judge-em-2026-como-auditar-avaliadores-de-ia-antes-de-usa-los-para-medir-geo-e-fidelidade-de-marca/"
     },
     {
       "slug": "loop-de-feedback-semantico",
@@ -3399,7 +3633,8 @@
         "limiar-de-confianca",
         "fisica-semantica"
       ],
-      "fonte": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
+      "fonte": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/",
+      "artigo": ""
     },
     {
       "slug": "lora",
@@ -3412,7 +3647,8 @@
       "relacionados": [
         "fine-tuning"
       ],
-      "fonte": "https://arxiv.org/abs/2106.09685"
+      "fonte": "https://arxiv.org/abs/2106.09685",
+      "artigo": ""
     },
     {
       "slug": "lcp",
@@ -3425,7 +3661,8 @@
       "relacionados": [
         "core-web-vitals"
       ],
-      "fonte": "https://web.dev/articles/lcp"
+      "fonte": "https://web.dev/articles/lcp",
+      "artigo": ""
     },
     {
       "slug": "topical-map",
@@ -3440,7 +3677,8 @@
         "topical-authority",
         "pillar-page"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "watermarking",
@@ -3453,7 +3691,8 @@
       "relacionados": [
         "content-provenance"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "markdown-for-agents",
@@ -3467,7 +3706,8 @@
         "llms-txt",
         "machine-readability"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "semantic-mass",
@@ -3481,7 +3721,8 @@
         "coerencia-de-entidade-distribuida",
         "campo-semantico-digital"
       ],
-      "fonte": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
+      "fonte": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/",
+      "artigo": ""
     },
     {
       "slug": "matriz-cm",
@@ -3494,7 +3735,8 @@
       "relacionados": [
         "entity"
       ],
-      "fonte": "https://seonegocionomapa.com.br/quem-e-raphael-sousa-pereira-estrategista-de-citacao-de-entidade/"
+      "fonte": "https://seonegocionomapa.com.br/quem-e-raphael-sousa-pereira-estrategista-de-citacao-de-entidade/",
+      "artigo": ""
     },
     {
       "slug": "g-cim",
@@ -3507,7 +3749,8 @@
       "relacionados": [
         "ai-audit"
       ],
-      "fonte": "https://raphaelsousapereira.com.br/generative-competitive-intelligence-matrix/"
+      "fonte": "https://raphaelsousapereira.com.br/generative-competitive-intelligence-matrix/",
+      "artigo": ""
     },
     {
       "slug": "attention-mechanism",
@@ -3521,7 +3764,8 @@
         "transformer",
         "context-window"
       ],
-      "fonte": "https://arxiv.org/abs/1706.03762"
+      "fonte": "https://arxiv.org/abs/1706.03762",
+      "artigo": ""
     },
     {
       "slug": "agent-memory",
@@ -3535,7 +3779,8 @@
         "ai-agent",
         "context-engineering"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "ai-mention",
@@ -3549,7 +3794,8 @@
         "ai-citation",
         "share-of-voice"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "brand-mention",
@@ -3564,7 +3810,8 @@
         "share-of-voice",
         "co-citation"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "meta-ai",
@@ -3578,7 +3825,8 @@
         "ai-assistant",
         "open-weight-model"
       ],
-      "fonte": "https://en.wikipedia.org/wiki/Meta_AI"
+      "fonte": "https://en.wikipedia.org/wiki/Meta_AI",
+      "artigo": ""
     },
     {
       "slug": "meta-description",
@@ -3592,7 +3840,8 @@
         "title-tag",
         "ctr"
       ],
-      "fonte": "https://developers.google.com/search/docs/appearance/snippet"
+      "fonte": "https://developers.google.com/search/docs/appearance/snippet",
+      "artigo": ""
     },
     {
       "slug": "meta-robots",
@@ -3606,7 +3855,8 @@
         "noindex",
         "nosnippet"
       ],
-      "fonte": "https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag"
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag",
+      "artigo": ""
     },
     {
       "slug": "microsoft-copilot",
@@ -3620,7 +3870,8 @@
         "bing-webmaster-tools",
         "indexnow"
       ],
-      "fonte": "https://copilot.microsoft.com"
+      "fonte": "https://copilot.microsoft.com",
+      "artigo": ""
     },
     {
       "slug": "mixture-of-experts",
@@ -3634,7 +3885,8 @@
         "parameters",
         "transformer"
       ],
-      "fonte": "https://arxiv.org/abs/1701.06538"
+      "fonte": "https://arxiv.org/abs/1701.06538",
+      "artigo": ""
     },
     {
       "slug": "diffusion-model",
@@ -3647,7 +3899,8 @@
       "relacionados": [
         "generative-ai"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "foundation-model",
@@ -3661,7 +3914,8 @@
         "llm",
         "fine-tuning"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "slm",
@@ -3675,7 +3929,8 @@
         "llm",
         "distillation"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "open-weight-model",
@@ -3689,7 +3944,8 @@
         "parameters",
         "foundation-model"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "prompt-template",
@@ -3702,7 +3958,8 @@
       "relacionados": [
         "prompt"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "reasoning-model",
@@ -3716,7 +3973,8 @@
         "chain-of-thought",
         "test-time-compute"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "vision-language-model",
@@ -3729,7 +3987,8 @@
       "relacionados": [
         "multimodal-model"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "multimodal-model",
@@ -3743,7 +4002,8 @@
         "generative-ai",
         "vision-language-model"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "backlink-to-geo-operating-model",
@@ -3758,7 +4018,8 @@
         "brand-mention",
         "source-authority-concentration"
       ],
-      "fonte": "https://seonegocionomapa.com.br/como-usar-backlinks-em-sua-estrategia-de-seo-e-geo-guia-2026/"
+      "fonte": "https://seonegocionomapa.com.br/como-usar-backlinks-em-sua-estrategia-de-seo-e-geo-guia-2026/",
+      "artigo": ""
     },
     {
       "slug": "ai-mode",
@@ -3772,7 +4033,8 @@
         "ai-overviews",
         "query-fan-out"
       ],
-      "fonte": "https://developers.google.com/search/docs/appearance/ai-features"
+      "fonte": "https://developers.google.com/search/docs/appearance/ai-features",
+      "artigo": ""
     },
     {
       "slug": "rank-tracking",
@@ -3785,7 +4047,8 @@
       "relacionados": [
         "average-position"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "answer-engine",
@@ -3799,7 +4062,8 @@
         "generative-engine",
         "aeo"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "generative-engine",
@@ -3814,7 +4078,8 @@
         "llm",
         "rag"
       ],
-      "fonte": "https://arxiv.org/abs/2311.09735"
+      "fonte": "https://arxiv.org/abs/2311.09735",
+      "artigo": "https://seonegocionomapa.com.br/workshop-indexacao-para-llms-geo-generative-engine-optimization-para-desenvolvedores-raphael-sousa-pereira/"
     },
     {
       "slug": "comparable-change",
@@ -3828,7 +4093,8 @@
         "paired-sample",
         "measurement-denominator"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "cls",
@@ -3841,7 +4107,8 @@
       "relacionados": [
         "core-web-vitals"
       ],
-      "fonte": "https://web.dev/articles/cls"
+      "fonte": "https://web.dev/articles/cls",
+      "artigo": ""
     },
     {
       "slug": "vanity-metrics",
@@ -3855,7 +4122,8 @@
         "closed-loop-reporting",
         "incrementality"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "agentic-browser",
@@ -3870,7 +4138,8 @@
         "computer-use",
         "agent-readiness"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "faceted-navigation",
@@ -3884,7 +4153,8 @@
         "crawl-budget",
         "duplicate-content"
       ],
-      "fonte": "https://developers.google.com/search/docs/crawling-indexing/crawling-managing-faceted-navigation"
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/crawling-managing-faceted-navigation",
+      "artigo": ""
     },
     {
       "slug": "b2a",
@@ -3898,7 +4168,8 @@
         "agentic-commerce",
         "agent-readiness"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "nap",
@@ -3912,7 +4183,8 @@
         "local-citation",
         "entity-consistency"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "notebooklm",
@@ -3926,7 +4198,8 @@
         "grounding",
         "rag"
       ],
-      "fonte": "https://notebooklm.google"
+      "fonte": "https://notebooklm.google",
+      "artigo": ""
     },
     {
       "slug": "notability",
@@ -3940,7 +4213,8 @@
         "wikidata",
         "external-corroboration"
       ],
-      "fonte": "https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:Notoriedade"
+      "fonte": "https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:Notoriedade",
+      "artigo": ""
     },
     {
       "slug": "ontology",
@@ -3955,7 +4229,8 @@
         "rdf-triple",
         "knowledge-graph"
       ],
-      "fonte": "https://www.w3.org/TR/owl2-overview/"
+      "fonte": "https://www.w3.org/TR/owl2-overview/",
+      "artigo": ""
     },
     {
       "slug": "self-reported-attribution",
@@ -3969,7 +4244,8 @@
         "dark-ai-traffic",
         "qualified-lead"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "orchestration",
@@ -3982,7 +4258,8 @@
       "relacionados": [
         "multi-agent-system"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/arquitetura-sintetica-de-multi-ias-o-guia-completo-para-ranquear-em-sistemas-de-informacao-com-ia/"
     },
     {
       "slug": "crawl-budget",
@@ -3996,7 +4273,8 @@
         "crawling",
         "log-file-analysis"
       ],
-      "fonte": "https://developers.google.com/search/docs/crawling-indexing/large-site-managing-crawl-budget"
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/large-site-managing-crawl-budget",
+      "artigo": "https://raphaelsousapereira.com.br/crawl-budget-quando-importa-quando-e-ruido/"
     },
     {
       "slug": "macrodominios-de-geo",
@@ -4009,7 +4287,8 @@
       "relacionados": [
         "geo-field-taxonomy"
       ],
-      "fonte": "https://raphaelsousapereira.com.br/os-6-macrodominios-de-geo-uma-macroarquitetura-para-pesquisa-tecnica-operacao-e-valor-economico-geo-ia/"
+      "fonte": "https://raphaelsousapereira.com.br/os-6-macrodominios-de-geo-uma-macroarquitetura-para-pesquisa-tecnica-operacao-e-valor-economico-geo-ia/",
+      "artigo": ""
     },
     {
       "slug": "sxo",
@@ -4024,7 +4303,8 @@
         "cro",
         "ctr"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "cro",
@@ -4037,7 +4317,8 @@
       "relacionados": [
         "conversion-rate"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "fluency-optimization",
@@ -4051,7 +4332,8 @@
         "cite-sources",
         "easy-to-understand"
       ],
-      "fonte": "https://arxiv.org/abs/2311.09735"
+      "fonte": "https://arxiv.org/abs/2311.09735",
+      "artigo": ""
     },
     {
       "slug": "chunk-optimization",
@@ -4065,7 +4347,8 @@
         "chunking",
         "answer-capsule"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "dpo",
@@ -4078,7 +4361,8 @@
       "relacionados": [
         "rlhf"
       ],
-      "fonte": "https://arxiv.org/abs/2305.18290"
+      "fonte": "https://arxiv.org/abs/2305.18290",
+      "artigo": ""
     },
     {
       "slug": "search-everywhere-optimization",
@@ -4093,7 +4377,8 @@
         "geo",
         "ai-search"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "aio",
@@ -4109,7 +4394,8 @@
         "llmo",
         "ai-overviews"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "llmo",
@@ -4122,7 +4408,8 @@
       "relacionados": [
         "geo"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/o-que-e-llmo-em-2026-guia-tecnico-sobre-otimizacao-para-llms-geo-e-ai-search/"
     },
     {
       "slug": "seo",
@@ -4138,7 +4425,8 @@
         "crawling",
         "indexing"
       ],
-      "fonte": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+      "fonte": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "artigo": ""
     },
     {
       "slug": "aeo",
@@ -4152,7 +4440,8 @@
         "geo",
         "featured-snippet"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "geo",
@@ -4168,7 +4457,8 @@
         "generative-engine",
         "ai-citation"
       ],
-      "fonte": "https://arxiv.org/abs/2311.09735"
+      "fonte": "https://arxiv.org/abs/2311.09735",
+      "artigo": "https://seonegocionomapa.com.br/seo-vs-geo-quais-sao-as-principais-diferencas-guia-definitivo-2026/"
     },
     {
       "slug": "local-pack",
@@ -4182,7 +4472,8 @@
         "local-seo",
         "serp-feature"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
     },
     {
       "slug": "pagerank",
@@ -4196,7 +4487,8 @@
         "backlink",
         "link-equity"
       ],
-      "fonte": "https://research.google/pubs/the-anatomy-of-a-large-scale-hypertextual-web-search-engine/"
+      "fonte": "https://research.google/pubs/the-anatomy-of-a-large-scale-hypertextual-web-search-engine/",
+      "artigo": "https://raphaelsousapereira.com.br/matematica-esquecida-do-pagerank/"
     },
     {
       "slug": "pagination",
@@ -4209,7 +4501,8 @@
       "relacionados": [
         "crawling"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "knowledge-panel",
@@ -4223,7 +4516,8 @@
         "knowledge-graph",
         "entity"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "keyword",
@@ -4238,7 +4532,8 @@
         "search-volume",
         "search-intent"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "long-tail-keyword",
@@ -4251,7 +4546,8 @@
       "relacionados": [
         "keyword"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "share-of-voice",
@@ -4265,7 +4561,8 @@
         "ai-visibility",
         "ai-mention"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "share-of-search",
@@ -4279,7 +4576,8 @@
         "branded-search",
         "share-of-voice"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "parameters",
@@ -4293,7 +4591,8 @@
         "neural-network",
         "parametric-knowledge"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "passage",
@@ -4308,7 +4607,8 @@
         "answer-capsule",
         "dense-retrieval"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "digital-footprint",
@@ -4322,7 +4622,8 @@
         "entity-consistency",
         "brand-mention"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "lost-in-the-middle",
@@ -4336,7 +4637,8 @@
         "context-window",
         "chunking"
       ],
-      "fonte": "https://arxiv.org/abs/2307.03172"
+      "fonte": "https://arxiv.org/abs/2307.03172",
+      "artigo": ""
     },
     {
       "slug": "google-business-profile",
@@ -4350,7 +4652,8 @@
         "local-seo",
         "primary-category"
       ],
-      "fonte": "https://support.google.com/business"
+      "fonte": "https://support.google.com/business",
+      "artigo": "https://seonegocionomapa.com.br/auditoria-paridade-site-google-business-profile/"
     },
     {
       "slug": "multi-hop-question",
@@ -4364,7 +4667,8 @@
         "graphrag",
         "knowledge-graph"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "perplexity",
@@ -4379,7 +4683,8 @@
         "linked-citation",
         "ai-referral-traffic"
       ],
-      "fonte": "https://www.perplexity.ai"
+      "fonte": "https://www.perplexity.ai",
+      "artigo": ""
     },
     {
       "slug": "deep-research",
@@ -4393,7 +4698,8 @@
         "ai-agent",
         "ai-citation"
       ],
-      "fonte": "https://en.wikipedia.org/wiki/ChatGPT_Deep_Research"
+      "fonte": "https://en.wikipedia.org/wiki/ChatGPT_Deep_Research",
+      "artigo": ""
     },
     {
       "slug": "original-research",
@@ -4407,7 +4713,8 @@
         "information-gain",
         "digital-pr"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "content-pruning",
@@ -4421,7 +4728,8 @@
         "thin-content",
         "keyword-cannibalization"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "citation-position",
@@ -4434,7 +4742,8 @@
       "relacionados": [
         "ai-citation"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "average-position",
@@ -4447,7 +4756,8 @@
       "relacionados": [
         "google-search-console"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "citation-precision",
@@ -4462,7 +4772,8 @@
         "ai-citation",
         "cited-url"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "claim-scope-preservation",
@@ -4477,7 +4788,8 @@
         "claim",
         "faithfulness"
       ],
-      "fonte": "https://seonegocionomapa.com.br/o-que-e-llmo-em-2026-guia-tecnico-sobre-otimizacao-para-llms-geo-e-ai-search/"
+      "fonte": "https://seonegocionomapa.com.br/o-que-e-llmo-em-2026-guia-tecnico-sobre-otimizacao-para-llms-geo-e-ai-search/",
+      "artigo": ""
     },
     {
       "slug": "next-token-prediction",
@@ -4491,7 +4803,8 @@
         "llm",
         "self-supervised-learning"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "nlp",
@@ -4505,7 +4818,8 @@
         "llm",
         "named-entity-recognition"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/a-vantagem-do-ingles-assimetria-em-nlp-e-recuperacao-por-ia/"
     },
     {
       "slug": "crawl-depth",
@@ -4519,7 +4833,8 @@
         "site-architecture",
         "orphan-page"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://raphaelsousapereira.com.br/orfa-faceta-profundidade-clique/"
     },
     {
       "slug": "content-depth",
@@ -4533,7 +4848,8 @@
         "content-breadth",
         "thin-content"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "prompt",
@@ -4547,7 +4863,8 @@
         "prompt-engineering",
         "system-prompt"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/engenheiro-de-prompt-para-conteudo-geo-2026/"
     },
     {
       "slug": "few-shot",
@@ -4561,7 +4878,8 @@
         "zero-shot",
         "prompt"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "system-prompt",
@@ -4574,7 +4892,8 @@
       "relacionados": [
         "prompt"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "zero-shot",
@@ -4587,7 +4906,8 @@
       "relacionados": [
         "few-shot"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "agent-readiness",
@@ -4602,7 +4922,8 @@
         "mcp",
         "machine-readability"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "knowsabout",
@@ -4616,7 +4937,8 @@
         "author-entity",
         "e-e-a-t"
       ],
-      "fonte": "https://schema.org/knowsAbout"
+      "fonte": "https://schema.org/knowsAbout",
+      "artigo": ""
     },
     {
       "slug": "same-as",
@@ -4630,7 +4952,8 @@
         "entity-disambiguation",
         "wikidata"
       ],
-      "fonte": "https://schema.org/sameAs"
+      "fonte": "https://schema.org/sameAs",
+      "artigo": ""
     },
     {
       "slug": "brand-safety-ai",
@@ -4645,7 +4968,8 @@
         "entity-disambiguation",
         "ai-audit"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "a2a",
@@ -4659,7 +4983,8 @@
         "mcp",
         "ai-agent"
       ],
-      "fonte": "https://a2a-protocol.org"
+      "fonte": "https://a2a-protocol.org",
+      "artigo": ""
     },
     {
       "slug": "cc-geo",
@@ -4674,7 +4999,8 @@
         "response-variance",
         "measurement-coverage"
       ],
-      "fonte": "https://raphaelsousapereira.com.br/publicacoes-em-seo-geo/"
+      "fonte": "https://raphaelsousapereira.com.br/publicacoes-em-seo-geo/",
+      "artigo": ""
     },
     {
       "slug": "acp",
@@ -4689,7 +5015,8 @@
         "a2a",
         "mcp"
       ],
-      "fonte": "https://www.agenticcommerce.dev"
+      "fonte": "https://www.agenticcommerce.dev",
+      "artigo": "https://raphaelsousapereira.com.br/economia-de-agentes-pagamentos-comercio-e-contratacao-maquina-a-maquina/"
     },
     {
       "slug": "mcp",
@@ -4704,7 +5031,8 @@
         "ai-agent",
         "a2a"
       ],
-      "fonte": "https://modelcontextprotocol.io"
+      "fonte": "https://modelcontextprotocol.io",
+      "artigo": "https://seonegocionomapa.com.br/arquitetura-sintetica-de-multi-ias-o-guia-completo-para-ranquear-em-sistemas-de-informacao-com-ia/"
     },
     {
       "slug": "protocolo-evidencia-inferencia-hipotese",
@@ -4718,7 +5046,8 @@
         "causal-evidence",
         "claim"
       ],
-      "fonte": "https://raphaelsousapereira.com.br/raphael-sousa-pereira/"
+      "fonte": "https://raphaelsousapereira.com.br/raphael-sousa-pereira/",
+      "artigo": ""
     },
     {
       "slug": "content-provenance",
@@ -4732,7 +5061,8 @@
         "ai-transparency",
         "watermarking"
       ],
-      "fonte": "https://c2pa.org"
+      "fonte": "https://c2pa.org",
+      "artigo": ""
     },
     {
       "slug": "pretraining",
@@ -4746,7 +5076,8 @@
         "self-supervised-learning",
         "post-training"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "brand-facts-page",
@@ -4760,7 +5091,8 @@
         "entity-home",
         "citable-fact"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "serp",
@@ -4775,7 +5107,8 @@
         "ai-overviews",
         "organic-search"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "pillar-page",
@@ -4788,7 +5121,8 @@
       "relacionados": [
         "topic-cluster"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "orphan-page",
@@ -4802,7 +5136,8 @@
         "internal-linking",
         "crawl-depth"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "entity-home",
@@ -4816,7 +5151,8 @@
         "entity",
         "organization-schema"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "post-training",
@@ -4830,7 +5166,8 @@
         "instruction-tuning",
         "rlhf"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "quantization",
@@ -4844,7 +5181,8 @@
         "inference",
         "open-weight-model"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "quem-voce-acompanha",
@@ -4858,7 +5196,8 @@
         "co-citation",
         "share-of-voice"
       ],
-      "fonte": "https://seonegocionomapa.com.br/geo-porto-alegre/"
+      "fonte": "https://seonegocionomapa.com.br/geo-porto-alegre/",
+      "artigo": ""
     },
     {
       "slug": "crawlability",
@@ -4873,7 +5212,8 @@
         "robots-txt",
         "ai-crawler"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/2026/06/22/seo-2026-engenharia-de-visibilidade-para-google-maps-e-ia/"
     },
     {
       "slug": "crawling",
@@ -4888,7 +5228,8 @@
         "indexing",
         "crawl-budget"
       ],
-      "fonte": "https://developers.google.com/search/docs/fundamentals/how-search-works"
+      "fonte": "https://developers.google.com/search/docs/fundamentals/how-search-works",
+      "artigo": "https://seonegocionomapa.com.br/livro-seo-tecnico-crawling-indexacao-e-arquitetura-de-informacao/"
     },
     {
       "slug": "citation-to-mention-ratio",
@@ -4903,7 +5244,8 @@
         "citation-rate",
         "third-party-source"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "react-agent",
@@ -4917,7 +5259,8 @@
         "ai-agent",
         "chain-of-thought"
       ],
-      "fonte": "https://arxiv.org/abs/2210.03629"
+      "fonte": "https://arxiv.org/abs/2210.03629",
+      "artigo": ""
     },
     {
       "slug": "attributed-revenue",
@@ -4931,7 +5274,8 @@
         "incrementality",
         "key-event"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "ai-recommendation",
@@ -4945,7 +5289,8 @@
         "ai-mention",
         "recommendation-rate"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "named-entity-recognition",
@@ -4959,7 +5304,8 @@
         "nlp",
         "entity"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "retrievability",
@@ -4974,7 +5320,8 @@
         "citability",
         "chunking"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "information-retrieval",
@@ -4989,7 +5336,8 @@
         "lexical-search",
         "dense-retrieval"
       ],
-      "fonte": "https://en.wikipedia.org/wiki/Information_retrieval"
+      "fonte": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "artigo": "https://seonegocionomapa.com.br/transformers-em-2026-como-llms-processam-contexto-e-onde-comeca-o-geo/"
     },
     {
       "slug": "dense-retrieval",
@@ -5003,7 +5351,8 @@
         "embedding",
         "semantic-search"
       ],
-      "fonte": "https://arxiv.org/abs/2004.04906"
+      "fonte": "https://arxiv.org/abs/2004.04906",
+      "artigo": ""
     },
     {
       "slug": "serp-feature",
@@ -5018,7 +5367,8 @@
         "knowledge-panel",
         "people-also-ask"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "training-opt-out",
@@ -5032,7 +5382,8 @@
         "ai-crawler",
         "robots-txt"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "reddit",
@@ -5046,7 +5397,8 @@
         "user-generated-content",
         "third-party-source"
       ],
-      "fonte": "https://blog.google/inside-google/company-announcements/expanded-reddit-partnership/"
+      "fonte": "https://blog.google/inside-google/company-announcements/expanded-reddit-partnership/",
+      "artigo": ""
     },
     {
       "slug": "cdn",
@@ -5060,7 +5412,8 @@
         "ttfb",
         "ai-crawler"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "neural-network",
@@ -5074,7 +5427,8 @@
         "deep-learning",
         "parameters"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "redirect-301",
@@ -5088,7 +5442,8 @@
         "redirect-chain",
         "http-status-code"
       ],
-      "fonte": "https://developers.google.com/search/docs/crawling-indexing/301-redirects"
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/301-redirects",
+      "artigo": ""
     },
     {
       "slug": "knowledge-panel-claim",
@@ -5102,7 +5457,8 @@
         "knowledge-panel",
         "entity-home"
       ],
-      "fonte": "https://support.google.com/knowledgepanel/answer/7534902"
+      "fonte": "https://support.google.com/knowledgepanel/answer/7534902",
+      "artigo": ""
     },
     {
       "slug": "closed-loop-reporting",
@@ -5116,7 +5472,8 @@
         "attributed-revenue",
         "qualified-lead"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "index-coverage",
@@ -5130,7 +5487,8 @@
         "google-search-console",
         "indexing"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "digital-pr",
@@ -5144,7 +5502,8 @@
         "link-building",
         "brand-mention"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "proximity-relevance-prominence",
@@ -5158,7 +5517,8 @@
         "local-seo",
         "local-pack"
       ],
-      "fonte": "https://support.google.com/business/answer/7091"
+      "fonte": "https://support.google.com/business/answer/7091",
+      "artigo": ""
     },
     {
       "slug": "rendering",
@@ -5172,7 +5532,8 @@
         "javascript-seo",
         "server-side-rendering"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "server-side-rendering",
@@ -5187,7 +5548,8 @@
         "javascript-seo",
         "ai-crawler"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "reranking",
@@ -5201,7 +5563,8 @@
         "hybrid-search",
         "rag"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://raphaelsousapereira.com.br/vector-databases-geo-2026/"
     },
     {
       "slug": "entity-resolution",
@@ -5216,7 +5579,8 @@
         "same-as",
         "knowledge-graph"
       ],
-      "fonte": "https://developers.google.com/knowledge-graph"
+      "fonte": "https://developers.google.com/knowledge-graph",
+      "artigo": ""
     },
     {
       "slug": "valid-response",
@@ -5230,7 +5594,8 @@
         "measurement-denominator",
         "prompt-set"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "incrementality",
@@ -5244,7 +5609,8 @@
         "causal-evidence",
         "attributed-revenue"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "rich-results",
@@ -5258,7 +5624,8 @@
         "structured-data",
         "serp-feature"
       ],
-      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/search-gallery"
+      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/search-gallery",
+      "artigo": ""
     },
     {
       "slug": "tldr",
@@ -5272,7 +5639,8 @@
         "answer-first-writing",
         "answer-capsule"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "ai-crawler",
@@ -5287,7 +5655,8 @@
         "robots-txt",
         "google-extended"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "crawler",
@@ -5302,7 +5671,8 @@
         "ai-crawler",
         "user-agent"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "entity-salience",
@@ -5316,7 +5686,8 @@
         "entity",
         "entity-association"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "guardrails",
@@ -5330,7 +5701,8 @@
         "ai-safety",
         "human-in-the-loop"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "structured-output",
@@ -5344,7 +5716,8 @@
         "function-calling",
         "api"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "article-schema",
@@ -5358,7 +5731,8 @@
         "author-entity",
         "structured-data"
       ],
-      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/article"
+      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/article",
+      "artigo": ""
     },
     {
       "slug": "schema-authority",
@@ -5372,7 +5746,8 @@
         "structured-data",
         "entity-graph"
       ],
-      "fonte": "https://seonegocionomapa.com.br/schema-authority-2026-guia-de-schema-org-geo-e-ia/"
+      "fonte": "https://seonegocionomapa.com.br/schema-authority-2026-guia-de-schema-org-geo-e-ia/",
+      "artigo": ""
     },
     {
       "slug": "dataset-schema",
@@ -5386,7 +5761,8 @@
         "structured-data",
         "original-research"
       ],
-      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/dataset"
+      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/dataset",
+      "artigo": ""
     },
     {
       "slug": "faqpage-schema",
@@ -5400,7 +5776,8 @@
         "structured-data",
         "answer-capsule"
       ],
-      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/faqpage"
+      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/faqpage",
+      "artigo": ""
     },
     {
       "slug": "howto-schema",
@@ -5414,7 +5791,8 @@
         "structured-data",
         "faqpage-schema"
       ],
-      "fonte": "https://developers.google.com/search/blog/2023/08/howto-faq-changes"
+      "fonte": "https://developers.google.com/search/blog/2023/08/howto-faq-changes",
+      "artigo": ""
     },
     {
       "slug": "local-business-schema",
@@ -5428,7 +5806,8 @@
         "organization-schema",
         "local-seo"
       ],
-      "fonte": "https://schema.org/LocalBusiness"
+      "fonte": "https://schema.org/LocalBusiness",
+      "artigo": ""
     },
     {
       "slug": "organization-schema",
@@ -5443,7 +5822,8 @@
         "same-as",
         "entity"
       ],
-      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/organization"
+      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/organization",
+      "artigo": ""
     },
     {
       "slug": "product-schema",
@@ -5457,7 +5837,8 @@
         "structured-data",
         "agentic-commerce"
       ],
-      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/product"
+      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/product",
+      "artigo": ""
     },
     {
       "slug": "profilepage-schema",
@@ -5472,7 +5853,8 @@
         "entity-home",
         "schema-id"
       ],
-      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/profile-page"
+      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/profile-page",
+      "artigo": ""
     },
     {
       "slug": "speakable-schema",
@@ -5486,7 +5868,8 @@
         "structured-data",
         "answer-capsule"
       ],
-      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/speakable"
+      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/speakable",
+      "artigo": ""
     },
     {
       "slug": "schema-org",
@@ -5500,7 +5883,8 @@
         "structured-data",
         "json-ld"
       ],
-      "fonte": "https://schema.org"
+      "fonte": "https://schema.org",
+      "artigo": "https://seonegocionomapa.com.br/schema-authority-2026-guia-de-schema-org-geo-e-ia/"
     },
     {
       "slug": "ai-safety",
@@ -5514,7 +5898,8 @@
         "alignment",
         "guardrails"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "brand-sentiment",
@@ -5528,7 +5913,8 @@
         "ai-visibility",
         "online-reviews"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "entity-seo",
@@ -5544,7 +5930,8 @@
         "things-not-strings",
         "knowledge-graph"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "image-seo",
@@ -5558,7 +5945,8 @@
         "alt-text",
         "lcp"
       ],
-      "fonte": "https://developers.google.com/search/docs/appearance/google-images"
+      "fonte": "https://developers.google.com/search/docs/appearance/google-images",
+      "artigo": ""
     },
     {
       "slug": "seo-de-protecao-de-marca",
@@ -5573,7 +5961,8 @@
         "gbfa",
         "hallucination"
       ],
-      "fonte": "https://seonegocionomapa.com.br/quem-e-o-especialista-em-seo-de-protecao-de-marca-no-brasil/"
+      "fonte": "https://seonegocionomapa.com.br/quem-e-o-especialista-em-seo-de-protecao-de-marca-no-brasil/",
+      "artigo": ""
     },
     {
       "slug": "international-seo",
@@ -5587,7 +5976,8 @@
         "hreflang",
         "cctld"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "local-seo",
@@ -5602,7 +5992,8 @@
         "local-pack",
         "nap"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/seo-local-em-porto-alegre/"
     },
     {
       "slug": "off-page-seo",
@@ -5617,7 +6008,8 @@
         "brand-mention",
         "on-page-seo"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "on-page-seo",
@@ -5632,7 +6024,8 @@
         "heading-structure",
         "off-page-seo"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "javascript-seo",
@@ -5646,7 +6039,8 @@
         "rendering",
         "server-side-rendering"
       ],
-      "fonte": "https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics"
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics",
+      "artigo": ""
     },
     {
       "slug": "semantic-seo",
@@ -5661,7 +6055,8 @@
         "topical-authority",
         "knowledge-graph"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "technical-seo",
@@ -5676,7 +6071,8 @@
         "core-web-vitals",
         "structured-data"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/livro-seo-tecnico-crawling-indexacao-e-arquitetura-de-informacao/"
     },
     {
       "slug": "brand-serp",
@@ -5691,7 +6087,8 @@
         "entity-home",
         "online-reviews"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "ymyl",
@@ -5704,7 +6101,8 @@
       "relacionados": [
         "e-e-a-t"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/e-e-a-t-os-sinais-que-google-e-ia-exigem-antes-de-confiar-em-voce/"
     },
     {
       "slug": "cosine-similarity",
@@ -5717,7 +6115,8 @@
       "relacionados": [
         "embedding"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "content-signals",
@@ -5732,7 +6131,8 @@
         "training-opt-out",
         "ai-crawler"
       ],
-      "fonte": "https://contentsignals.org"
+      "fonte": "https://contentsignals.org",
+      "artigo": ""
     },
     {
       "slug": "multi-agent-system",
@@ -5746,7 +6146,8 @@
         "ai-agent",
         "orchestration"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "xml-sitemap",
@@ -5760,7 +6161,8 @@
         "crawling",
         "lastmod"
       ],
-      "fonte": "https://www.sitemaps.org/protocol.html"
+      "fonte": "https://www.sitemaps.org/protocol.html",
+      "artigo": ""
     },
     {
       "slug": "url-slug",
@@ -5773,7 +6175,8 @@
       "relacionados": [
         "site-architecture"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "overfitting",
@@ -5786,7 +6189,8 @@
       "relacionados": [
         "machine-learning"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "soft-404",
@@ -5799,7 +6203,8 @@
       "relacionados": [
         "http-status-code"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "geo-spam",
@@ -5814,7 +6219,8 @@
         "ai-ranking-list",
         "cloaking"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "link-spam",
@@ -5828,7 +6234,8 @@
         "manual-action",
         "nofollow"
       ],
-      "fonte": "https://developers.google.com/search/docs/essentials/spam-policies"
+      "fonte": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "artigo": ""
     },
     {
       "slug": "streaming",
@@ -5841,7 +6248,8 @@
       "relacionados": [
         "latency"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "retrieval-surface",
@@ -5856,7 +6264,8 @@
         "page-source",
         "machine-readability"
       ],
-      "fonte": "https://seonegocionomapa.com.br/transformers-em-2026-como-llms-processam-contexto-e-onde-comeca-o-geo/"
+      "fonte": "https://seonegocionomapa.com.br/transformers-em-2026-como-llms-processam-contexto-e-onde-comeca-o-geo/",
+      "artigo": ""
     },
     {
       "slug": "title-tag",
@@ -5870,7 +6279,8 @@
         "meta-description",
         "on-page-seo"
       ],
-      "fonte": "https://developers.google.com/search/docs/appearance/title-link"
+      "fonte": "https://developers.google.com/search/docs/appearance/title-link",
+      "artigo": ""
     },
     {
       "slug": "citation-rate",
@@ -5884,7 +6294,8 @@
         "ai-citation",
         "prompt-set"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/auditoria-de-qualidade-mencao-em-ia/"
     },
     {
       "slug": "ctr",
@@ -5898,7 +6309,8 @@
         "impressions",
         "zero-click-search"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "conversion-rate",
@@ -5912,7 +6324,8 @@
         "ga4",
         "cro"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "temporal-accuracy-rate",
@@ -5926,7 +6339,8 @@
         "hallucination-integrity-index",
         "dated-claim"
       ],
-      "fonte": "https://seonegocionomapa.com.br/como-reduzir-alucinacoes-de-ia-sobre-sua-empresa-em-2026/"
+      "fonte": "https://seonegocionomapa.com.br/como-reduzir-alucinacoes-de-ia-sobre-sua-empresa-em-2026/",
+      "artigo": ""
     },
     {
       "slug": "entity-fidelity-rate",
@@ -5940,7 +6354,8 @@
         "hallucination-integrity-index",
         "entity-disambiguation"
       ],
-      "fonte": "https://seonegocionomapa.com.br/como-reduzir-alucinacoes-de-ia-sobre-sua-empresa-em-2026/"
+      "fonte": "https://seonegocionomapa.com.br/como-reduzir-alucinacoes-de-ia-sobre-sua-empresa-em-2026/",
+      "artigo": ""
     },
     {
       "slug": "citation-entailment-rate",
@@ -5954,7 +6369,8 @@
         "hallucination-integrity-index",
         "citation-precision"
       ],
-      "fonte": "https://seonegocionomapa.com.br/como-reduzir-alucinacoes-de-ia-sobre-sua-empresa-em-2026/"
+      "fonte": "https://seonegocionomapa.com.br/como-reduzir-alucinacoes-de-ia-sobre-sua-empresa-em-2026/",
+      "artigo": ""
     },
     {
       "slug": "mention-rate",
@@ -5969,7 +6385,8 @@
         "valid-response",
         "measurement-denominator"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "recommendation-rate",
@@ -5983,7 +6400,8 @@
         "ai-recommendation",
         "mention-rate"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "claim-support-rate",
@@ -5997,7 +6415,8 @@
         "hallucination-integrity-index",
         "faithfulness"
       ],
-      "fonte": "https://seonegocionomapa.com.br/como-reduzir-alucinacoes-de-ia-sobre-sua-empresa-em-2026/"
+      "fonte": "https://seonegocionomapa.com.br/como-reduzir-alucinacoes-de-ia-sobre-sua-empresa-em-2026/",
+      "artigo": ""
     },
     {
       "slug": "geo-field-taxonomy",
@@ -6011,7 +6430,8 @@
         "geo",
         "macrodominios-de-geo"
       ],
-      "fonte": "https://seonegocionomapa.com.br/raphael-sousa-pereira-na-evolucao-do-geo-3-dois-pesquisa-aplicada-e-geo-field-taxonomy/"
+      "fonte": "https://seonegocionomapa.com.br/raphael-sousa-pereira-na-evolucao-do-geo-3-dois-pesquisa-aplicada-e-geo-field-taxonomy/",
+      "artigo": ""
     },
     {
       "slug": "temperature",
@@ -6025,7 +6445,8 @@
         "top-p",
         "response-variance"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "ttfb",
@@ -6039,7 +6460,8 @@
         "lcp",
         "cdn"
       ],
-      "fonte": "https://web.dev/articles/ttfb"
+      "fonte": "https://web.dev/articles/ttfb",
+      "artigo": ""
     },
     {
       "slug": "technical-terms",
@@ -6052,7 +6474,8 @@
       "relacionados": [
         "semantic-seo"
       ],
-      "fonte": "https://arxiv.org/abs/2311.09735"
+      "fonte": "https://arxiv.org/abs/2311.09735",
+      "artigo": ""
     },
     {
       "slug": "rich-results-test",
@@ -6066,7 +6489,8 @@
         "rich-results",
         "structured-data"
       ],
-      "fonte": "https://search.google.com/test/rich-results"
+      "fonte": "https://search.google.com/test/rich-results",
+      "artigo": ""
     },
     {
       "slug": "alt-text",
@@ -6079,7 +6503,8 @@
       "relacionados": [
         "image-seo"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "anchor-text",
@@ -6093,7 +6518,8 @@
         "backlink",
         "internal-linking"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/arquitetura-semantica-profissional-de-geo/"
     },
     {
       "slug": "citation-source-type",
@@ -6107,7 +6533,8 @@
         "ai-citation",
         "third-party-source"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "token",
@@ -6121,7 +6548,8 @@
         "tokenization",
         "context-window"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "tokenization",
@@ -6134,7 +6562,8 @@
       "relacionados": [
         "token"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "top-p",
@@ -6147,7 +6576,8 @@
       "relacionados": [
         "temperature"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "transformer",
@@ -6161,7 +6591,8 @@
         "attention-mechanism",
         "llm"
       ],
-      "fonte": "https://arxiv.org/abs/1706.03762"
+      "fonte": "https://arxiv.org/abs/1706.03762",
+      "artigo": "https://seonegocionomapa.com.br/transformers-em-2026-como-llms-processam-contexto-e-onde-comeca-o-geo/"
     },
     {
       "slug": "editorial-transparency",
@@ -6175,7 +6606,8 @@
         "e-e-a-t",
         "author-entity"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "ai-transparency",
@@ -6189,7 +6621,8 @@
         "content-provenance",
         "eu-ai-act"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "featured-snippet",
@@ -6204,7 +6637,8 @@
         "zero-click-search",
         "answer-capsule"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "breadcrumb",
@@ -6218,7 +6652,8 @@
         "site-architecture",
         "structured-data"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "rdf-triple",
@@ -6233,7 +6668,8 @@
         "json-ld",
         "ontology"
       ],
-      "fonte": "https://www.w3.org/TR/rdf11-concepts/"
+      "fonte": "https://www.w3.org/TR/rdf11-concepts/",
+      "artigo": ""
     },
     {
       "slug": "triangulo-de-citabilidade",
@@ -6248,7 +6684,8 @@
         "information-gain",
         "original-research"
       ],
-      "fonte": "https://seonegocionomapa.com.br/o-colapso-do-conteudo-generico-raphael-sousa-pereira/"
+      "fonte": "https://seonegocionomapa.com.br/o-colapso-do-conteudo-generico-raphael-sousa-pereira/",
+      "artigo": ""
     },
     {
       "slug": "dark-ai-traffic",
@@ -6262,7 +6699,8 @@
         "ai-referral-traffic",
         "self-reported-attribution"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "ai-referral-traffic",
@@ -6276,7 +6714,8 @@
         "ga4",
         "ai-visibility"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/trafego-de-ias-o-que-e-como-medir-no-ga4-e-o-tamanho-real-no-brasil-em-2026/"
     },
     {
       "slug": "skyscraper-technique",
@@ -6290,7 +6729,8 @@
         "link-building",
         "ten-x-content"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "unit-of-analysis",
@@ -6303,7 +6743,8 @@
       "relacionados": [
         "measurement-denominator"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "canonical-url",
@@ -6317,7 +6758,8 @@
         "duplicate-content",
         "indexing"
       ],
-      "fonte": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls"
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+      "artigo": ""
     },
     {
       "slug": "cited-url",
@@ -6331,7 +6773,8 @@
         "cited-domain",
         "ai-citation"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "computer-use",
@@ -6345,7 +6788,8 @@
         "agentic-browser",
         "ai-agent"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "usuario-nao-linear",
@@ -6360,7 +6804,8 @@
         "conversational-query",
         "response-variance"
       ],
-      "fonte": "https://seonegocionomapa.com.br/o-usuario-nao-linear-o-limite-declarado-de-query-sets-em-auditoria-de-geo/"
+      "fonte": "https://seonegocionomapa.com.br/o-usuario-nao-linear-o-limite-declarado-de-query-sets-em-auditoria-de-geo/",
+      "artigo": ""
     },
     {
       "slug": "link-equity",
@@ -6374,7 +6819,8 @@
         "pagerank",
         "nofollow"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "ltv",
@@ -6387,7 +6833,8 @@
       "relacionados": [
         "cac"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "response-variance",
@@ -6401,7 +6848,8 @@
         "temperature",
         "prompt-set"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/a-validade-das-metricas-de-geo/"
     },
     {
       "slug": "vibe-coding",
@@ -6415,7 +6863,8 @@
         "ai-agent",
         "human-in-the-loop"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "ai-visibility",
@@ -6430,7 +6879,8 @@
         "citation-rate",
         "prompt-set"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "ai-overviews",
@@ -6445,7 +6895,8 @@
         "zero-click-search",
         "ai-citation"
       ],
-      "fonte": "https://developers.google.com/search/docs/appearance/ai-features"
+      "fonte": "https://developers.google.com/search/docs/appearance/ai-features",
+      "artigo": ""
     },
     {
       "slug": "ann-search",
@@ -6458,7 +6909,8 @@
       "relacionados": [
         "vector-database"
       ],
-      "fonte": "https://arxiv.org/abs/1603.09320"
+      "fonte": "https://arxiv.org/abs/1603.09320",
+      "artigo": "https://raphaelsousapereira.com.br/vector-databases-geo-2026/"
     },
     {
       "slug": "bias",
@@ -6472,7 +6924,8 @@
         "training-data",
         "ai-governance"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": "https://seonegocionomapa.com.br/llm-as-a-judge-em-2026-como-auditar-avaliadores-de-ia-antes-de-usa-los-para-medir-geo-e-fidelidade-de-marca/"
     },
     {
       "slug": "search-volume",
@@ -6485,7 +6938,8 @@
       "relacionados": [
         "keyword"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "prompt-volume",
@@ -6499,7 +6953,8 @@
         "search-volume",
         "prompt-set"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "agentic-web",
@@ -6514,7 +6969,8 @@
         "agentic-browser",
         "agentic-commerce"
       ],
-      "fonte": ""
+      "fonte": "",
+      "artigo": ""
     },
     {
       "slug": "wikidata",
@@ -6529,7 +6985,8 @@
         "knowledge-graph",
         "entity-disambiguation"
       ],
-      "fonte": "https://www.wikidata.org"
+      "fonte": "https://www.wikidata.org",
+      "artigo": ""
     },
     {
       "slug": "wikipedia",
@@ -6544,7 +7001,8 @@
         "wikidata",
         "training-data"
       ],
-      "fonte": "https://pt.wikipedia.org"
+      "fonte": "https://pt.wikipedia.org",
+      "artigo": ""
     },
     {
       "slug": "youtube",
@@ -6558,7 +7016,8 @@
         "multimodal-model",
         "brand-mention"
       ],
-      "fonte": "https://www.youtube.com"
+      "fonte": "https://www.youtube.com",
+      "artigo": "https://seonegocionomapa.com.br/seo-youtube-porto-alegre/"
     },
     {
       "slug": "cbci",
@@ -6573,7 +7032,8 @@
         "answer-capsule",
         "structured-data"
       ],
-      "fonte": "https://seonegocionomapa.com.br/ferramentas/"
+      "fonte": "https://seonegocionomapa.com.br/ferramentas/",
+      "artigo": ""
     },
     {
       "slug": "indice-de-coerencia-semantica",
@@ -6587,7 +7047,8 @@
         "coerencia-de-entidade-distribuida",
         "entity-health-score"
       ],
-      "fonte": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
+      "fonte": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/",
+      "artigo": ""
     },
     {
       "slug": "hallucination-integrity-index",
@@ -6604,7 +7065,8 @@
         "temporal-accuracy-rate",
         "hallucination"
       ],
-      "fonte": "https://seonegocionomapa.com.br/como-reduzir-alucinacoes-de-ia-sobre-sua-empresa-em-2026/"
+      "fonte": "https://seonegocionomapa.com.br/como-reduzir-alucinacoes-de-ia-sobre-sua-empresa-em-2026/",
+      "artigo": ""
     },
     {
       "slug": "sitemap-index",
@@ -6618,7 +7080,8 @@
         "xml-sitemap",
         "lastmod"
       ],
-      "fonte": "https://www.sitemaps.org/protocol.html"
+      "fonte": "https://www.sitemaps.org/protocol.html",
+      "artigo": ""
     }
   ]
 }

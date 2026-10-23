@@ -22,27 +22,6 @@ PESSOA = "https://raphaelsousapereira.com.br/#raphael"
 ORG = f"{SITE}/#org"
 DATA_EXTENSO = "23 de outubro de 2026"
 
-# Artigos do site que aprofundam um termo (todos conferidos com resposta 200 em 23/10/2026).
-LEIA = {
-    "llm": "o-que-e-llm-large-language-model-definicao-funcionamento-e-aplicacoes-em-2026",
-    "geo": "seo-vs-geo-quais-sao-as-principais-diferencas-guia-definitivo-2026",
-    "ai-slop": "ai-slop-o-que-e-e-como-proteger-sua-marca-do-lixo-de-conteudo-gerado-por-ia",
-    "faithfulness": "correctness-is-not-faithfulness-por-que-ser-citado-pela-ia-nao-garante-confiabilidade",
-    "hallucination": "como-reduzir-alucinacoes-de-ia-sobre-sua-empresa-em-2026",
-    "ai-referral-traffic": "trafego-de-ias-o-que-e-como-medir-no-ga4-e-o-tamanho-real-no-brasil-em-2026",
-    "llms-txt": "infraestrutura-real-de-citacao-por-ia-llms-txt-chunking-e-densidade-de-entidades",
-    "chunking": "infraestrutura-real-de-citacao-por-ia-llms-txt-chunking-e-densidade-de-entidades",
-    "backlink": "como-usar-backlinks-em-sua-estrategia-de-seo-e-geo-guia-2026",
-    "prompt-set": "o-usuario-nao-linear-o-limite-declarado-de-query-sets-em-auditoria-de-geo",
-    "technical-seo": "livro-seo-tecnico-crawling-indexacao-e-arquitetura-de-informacao",
-    "knowledge-graph": "curso-de-geo-e-knowledge-graph-2026",
-    "entity": "a-equacao-da-entidade-citavel",
-    "response-variance": "a-validade-das-metricas-de-geo",
-    "information-gain": "o-colapso-do-conteudo-generico-raphael-sousa-pereira",
-    "parametric-knowledge": "como-uma-ia-sabe-que-voce-existe-o-mecanismo-real-nao-a-especulacao",
-    "citable-fact": "claim-saturado-guia-2026-como-criar-citabilidade-em-mercados-competitivos",
-    "machine-readability": "geo-tecnico",
-}
 CATEGORIAS = [("seo", "SEO", "Busca orgânica, SEO técnico, local e dados estruturados"),
               ("geo", "GEO", "Visibilidade e citação em motores generativos"),
               ("ia", "IA", "Inteligência artificial aplicada à busca e ao conteúdo"),
@@ -121,9 +100,6 @@ def main() -> None:
     cont = {nome: sum(t["categoria"] == nome for t in termos) for _, nome, _ in CATEGORIAS}
     fontes = sum(bool(t["fonte"]) for t in termos)
     subs = len({(t["categoria"], t["subcategoria"]) for t in termos})
-    faltando = set(LEIA) - set(por_slug)
-    if faltando:
-        raise SystemExit(f"LEIA aponta para termos que não existem: {sorted(faltando)}")
 
     def termo(t: dict) -> str:
         links = []
@@ -133,8 +109,9 @@ def main() -> None:
         if t["fonte"]:
             rotulo = "Página do autor" if t["categoria"] == "Autorais" else "Fonte primária"
             links.append(f'<a href="{e(t["fonte"])}" rel="noopener" target="_blank">{rotulo}</a>')
-        if t["slug"] in LEIA:
-            links.append(f'<a href="/{LEIA[t["slug"]]}/">Leia o artigo</a>')
+        if t["artigo"]:
+            href = t["artigo"].removeprefix(SITE)
+            links.append(f'<a href="{e(href)}">Leia o artigo</a>')
         rodape = f'<p class="gsg-links">{" · ".join(links)}</p>' if links else ""
         return (f'<div class="gsg-term" id="{t["slug"]}"><dt>{e(t["termo_pt"])}'
                 f'<span class="gsg-en" lang="en">{e(t["termo_en"])}</span></dt>'

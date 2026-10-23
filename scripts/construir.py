@@ -18,7 +18,7 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 TERMOS = RAIZ / "termos"
-VERSAO = "1.4.0"
+VERSAO = "1.5.0"
 DATA = "2026-10-23"
 SITE = "https://seonegocionomapa.com.br"
 REPO = "https://github.com/raphaelsousapereira/glossario-seo-geo-ia"
@@ -37,6 +37,7 @@ CATEGORIAS = [("seo", "SEO", "Busca orgânica, SEO técnico, local e dados estru
 CAMPOS = ["slug", "termo_en", "termo_pt", "definicao_pt", "definition_en", "relacionados", "fonte"]
 SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 URL = re.compile(r"^https?://[^\s|]+$")
+ARTIGO = re.compile(r"^https://(seonegocionomapa|raphaelsousapereira)\.com\.br/[^\s|]*$")
 
 
 def ler() -> tuple[list[dict], list[str]]:
@@ -83,12 +84,28 @@ def ler() -> tuple[list[dict], list[str]]:
                 erros.append(f"{t['_onde']}: {r!r} relaciona a si mesmo")
             elif r not in vistos:
                 erros.append(f"{t['_onde']}: relacionado inexistente {r!r}")
+    por_slug = {t["slug"]: t for t in termos}
+    for t in termos:
+        t["artigo"] = ""
+    for n, linha in enumerate((TERMOS / "artigos.txt").read_text(encoding="utf-8").splitlines(), 1):
+        onde = f"termos/artigos.txt:{n}"
+        if not linha.strip() or linha.startswith("#"):
+            continue
+        slug, _, url = (p.strip() for p in linha.partition(" | "))
+        if slug not in por_slug:
+            erros.append(f"{onde}: termo inexistente {slug!r}")
+        elif not ARTIGO.match(url):
+            erros.append(f"{onde}: URL fora dos sites do autor: {url!r}")
+        elif por_slug[slug]["artigo"]:
+            erros.append(f"{onde}: {slug!r} já tem artigo")
+        else:
+            por_slug[slug]["artigo"] = url
     return termos, erros
 
 
 def publico(t: dict) -> dict:
     return {k: t[k] for k in ("slug", "categoria", "subcategoria", "termo_en", "termo_pt",
-                              "definicao_pt", "definition_en", "relacionados", "fonte")}
+                              "definicao_pt", "definition_en", "relacionados", "fonte", "artigo")}
 
 
 def gerar(termos: list[dict]) -> dict[str, str]:
@@ -106,11 +123,11 @@ def gerar(termos: list[dict]) -> dict[str, str]:
     buf = io.StringIO()
     w = csv.writer(buf, lineterminator="\n")
     w.writerow(["slug", "categoria", "subcategoria", "termo_en", "termo_pt", "definicao_pt", "definition_en",
-                "relacionados", "fonte"])
+                "relacionados", "fonte", "artigo"])
     for t in ordenados:
         p = publico(t)
         w.writerow([*(p[k] for k in ("slug", "categoria", "subcategoria", "termo_en", "termo_pt",
-                                     "definicao_pt", "definition_en")), ";".join(p["relacionados"]), p["fonte"]])
+                                     "definicao_pt", "definition_en")), ";".join(p["relacionados"]), p["fonte"], p["artigo"]])
     saida["dist/glossario.csv"] = buf.getvalue()
 
     set_id = f"{REPO}#glossario"
@@ -121,8 +138,9 @@ def gerar(termos: list[dict]) -> dict[str, str]:
               "description": [{"@language": "pt-BR", "@value": t["definicao_pt"]},
                               {"@language": "en", "@value": t["definition_en"]}],
               "inDefinedTermSet": {"@id": set_id}}
-        if t["fonte"]:
-            no["subjectOf"] = t["fonte"]
+        sujeitos = [u for u in (t["fonte"], t["artigo"]) if u]
+        if sujeitos:
+            no["subjectOf"] = sujeitos[0] if len(sujeitos) == 1 else sujeitos
         termos_ld.append(no)
     ld = {"@context": "https://schema.org", "@type": "DefinedTermSet", "@id": set_id,
           "name": "Glossário SEO, GEO e IA", "inLanguage": ["pt-BR", "en"], "version": VERSAO, "dateModified": DATA,
@@ -138,6 +156,8 @@ def gerar(termos: list[dict]) -> dict[str, str]:
             extra.append("Veja também: " + ", ".join(f'[{por_slug[r]["termo_pt"]}](#{r})' for r in t["relacionados"]))
         if t["fonte"]:
             extra.append(f'Fonte: <{t["fonte"]}>')
+        if t["artigo"]:
+            extra.append(f'Leia no site: <{t["artigo"]}>')
         if extra:
             linhas += [" · ".join(extra), ""]
         return linhas

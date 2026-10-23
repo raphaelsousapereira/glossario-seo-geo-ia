@@ -7,7 +7,7 @@
     "pt-BR",
     "en"
   ],
-  "version": "1.4.0",
+  "version": "1.5.0",
   "dateModified": "2026-10-23",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "url": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia",
@@ -136,7 +136,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/claim-saturado-guia-2026-como-criar-citabilidade-em-mercados-competitivos/"
     },
     {
       "@type": "DefinedTerm",
@@ -388,7 +389,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/como-reduzir-alucinacoes-de-ia-sobre-sua-empresa-em-2026/"
     },
     {
       "@type": "DefinedTerm",
@@ -840,7 +842,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://llmstxt.org"
+      "subjectOf": [
+        "https://llmstxt.org",
+        "https://seonegocionomapa.com.br/infraestrutura-real-de-citacao-por-ia-llms-txt-chunking-e-densidade-de-entidades/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -897,7 +902,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/arquitetura-semantica-profissional-de-geo/"
     },
     {
       "@type": "DefinedTerm",
@@ -1437,7 +1443,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/como-usar-backlinks-em-sua-estrategia-de-seo-e-geo-guia-2026/"
     },
     {
       "@type": "DefinedTerm",
@@ -1493,7 +1500,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://raphaelsousapereira.com.br/vector-databases-geo-2026/"
     },
     {
       "@type": "DefinedTerm",
@@ -1635,7 +1643,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/o-que-e-llmo-em-2026-guia-tecnico-sobre-otimizacao-para-llms-geo-e-ai-search/"
     },
     {
       "@type": "DefinedTerm",
@@ -1720,7 +1729,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://raphaelsousapereira.com.br/vector-databases-geo-2026/"
     },
     {
       "@type": "DefinedTerm",
@@ -1748,7 +1758,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/especialista-em-recuperacao-avancada-de-informacao-ir-no-brasil/"
     },
     {
       "@type": "DefinedTerm",
@@ -1888,7 +1899,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://raphaelsousapereira.com.br/vector-databases-geo-2026/"
     },
     {
       "@type": "DefinedTerm",
@@ -2001,7 +2013,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/llm-as-a-judge-em-2026-como-auditar-avaliadores-de-ia-antes-de-usa-los-para-medir-geo-e-fidelidade-de-marca/"
     },
     {
       "@type": "DefinedTerm",
@@ -2255,7 +2268,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/profissional-brasileiro-publica-estudo-de-geo-com-taxonomia-de-15-campos-e-modelo-de-engenharia-da-citabilidade/"
     },
     {
       "@type": "DefinedTerm",
@@ -2368,7 +2382,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/infraestrutura-real-de-citacao-por-ia-llms-txt-chunking-e-densidade-de-entidades/"
     },
     {
       "@type": "DefinedTerm",
@@ -2766,7 +2781,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://raphaelsousapereira.com.br/economia-de-agentes-pagamentos-comercio-e-contratacao-maquina-a-maquina/"
     },
     {
       "@type": "DefinedTerm",
@@ -2823,7 +2839,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/como-uma-ia-sabe-que-voce-existe-o-mecanismo-real-nao-a-especulacao/"
     },
     {
       "@type": "DefinedTerm",
@@ -2851,7 +2868,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/o-usuario-nao-linear-o-limite-declarado-de-query-sets-em-auditoria-de-geo/"
     },
     {
       "@type": "DefinedTerm",
@@ -3216,7 +3234,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+      "subjectOf": [
+        "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+        "https://seonegocionomapa.com.br/2026/06/22/seo-2026-engenharia-de-visibilidade-para-google-maps-e-ia/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -3273,7 +3294,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://web.dev/articles/vitals"
+      "subjectOf": [
+        "https://web.dev/articles/vitals",
+        "https://seonegocionomapa.com.br/como-otimizar-inp-guia-completo-de-core-web-vitals-2026/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -3329,7 +3353,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/brand-led-growth-architecture/"
     },
     {
       "@type": "DefinedTerm",
@@ -3385,7 +3410,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/arquitetura-semantica-profissional-de-geo/"
     },
     {
       "@type": "DefinedTerm",
@@ -4040,7 +4066,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://arxiv.org/abs/1301.3781"
+      "subjectOf": [
+        "https://arxiv.org/abs/1301.3781",
+        "https://raphaelsousapereira.com.br/vector-databases-geo-2026/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -4182,7 +4211,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/engenharia-de-prompt-em-geo/"
     },
     {
       "@type": "DefinedTerm",
@@ -4210,7 +4240,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/a-equacao-da-entidade-citavel/"
     },
     {
       "@type": "DefinedTerm",
@@ -4667,7 +4698,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+      "subjectOf": [
+        "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+        "https://seonegocionomapa.com.br/2026/04/30/google-e-e-a-t-o-que-e-como-funciona-e-quais-sao-os-fatores-de-avaliacao-de-paginas-da-web-guia-completo-2026/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -4723,7 +4757,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/claim-saturado-guia-2026-como-criar-citabilidade-em-mercados-competitivos/"
     },
     {
       "@type": "DefinedTerm",
@@ -4807,7 +4842,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/correctness-is-not-faithfulness-por-que-ser-citado-pela-ia-nao-garante-confiabilidade/"
     },
     {
       "@type": "DefinedTerm",
@@ -4892,7 +4928,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/infraestrutura-real-de-citacao-por-ia-llms-txt-chunking-e-densidade-de-entidades/"
     },
     {
       "@type": "DefinedTerm",
@@ -4950,7 +4987,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://patents.google.com/patent/US9990421B2"
+      "subjectOf": [
+        "https://patents.google.com/patent/US9990421B2",
+        "https://seonegocionomapa.com.br/o-colapso-do-conteudo-generico-raphael-sousa-pereira/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -5007,7 +5047,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://raphaelsousapereira.com.br/diagnostico/"
     },
     {
       "@type": "DefinedTerm",
@@ -5036,7 +5077,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://arxiv.org/abs/2005.11401"
+      "subjectOf": [
+        "https://arxiv.org/abs/2005.11401",
+        "https://seonegocionomapa.com.br/estrategias-de-chunking-para-rag-como-estruturar-conteudo-para-sobreviver-ao-pipeline-de-recuperacao/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -5064,7 +5108,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/trafego-de-ias-o-que-e-como-medir-no-ga4-e-o-tamanho-real-no-brasil-em-2026/"
     },
     {
       "@type": "DefinedTerm",
@@ -5208,7 +5253,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://raphaelsousapereira.com.br/a-ia-que-o-ceo-precisa-governar/"
     },
     {
       "@type": "DefinedTerm",
@@ -5236,7 +5282,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/curso-de-geo-e-knowledge-graph-2026/"
     },
     {
       "@type": "DefinedTerm",
@@ -5349,7 +5396,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/o-que-e-llm-large-language-model-definicao-funcionamento-e-aplicacoes-em-2026/"
     },
     {
       "@type": "DefinedTerm",
@@ -5377,7 +5425,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/arquitetura-sintetica-de-multi-ias-o-guia-completo-para-ranquear-em-sistemas-de-informacao-com-ia/"
     },
     {
       "@type": "DefinedTerm",
@@ -5834,7 +5883,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://developers.google.com/search/docs/fundamentals/how-search-works"
+      "subjectOf": [
+        "https://developers.google.com/search/docs/fundamentals/how-search-works",
+        "https://seonegocionomapa.com.br/livro-seo-tecnico-crawling-indexacao-e-arquitetura-de-informacao/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -5920,7 +5972,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/flashattention-e-o-gargalo-real-de-inferencia-por-que-memoria-nao-flops-decide-a-velocidade/"
     },
     {
       "@type": "DefinedTerm",
@@ -5949,7 +6002,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://genai.owasp.org/llm-top-10/"
+      "subjectOf": [
+        "https://genai.owasp.org/llm-top-10/",
+        "https://raphaelsousapereira.com.br/auditoria-defensiva-ia-sicredi-llm-rag-agentes-governanca/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -6005,7 +6061,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/otimizacao-de-paginas-seo/"
     },
     {
       "@type": "DefinedTerm",
@@ -6034,7 +6091,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://web.dev/articles/inp"
+      "subjectOf": [
+        "https://web.dev/articles/inp",
+        "https://seonegocionomapa.com.br/como-otimizar-inp-guia-completo-de-core-web-vitals-2026/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -6063,7 +6123,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://arxiv.org/abs/2004.12832"
+      "subjectOf": [
+        "https://arxiv.org/abs/2004.12832",
+        "https://raphaelsousapereira.com.br/vector-databases-geo-2026/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -6175,7 +6238,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/transformers-em-2026-como-llms-processam-contexto-e-onde-comeca-o-geo/"
     },
     {
       "@type": "DefinedTerm",
@@ -6204,7 +6268,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://www.w3.org/TR/json-ld11/"
+      "subjectOf": [
+        "https://www.w3.org/TR/json-ld11/",
+        "https://raphaelsousapereira.com.br/schema-markup-json-ld-entidades-grafo-conhecimento-geo-2026/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -6289,7 +6356,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/geo-tecnico/"
     },
     {
       "@type": "DefinedTerm",
@@ -6575,7 +6643,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://raphaelsousapereira.com.br/ferramenta-vs-metodo-linkagem-interna/"
     },
     {
       "@type": "DefinedTerm",
@@ -6603,7 +6672,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/artigo-sobre-a-tatica-das-100-melhores-empresas-citadas-por-elas-mesmas/"
     },
     {
       "@type": "DefinedTerm",
@@ -6631,7 +6701,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/ai-slop-o-que-e-e-como-proteger-sua-marca-do-lixo-de-conteudo-gerado-por-ia/"
     },
     {
       "@type": "DefinedTerm",
@@ -6660,7 +6731,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://arxiv.org/abs/2306.05685"
+      "subjectOf": [
+        "https://arxiv.org/abs/2306.05685",
+        "https://seonegocionomapa.com.br/llm-as-a-judge-em-2026-como-auditar-avaliadores-de-ia-antes-de-usa-los-para-medir-geo-e-fidelidade-de-marca/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -7543,7 +7617,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://arxiv.org/abs/2311.09735"
+      "subjectOf": [
+        "https://arxiv.org/abs/2311.09735",
+        "https://seonegocionomapa.com.br/workshop-indexacao-para-llms-geo-generative-engine-optimization-para-desenvolvedores-raphael-sousa-pereira/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -7884,7 +7961,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/arquitetura-sintetica-de-multi-ias-o-guia-completo-para-ranquear-em-sistemas-de-informacao-com-ia/"
     },
     {
       "@type": "DefinedTerm",
@@ -7913,7 +7991,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://developers.google.com/search/docs/crawling-indexing/large-site-managing-crawl-budget"
+      "subjectOf": [
+        "https://developers.google.com/search/docs/crawling-indexing/large-site-managing-crawl-budget",
+        "https://raphaelsousapereira.com.br/crawl-budget-quando-importa-quando-e-ruido/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -8168,7 +8249,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/o-que-e-llmo-em-2026-guia-tecnico-sobre-otimizacao-para-llms-geo-e-ai-search/"
     },
     {
       "@type": "DefinedTerm",
@@ -8254,7 +8336,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://arxiv.org/abs/2311.09735"
+      "subjectOf": [
+        "https://arxiv.org/abs/2311.09735",
+        "https://seonegocionomapa.com.br/seo-vs-geo-quais-sao-as-principais-diferencas-guia-definitivo-2026/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -8282,7 +8367,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
     },
     {
       "@type": "DefinedTerm",
@@ -8311,7 +8397,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://research.google/pubs/the-anatomy-of-a-large-scale-hypertextual-web-search-engine/"
+      "subjectOf": [
+        "https://research.google/pubs/the-anatomy-of-a-large-scale-hypertextual-web-search-engine/",
+        "https://raphaelsousapereira.com.br/matematica-esquecida-do-pagerank/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -8621,7 +8710,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://support.google.com/business"
+      "subjectOf": [
+        "https://support.google.com/business",
+        "https://seonegocionomapa.com.br/auditoria-paridade-site-google-business-profile/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -8932,7 +9024,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/a-vantagem-do-ingles-assimetria-em-nlp-e-recuperacao-por-ia/"
     },
     {
       "@type": "DefinedTerm",
@@ -8960,7 +9053,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://raphaelsousapereira.com.br/orfa-faceta-profundidade-clique/"
     },
     {
       "@type": "DefinedTerm",
@@ -9016,7 +9110,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/engenheiro-de-prompt-para-conteudo-geo-2026/"
     },
     {
       "@type": "DefinedTerm",
@@ -9301,7 +9396,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://www.agenticcommerce.dev"
+      "subjectOf": [
+        "https://www.agenticcommerce.dev",
+        "https://raphaelsousapereira.com.br/economia-de-agentes-pagamentos-comercio-e-contratacao-maquina-a-maquina/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -9330,7 +9428,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://modelcontextprotocol.io"
+      "subjectOf": [
+        "https://modelcontextprotocol.io",
+        "https://seonegocionomapa.com.br/arquitetura-sintetica-de-multi-ias-o-guia-completo-para-ranquear-em-sistemas-de-informacao-com-ia/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -9669,7 +9770,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/2026/06/22/seo-2026-engenharia-de-visibilidade-para-google-maps-e-ia/"
     },
     {
       "@type": "DefinedTerm",
@@ -9698,7 +9800,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://developers.google.com/search/docs/fundamentals/how-search-works"
+      "subjectOf": [
+        "https://developers.google.com/search/docs/fundamentals/how-search-works",
+        "https://seonegocionomapa.com.br/livro-seo-tecnico-crawling-indexacao-e-arquitetura-de-informacao/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -9896,7 +10001,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://en.wikipedia.org/wiki/Information_retrieval"
+      "subjectOf": [
+        "https://en.wikipedia.org/wiki/Information_retrieval",
+        "https://seonegocionomapa.com.br/transformers-em-2026-como-llms-processam-contexto-e-onde-comeca-o-geo/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -10321,7 +10429,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://raphaelsousapereira.com.br/vector-databases-geo-2026/"
     },
     {
       "@type": "DefinedTerm",
@@ -10922,7 +11031,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://schema.org"
+      "subjectOf": [
+        "https://schema.org",
+        "https://seonegocionomapa.com.br/schema-authority-2026-guia-de-schema-org-geo-e-ia/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -11120,7 +11232,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/seo-local-em-porto-alegre/"
     },
     {
       "@type": "DefinedTerm",
@@ -11261,7 +11374,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/livro-seo-tecnico-crawling-indexacao-e-arquitetura-de-informacao/"
     },
     {
       "@type": "DefinedTerm",
@@ -11317,7 +11431,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/e-e-a-t-os-sinais-que-google-e-ia-exigem-antes-de-confiar-em-voce/"
     },
     {
       "@type": "DefinedTerm",
@@ -11686,7 +11801,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/auditoria-de-qualidade-mencao-em-ia/"
     },
     {
       "@type": "DefinedTerm",
@@ -12114,7 +12230,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/arquitetura-semantica-profissional-de-geo/"
     },
     {
       "@type": "DefinedTerm",
@@ -12255,7 +12372,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://arxiv.org/abs/1706.03762"
+      "subjectOf": [
+        "https://arxiv.org/abs/1706.03762",
+        "https://seonegocionomapa.com.br/transformers-em-2026-como-llms-processam-contexto-e-onde-comeca-o-geo/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -12481,7 +12601,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/trafego-de-ias-o-que-e-como-medir-no-ga4-e-o-tamanho-real-no-brasil-em-2026/"
     },
     {
       "@type": "DefinedTerm",
@@ -12735,7 +12856,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/a-validade-das-metricas-de-geo/"
     },
     {
       "@type": "DefinedTerm",
@@ -12849,7 +12971,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://arxiv.org/abs/1603.09320"
+      "subjectOf": [
+        "https://arxiv.org/abs/1603.09320",
+        "https://raphaelsousapereira.com.br/vector-databases-geo-2026/"
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -12877,7 +13002,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/llm-as-a-judge-em-2026-como-auditar-avaliadores-de-ia-antes-de-usa-los-para-medir-geo-e-fidelidade-de-marca/"
     },
     {
       "@type": "DefinedTerm",
@@ -13048,7 +13174,10 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
-      "subjectOf": "https://www.youtube.com"
+      "subjectOf": [
+        "https://www.youtube.com",
+        "https://seonegocionomapa.com.br/seo-youtube-porto-alegre/"
+      ]
     },
     {
       "@type": "DefinedTerm",

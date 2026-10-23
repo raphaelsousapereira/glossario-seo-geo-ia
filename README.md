@@ -27,6 +27,8 @@ Cada termo tem:
 - **termo em português e em inglês**: o nome que o mercado usa e a tradução;
 - **definição em português e em inglês**, curta o bastante para ser citada sozinha;
 - **termos relacionados**, ligados entre si (o script recusa um link para um termo que não existe);
+- **artigo do autor** em 77 termos: o texto dos sites [seonegocionomapa.com.br](https://seonegocionomapa.com.br) e
+  [raphaelsousapereira.com.br](https://raphaelsousapereira.com.br) que aprofunda o assunto (`termos/artigos.txt`);
 - **fonte primária** em 179 termos: documentação do Google Search Central, RFCs, Schema.org, W3C e os artigos
   originais (GEO, RAG, Transformer, RLHF, LoRA e outros). Todas as URLs foram abertas e responderam em 23/10/2026.
   Quando não há fonte primária estável, o campo fica vazio em vez de apontar para um blog.
@@ -53,7 +55,8 @@ Cada termo é um `DefinedTerm` com `@id` próprio, nome e descrição nos dois i
 
 ## Como contribuir
 
-Os termos ficam em `termos/seo.txt`, `termos/geo.txt` e `termos/ia.txt`, um por linha. Veja
+Os termos ficam em `termos/seo.txt`, `termos/geo.txt`, `termos/ia.txt` e `termos/autorais.txt`, um por linha, e os
+artigos de cada termo em `termos/artigos.txt`. Veja
 [CONTRIBUTING.md](CONTRIBUTING.md). Depois de editar:
 
 ```bash
