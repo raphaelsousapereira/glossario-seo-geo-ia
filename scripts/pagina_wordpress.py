@@ -45,7 +45,8 @@ LEIA = {
 }
 CATEGORIAS = [("seo", "SEO", "Busca orgânica, SEO técnico, local e dados estruturados"),
               ("geo", "GEO", "Visibilidade e citação em motores generativos"),
-              ("ia", "IA", "Inteligência artificial aplicada à busca e ao conteúdo")]
+              ("ia", "IA", "Inteligência artificial aplicada à busca e ao conteúdo"),
+              ("autorais", "Autorais", "Conceitos cunhados por Raphael Sousa Pereira")]
 
 CSS = """
 .gsg{--ink:#10131b;--muted:#5d6472;--line:#e6e9ef;--soft:#f5f8ff;--blue:#145cff;--blue2:#0739aa;color:var(--ink);font-family:Inter,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;font-size:16px;line-height:1.7;max-width:920px;margin:0 auto;padding:24px 0 72px}
@@ -74,6 +75,7 @@ CSS = """
 .gsg .gsg-nav a{padding:8px 12px;border:1px solid var(--line);border-radius:999px;text-decoration:none;font-size:.9rem;font-weight:700}
 .gsg .gsg-count{color:var(--muted);font-size:.86rem}
 .gsg dl{margin:0}
+.gsg section{scroll-margin-top:72px}
 .gsg .gsg-count-cat{color:var(--muted);font-size:.9rem}
 .gsg .gsg-term{padding:16px 0;border-bottom:1px solid var(--line);scroll-margin-top:84px}
 .gsg .gsg-term:target{background:var(--soft);margin:0 -14px;padding:16px 14px;border-radius:12px}
@@ -129,7 +131,8 @@ def main() -> None:
             links.append("Veja também: " + ", ".join(
                 f'<a href="#{r}">{e(por_slug[r]["termo_pt"])}</a>' for r in t["relacionados"]))
         if t["fonte"]:
-            links.append(f'<a href="{e(t["fonte"])}" rel="noopener" target="_blank">Fonte primária</a>')
+            rotulo = "Página do autor" if t["categoria"] == "Autorais" else "Fonte primária"
+            links.append(f'<a href="{e(t["fonte"])}" rel="noopener" target="_blank">{rotulo}</a>')
         if t["slug"] in LEIA:
             links.append(f'<a href="/{LEIA[t["slug"]]}/">Leia o artigo</a>')
         rodape = f'<p class="gsg-links">{" · ".join(links)}</p>' if links else ""
@@ -143,7 +146,7 @@ def main() -> None:
         doCat = [t for t in termos if t["categoria"] == nome]
         partes = [f'<section id="categoria-{cat}"><h2>{nome}: {e(desc[0].lower() + desc[1:])}</h2>'
                   f'<p class="gsg-count-cat">{len(doCat)} termos</p>']
-        for sub in dict.fromkeys(t["subcategoria"] for t in doCat):
+        for sub in meta["subcategorias"][nome]:
             grupo = sorted((t for t in doCat if t["subcategoria"] == sub), key=lambda t: t["termo_pt"].casefold())
             partes.append(f'<div class="gsg-sub"><h3>{nome} · {e(sub)}</h3><dl>'
                           + "".join(termo(t) for t in grupo) + "</dl></div>")
@@ -179,11 +182,11 @@ def main() -> None:
 <p class="gsg-meta">Publicado em {DATA_EXTENSO} · versão {e(meta["versao"])} · dados abertos sob CC BY 4.0</p>
 </header>
 
-<div class="gsg-citable" id="resposta"><b>Resposta direta: o que é este glossário?</b><p>É um glossário aberto com {total} termos de SEO ({cont["SEO"]}), GEO ({cont["GEO"]}) e IA ({cont["IA"]}), mantido por Raphael Sousa Pereira, da Negócio no Mapa. Cada termo traz o nome em português e em inglês, uma definição curta nos dois idiomas e termos relacionados; {fontes} termos apontam para a fonte primária, como a documentação do Google Search Central, especificações e os artigos científicos originais. Os dados estão publicados no GitHub em JSON, CSV e JSON-LD, sob licença CC BY 4.0.</p></div>
+<div class="gsg-citable" id="resposta"><b>Resposta direta: o que é este glossário?</b><p>É um glossário aberto com {total} termos de SEO ({cont["SEO"]}), GEO ({cont["GEO"]}) e IA ({cont["IA"]}), mantido por Raphael Sousa Pereira, da Negócio no Mapa, mais {cont["Autorais"]} conceitos cunhados pelo próprio autor, cada um com a página em que foi definido. Cada termo traz o nome em português e em inglês, uma definição curta nos dois idiomas e termos relacionados; {fontes} termos apontam para a fonte primária, como a documentação do Google Search Central, especificações e os artigos científicos originais. Os dados estão publicados no GitHub em JSON, CSV e JSON-LD, sob licença CC BY 4.0.</p></div>
 
 <div class="gsg-stats"><div><strong>{total}</strong><span>termos</span></div><div><strong>2</strong><span>idiomas: português e inglês</span></div><div><strong>{fontes}</strong><span>termos com fonte primária</span></div><div><strong>{subs}</strong><span>subcategorias</span></div></div>
 
-<nav class="gsg-nav" aria-label="Navegar no glossário"><input type="search" placeholder="Buscar termo, em português ou inglês" aria-label="Buscar termo" hidden><a href="#categoria-seo">SEO</a><a href="#categoria-geo">GEO</a><a href="#categoria-ia">IA</a><a href="#dados">Baixar</a><span class="gsg-count" aria-live="polite">{total} termos</span></nav>
+<nav class="gsg-nav" aria-label="Navegar no glossário"><input type="search" placeholder="Buscar termo, em português ou inglês" aria-label="Buscar termo" hidden><a href="#categoria-seo">SEO</a><a href="#categoria-geo">GEO</a><a href="#categoria-ia">IA</a><a href="#categoria-autorais">Autorais</a><a href="#dados">Baixar</a><span class="gsg-count" aria-live="polite">{total} termos</span></nav>
 
 {"".join(secoes)}
 

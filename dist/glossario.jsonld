@@ -7,7 +7,7 @@
     "pt-BR",
     "en"
   ],
-  "version": "1.1.0",
+  "version": "1.2.0",
   "dateModified": "2026-10-23",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "url": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia",
@@ -23,6 +23,35 @@
     }
   },
   "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#citation-absorption",
+      "termCode": "citation-absorption",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Absorção da citação"
+        },
+        {
+          "@language": "en",
+          "@value": "Citation Absorption"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Etapa, formalizada por Raphael Sousa Pereira, em que o conteúdo efetivo da fonte entra na resposta, distinta da simples citação do link e da fidelidade com que esse conteúdo é reproduzido."
+        },
+        {
+          "@language": "en",
+          "@value": "Stage, formalized by Raphael Sousa Pereira, in which the source's actual content enters the answer, distinct from merely citing the link and from how faithfully that content is reproduced."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/transformers-em-2026-como-llms-processam-contexto-e-onde-comeca-o-geo/"
+    },
     {
       "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#scaled-content-abuse",
@@ -644,6 +673,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#armadilha-do-espelho",
+      "termCode": "armadilha-do-espelho",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Armadilha do Espelho"
+        },
+        {
+          "@language": "en",
+          "@value": "The Mirror Trap (GEO)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Estudo de Raphael Sousa Pereira (preprint no Zenodo, junho de 2026, DOI 10.5281/zenodo.21068730) sobre autopromoção e listas autocitadas como fonte de viés na citação por modelos de linguagem."
+        },
+        {
+          "@language": "en",
+          "@value": "Study by Raphael Sousa Pereira (Zenodo preprint, June 2026, DOI 10.5281/zenodo.21068730) on self-promotion and self-cited lists as a source of citation bias in language models."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://raphaelsousapereira.com.br/publicacoes-em-seo-geo/"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#site-architecture",
       "termCode": "site-architecture",
       "name": [
@@ -986,6 +1044,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#jva-8",
+      "termCode": "jva-8",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Auditoria de validação de avaliadores (JVA-8)"
+        },
+        {
+          "@language": "en",
+          "@value": "Judge Validation Audit (JVA-8)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Protocolo de Raphael Sousa Pereira para validar um LLM usado como avaliador antes de aplicá-lo em auditorias de GEO e de fidelidade de marca. Testa exatidão, concordância, viés de posição, viés de estilo, autopreferência, calibração, discordância e robustez de domínio."
+        },
+        {
+          "@language": "en",
+          "@value": "Raphael Sousa Pereira's protocol for validating an LLM used as a judge before applying it in GEO and brand-fidelity audits. It tests accuracy, agreement, position bias, style bias, self-preference, calibration, disagreement and domain robustness."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/llm-as-a-judge-em-2026-como-auditar-avaliadores-de-ia-antes-de-usa-los-para-medir-geo-e-fidelidade-de-marca/"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#ai-audit",
       "termCode": "ai-audit",
       "name": [
@@ -1071,6 +1158,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#autoridade-canonica-auditavel",
+      "termCode": "autoridade-canonica-auditavel",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Autoridade Canônica Auditável"
+        },
+        {
+          "@language": "en",
+          "@value": "Auditable Canonical Authority"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Extensão, proposta por Raphael Sousa Pereira, do conceito de mercado de autoridade canônica (definir uma fonte de verdade inequívoca para a IA citar): acrescenta dossiê de integridade verificado por hash, taxonomia de conflito de fontes e protocolo de medição reproduzível. O autor não reivindica o conceito original."
+        },
+        {
+          "@language": "en",
+          "@value": "Extension, proposed by Raphael Sousa Pereira, of the market concept of canonical authority (defining an unambiguous source of truth for AI to cite): it adds a hash-verified integrity dossier, a source-conflict taxonomy and a reproducible measurement protocol. The author does not claim the original concept."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/autoridade-canonica-auditavel-para-llms/"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#domain-authority",
       "termCode": "domain-authority",
       "name": [
@@ -1096,6 +1212,35 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#autoridade-sintetica",
+      "termCode": "autoridade-sintetica",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Autoridade Sintética"
+        },
+        {
+          "@language": "en",
+          "@value": "Synthetic Authority"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Termo cunhado por Raphael Sousa Pereira para a autoridade fabricada por páginas que se citam a si mesmas para influenciar respostas de IA: autoridade atribuída pela forma e pela posição de uma página no caminho da resposta, não pela evidência acumulada."
+        },
+        {
+          "@language": "en",
+          "@value": "Term coined by Raphael Sousa Pereira for authority manufactured by self-citing pages to influence AI answers: authority granted by a page's form and position on the path to the answer, not by accumulated evidence."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/melhores-agencias-geo-brasil-fontes-ia/"
     },
     {
       "@type": "DefinedTerm",
@@ -1378,6 +1523,35 @@
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
       "subjectOf": "https://www.bing.com/webmasters"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#brand-led-growth-architecture",
+      "termCode": "brand-led-growth-architecture",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Brand-Led Growth Architecture"
+        },
+        {
+          "@language": "en",
+          "@value": "Brand-Led Growth Architecture"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Metodologia proprietária da Negócio no Mapa, desenvolvida por Raphael Sousa Pereira, que integra marca, SEO, GEO, conteúdo, reputação, mídia, CRM, automação, dados, conversão e governança numa operação de funil completo, com 6 fases e 16 etapas."
+        },
+        {
+          "@language": "en",
+          "@value": "Negócio no Mapa's proprietary methodology, developed by Raphael Sousa Pereira, that integrates brand, SEO, GEO, content, reputation, media, CRM, automation, data, conversion and governance in a full-funnel operation, with 6 phases and 16 steps."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/brand-led-growth-architecture/"
     },
     {
       "@type": "DefinedTerm",
@@ -1746,6 +1920,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#campo-semantico-digital",
+      "termCode": "campo-semantico-digital",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Campo semântico digital"
+        },
+        {
+          "@language": "en",
+          "@value": "Digital Semantic Field"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Na Física Semântica, região do espaço de informações em que cada entidade (negócio, pessoa, ideia, produto) tem um peso semântico mensurável, que determina a probabilidade de ser reconhecida, confiada e recomendada por sistemas de IA."
+        },
+        {
+          "@language": "en",
+          "@value": "In Semantic Physics, the region of information space in which each entity (business, person, idea, product) has a measurable semantic weight that determines its probability of being recognized, trusted and recommended by AI systems."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#keyword-cannibalization",
       "termCode": "keyword-cannibalization",
       "name": [
@@ -1970,6 +2173,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#claim-saturado",
+      "termCode": "claim-saturado",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Claim Saturado"
+        },
+        {
+          "@language": "en",
+          "@value": "Saturated Claim"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Conceito de Raphael Sousa Pereira para uma afirmação relevante numa categoria que perdeu a capacidade de distinguir uma entidade, porque vários concorrentes podem fazer afirmação equivalente a baixo custo (\"somos especialistas em GEO\"). A saída é o claim estrutural, que aponta para objetos, sistemas e provas que precisam existir."
+        },
+        {
+          "@language": "en",
+          "@value": "Raphael Sousa Pereira's concept for a claim relevant to a category that no longer distinguishes an entity, because several competitors can make an equivalent claim cheaply (\"we are GEO experts\"). The way out is the structural claim, which points to objects, systems and proof that must exist."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/claim-saturado-guia-2026-como-criar-citabilidade-em-mercados-competitivos/"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#cloaking",
       "termCode": "cloaking",
       "name": [
@@ -2083,6 +2315,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#coerencia-de-entidade-distribuida",
+      "termCode": "coerencia-de-entidade-distribuida",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Coerência de Entidade Distribuída"
+        },
+        {
+          "@language": "en",
+          "@value": "Distributed Entity Coherence"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Conceito de Raphael Sousa Pereira para o estado em que as mesmas entidades centrais aparecem, com os mesmos atributos, em vários vetores independentes (site, perfis, diretórios, avaliações, imprensa)."
+        },
+        {
+          "@language": "en",
+          "@value": "Raphael Sousa Pereira's concept for the state in which the same core entities appear, with the same attributes, across several independent vectors (site, profiles, directories, reviews, press)."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#model-collapse",
       "termCode": "model-collapse",
       "name": [
@@ -2193,6 +2454,35 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#source-authority-concentration",
+      "termCode": "source-authority-concentration",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Concentração de autoridade de fontes"
+        },
+        {
+          "@language": "en",
+          "@value": "Source Authority Concentration"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Conceito proposto por Raphael Sousa Pereira: a pergunta relevante deixa de ser \"quantos backlinks eu tenho\" e passa a ser \"em quais ecossistemas de fontes a minha entidade aparece\", porque a citação de reputação de marca vem sobretudo de terceiros."
+        },
+        {
+          "@language": "en",
+          "@value": "Concept proposed by Raphael Sousa Pereira: the relevant question shifts from \"how many backlinks do I have\" to \"in which source ecosystems does my entity appear\", because brand-reputation citations come mostly from third parties."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/estado-da-arte-generative-engine-optimization-geo-em-2026-citacao-por-ia/"
     },
     {
       "@type": "DefinedTerm",
@@ -2675,6 +2965,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#codigo-de-etica-geo",
+      "termCode": "codigo-de-etica-geo",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Código de Ética para GEO"
+        },
+        {
+          "@language": "en",
+          "@value": "Code of Ethics for GEO"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Documento de Raphael Sousa Pereira (Brasil, 2026), em oito artigos, sobre o que um profissional de GEO pode e não pode prometer, incluindo o artigo sobre churnalism aplicado a GEO."
+        },
+        {
+          "@language": "en",
+          "@value": "Document by Raphael Sousa Pereira (Brazil, 2026), in eight articles, on what a GEO professional may and may not promise, including an article on churnalism applied to GEO."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/codigo-de-etica-para-geo-brasil-2026/"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#page-source",
       "termCode": "page-source",
       "name": [
@@ -2785,6 +3104,35 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#dark-geo",
+      "termCode": "dark-geo",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Dark GEO"
+        },
+        {
+          "@language": "en",
+          "@value": "Dark GEO"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Padrão de mercado batizado por Raphael Sousa Pereira: o tráfego vindo de IA que não deixa rastro de referência e só pode ser estimado por triangulação de fontes, nunca apresentado como medição direta."
+        },
+        {
+          "@language": "en",
+          "@value": "Market pattern named by Raphael Sousa Pereira: traffic from AI that leaves no referrer trace and can only be estimated by triangulating sources, never presented as direct measurement."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/como-conduzir-uma-auditoria-tecnica-de-seo-o-metodo-completo-etapa-por-etapa-guia-2026/"
     },
     {
       "@type": "DefinedTerm",
@@ -3242,6 +3590,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#engenharia-da-presenca-generativa",
+      "termCode": "engenharia-da-presenca-generativa",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Engenharia da Presença Generativa"
+        },
+        {
+          "@language": "en",
+          "@value": "Generative Presence Engineering"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Disciplina aplicada proposta por Raphael Sousa Pereira para estudar e governar como fontes, entidades, evidências e marcas atravessam recuperação, seleção, uso, atribuição, fidelidade e completude até chegar às respostas de sistemas generativos."
+        },
+        {
+          "@language": "en",
+          "@value": "Applied discipline proposed by Raphael Sousa Pereira to study and govern how sources, entities, evidence and brands pass through retrieval, selection, use, attribution, fidelity and completeness on their way to generative systems' answers."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/geo-ficou-pequeno-lancamento-do-livro-engenharia-da-presenca-generativa/"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#context-engineering",
       "termCode": "context-engineering",
       "name": [
@@ -3267,6 +3644,35 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#gbfa",
+      "termCode": "gbfa",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Engenharia de Fidelidade de Marca Generativa (GBFA)"
+        },
+        {
+          "@language": "en",
+          "@value": "Generative Brand Fidelity Engineering (GBFA)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Framework de Raphael Sousa Pereira para medir e corrigir a fidelidade com que as IAs descrevem uma marca, com taxonomia de evidência, três tipos de deriva e avaliadores validados antes do uso."
+        },
+        {
+          "@language": "en",
+          "@value": "Raphael Sousa Pereira's framework for measuring and correcting how faithfully AI describes a brand, with an evidence taxonomy, three types of drift and judges validated before use."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://raphaelsousapereira.com.br/raphael-sousa-pereira/"
     },
     {
       "@type": "DefinedTerm",
@@ -3326,6 +3732,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#entity-health-score",
+      "termCode": "entity-health-score",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Entity Health Score (EHS)"
+        },
+        {
+          "@language": "en",
+          "@value": "Entity Health Score (EHS)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Índice de Raphael Sousa Pereira: campos de identidade (como NAP) consistentes divididos pelo total de campos verificados entre as fontes. Mede a coerência na dimensão de identidade estrutural."
+        },
+        {
+          "@language": "en",
+          "@value": "Raphael Sousa Pereira's index: consistent identity fields (such as NAP) divided by the total fields checked across sources. It measures coherence in the structural-identity dimension."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#llm-poisoning",
       "termCode": "llm-poisoning",
       "name": [
@@ -3351,6 +3786,64 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#equacao-da-entidade-citavel",
+      "termCode": "equacao-da-entidade-citavel",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Equação da Entidade Citável (EEC)"
+        },
+        {
+          "@language": "en",
+          "@value": "Citable Entity Equation (EEC)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Formalização de Raphael Sousa Pereira, apresentada por ele como hipótese de trabalho, de que a citabilidade de uma entidade é multiplicativa: força da entidade, verificabilidade, relevância contextual e atualidade (EEC = B × V × R × F). A verificabilidade multiplica a confiança de todo o resto; sem prova externa, afirmações autodeclaradas pesam quase nada."
+        },
+        {
+          "@language": "en",
+          "@value": "Raphael Sousa Pereira's formalization, presented by him as a working hypothesis, that an entity's citability is multiplicative: entity strength, verifiability, contextual relevance and freshness (EEC = B × V × R × F). Verifiability multiplies the trust in everything else; without external proof, self-declared claims weigh almost nothing."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/a-equacao-da-entidade-citavel/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#estrategista-de-citacao-de-entidade",
+      "termCode": "estrategista-de-citacao-de-entidade",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Estrategista de Citação de Entidade"
+        },
+        {
+          "@language": "en",
+          "@value": "Entity Citation Strategist"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Função profissional nomeada por Raphael Sousa Pereira: estruturar entidades (marcas, lugares, métodos, patentes, certificações) para que sejam reconhecidas, desambiguadas e citadas corretamente por sistemas de IA generativa."
+        },
+        {
+          "@language": "en",
+          "@value": "Professional role named by Raphael Sousa Pereira: structuring entities (brands, places, methods, patents, certifications) so they are recognized, disambiguated and correctly cited by generative AI systems."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/quem-e-raphael-sousa-pereira-estrategista-de-citacao-de-entidade/"
     },
     {
       "@type": "DefinedTerm",
@@ -3694,6 +4187,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#compression-fidelity",
+      "termCode": "compression-fidelity",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Fidelidade de compressão"
+        },
+        {
+          "@language": "en",
+          "@value": "Compression Fidelity"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Estrutura proposta por Raphael Sousa Pereira para medir quanto do conteúdo essencial continua correto quando uma fonte é resumida por um sistema de IA: fatos que não deveriam sumir nem mudar (Gold Facts) preservados corretamente divididos pelos esperados."
+        },
+        {
+          "@language": "en",
+          "@value": "Framework proposed by Raphael Sousa Pereira to measure how much essential content stays correct when an AI system summarizes a source: facts that should neither disappear nor change (Gold Facts) correctly preserved, divided by those expected."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/transformers-em-2026-como-llms-processam-contexto-e-onde-comeca-o-geo/"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#third-party-source",
       "termCode": "third-party-source",
       "name": [
@@ -3750,6 +4272,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#fisica-semantica",
+      "termCode": "fisica-semantica",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Física Semântica"
+        },
+        {
+          "@language": "en",
+          "@value": "Semantic Physics"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Teoria proposta por Raphael Sousa Pereira para explicar por que entidades são reconhecidas e citadas por IAs: a confiança que uma IA deposita numa entidade é proporcional à coerência semântica distribuída dessa entidade em fontes independentes. Organizada em axiomas (coerência distribuída, limiar de confiança, entropia semântica)."
+        },
+        {
+          "@language": "en",
+          "@value": "Theory proposed by Raphael Sousa Pereira to explain why entities are recognized and cited by AI: the trust an AI places in an entity is proportional to that entity's distributed semantic coherence across independent sources. Organized into axioms (distributed coherence, trust threshold, semantic entropy)."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#information-gain",
       "termCode": "information-gain",
       "name": [
@@ -3775,6 +4326,35 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#geo-causal",
+      "termCode": "geo-causal",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "GEO CAUSAL"
+        },
+        {
+          "@language": "en",
+          "@value": "GEO CAUSAL (7 Measurement Levels)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Arquitetura de mensuração de GEO de Raphael Sousa Pereira em sete níveis: visibilidade, recuperação, citação, atribuição, fidelidade, recomendação e resultado de negócio. Tratar qualquer nível isolado, sobretudo o primeiro, como prova de sucesso é o erro mais comum."
+        },
+        {
+          "@language": "en",
+          "@value": "Raphael Sousa Pereira's GEO measurement architecture in seven levels: visibility, retrieval, citation, attribution, fidelity, recommendation and business outcome. Treating any single level, especially the first, as proof of success is the most common mistake."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://raphaelsousapereira.com.br/metricas-de-geo/"
     },
     {
       "@type": "DefinedTerm",
@@ -4005,6 +4585,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#qf-geo",
+      "termCode": "qf-geo",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Grafo de desdobramento da consulta (QF-GEO)"
+        },
+        {
+          "@language": "en",
+          "@value": "Query Fan-Out Graph and Coverage Profile (QF-GEO)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Proposta de Raphael Sousa Pereira (preprint no Zenodo, setembro de 2026, DOI 10.5281/zenodo.22096956) com o Query Fan-Out Graph (QFG) e o Query Fan-Out Coverage Profile (QFCP), para representar o espaço de necessidades de informação que a busca por IA desdobra e medir quanto dele um site cobre."
+        },
+        {
+          "@language": "en",
+          "@value": "Proposal by Raphael Sousa Pereira (Zenodo preprint, September 2026, DOI 10.5281/zenodo.22096956) with the Query Fan-Out Graph (QFG) and the Query Fan-Out Coverage Profile (QFCP), to represent the space of information needs AI search fans out into and measure how much of it a site covers."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://raphaelsousapereira.com.br/publicacoes-em-seo-geo/"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#entity-graph",
       "termCode": "entity-graph",
       "name": [
@@ -4086,6 +4695,35 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#hospedeiro-geo",
+      "termCode": "hospedeiro-geo",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Hospedeiro (em GEO)"
+        },
+        {
+          "@language": "en",
+          "@value": "Host Site (GEO)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Nome dado por Raphael Sousa Pereira a um site de conteúdo que publica listas, rankings ou guias em que uma marca de terceiro recebe destaque, funcionando para buscadores e IAs como fonte aparentemente independente sobre essa marca."
+        },
+        {
+          "@language": "en",
+          "@value": "Name given by Raphael Sousa Pereira to a content site that publishes lists, rankings or guides in which a third-party brand is featured, acting for search engines and AI as a seemingly independent source about that brand."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/anatomia-de-um-hospedeiro-em-geo/"
     },
     {
       "@type": "DefinedTerm",
@@ -4256,6 +4894,35 @@
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
       "subjectOf": "https://developers.google.com/maps/documentation/places/web-service/place-id"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#imperativo-de-formato",
+      "termCode": "imperativo-de-formato",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Imperativo de Formato"
+        },
+        {
+          "@language": "en",
+          "@value": "Format Imperative"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Hipótese de Raphael Sousa Pereira de que modelos de linguagem aprendem, no ajuste por feedback humano, uma pressão de conformidade de gênero que os leva a inserir marcadores de autoridade (formato acadêmico, citações) sem recuperação factual proporcional."
+        },
+        {
+          "@language": "en",
+          "@value": "Raphael Sousa Pereira's hypothesis that language models learn, during human-feedback tuning, a genre-conformity pressure that leads them to insert authority markers (academic format, citations) without proportional factual retrieval."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/engenharia-de-prompt-em-geo/"
     },
     {
       "@type": "DefinedTerm",
@@ -4856,6 +5523,64 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#lei-da-coerencia-distribuida",
+      "termCode": "lei-da-coerencia-distribuida",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Lei da Coerência Distribuída"
+        },
+        {
+          "@language": "en",
+          "@value": "Law of Distributed Coherence"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Axioma 1 da Física Semântica: a força semântica de uma entidade é proporcional ao número de fontes independentes que confirmam a mesma identidade central, ponderado pela autoridade de cada fonte. Mil posts no próprio perfil valem menos que poucas confirmações independentes."
+        },
+        {
+          "@language": "en",
+          "@value": "Axiom 1 of Semantic Physics: an entity's semantic strength is proportional to the number of independent sources confirming the same core identity, weighted by each source's authority. A thousand posts on one's own profile are worth less than a few independent confirmations."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#entropia-semantica",
+      "termCode": "entropia-semantica",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Lei da Entropia Semântica"
+        },
+        {
+          "@language": "en",
+          "@value": "Semantic Entropy (Law of)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Axioma 3 da Física Semântica: sem trabalho ativo, o estado semântico de uma entidade tende ao desalinhamento, à inconsistência e à dispersão, por mudanças de plataforma, avanço de concorrentes e evolução do próprio negócio sem atualizar as fontes."
+        },
+        {
+          "@language": "en",
+          "@value": "Axiom 3 of Semantic Physics: without active work, an entity's semantic state tends toward misalignment, inconsistency and dispersion, through platform changes, competitors' gains and the business evolving without updating its sources."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#eu-ai-act",
       "termCode": "eu-ai-act",
       "name": [
@@ -4938,6 +5663,35 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#limiar-de-confianca",
+      "termCode": "limiar-de-confianca",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Limiar de confiança (Θ)"
+        },
+        {
+          "@language": "en",
+          "@value": "Trust Threshold (Θ)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Axioma 2 da Física Semântica: há um limiar de coerência semântica, específico por setor, local e tipo de entidade, abaixo do qual a chance de citação pela IA é quase nula e acima do qual a entidade entra no círculo de recomendação. A mudança é de estado, não gradual."
+        },
+        {
+          "@language": "en",
+          "@value": "Axiom 2 of Semantic Physics: there is a semantic-coherence threshold, specific to sector, location and entity type, below which the chance of AI citation is near zero and above which the entity enters the recommendation circle. The change is a state change, not gradual."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
     },
     {
       "@type": "DefinedTerm",
@@ -5054,6 +5808,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#loop-de-feedback-semantico",
+      "termCode": "loop-de-feedback-semantico",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Loop de Feedback Semântico"
+        },
+        {
+          "@language": "en",
+          "@value": "Semantic Feedback Loop"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Conceito de Raphael Sousa Pereira: depois que a entidade cruza o limiar de confiança, mais coerência traz melhor posição, que traz mais engajamento, que traz mais sinais e mais coerência. Abaixo do limiar, o ciclo não existe."
+        },
+        {
+          "@language": "en",
+          "@value": "Raphael Sousa Pereira's concept: once the entity crosses the trust threshold, more coherence brings a better position, which brings more engagement, more signals and more coherence. Below the threshold the loop does not exist."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#lora",
       "termCode": "lora",
       "name": [
@@ -5165,6 +5948,93 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#semantic-mass",
+      "termCode": "semantic-mass",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Massa semântica"
+        },
+        {
+          "@language": "en",
+          "@value": "Semantic Mass"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Conceito de Raphael Sousa Pereira para a densidade total de sinais semânticos consistentes em torno de uma entidade."
+        },
+        {
+          "@language": "en",
+          "@value": "Raphael Sousa Pereira's concept for the total density of consistent semantic signals around an entity."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#matriz-cm",
+      "termCode": "matriz-cm",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Matriz CM"
+        },
+        {
+          "@language": "en",
+          "@value": "CM Matrix (Complexity × Maturity)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Framework de Raphael Sousa Pereira, declarado por ele como hipótese sem validação empírica externa, que classifica uma entidade em dois eixos, Complexidade (C1 a C4) e Maturidade Digital (M1 a M5), para estimar o esforço e o prazo necessários para torná-la citável por IA."
+        },
+        {
+          "@language": "en",
+          "@value": "Raphael Sousa Pereira's framework, stated by him as a hypothesis without external empirical validation, that classifies an entity on two axes, Complexity (C1 to C4) and Digital Maturity (M1 to M5), to estimate the effort and time needed to make it citable by AI."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/quem-e-raphael-sousa-pereira-estrategista-de-citacao-de-entidade/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#g-cim",
+      "termCode": "g-cim",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Matriz de Inteligência Competitiva Generativa (G-CIM)"
+        },
+        {
+          "@language": "en",
+          "@value": "Generative Competitive Intelligence Matrix (G-CIM)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Matriz de decisão ponderada (peso × valor) criada por Raphael Sousa Pereira para transformar auditorias de SEO e GEO em priorização de investimento, adaptando a Matriz do Processo Decisório de Siqueira e Gomi (1999, IPT/USP)."
+        },
+        {
+          "@language": "en",
+          "@value": "Weighted decision matrix (weight × value) created by Raphael Sousa Pereira to turn SEO and GEO audits into investment prioritization, adapting the Decision Process Matrix of Siqueira and Gomi (1999, IPT/USP)."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://raphaelsousapereira.com.br/generative-competitive-intelligence-matrix/"
     },
     {
       "@type": "DefinedTerm",
@@ -5592,6 +6462,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#backlink-to-geo-operating-model",
+      "termCode": "backlink-to-geo-operating-model",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Modelo operacional Backlink-to-GEO"
+        },
+        {
+          "@language": "en",
+          "@value": "Backlink-to-GEO Operating Model"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Modelo de Raphael Sousa Pereira que liga aquisição de backlinks, relevância contextual, entidade, claims verificáveis e monitoramento de presença generativa. Um backlink só entra na camada GEO depois de contextualizado: quem citou, sobre qual tema e apontando para qual página."
+        },
+        {
+          "@language": "en",
+          "@value": "Raphael Sousa Pereira's model linking backlink acquisition, contextual relevance, entity, verifiable claims and generative-presence monitoring. A backlink only enters the GEO layer once contextualized: who cited, on what topic and pointing to which page."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/como-usar-backlinks-em-sua-estrategia-de-seo-e-geo-guia-2026/"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#ai-mode",
       "termCode": "ai-mode",
       "name": [
@@ -5987,6 +6886,35 @@
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
       "subjectOf": "https://developers.google.com/search/docs/crawling-indexing/large-site-managing-crawl-budget"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#macrodominios-de-geo",
+      "termCode": "macrodominios-de-geo",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Os 6 Macrodomínios de GEO"
+        },
+        {
+          "@language": "en",
+          "@value": "Six GEO Macrodomains"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Proposta taxonômica de Raphael Sousa Pereira que agrupa o GEO em seis macrodomínios de pesquisa, técnica, operação e valor econômico. O autor a apresenta como proposta, não como classificação acadêmica consolidada."
+        },
+        {
+          "@language": "en",
+          "@value": "Raphael Sousa Pereira's taxonomic proposal grouping GEO into six macrodomains spanning research, technique, operations and economic value. The author presents it as a proposal, not an established academic classification."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://raphaelsousapereira.com.br/os-6-macrodominios-de-geo-uma-macroarquitetura-para-pesquisa-tecnica-operacao-e-valor-economico-geo-ia/"
     },
     {
       "@type": "DefinedTerm",
@@ -6696,6 +7624,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#claim-scope-preservation",
+      "termCode": "claim-scope-preservation",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Preservação do escopo da afirmação"
+        },
+        {
+          "@language": "en",
+          "@value": "Claim-Scope Preservation"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Critério de Raphael Sousa Pereira para auditoria em LLMO: condições, população, período e nível de certeza de uma afirmação não podem desaparecer quando a IA a resume."
+        },
+        {
+          "@language": "en",
+          "@value": "Raphael Sousa Pereira's criterion for LLMO audits: a claim's conditions, population, period and level of certainty must not disappear when AI summarizes it."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/o-que-e-llmo-em-2026-guia-tecnico-sobre-otimizacao-para-llms-geo-e-ai-search/"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#next-token-prediction",
       "termCode": "next-token-prediction",
       "name": [
@@ -7006,6 +7963,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#cc-geo",
+      "termCode": "cc-geo",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Protocolo de canal e coordenada (CC-GEO)"
+        },
+        {
+          "@language": "en",
+          "@value": "Channel-Coordinate Protocol (CC-GEO)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Protocolo de Raphael Sousa Pereira que controla três variáveis na medição de GEO: coordenada geográfica, canal de coleta (API ou interface web) e declaração de automação aos provedores. A implementação de referência tem 25 ambientes, 40 prompts e 5 repetições."
+        },
+        {
+          "@language": "en",
+          "@value": "Raphael Sousa Pereira's protocol that controls three variables in GEO measurement: geographic coordinate, collection channel (API or web interface) and disclosure of automation to providers. The reference implementation has 25 environments, 40 prompts and 5 repetitions."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://raphaelsousapereira.com.br/publicacoes-em-seo-geo/"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#acp",
       "termCode": "acp",
       "name": [
@@ -7061,6 +8047,35 @@
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
       "subjectOf": "https://modelcontextprotocol.io"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#protocolo-evidencia-inferencia-hipotese",
+      "termCode": "protocolo-evidencia-inferencia-hipotese",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Protocolo Evidência, Inferência e Hipótese"
+        },
+        {
+          "@language": "en",
+          "@value": "Evidence, Inference and Hypothesis Protocol"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Protocolo de Raphael Sousa Pereira que classifica cada afirmação de um estudo pelo tipo de prova que a sustenta: evidência (observada), inferência (deduzida da evidência) ou hipótese (ainda não testada)."
+        },
+        {
+          "@language": "en",
+          "@value": "Raphael Sousa Pereira's protocol that classifies each claim in a study by the kind of proof behind it: evidence (observed), inference (deduced from evidence) or hypothesis (not yet tested)."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://raphaelsousapereira.com.br/raphael-sousa-pereira/"
     },
     {
       "@type": "DefinedTerm",
@@ -7314,6 +8329,35 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#quem-voce-acompanha",
+      "termCode": "quem-voce-acompanha",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Quem Você Acompanha"
+        },
+        {
+          "@language": "en",
+          "@value": "Who You Travel With"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Métrica nomeada por Raphael Sousa Pereira: o conjunto de marcas citadas junto com a sua nas respostas de IA. Funciona como assinatura de posicionamento e revela mais do que um ranking isolado."
+        },
+        {
+          "@language": "en",
+          "@value": "Metric named by Raphael Sousa Pereira: the set of brands cited alongside yours in AI answers. It works as a positioning signature and reveals more than an isolated ranking."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/geo-porto-alegre/"
     },
     {
       "@type": "DefinedTerm",
@@ -8109,6 +9153,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#schema-authority",
+      "termCode": "schema-authority",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Schema Authority"
+        },
+        {
+          "@language": "en",
+          "@value": "Schema Authority"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Método de Raphael Sousa Pereira, apresentado em livro, que avalia de 0 a 1000 os dados estruturados de um site por entidades, estrutura, coerência, prova e ação."
+        },
+        {
+          "@language": "en",
+          "@value": "Raphael Sousa Pereira's method, presented in a book, that scores a site's structured data from 0 to 1000 by entities, structure, coherence, proof and action."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/schema-authority-2026-guia-de-schema-org-geo-e-ia/"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#faqpage-schema",
       "termCode": "faqpage-schema",
       "name": [
@@ -8365,6 +9438,35 @@
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
       "subjectOf": "https://developers.google.com/search/docs/appearance/google-images"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#seo-de-protecao-de-marca",
+      "termCode": "seo-de-protecao-de-marca",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "SEO de Proteção de Marca"
+        },
+        {
+          "@language": "en",
+          "@value": "Brand Protection SEO"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Disciplina, nomeada por Raphael Sousa Pereira para a camada de IA generativa, de monitorar e corrigir representações incorretas de uma marca em buscadores e em respostas de IA, como citações erradas, atribuições equivocadas e descrições distorcidas."
+        },
+        {
+          "@language": "en",
+          "@value": "Discipline, named by Raphael Sousa Pereira for the generative-AI layer, of monitoring and correcting incorrect representations of a brand in search engines and AI answers, such as wrong citations, misattributions and distorted descriptions."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/quem-e-o-especialista-em-seo-de-protecao-de-marca-no-brasil/"
     },
     {
       "@type": "DefinedTerm",
@@ -8904,6 +10006,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#retrieval-surface",
+      "termCode": "retrieval-surface",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Superfície de recuperação"
+        },
+        {
+          "@language": "en",
+          "@value": "Retrieval Surface"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Estrutura de Raphael Sousa Pereira para auditar, de fora, as condições que antecedem a recuperação e a geração: se os fatos críticos continuam acessíveis no HTML entregue, na renderização, na extração de texto e nas representações que alimentam a recuperação."
+        },
+        {
+          "@language": "en",
+          "@value": "Raphael Sousa Pereira's framework for auditing, from the outside, the conditions that precede retrieval and generation: whether critical facts remain accessible in the delivered HTML, rendering, text extraction and the representations that feed retrieval."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/transformers-em-2026-como-llms-processam-contexto-e-onde-comeca-o-geo/"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#title-tag",
       "termCode": "title-tag",
       "name": [
@@ -9017,6 +10148,93 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#temporal-accuracy-rate",
+      "termCode": "temporal-accuracy-rate",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Taxa de exatidão temporal (TAR)"
+        },
+        {
+          "@language": "en",
+          "@value": "Temporal Accuracy Rate (TAR)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Métrica proposta por Raphael Sousa Pereira: afirmações sensíveis ao tempo (cargo atual, endereço, certificação vigente) que estão atualizadas, divididas pelo total de afirmações com componente temporal."
+        },
+        {
+          "@language": "en",
+          "@value": "Metric proposed by Raphael Sousa Pereira: time-sensitive claims (current role, address, valid certification) that are up to date, divided by the total claims with a time component."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/como-reduzir-alucinacoes-de-ia-sobre-sua-empresa-em-2026/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#entity-fidelity-rate",
+      "termCode": "entity-fidelity-rate",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Taxa de fidelidade de entidade (EFR)"
+        },
+        {
+          "@language": "en",
+          "@value": "Entity Fidelity Rate (EFR)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Métrica proposta por Raphael Sousa Pereira: menções em que a IA identifica corretamente a entidade, sem confundir com homônimos ou concorrentes, divididas pelo total de menções testadas."
+        },
+        {
+          "@language": "en",
+          "@value": "Metric proposed by Raphael Sousa Pereira: mentions in which AI correctly identifies the entity, without confusing it with namesakes or competitors, divided by the total mentions tested."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/como-reduzir-alucinacoes-de-ia-sobre-sua-empresa-em-2026/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#citation-entailment-rate",
+      "termCode": "citation-entailment-rate",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Taxa de implicação das citações (CER)"
+        },
+        {
+          "@language": "en",
+          "@value": "Citation Entailment Rate (CER)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Métrica proposta por Raphael Sousa Pereira: citações em que o texto citado implica logicamente a afirmação, e não apenas trata do mesmo tema, divididas pelo total de citações testadas."
+        },
+        {
+          "@language": "en",
+          "@value": "Metric proposed by Raphael Sousa Pereira: citations in which the cited text logically entails the claim, rather than merely covering the same topic, divided by the total citations tested."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/como-reduzir-alucinacoes-de-ia-sobre-sua-empresa-em-2026/"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#mention-rate",
       "termCode": "mention-rate",
       "name": [
@@ -9070,6 +10288,64 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#claim-support-rate",
+      "termCode": "claim-support-rate",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Taxa de suporte das afirmações (CSR)"
+        },
+        {
+          "@language": "en",
+          "@value": "Claim Support Rate (CSR)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Métrica proposta por Raphael Sousa Pereira: afirmações com sustentação direta e literal numa fonte real divididas pelo total de afirmações verificadas. É a mais próxima do conceito de fidelidade (faithfulness) da literatura."
+        },
+        {
+          "@language": "en",
+          "@value": "Metric proposed by Raphael Sousa Pereira: claims with direct, literal support in a real source divided by the total claims checked. It is the closest to the literature's concept of faithfulness."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/como-reduzir-alucinacoes-de-ia-sobre-sua-empresa-em-2026/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#geo-field-taxonomy",
+      "termCode": "geo-field-taxonomy",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Taxonomia de campos do GEO"
+        },
+        {
+          "@language": "en",
+          "@value": "GEO Field Taxonomy"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Taxonomia de Raphael Sousa Pereira (preprint \"GEO como Campo\", Zenodo, agosto de 2026, DOI 10.5281/zenodo.21910615) que organiza o GEO em 15 campos, como pesquisa, engenharia, citabilidade, evidência e mensuração, em vez de tratá-lo como técnica única."
+        },
+        {
+          "@language": "en",
+          "@value": "Raphael Sousa Pereira's taxonomy (preprint \"GEO as a Field\", Zenodo, August 2026, DOI 10.5281/zenodo.21910615) that organizes GEO into 15 fields, such as research, engineering, citability, evidence and measurement, instead of treating it as a single technique."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/raphael-sousa-pereira-na-evolucao-do-geo-3-dois-pesquisa-aplicada-e-geo-field-taxonomy/"
     },
     {
       "@type": "DefinedTerm",
@@ -9469,6 +10745,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#triangulo-de-citabilidade",
+      "termCode": "triangulo-de-citabilidade",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Triângulo de Citabilidade"
+        },
+        {
+          "@language": "en",
+          "@value": "Citability Triangle"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Framework de Raphael Sousa Pereira com os três elementos que tornam um conteúdo citável por um LLM: ângulo editorial próprio, estrutura de citabilidade e dado exclusivo. Sem qualquer um deles, o conteúdo tende a ser ignorado, independentemente de backlinks ou posição no Google."
+        },
+        {
+          "@language": "en",
+          "@value": "Raphael Sousa Pereira's framework with the three elements that make content citable by an LLM: an editorial angle of one's own, a citability structure and exclusive data. Without any of them, content tends to be ignored regardless of backlinks or Google position."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/o-colapso-do-conteudo-generico-raphael-sousa-pereira/"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#dark-ai-traffic",
       "termCode": "dark-ai-traffic",
       "name": [
@@ -9635,6 +10940,35 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#usuario-nao-linear",
+      "termCode": "usuario-nao-linear",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Usuário Não-Linear"
+        },
+        {
+          "@language": "en",
+          "@value": "Non-linear User"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Limite metodológico declarado por Raphael Sousa Pereira: auditorias de presença em IA testam perguntas isoladas, neutras e sem histórico, mas quase nenhum usuário real interage assim. É uma lacuna de toda avaliação padronizada, não resolvida."
+        },
+        {
+          "@language": "en",
+          "@value": "Methodological limit stated by Raphael Sousa Pereira: AI-presence audits test isolated, neutral questions with no history, but almost no real user interacts that way. It is an unresolved gap in every standardized evaluation."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/o-usuario-nao-linear-o-limite-declarado-de-query-sets-em-auditoria-de-geo/"
     },
     {
       "@type": "DefinedTerm",
@@ -9918,6 +11252,93 @@
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
       "subjectOf": "https://www.wikidata.org"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#cbci",
+      "termCode": "cbci",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Índice de Citabilidade de Conteúdo da Marca (CBCI)"
+        },
+        {
+          "@language": "en",
+          "@value": "Content Brand Citability Index (CBCI)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Índice experimental de Raphael Sousa Pereira que avalia a relação entre arquitetura de conteúdo, clareza de entidade e potencial de citação por LLMs, considerando definição de entidade, consistência semântica, claims verificáveis, blocos autocontidos, dados estruturados, autoridade temática, fontes externas e alinhamento entre texto visível e schema."
+        },
+        {
+          "@language": "en",
+          "@value": "Raphael Sousa Pereira's experimental index assessing the relationship between content architecture, entity clarity and citation potential in LLMs, considering entity definition, semantic consistency, verifiable claims, self-contained blocks, structured data, topical authority, external sources and alignment between visible text and schema."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/ferramentas/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#indice-de-coerencia-semantica",
+      "termCode": "indice-de-coerencia-semantica",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Índice de Coerência Semântica (ICS)"
+        },
+        {
+          "@language": "en",
+          "@value": "Semantic Coherence Index (ICS)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Índice de Raphael Sousa Pereira: entidades confirmadas em três ou mais vetores independentes divididas pelo total de entidades centrais. De 0 a 30% é baixo; de 86 a 100%, excelente."
+        },
+        {
+          "@language": "en",
+          "@value": "Raphael Sousa Pereira's index: entities confirmed in three or more independent vectors divided by the total of core entities. From 0 to 30% is low; from 86 to 100%, excellent."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#hallucination-integrity-index",
+      "termCode": "hallucination-integrity-index",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Índice de Integridade contra Alucinação (HII)"
+        },
+        {
+          "@language": "en",
+          "@value": "Hallucination Integrity Index (HII)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Índice de 0 a 1000 proposto por Raphael Sousa Pereira, em estágio de proposta, que consolida quatro métricas ponderadas pela gravidade do erro: Entity Fidelity Rate, Claim Support Rate, Citation Entailment Rate e Temporal Accuracy Rate."
+        },
+        {
+          "@language": "en",
+          "@value": "Index from 0 to 1000 proposed by Raphael Sousa Pereira, at proposal stage, that consolidates four metrics weighted by error severity: Entity Fidelity Rate, Claim Support Rate, Citation Entailment Rate and Temporal Accuracy Rate."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://seonegocionomapa.com.br/como-reduzir-alucinacoes-de-ia-sobre-sua-empresa-em-2026/"
     },
     {
       "@type": "DefinedTerm",

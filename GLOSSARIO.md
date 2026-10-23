@@ -1,12 +1,13 @@
-# Glossário SEO, GEO e IA — 351 termos
+# Glossário SEO, GEO e IA — 400 termos
 
-Versão 1.1.0 · atualizado em 2026-10-23 · português do Brasil e inglês · [CC BY 4.0](LICENSE) · Raphael Sousa Pereira, [Negócio no Mapa](https://seonegocionomapa.com.br)
+Versão 1.2.0 · atualizado em 2026-10-23 · português do Brasil e inglês · [CC BY 4.0](LICENSE) · Raphael Sousa Pereira, [Negócio no Mapa](https://seonegocionomapa.com.br)
 
 Arquivo gerado por `scripts/construir.py` a partir de `termos/`. Não edite à mão.
 
 - [SEO](#categoria-seo) — Busca orgânica, SEO técnico, local e dados estruturados (132 termos)
 - [GEO](#categoria-geo) — Visibilidade e citação em motores generativos (102 termos)
 - [IA](#categoria-ia) — Inteligência artificial aplicada à busca e ao conteúdo (117 termos)
+- [Autorais](#categoria-autorais) — Conceitos cunhados por Raphael Sousa Pereira (49 termos)
 
 <a id="categoria-seo"></a>
 ## SEO — Busca orgânica, SEO técnico, local e dados estruturados
@@ -3582,3 +3583,508 @@ Informar quando e como a IA foi usada, por exemplo rotulando conteúdo gerado po
 > *Disclosing when and how AI was used, for example by labeling AI-generated content and explaining automated decisions.*
 
 Veja também: [Proveniência de conteúdo](#content-provenance), [Lei de IA da União Europeia](#eu-ai-act)
+
+<a id="categoria-autorais"></a>
+## Autorais — Conceitos cunhados por Raphael Sousa Pereira
+
+### Autorais · Autoridade e manipulação de citação
+
+#### Armadilha do Espelho
+
+<a id="armadilha-do-espelho"></a>**EN:** The Mirror Trap (GEO)
+
+Estudo de Raphael Sousa Pereira (preprint no Zenodo, junho de 2026, DOI 10.5281/zenodo.21068730) sobre autopromoção e listas autocitadas como fonte de viés na citação por modelos de linguagem.
+
+> *Study by Raphael Sousa Pereira (Zenodo preprint, June 2026, DOI 10.5281/zenodo.21068730) on self-promotion and self-cited lists as a source of citation bias in language models.*
+
+Veja também: [Autoridade Sintética](#autoridade-sintetica), [Lista de "melhores"](#ai-ranking-list) · Fonte: <https://raphaelsousapereira.com.br/publicacoes-em-seo-geo/>
+
+#### Autoridade Sintética
+
+<a id="autoridade-sintetica"></a>**EN:** Synthetic Authority
+
+Termo cunhado por Raphael Sousa Pereira para a autoridade fabricada por páginas que se citam a si mesmas para influenciar respostas de IA: autoridade atribuída pela forma e pela posição de uma página no caminho da resposta, não pela evidência acumulada.
+
+> *Term coined by Raphael Sousa Pereira for authority manufactured by self-citing pages to influence AI answers: authority granted by a page's form and position on the path to the answer, not by accumulated evidence.*
+
+Veja também: [Lista de "melhores"](#ai-ranking-list), [Spam de GEO](#geo-spam), [Hospedeiro (em GEO)](#hospedeiro-geo), [Armadilha do Espelho](#armadilha-do-espelho) · Fonte: <https://seonegocionomapa.com.br/melhores-agencias-geo-brasil-fontes-ia/>
+
+#### Claim Saturado
+
+<a id="claim-saturado"></a>**EN:** Saturated Claim
+
+Conceito de Raphael Sousa Pereira para uma afirmação relevante numa categoria que perdeu a capacidade de distinguir uma entidade, porque vários concorrentes podem fazer afirmação equivalente a baixo custo ("somos especialistas em GEO"). A saída é o claim estrutural, que aponta para objetos, sistemas e provas que precisam existir.
+
+> *Raphael Sousa Pereira's concept for a claim relevant to a category that no longer distinguishes an entity, because several competitors can make an equivalent claim cheaply ("we are GEO experts"). The way out is the structural claim, which points to objects, systems and proof that must exist.*
+
+Veja também: [Afirmação](#claim), [Fato citável](#citable-fact), [Ganho de informação](#information-gain) · Fonte: <https://seonegocionomapa.com.br/claim-saturado-guia-2026-como-criar-citabilidade-em-mercados-competitivos/>
+
+#### Concentração de autoridade de fontes
+
+<a id="source-authority-concentration"></a>**EN:** Source Authority Concentration
+
+Conceito proposto por Raphael Sousa Pereira: a pergunta relevante deixa de ser "quantos backlinks eu tenho" e passa a ser "em quais ecossistemas de fontes a minha entidade aparece", porque a citação de reputação de marca vem sobretudo de terceiros.
+
+> *Concept proposed by Raphael Sousa Pereira: the relevant question shifts from "how many backlinks do I have" to "in which source ecosystems does my entity appear", because brand-reputation citations come mostly from third parties.*
+
+Veja também: [Fonte de terceiros](#third-party-source), [Tipo de fonte citada](#citation-source-type), [Domínio citado](#cited-domain) · Fonte: <https://seonegocionomapa.com.br/estado-da-arte-generative-engine-optimization-geo-em-2026-citacao-por-ia/>
+
+#### Dark GEO
+
+<a id="dark-geo"></a>**EN:** Dark GEO
+
+Padrão de mercado batizado por Raphael Sousa Pereira: o tráfego vindo de IA que não deixa rastro de referência e só pode ser estimado por triangulação de fontes, nunca apresentado como medição direta.
+
+> *Market pattern named by Raphael Sousa Pereira: traffic from AI that leaves no referrer trace and can only be estimated by triangulating sources, never presented as direct measurement.*
+
+Veja também: [Tráfego de IA não identificado](#dark-ai-traffic), [Origem declarada](#self-reported-attribution), [Tráfego vindo de IAs](#ai-referral-traffic) · Fonte: <https://seonegocionomapa.com.br/como-conduzir-uma-auditoria-tecnica-de-seo-o-metodo-completo-etapa-por-etapa-guia-2026/>
+
+#### Hospedeiro (em GEO)
+
+<a id="hospedeiro-geo"></a>**EN:** Host Site (GEO)
+
+Nome dado por Raphael Sousa Pereira a um site de conteúdo que publica listas, rankings ou guias em que uma marca de terceiro recebe destaque, funcionando para buscadores e IAs como fonte aparentemente independente sobre essa marca.
+
+> *Name given by Raphael Sousa Pereira to a content site that publishes lists, rankings or guides in which a third-party brand is featured, acting for search engines and AI as a seemingly independent source about that brand.*
+
+Veja também: [Autoridade Sintética](#autoridade-sintetica), [Lista de "melhores"](#ai-ranking-list), [Fonte de terceiros](#third-party-source) · Fonte: <https://seonegocionomapa.com.br/anatomia-de-um-hospedeiro-em-geo/>
+
+#### Imperativo de Formato
+
+<a id="imperativo-de-formato"></a>**EN:** Format Imperative
+
+Hipótese de Raphael Sousa Pereira de que modelos de linguagem aprendem, no ajuste por feedback humano, uma pressão de conformidade de gênero que os leva a inserir marcadores de autoridade (formato acadêmico, citações) sem recuperação factual proporcional.
+
+> *Raphael Sousa Pereira's hypothesis that language models learn, during human-feedback tuning, a genre-conformity pressure that leads them to insert authority markers (academic format, citations) without proportional factual retrieval.*
+
+Veja também: [Aprendizado por reforço com feedback humano](#rlhf), [Alucinação](#hallucination), [Bajulação](#sycophancy) · Fonte: <https://seonegocionomapa.com.br/engenharia-de-prompt-em-geo/>
+
+### Autorais · Física Semântica
+
+#### Campo semântico digital
+
+<a id="campo-semantico-digital"></a>**EN:** Digital Semantic Field
+
+Na Física Semântica, região do espaço de informações em que cada entidade (negócio, pessoa, ideia, produto) tem um peso semântico mensurável, que determina a probabilidade de ser reconhecida, confiada e recomendada por sistemas de IA.
+
+> *In Semantic Physics, the region of information space in which each entity (business, person, idea, product) has a measurable semantic weight that determines its probability of being recognized, trusted and recommended by AI systems.*
+
+Veja também: [Física Semântica](#fisica-semantica), [Massa semântica](#semantic-mass) · Fonte: <https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/>
+
+#### Coerência de Entidade Distribuída
+
+<a id="coerencia-de-entidade-distribuida"></a>**EN:** Distributed Entity Coherence
+
+Conceito de Raphael Sousa Pereira para o estado em que as mesmas entidades centrais aparecem, com os mesmos atributos, em vários vetores independentes (site, perfis, diretórios, avaliações, imprensa).
+
+> *Raphael Sousa Pereira's concept for the state in which the same core entities appear, with the same attributes, across several independent vectors (site, profiles, directories, reviews, press).*
+
+Veja também: [Lei da Coerência Distribuída](#lei-da-coerencia-distribuida), [Índice de Coerência Semântica (ICS)](#indice-de-coerencia-semantica) · Fonte: <https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/>
+
+#### Entity Health Score (EHS)
+
+<a id="entity-health-score"></a>**EN:** Entity Health Score (EHS)
+
+Índice de Raphael Sousa Pereira: campos de identidade (como NAP) consistentes divididos pelo total de campos verificados entre as fontes. Mede a coerência na dimensão de identidade estrutural.
+
+> *Raphael Sousa Pereira's index: consistent identity fields (such as NAP) divided by the total fields checked across sources. It measures coherence in the structural-identity dimension.*
+
+Veja também: [Nome, endereço e telefone](#nap), [Consistência da entidade](#entity-consistency), [Índice de Coerência Semântica (ICS)](#indice-de-coerencia-semantica) · Fonte: <https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/>
+
+#### Física Semântica
+
+<a id="fisica-semantica"></a>**EN:** Semantic Physics
+
+Teoria proposta por Raphael Sousa Pereira para explicar por que entidades são reconhecidas e citadas por IAs: a confiança que uma IA deposita numa entidade é proporcional à coerência semântica distribuída dessa entidade em fontes independentes. Organizada em axiomas (coerência distribuída, limiar de confiança, entropia semântica).
+
+> *Theory proposed by Raphael Sousa Pereira to explain why entities are recognized and cited by AI: the trust an AI places in an entity is proportional to that entity's distributed semantic coherence across independent sources. Organized into axioms (distributed coherence, trust threshold, semantic entropy).*
+
+Veja também: [Lei da Coerência Distribuída](#lei-da-coerencia-distribuida), [Limiar de confiança (Θ)](#limiar-de-confianca), [Lei da Entropia Semântica](#entropia-semantica), [Campo semântico digital](#campo-semantico-digital) · Fonte: <https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/>
+
+#### Lei da Coerência Distribuída
+
+<a id="lei-da-coerencia-distribuida"></a>**EN:** Law of Distributed Coherence
+
+Axioma 1 da Física Semântica: a força semântica de uma entidade é proporcional ao número de fontes independentes que confirmam a mesma identidade central, ponderado pela autoridade de cada fonte. Mil posts no próprio perfil valem menos que poucas confirmações independentes.
+
+> *Axiom 1 of Semantic Physics: an entity's semantic strength is proportional to the number of independent sources confirming the same core identity, weighted by each source's authority. A thousand posts on one's own profile are worth less than a few independent confirmations.*
+
+Veja também: [Física Semântica](#fisica-semantica), [Coerência de Entidade Distribuída](#coerencia-de-entidade-distribuida), [Consistência da entidade](#entity-consistency) · Fonte: <https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/>
+
+#### Lei da Entropia Semântica
+
+<a id="entropia-semantica"></a>**EN:** Semantic Entropy (Law of)
+
+Axioma 3 da Física Semântica: sem trabalho ativo, o estado semântico de uma entidade tende ao desalinhamento, à inconsistência e à dispersão, por mudanças de plataforma, avanço de concorrentes e evolução do próprio negócio sem atualizar as fontes.
+
+> *Axiom 3 of Semantic Physics: without active work, an entity's semantic state tends toward misalignment, inconsistency and dispersion, through platform changes, competitors' gains and the business evolving without updating its sources.*
+
+Veja também: [Física Semântica](#fisica-semantica), [Deriva da entidade](#entity-drift) · Fonte: <https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/>
+
+#### Limiar de confiança (Θ)
+
+<a id="limiar-de-confianca"></a>**EN:** Trust Threshold (Θ)
+
+Axioma 2 da Física Semântica: há um limiar de coerência semântica, específico por setor, local e tipo de entidade, abaixo do qual a chance de citação pela IA é quase nula e acima do qual a entidade entra no círculo de recomendação. A mudança é de estado, não gradual.
+
+> *Axiom 2 of Semantic Physics: there is a semantic-coherence threshold, specific to sector, location and entity type, below which the chance of AI citation is near zero and above which the entity enters the recommendation circle. The change is a state change, not gradual.*
+
+Veja também: [Física Semântica](#fisica-semantica), [Loop de Feedback Semântico](#loop-de-feedback-semantico) · Fonte: <https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/>
+
+#### Loop de Feedback Semântico
+
+<a id="loop-de-feedback-semantico"></a>**EN:** Semantic Feedback Loop
+
+Conceito de Raphael Sousa Pereira: depois que a entidade cruza o limiar de confiança, mais coerência traz melhor posição, que traz mais engajamento, que traz mais sinais e mais coerência. Abaixo do limiar, o ciclo não existe.
+
+> *Raphael Sousa Pereira's concept: once the entity crosses the trust threshold, more coherence brings a better position, which brings more engagement, more signals and more coherence. Below the threshold the loop does not exist.*
+
+Veja também: [Limiar de confiança (Θ)](#limiar-de-confianca), [Física Semântica](#fisica-semantica) · Fonte: <https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/>
+
+#### Massa semântica
+
+<a id="semantic-mass"></a>**EN:** Semantic Mass
+
+Conceito de Raphael Sousa Pereira para a densidade total de sinais semânticos consistentes em torno de uma entidade.
+
+> *Raphael Sousa Pereira's concept for the total density of consistent semantic signals around an entity.*
+
+Veja também: [Coerência de Entidade Distribuída](#coerencia-de-entidade-distribuida), [Campo semântico digital](#campo-semantico-digital) · Fonte: <https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/>
+
+#### Índice de Coerência Semântica (ICS)
+
+<a id="indice-de-coerencia-semantica"></a>**EN:** Semantic Coherence Index (ICS)
+
+Índice de Raphael Sousa Pereira: entidades confirmadas em três ou mais vetores independentes divididas pelo total de entidades centrais. De 0 a 30% é baixo; de 86 a 100%, excelente.
+
+> *Raphael Sousa Pereira's index: entities confirmed in three or more independent vectors divided by the total of core entities. From 0 to 30% is low; from 86 to 100%, excellent.*
+
+Veja também: [Coerência de Entidade Distribuída](#coerencia-de-entidade-distribuida), [Entity Health Score (EHS)](#entity-health-score) · Fonte: <https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/>
+
+### Autorais · Citabilidade e entidade
+
+#### Autoridade Canônica Auditável
+
+<a id="autoridade-canonica-auditavel"></a>**EN:** Auditable Canonical Authority
+
+Extensão, proposta por Raphael Sousa Pereira, do conceito de mercado de autoridade canônica (definir uma fonte de verdade inequívoca para a IA citar): acrescenta dossiê de integridade verificado por hash, taxonomia de conflito de fontes e protocolo de medição reproduzível. O autor não reivindica o conceito original.
+
+> *Extension, proposed by Raphael Sousa Pereira, of the market concept of canonical authority (defining an unambiguous source of truth for AI to cite): it adds a hash-verified integrity dossier, a source-conflict taxonomy and a reproducible measurement protocol. The author does not claim the original concept.*
+
+Veja também: [Página de fatos da marca](#brand-facts-page), [Alucinação](#hallucination), [Página-casa da entidade](#entity-home) · Fonte: <https://seonegocionomapa.com.br/autoridade-canonica-auditavel-para-llms/>
+
+#### Equação da Entidade Citável (EEC)
+
+<a id="equacao-da-entidade-citavel"></a>**EN:** Citable Entity Equation (EEC)
+
+Formalização de Raphael Sousa Pereira, apresentada por ele como hipótese de trabalho, de que a citabilidade de uma entidade é multiplicativa: força da entidade, verificabilidade, relevância contextual e atualidade (EEC = B × V × R × F). A verificabilidade multiplica a confiança de todo o resto; sem prova externa, afirmações autodeclaradas pesam quase nada.
+
+> *Raphael Sousa Pereira's formalization, presented by him as a working hypothesis, that an entity's citability is multiplicative: entity strength, verifiability, contextual relevance and freshness (EEC = B × V × R × F). Verifiability multiplies the trust in everything else; without external proof, self-declared claims weigh almost nothing.*
+
+Veja também: [Citabilidade](#citability), [Entidade](#entity), [Autor como entidade](#author-entity) · Fonte: <https://seonegocionomapa.com.br/a-equacao-da-entidade-citavel/>
+
+#### Estrategista de Citação de Entidade
+
+<a id="estrategista-de-citacao-de-entidade"></a>**EN:** Entity Citation Strategist
+
+Função profissional nomeada por Raphael Sousa Pereira: estruturar entidades (marcas, lugares, métodos, patentes, certificações) para que sejam reconhecidas, desambiguadas e citadas corretamente por sistemas de IA generativa.
+
+> *Professional role named by Raphael Sousa Pereira: structuring entities (brands, places, methods, patents, certifications) so they are recognized, disambiguated and correctly cited by generative AI systems.*
+
+Veja também: [Desambiguação de entidade](#entity-disambiguation), [Grafo de entidades do site](#entity-graph) · Fonte: <https://seonegocionomapa.com.br/quem-e-raphael-sousa-pereira-estrategista-de-citacao-de-entidade/>
+
+#### Matriz CM
+
+<a id="matriz-cm"></a>**EN:** CM Matrix (Complexity × Maturity)
+
+Framework de Raphael Sousa Pereira, declarado por ele como hipótese sem validação empírica externa, que classifica uma entidade em dois eixos, Complexidade (C1 a C4) e Maturidade Digital (M1 a M5), para estimar o esforço e o prazo necessários para torná-la citável por IA.
+
+> *Raphael Sousa Pereira's framework, stated by him as a hypothesis without external empirical validation, that classifies an entity on two axes, Complexity (C1 to C4) and Digital Maturity (M1 to M5), to estimate the effort and time needed to make it citable by AI.*
+
+Veja também: [Entidade](#entity) · Fonte: <https://seonegocionomapa.com.br/quem-e-raphael-sousa-pereira-estrategista-de-citacao-de-entidade/>
+
+#### Quem Você Acompanha
+
+<a id="quem-voce-acompanha"></a>**EN:** Who You Travel With
+
+Métrica nomeada por Raphael Sousa Pereira: o conjunto de marcas citadas junto com a sua nas respostas de IA. Funciona como assinatura de posicionamento e revela mais do que um ranking isolado.
+
+> *Metric named by Raphael Sousa Pereira: the set of brands cited alongside yours in AI answers. It works as a positioning signature and reveals more than an isolated ranking.*
+
+Veja também: [Cocitação](#co-citation), [Participação de voz em IA](#share-of-voice) · Fonte: <https://seonegocionomapa.com.br/geo-porto-alegre/>
+
+#### Triângulo de Citabilidade
+
+<a id="triangulo-de-citabilidade"></a>**EN:** Citability Triangle
+
+Framework de Raphael Sousa Pereira com os três elementos que tornam um conteúdo citável por um LLM: ângulo editorial próprio, estrutura de citabilidade e dado exclusivo. Sem qualquer um deles, o conteúdo tende a ser ignorado, independentemente de backlinks ou posição no Google.
+
+> *Raphael Sousa Pereira's framework with the three elements that make content citable by an LLM: an editorial angle of one's own, a citability structure and exclusive data. Without any of them, content tends to be ignored regardless of backlinks or Google position.*
+
+Veja também: [Citabilidade](#citability), [Ganho de informação](#information-gain), [Pesquisa própria](#original-research) · Fonte: <https://seonegocionomapa.com.br/o-colapso-do-conteudo-generico-raphael-sousa-pereira/>
+
+#### Índice de Citabilidade de Conteúdo da Marca (CBCI)
+
+<a id="cbci"></a>**EN:** Content Brand Citability Index (CBCI)
+
+Índice experimental de Raphael Sousa Pereira que avalia a relação entre arquitetura de conteúdo, clareza de entidade e potencial de citação por LLMs, considerando definição de entidade, consistência semântica, claims verificáveis, blocos autocontidos, dados estruturados, autoridade temática, fontes externas e alinhamento entre texto visível e schema.
+
+> *Raphael Sousa Pereira's experimental index assessing the relationship between content architecture, entity clarity and citation potential in LLMs, considering entity definition, semantic consistency, verifiable claims, self-contained blocks, structured data, topical authority, external sources and alignment between visible text and schema.*
+
+Veja também: [Citabilidade](#citability), [Cápsula de resposta](#answer-capsule), [Dados estruturados](#structured-data) · Fonte: <https://seonegocionomapa.com.br/ferramentas/>
+
+### Autorais · Fidelidade e alucinação
+
+#### Absorção da citação
+
+<a id="citation-absorption"></a>**EN:** Citation Absorption
+
+Etapa, formalizada por Raphael Sousa Pereira, em que o conteúdo efetivo da fonte entra na resposta, distinta da simples citação do link e da fidelidade com que esse conteúdo é reproduzido.
+
+> *Stage, formalized by Raphael Sousa Pereira, in which the source's actual content enters the answer, distinct from merely citing the link and from how faithfully that content is reproduced.*
+
+Veja também: [Inclusão na resposta](#answer-inclusion), [Fidelidade de compressão](#compression-fidelity), [Citação por IA](#ai-citation) · Fonte: <https://seonegocionomapa.com.br/transformers-em-2026-como-llms-processam-contexto-e-onde-comeca-o-geo/>
+
+#### Engenharia de Fidelidade de Marca Generativa (GBFA)
+
+<a id="gbfa"></a>**EN:** Generative Brand Fidelity Engineering (GBFA)
+
+Framework de Raphael Sousa Pereira para medir e corrigir a fidelidade com que as IAs descrevem uma marca, com taxonomia de evidência, três tipos de deriva e avaliadores validados antes do uso.
+
+> *Raphael Sousa Pereira's framework for measuring and correcting how faithfully AI describes a brand, with an evidence taxonomy, three types of drift and judges validated before use.*
+
+Veja também: [Fidelidade](#faithfulness), [Exatidão das respostas sobre a marca](#answer-accuracy), [Auditoria de validação de avaliadores (JVA-8)](#jva-8), [SEO de Proteção de Marca](#seo-de-protecao-de-marca) · Fonte: <https://raphaelsousapereira.com.br/raphael-sousa-pereira/>
+
+#### Fidelidade de compressão
+
+<a id="compression-fidelity"></a>**EN:** Compression Fidelity
+
+Estrutura proposta por Raphael Sousa Pereira para medir quanto do conteúdo essencial continua correto quando uma fonte é resumida por um sistema de IA: fatos que não deveriam sumir nem mudar (Gold Facts) preservados corretamente divididos pelos esperados.
+
+> *Framework proposed by Raphael Sousa Pereira to measure how much essential content stays correct when an AI system summarizes a source: facts that should neither disappear nor change (Gold Facts) correctly preserved, divided by those expected.*
+
+Veja também: [Fidelidade](#faithfulness), [Absorção da citação](#citation-absorption), [Preservação do escopo da afirmação](#claim-scope-preservation) · Fonte: <https://seonegocionomapa.com.br/transformers-em-2026-como-llms-processam-contexto-e-onde-comeca-o-geo/>
+
+#### Preservação do escopo da afirmação
+
+<a id="claim-scope-preservation"></a>**EN:** Claim-Scope Preservation
+
+Critério de Raphael Sousa Pereira para auditoria em LLMO: condições, população, período e nível de certeza de uma afirmação não podem desaparecer quando a IA a resume.
+
+> *Raphael Sousa Pereira's criterion for LLMO audits: a claim's conditions, population, period and level of certainty must not disappear when AI summarizes it.*
+
+Veja também: [Fidelidade de compressão](#compression-fidelity), [Afirmação](#claim), [Fidelidade](#faithfulness) · Fonte: <https://seonegocionomapa.com.br/o-que-e-llmo-em-2026-guia-tecnico-sobre-otimizacao-para-llms-geo-e-ai-search/>
+
+#### SEO de Proteção de Marca
+
+<a id="seo-de-protecao-de-marca"></a>**EN:** Brand Protection SEO
+
+Disciplina, nomeada por Raphael Sousa Pereira para a camada de IA generativa, de monitorar e corrigir representações incorretas de uma marca em buscadores e em respostas de IA, como citações erradas, atribuições equivocadas e descrições distorcidas.
+
+> *Discipline, named by Raphael Sousa Pereira for the generative-AI layer, of monitoring and correcting incorrect representations of a brand in search engines and AI answers, such as wrong citations, misattributions and distorted descriptions.*
+
+Veja também: [Proteção de marca em IA](#brand-safety-ai), [Engenharia de Fidelidade de Marca Generativa (GBFA)](#gbfa), [Alucinação](#hallucination) · Fonte: <https://seonegocionomapa.com.br/quem-e-o-especialista-em-seo-de-protecao-de-marca-no-brasil/>
+
+#### Superfície de recuperação
+
+<a id="retrieval-surface"></a>**EN:** Retrieval Surface
+
+Estrutura de Raphael Sousa Pereira para auditar, de fora, as condições que antecedem a recuperação e a geração: se os fatos críticos continuam acessíveis no HTML entregue, na renderização, na extração de texto e nas representações que alimentam a recuperação.
+
+> *Raphael Sousa Pereira's framework for auditing, from the outside, the conditions that precede retrieval and generation: whether critical facts remain accessible in the delivered HTML, rendering, text extraction and the representations that feed retrieval.*
+
+Veja também: [Recuperabilidade](#retrievability), [Código-fonte da página](#page-source), [Legibilidade por máquina](#machine-readability) · Fonte: <https://seonegocionomapa.com.br/transformers-em-2026-como-llms-processam-contexto-e-onde-comeca-o-geo/>
+
+#### Taxa de exatidão temporal (TAR)
+
+<a id="temporal-accuracy-rate"></a>**EN:** Temporal Accuracy Rate (TAR)
+
+Métrica proposta por Raphael Sousa Pereira: afirmações sensíveis ao tempo (cargo atual, endereço, certificação vigente) que estão atualizadas, divididas pelo total de afirmações com componente temporal.
+
+> *Metric proposed by Raphael Sousa Pereira: time-sensitive claims (current role, address, valid certification) that are up to date, divided by the total claims with a time component.*
+
+Veja também: [Índice de Integridade contra Alucinação (HII)](#hallucination-integrity-index), [Afirmação datada](#dated-claim) · Fonte: <https://seonegocionomapa.com.br/como-reduzir-alucinacoes-de-ia-sobre-sua-empresa-em-2026/>
+
+#### Taxa de fidelidade de entidade (EFR)
+
+<a id="entity-fidelity-rate"></a>**EN:** Entity Fidelity Rate (EFR)
+
+Métrica proposta por Raphael Sousa Pereira: menções em que a IA identifica corretamente a entidade, sem confundir com homônimos ou concorrentes, divididas pelo total de menções testadas.
+
+> *Metric proposed by Raphael Sousa Pereira: mentions in which AI correctly identifies the entity, without confusing it with namesakes or competitors, divided by the total mentions tested.*
+
+Veja também: [Índice de Integridade contra Alucinação (HII)](#hallucination-integrity-index), [Desambiguação de entidade](#entity-disambiguation) · Fonte: <https://seonegocionomapa.com.br/como-reduzir-alucinacoes-de-ia-sobre-sua-empresa-em-2026/>
+
+#### Taxa de implicação das citações (CER)
+
+<a id="citation-entailment-rate"></a>**EN:** Citation Entailment Rate (CER)
+
+Métrica proposta por Raphael Sousa Pereira: citações em que o texto citado implica logicamente a afirmação, e não apenas trata do mesmo tema, divididas pelo total de citações testadas.
+
+> *Metric proposed by Raphael Sousa Pereira: citations in which the cited text logically entails the claim, rather than merely covering the same topic, divided by the total citations tested.*
+
+Veja também: [Índice de Integridade contra Alucinação (HII)](#hallucination-integrity-index), [Precisão da citação](#citation-precision) · Fonte: <https://seonegocionomapa.com.br/como-reduzir-alucinacoes-de-ia-sobre-sua-empresa-em-2026/>
+
+#### Taxa de suporte das afirmações (CSR)
+
+<a id="claim-support-rate"></a>**EN:** Claim Support Rate (CSR)
+
+Métrica proposta por Raphael Sousa Pereira: afirmações com sustentação direta e literal numa fonte real divididas pelo total de afirmações verificadas. É a mais próxima do conceito de fidelidade (faithfulness) da literatura.
+
+> *Metric proposed by Raphael Sousa Pereira: claims with direct, literal support in a real source divided by the total claims checked. It is the closest to the literature's concept of faithfulness.*
+
+Veja também: [Índice de Integridade contra Alucinação (HII)](#hallucination-integrity-index), [Fidelidade](#faithfulness) · Fonte: <https://seonegocionomapa.com.br/como-reduzir-alucinacoes-de-ia-sobre-sua-empresa-em-2026/>
+
+#### Índice de Integridade contra Alucinação (HII)
+
+<a id="hallucination-integrity-index"></a>**EN:** Hallucination Integrity Index (HII)
+
+Índice de 0 a 1000 proposto por Raphael Sousa Pereira, em estágio de proposta, que consolida quatro métricas ponderadas pela gravidade do erro: Entity Fidelity Rate, Claim Support Rate, Citation Entailment Rate e Temporal Accuracy Rate.
+
+> *Index from 0 to 1000 proposed by Raphael Sousa Pereira, at proposal stage, that consolidates four metrics weighted by error severity: Entity Fidelity Rate, Claim Support Rate, Citation Entailment Rate and Temporal Accuracy Rate.*
+
+Veja também: [Taxa de fidelidade de entidade (EFR)](#entity-fidelity-rate), [Taxa de suporte das afirmações (CSR)](#claim-support-rate), [Taxa de implicação das citações (CER)](#citation-entailment-rate), [Taxa de exatidão temporal (TAR)](#temporal-accuracy-rate), [Alucinação](#hallucination) · Fonte: <https://seonegocionomapa.com.br/como-reduzir-alucinacoes-de-ia-sobre-sua-empresa-em-2026/>
+
+### Autorais · Medição e método
+
+#### Auditoria de validação de avaliadores (JVA-8)
+
+<a id="jva-8"></a>**EN:** Judge Validation Audit (JVA-8)
+
+Protocolo de Raphael Sousa Pereira para validar um LLM usado como avaliador antes de aplicá-lo em auditorias de GEO e de fidelidade de marca. Testa exatidão, concordância, viés de posição, viés de estilo, autopreferência, calibração, discordância e robustez de domínio.
+
+> *Raphael Sousa Pereira's protocol for validating an LLM used as a judge before applying it in GEO and brand-fidelity audits. It tests accuracy, agreement, position bias, style bias, self-preference, calibration, disagreement and domain robustness.*
+
+Veja também: [LLM como avaliador](#llm-as-judge), [Engenharia de Fidelidade de Marca Generativa (GBFA)](#gbfa), [Calibração](#calibration) · Fonte: <https://seonegocionomapa.com.br/llm-as-a-judge-em-2026-como-auditar-avaliadores-de-ia-antes-de-usa-los-para-medir-geo-e-fidelidade-de-marca/>
+
+#### GEO CAUSAL
+
+<a id="geo-causal"></a>**EN:** GEO CAUSAL (7 Measurement Levels)
+
+Arquitetura de mensuração de GEO de Raphael Sousa Pereira em sete níveis: visibilidade, recuperação, citação, atribuição, fidelidade, recomendação e resultado de negócio. Tratar qualquer nível isolado, sobretudo o primeiro, como prova de sucesso é o erro mais comum.
+
+> *Raphael Sousa Pereira's GEO measurement architecture in seven levels: visibility, retrieval, citation, attribution, fidelity, recommendation and business outcome. Treating any single level, especially the first, as proof of success is the most common mistake.*
+
+Veja também: [Visibilidade em IA](#ai-visibility), [Fidelidade](#faithfulness), [Taxa de recomendação](#recommendation-rate), [Resultado incremental](#incrementality) · Fonte: <https://raphaelsousapereira.com.br/metricas-de-geo/>
+
+#### Grafo de desdobramento da consulta (QF-GEO)
+
+<a id="qf-geo"></a>**EN:** Query Fan-Out Graph and Coverage Profile (QF-GEO)
+
+Proposta de Raphael Sousa Pereira (preprint no Zenodo, setembro de 2026, DOI 10.5281/zenodo.22096956) com o Query Fan-Out Graph (QFG) e o Query Fan-Out Coverage Profile (QFCP), para representar o espaço de necessidades de informação que a busca por IA desdobra e medir quanto dele um site cobre.
+
+> *Proposal by Raphael Sousa Pereira (Zenodo preprint, September 2026, DOI 10.5281/zenodo.22096956) with the Query Fan-Out Graph (QFG) and the Query Fan-Out Coverage Profile (QFCP), to represent the space of information needs AI search fans out into and measure how much of it a site covers.*
+
+Veja também: [Desdobramento da consulta](#query-fan-out), [Consulta de fundamentação](#grounding-query) · Fonte: <https://raphaelsousapereira.com.br/publicacoes-em-seo-geo/>
+
+#### Matriz de Inteligência Competitiva Generativa (G-CIM)
+
+<a id="g-cim"></a>**EN:** Generative Competitive Intelligence Matrix (G-CIM)
+
+Matriz de decisão ponderada (peso × valor) criada por Raphael Sousa Pereira para transformar auditorias de SEO e GEO em priorização de investimento, adaptando a Matriz do Processo Decisório de Siqueira e Gomi (1999, IPT/USP).
+
+> *Weighted decision matrix (weight × value) created by Raphael Sousa Pereira to turn SEO and GEO audits into investment prioritization, adapting the Decision Process Matrix of Siqueira and Gomi (1999, IPT/USP).*
+
+Veja também: [Auditoria de visibilidade em IA](#ai-audit) · Fonte: <https://raphaelsousapereira.com.br/generative-competitive-intelligence-matrix/>
+
+#### Modelo operacional Backlink-to-GEO
+
+<a id="backlink-to-geo-operating-model"></a>**EN:** Backlink-to-GEO Operating Model
+
+Modelo de Raphael Sousa Pereira que liga aquisição de backlinks, relevância contextual, entidade, claims verificáveis e monitoramento de presença generativa. Um backlink só entra na camada GEO depois de contextualizado: quem citou, sobre qual tema e apontando para qual página.
+
+> *Raphael Sousa Pereira's model linking backlink acquisition, contextual relevance, entity, verifiable claims and generative-presence monitoring. A backlink only enters the GEO layer once contextualized: who cited, on what topic and pointing to which page.*
+
+Veja também: [Backlink (link de entrada)](#backlink), [Menção à marca](#brand-mention), [Concentração de autoridade de fontes](#source-authority-concentration) · Fonte: <https://seonegocionomapa.com.br/como-usar-backlinks-em-sua-estrategia-de-seo-e-geo-guia-2026/>
+
+#### Protocolo de canal e coordenada (CC-GEO)
+
+<a id="cc-geo"></a>**EN:** Channel-Coordinate Protocol (CC-GEO)
+
+Protocolo de Raphael Sousa Pereira que controla três variáveis na medição de GEO: coordenada geográfica, canal de coleta (API ou interface web) e declaração de automação aos provedores. A implementação de referência tem 25 ambientes, 40 prompts e 5 repetições.
+
+> *Raphael Sousa Pereira's protocol that controls three variables in GEO measurement: geographic coordinate, collection channel (API or web interface) and disclosure of automation to providers. The reference implementation has 25 environments, 40 prompts and 5 repetitions.*
+
+Veja também: [Conjunto de prompts](#prompt-set), [Variância das respostas](#response-variance), [Cobertura da medição](#measurement-coverage) · Fonte: <https://raphaelsousapereira.com.br/publicacoes-em-seo-geo/>
+
+#### Protocolo Evidência, Inferência e Hipótese
+
+<a id="protocolo-evidencia-inferencia-hipotese"></a>**EN:** Evidence, Inference and Hypothesis Protocol
+
+Protocolo de Raphael Sousa Pereira que classifica cada afirmação de um estudo pelo tipo de prova que a sustenta: evidência (observada), inferência (deduzida da evidência) ou hipótese (ainda não testada).
+
+> *Raphael Sousa Pereira's protocol that classifies each claim in a study by the kind of proof behind it: evidence (observed), inference (deduced from evidence) or hypothesis (not yet tested).*
+
+Veja também: [Evidência causal](#causal-evidence), [Afirmação](#claim) · Fonte: <https://raphaelsousapereira.com.br/raphael-sousa-pereira/>
+
+#### Usuário Não-Linear
+
+<a id="usuario-nao-linear"></a>**EN:** Non-linear User
+
+Limite metodológico declarado por Raphael Sousa Pereira: auditorias de presença em IA testam perguntas isoladas, neutras e sem histórico, mas quase nenhum usuário real interage assim. É uma lacuna de toda avaliação padronizada, não resolvida.
+
+> *Methodological limit stated by Raphael Sousa Pereira: AI-presence audits test isolated, neutral questions with no history, but almost no real user interacts that way. It is an unresolved gap in every standardized evaluation.*
+
+Veja também: [Conjunto de prompts](#prompt-set), [Consulta conversacional](#conversational-query), [Variância das respostas](#response-variance) · Fonte: <https://seonegocionomapa.com.br/o-usuario-nao-linear-o-limite-declarado-de-query-sets-em-auditoria-de-geo/>
+
+### Autorais · Campo, disciplina e ética
+
+#### Brand-Led Growth Architecture
+
+<a id="brand-led-growth-architecture"></a>**EN:** Brand-Led Growth Architecture
+
+Metodologia proprietária da Negócio no Mapa, desenvolvida por Raphael Sousa Pereira, que integra marca, SEO, GEO, conteúdo, reputação, mídia, CRM, automação, dados, conversão e governança numa operação de funil completo, com 6 fases e 16 etapas.
+
+> *Negócio no Mapa's proprietary methodology, developed by Raphael Sousa Pereira, that integrates brand, SEO, GEO, content, reputation, media, CRM, automation, data, conversion and governance in a full-funnel operation, with 6 phases and 16 steps.*
+
+Veja também: [Otimização para motores generativos](#geo), [Otimização da taxa de conversão](#cro) · Fonte: <https://seonegocionomapa.com.br/brand-led-growth-architecture/>
+
+#### Código de Ética para GEO
+
+<a id="codigo-de-etica-geo"></a>**EN:** Code of Ethics for GEO
+
+Documento de Raphael Sousa Pereira (Brasil, 2026), em oito artigos, sobre o que um profissional de GEO pode e não pode prometer, incluindo o artigo sobre churnalism aplicado a GEO.
+
+> *Document by Raphael Sousa Pereira (Brazil, 2026), in eight articles, on what a GEO professional may and may not promise, including an article on churnalism applied to GEO.*
+
+Veja também: [Otimização para motores generativos](#geo), [Spam de GEO](#geo-spam) · Fonte: <https://seonegocionomapa.com.br/codigo-de-etica-para-geo-brasil-2026/>
+
+#### Engenharia da Presença Generativa
+
+<a id="engenharia-da-presenca-generativa"></a>**EN:** Generative Presence Engineering
+
+Disciplina aplicada proposta por Raphael Sousa Pereira para estudar e governar como fontes, entidades, evidências e marcas atravessam recuperação, seleção, uso, atribuição, fidelidade e completude até chegar às respostas de sistemas generativos.
+
+> *Applied discipline proposed by Raphael Sousa Pereira to study and govern how sources, entities, evidence and brands pass through retrieval, selection, use, attribution, fidelity and completeness on their way to generative systems' answers.*
+
+Veja também: [Otimização para motores generativos](#geo), [GEO CAUSAL](#geo-causal), [Engenharia de Fidelidade de Marca Generativa (GBFA)](#gbfa) · Fonte: <https://seonegocionomapa.com.br/geo-ficou-pequeno-lancamento-do-livro-engenharia-da-presenca-generativa/>
+
+#### Os 6 Macrodomínios de GEO
+
+<a id="macrodominios-de-geo"></a>**EN:** Six GEO Macrodomains
+
+Proposta taxonômica de Raphael Sousa Pereira que agrupa o GEO em seis macrodomínios de pesquisa, técnica, operação e valor econômico. O autor a apresenta como proposta, não como classificação acadêmica consolidada.
+
+> *Raphael Sousa Pereira's taxonomic proposal grouping GEO into six macrodomains spanning research, technique, operations and economic value. The author presents it as a proposal, not an established academic classification.*
+
+Veja também: [Taxonomia de campos do GEO](#geo-field-taxonomy) · Fonte: <https://raphaelsousapereira.com.br/os-6-macrodominios-de-geo-uma-macroarquitetura-para-pesquisa-tecnica-operacao-e-valor-economico-geo-ia/>
+
+#### Schema Authority
+
+<a id="schema-authority"></a>**EN:** Schema Authority
+
+Método de Raphael Sousa Pereira, apresentado em livro, que avalia de 0 a 1000 os dados estruturados de um site por entidades, estrutura, coerência, prova e ação.
+
+> *Raphael Sousa Pereira's method, presented in a book, that scores a site's structured data from 0 to 1000 by entities, structure, coherence, proof and action.*
+
+Veja também: [Dados estruturados](#structured-data), [Grafo de entidades do site](#entity-graph) · Fonte: <https://seonegocionomapa.com.br/schema-authority-2026-guia-de-schema-org-geo-e-ia/>
+
+#### Taxonomia de campos do GEO
+
+<a id="geo-field-taxonomy"></a>**EN:** GEO Field Taxonomy
+
+Taxonomia de Raphael Sousa Pereira (preprint "GEO como Campo", Zenodo, agosto de 2026, DOI 10.5281/zenodo.21910615) que organiza o GEO em 15 campos, como pesquisa, engenharia, citabilidade, evidência e mensuração, em vez de tratá-lo como técnica única.
+
+> *Raphael Sousa Pereira's taxonomy (preprint "GEO as a Field", Zenodo, August 2026, DOI 10.5281/zenodo.21910615) that organizes GEO into 15 fields, such as research, engineering, citability, evidence and measurement, instead of treating it as a single technique.*
+
+Veja também: [Otimização para motores generativos](#geo), [Os 6 Macrodomínios de GEO](#macrodominios-de-geo) · Fonte: <https://seonegocionomapa.com.br/raphael-sousa-pereira-na-evolucao-do-geo-3-dois-pesquisa-aplicada-e-geo-field-taxonomy/>

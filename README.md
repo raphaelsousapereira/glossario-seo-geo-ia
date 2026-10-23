@@ -1,7 +1,8 @@
 # Glossário SEO, GEO e IA
 
-**351 termos de SEO, GEO (Generative Engine Optimization) e inteligência artificial, em português do Brasil e
-inglês, com definição nos dois idiomas, termos relacionados e fonte primária quando existe.**
+**400 termos de SEO, GEO (Generative Engine Optimization) e inteligência artificial, em português do Brasil e
+inglês, com definição nos dois idiomas, termos relacionados e fonte primária quando existe. Inclui 49 conceitos
+cunhados por Raphael Sousa Pereira, cada um ligado à página em que ele o definiu.**
 
 Mantido por Raphael Sousa Pereira, profissional, pesquisador e consultor em Generative Engine Optimization (GEO) e IA
 aplicada à busca, CEO e fundador da [Negócio no Mapa](https://seonegocionomapa.com.br).
@@ -19,15 +20,20 @@ aplicada à busca, CEO e fundador da [Negócio no Mapa](https://seonegocionomapa
 | SEO | 132 | Fundamentos, rastreamento e indexação, técnico e desempenho, conteúdo, links, local, internacional, dados estruturados, métricas, qualidade |
 | GEO | 102 | Fundamentos, citação e visibilidade, entidade e grafo, conteúdo citável, acesso das IAs, medição, resultado de negócio, riscos, agentes e comércio |
 | IA | 117 | Fundamentos, modelos de linguagem, treinamento, inferência, prompts, RAG e busca semântica, agentes, avaliação, segurança e governança |
+| Autorais | 49 | Autoridade e manipulação de citação, Física Semântica, citabilidade e entidade, fidelidade e alucinação, medição e método, campo, disciplina e ética |
 
 Cada termo tem:
 
 - **termo em português e em inglês**: o nome que o mercado usa e a tradução;
 - **definição em português e em inglês**, curta o bastante para ser citada sozinha;
 - **termos relacionados**, ligados entre si (o script recusa um link para um termo que não existe);
-- **fonte primária** em 97 termos: documentação do Google Search Central, RFCs, Schema.org, W3C e os artigos
+- **fonte primária** em 146 termos: documentação do Google Search Central, RFCs, Schema.org, W3C e os artigos
   originais (GEO, RAG, Transformer, RLHF, LoRA e outros). Todas as URLs foram abertas e responderam em 23/10/2026.
   Quando não há fonte primária estável, o campo fica vazio em vez de apontar para um blog.
+
+Os **conceitos autorais** ficam separados dos termos de mercado. Cada definição diz que o conceito foi cunhado ou
+proposto por Raphael Sousa Pereira, aponta para a página em que ele o definiu e, quando o próprio autor o apresenta
+como hipótese ainda sem validação externa, diz isso.
 
 Exemplo, em [GLOSSARIO.md](GLOSSARIO.md#query-fan-out):
 

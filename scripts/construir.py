@@ -18,7 +18,7 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 TERMOS = RAIZ / "termos"
-VERSAO = "1.1.0"
+VERSAO = "1.2.0"
 DATA = "2026-10-23"
 SITE = "https://seonegocionomapa.com.br"
 REPO = "https://github.com/raphaelsousapereira/glossario-seo-geo-ia"
@@ -32,7 +32,8 @@ AUTOR = {
 }
 CATEGORIAS = [("seo", "SEO", "Busca orgânica, SEO técnico, local e dados estruturados"),
               ("geo", "GEO", "Visibilidade e citação em motores generativos"),
-              ("ia", "IA", "Inteligência artificial aplicada à busca e ao conteúdo")]
+              ("ia", "IA", "Inteligência artificial aplicada à busca e ao conteúdo"),
+              ("autorais", "Autorais", "Conceitos cunhados por Raphael Sousa Pereira")]
 CAMPOS = ["slug", "termo_en", "termo_pt", "definicao_pt", "definition_en", "relacionados", "fonte"]
 SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 URL = re.compile(r"^https?://[^\s|]+$")
@@ -96,7 +97,9 @@ def gerar(termos: list[dict]) -> dict[str, str]:
     saida = {}
 
     meta = {"nome": "Glossário SEO, GEO e IA", "versao": VERSAO, "atualizado_em": DATA, "total": len(termos),
-            "idiomas": ["pt-BR", "en"], "licenca": "CC BY 4.0", "autor": AUTOR["name"], "site": SITE, "repositorio": REPO}
+            "idiomas": ["pt-BR", "en"], "licenca": "CC BY 4.0",
+            "subcategorias": {nome: list(dict.fromkeys(t["subcategoria"] for t in termos if t["categoria"] == nome))
+                              for _, nome, _ in CATEGORIAS}, "autor": AUTOR["name"], "site": SITE, "repositorio": REPO}
     saida["dist/glossario.json"] = json.dumps({"meta": meta, "termos": [publico(t) for t in ordenados]},
                                               ensure_ascii=False, indent=2) + "\n"
 
