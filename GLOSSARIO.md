@@ -1,11 +1,11 @@
-# Glossário SEO, GEO e IA — 400 termos
+# Glossário SEO, GEO e IA — 424 termos
 
-Versão 1.2.0 · atualizado em 2026-10-23 · português do Brasil e inglês · [CC BY 4.0](LICENSE) · Raphael Sousa Pereira, [Negócio no Mapa](https://seonegocionomapa.com.br)
+Versão 1.3.0 · atualizado em 2026-10-23 · português do Brasil e inglês · [CC BY 4.0](LICENSE) · Raphael Sousa Pereira, [Negócio no Mapa](https://seonegocionomapa.com.br)
 
 Arquivo gerado por `scripts/construir.py` a partir de `termos/`. Não edite à mão.
 
-- [SEO](#categoria-seo) — Busca orgânica, SEO técnico, local e dados estruturados (132 termos)
-- [GEO](#categoria-geo) — Visibilidade e citação em motores generativos (102 termos)
+- [SEO](#categoria-seo) — Busca orgânica, SEO técnico, local e dados estruturados (150 termos)
+- [GEO](#categoria-geo) — Visibilidade e citação em motores generativos (108 termos)
 - [IA](#categoria-ia) — Inteligência artificial aplicada à busca e ao conteúdo (117 termos)
 - [Autorais](#categoria-autorais) — Conceitos cunhados por Raphael Sousa Pereira (49 termos)
 
@@ -13,6 +13,16 @@ Arquivo gerado por `scripts/construir.py` a partir de `termos/`. Não edite à m
 ## SEO — Busca orgânica, SEO técnico, local e dados estruturados
 
 ### SEO · Fundamentos
+
+#### Busca de marca
+
+<a id="branded-search"></a>**EN:** Branded Search
+
+Consulta que contém o nome da marca, sozinho ou com a categoria ("Negócio no Mapa GEO"). O volume dessas buscas é um sinal de reconhecimento que nenhuma otimização de página produz sozinha.
+
+> *Query containing the brand name, alone or with the category ("Negócio no Mapa GEO"). Its volume is a recognition signal that no page optimization produces on its own.*
+
+Veja também: [SERP da marca](#brand-serp), [Participação nas buscas](#share-of-search)
 
 #### Busca orgânica
 
@@ -73,6 +83,26 @@ O objetivo por trás de uma consulta: informar-se, navegar até um site, compara
 > *The goal behind a query: to learn, to reach a site, to compare options or to buy. Pages that match the dominant intent tend to rank better.*
 
 Veja também: [Palavra-chave](#keyword), [Desdobramento da consulta](#query-fan-out)
+
+#### Otimização da experiência de busca
+
+<a id="sxo"></a>**EN:** Search Experience Optimization (SXO)
+
+Junção de SEO e experiência do usuário: otimizar não só a posição, mas o clique, a continuidade entre a busca e a página e a conversão.
+
+> *Combination of SEO and user experience: optimizing not only position but the click, the continuity between search and page, and conversion.*
+
+Veja também: [Experiência na página](#page-experience), [Otimização da taxa de conversão](#cro), [Taxa de cliques](#ctr)
+
+#### Otimização para busca em todo lugar
+
+<a id="search-everywhere-optimization"></a>**EN:** Search Everywhere Optimization
+
+Leitura ampliada da sigla SEO usada no mercado: otimizar a presença da marca em todos os lugares onde as pessoas buscam, como Google, YouTube, TikTok, marketplaces, mapas e assistentes de IA, e não só no buscador tradicional.
+
+> *Broadened reading of the SEO acronym used in the market: optimizing a brand's presence everywhere people search, such as Google, YouTube, TikTok, marketplaces, maps and AI assistants, not only the traditional search engine.*
+
+Veja também: [Otimização para mecanismos de busca](#seo), [Otimização para motores generativos](#geo), [Busca com IA](#ai-search)
 
 #### Otimização para mecanismos de busca
 
@@ -408,6 +438,16 @@ Organização das páginas em categorias, hierarquia e links, que define como ro
 
 Veja também: [Linkagem interna](#internal-linking), [Profundidade de clique](#crawl-depth), [Cluster de tópicos](#topic-cluster)
 
+#### CMS headless
+
+<a id="headless-cms"></a>**EN:** Headless CMS
+
+Arquitetura em que o gerenciador de conteúdo só entrega dados e a página é montada por um front-end separado, muitas vezes em JavaScript. Sem renderização no servidor, robôs que não executam JavaScript podem receber uma página vazia.
+
+> *Architecture in which the content manager only delivers data and the page is built by a separate front end, often in JavaScript. Without server-side rendering, bots that do not run JavaScript may receive an empty page.*
+
+Veja também: [Renderização no servidor](#server-side-rendering), [SEO para JavaScript](#javascript-seo), [Código-fonte da página](#page-source)
+
 #### Core Web Vitals
 
 <a id="core-web-vitals"></a>**EN:** Core Web Vitals
@@ -570,6 +610,26 @@ Veja também: [Arquitetura do site](#site-architecture), [Dados estruturados](#s
 
 ### SEO · Conteúdo e on-page
 
+#### Amplitude de conteúdo
+
+<a id="content-breadth"></a>**EN:** Content Breadth
+
+Quantos aspectos diferentes de um tema o site cobre. Junto com a profundidade, sustenta a autoridade temática.
+
+> *How many different aspects of a topic a site covers. Together with depth, it supports topical authority.*
+
+Veja também: [Profundidade de conteúdo](#content-depth), [Autoridade temática](#topical-authority), [Mapa de tópicos](#topical-map)
+
+#### Análise de lacunas de conteúdo
+
+<a id="content-gap-analysis"></a>**EN:** Content Gap Analysis
+
+Comparação entre o que concorrentes e fontes já cobrem e o que ninguém responde bem num tema. As lacunas são as melhores oportunidades de ganho de informação.
+
+> *Comparison between what competitors and sources already cover and what no one answers well on a topic. The gaps are the best information-gain opportunities.*
+
+Veja também: [Ganho de informação](#information-gain), [Mapa de tópicos](#topical-map)
+
 #### Atualidade do conteúdo
 
 <a id="content-freshness"></a>**EN:** Content Freshness
@@ -609,6 +669,16 @@ Organização de conteúdo em uma página pilar sobre um tema amplo, ligada a p�
 > *Content structure with a pillar page on a broad topic, linked to pages that go deeper into each subtopic.*
 
 Veja também: [Página pilar](#pillar-page), [Autoridade temática](#topical-authority), [Linkagem interna](#internal-linking)
+
+#### Conteúdo 10x
+
+<a id="ten-x-content"></a>**EN:** 10x Content
+
+Expressão popularizada por Rand Fishkin para conteúdo dez vezes melhor que o melhor resultado atual. Para IAs, o que conta é trazer informação nova, não só ser mais longo.
+
+> *Phrase popularized by Rand Fishkin for content ten times better than the best current result. For AI, what counts is bringing new information, not just being longer.*
+
+Veja também: [Ganho de informação](#information-gain), [Técnica arranha-céu](#skyscraper-technique)
 
 #### Conteúdo gerado pelo usuário
 
@@ -660,6 +730,16 @@ Critério das diretrizes dos avaliadores de qualidade do Google: Experience, Exp
 
 Veja também: [Seu dinheiro ou sua vida](#ymyl), [Conteúdo útil](#helpful-content), [Autor como entidade](#author-entity) · Fonte: <https://developers.google.com/search/docs/fundamentals/creating-helpful-content>
 
+#### Mapa de tópicos
+
+<a id="topical-map"></a>**EN:** Topical Map
+
+Planejamento de todos os temas e subtemas que um site precisa cobrir para ser referência num assunto, com as relações entre eles. Vem antes dos clusters e das páginas pilar.
+
+> *Plan of every topic and subtopic a site needs to cover to be a reference on a subject, with the relationships between them. It comes before clusters and pillar pages.*
+
+Veja também: [Cluster de tópicos](#topic-cluster), [Autoridade temática](#topical-authority), [Página pilar](#pillar-page)
+
 #### Meta descrição
 
 <a id="meta-description"></a>**EN:** Meta Description
@@ -679,6 +759,16 @@ Revisão de páginas fracas ou desatualizadas para melhorar, juntar, redireciona
 > *Reviewing weak or outdated pages to improve, merge, redirect or remove them.*
 
 Veja também: [Conteúdo raso](#thin-content), [Canibalização de palavras-chave](#keyword-cannibalization)
+
+#### Profundidade de conteúdo
+
+<a id="content-depth"></a>**EN:** Content Depth
+
+Nível de detalhe com que cada aspecto de um tema é tratado: dados, exemplos, exceções e passos. Cobrir muitos subtemas sem profundidade gera conteúdo raso.
+
+> *Level of detail with which each aspect of a topic is covered: data, examples, exceptions and steps. Covering many subtopics without depth produces thin content.*
+
+Veja também: [Amplitude de conteúdo](#content-breadth), [Conteúdo raso](#thin-content)
 
 #### Página pilar
 
@@ -749,6 +839,16 @@ Descrição textual de uma imagem no atributo alt. Serve à acessibilidade e aju
 > *Text description of an image in the alt attribute. It serves accessibility and helps search engines understand the image.*
 
 Veja também: [SEO de imagens](#image-seo)
+
+#### Técnica arranha-céu
+
+<a id="skyscraper-technique"></a>**EN:** Skyscraper Technique
+
+Método de link building popularizado por Brian Dean (Backlinko): achar o conteúdo que mais recebe links num tema, publicar uma versão claramente melhor e oferecê-la a quem linkou o original.
+
+> *Link-building method popularized by Brian Dean (Backlinko): find the content that earns the most links on a topic, publish a clearly better version and offer it to those who linked to the original.*
+
+Veja também: [Construção de links](#link-building), [Conteúdo 10x](#ten-x-content)
 
 ### SEO · Links e autoridade
 
@@ -1048,6 +1148,16 @@ Formato de dados ligados em JSON, recomendado pelo Google para dados estruturado
 
 Veja também: [Dados estruturados](#structured-data), [Identificador @id](#schema-id) · Fonte: <https://www.w3.org/TR/json-ld11/>
 
+#### Propriedade knowsAbout
+
+<a id="knowsabout"></a>**EN:** knowsAbout
+
+Propriedade Schema.org que declara os temas que uma pessoa ou organização domina. Ajuda a ligar o autor aos assuntos, mas só pesa quando há publicações que comprovem.
+
+> *Schema.org property declaring the topics a person or organization is knowledgeable about. It helps tie the author to subjects, but only carries weight when publications back it up.*
+
+Veja também: [Autor como entidade](#author-entity), [Experiência, especialidade, autoridade e confiabilidade](#e-e-a-t) · Fonte: <https://schema.org/knowsAbout>
+
 #### Propriedade sameAs
 
 <a id="same-as"></a>**EN:** sameAs
@@ -1118,6 +1228,16 @@ Marcação de produto com nome, imagem, preço, disponibilidade, avaliações e 
 
 Veja também: [Dados estruturados](#structured-data), [Comércio agêntico](#agentic-commerce) · Fonte: <https://developers.google.com/search/docs/appearance/structured-data/product>
 
+#### Schema ProfilePage
+
+<a id="profilepage-schema"></a>**EN:** ProfilePage Schema
+
+Tipo Schema.org para páginas focadas numa pessoa ou organização, como a página de autor. Liga o perfil à entidade Person ou Organization pela propriedade mainEntity.
+
+> *Schema.org type for pages focused on one person or organization, such as an author page. It ties the profile to the Person or Organization entity through the mainEntity property.*
+
+Veja também: [Autor como entidade](#author-entity), [Página-casa da entidade](#entity-home), [Identificador @id](#schema-id) · Fonte: <https://developers.google.com/search/docs/appearance/structured-data/profile-page>
+
 #### Schema Speakable
 
 <a id="speakable-schema"></a>**EN:** Speakable Schema
@@ -1170,6 +1290,26 @@ Contato que atende aos critérios definidos de potencial cliente (perfil, necess
 
 Veja também: [Evento principal](#key-event), [Taxa de conversão](#conversion-rate)
 
+#### Conversão assistida
+
+<a id="assisted-conversion"></a>**EN:** Assisted Conversion
+
+Conversão em que um canal participou da jornada sem ser o último clique. A busca orgânica e as IAs costumam aparecer mais como assistentes do que como fechamento.
+
+> *Conversion in which a channel took part in the journey without being the last click. Organic search and AI tend to appear more as assists than as closers.*
+
+Veja também: [Receita atribuída](#attributed-revenue), [Evento principal](#key-event)
+
+#### Custo de aquisição de cliente
+
+<a id="cac"></a>**EN:** Customer Acquisition Cost (CAC)
+
+Total gasto em marketing e vendas num período dividido pelo número de clientes novos no mesmo período.
+
+> *Total marketing and sales spend in a period divided by the number of new customers in that period.*
+
+Veja também: [Valor do tempo de vida do cliente](#ltv), [Receita atribuída](#attributed-revenue)
+
 #### Evento principal
 
 <a id="key-event"></a>**EN:** Key Event
@@ -1220,6 +1360,16 @@ Acompanhamento periódico das posições do site para um conjunto de consultas, 
 
 Veja também: [Posição média](#average-position)
 
+#### Métricas de vaidade
+
+<a id="vanity-metrics"></a>**EN:** Vanity Metrics
+
+Números que parecem bons, como impressões, seguidores e posição de uma palavra, mas não se ligam a resultado de negócio.
+
+> *Numbers that look good, such as impressions, followers and a keyword's position, but are not tied to business results.*
+
+Veja também: [Relatório de ciclo fechado](#closed-loop-reporting), [Resultado incremental](#incrementality)
+
 #### Otimização da taxa de conversão
 
 <a id="cro"></a>**EN:** Conversion Rate Optimization (CRO)
@@ -1230,6 +1380,16 @@ Melhoria da página para que mais visitantes realizem a ação desejada, com tes
 
 Veja também: [Taxa de conversão](#conversion-rate)
 
+#### Participação nas buscas
+
+<a id="share-of-search"></a>**EN:** Share of Search
+
+Buscas pela marca divididas pelas buscas de todas as marcas da categoria. Estudos de Les Binet associaram esse indicador à participação de mercado futura.
+
+> *Searches for the brand divided by searches for all brands in the category. Studies by Les Binet linked this indicator to future market share.*
+
+Veja também: [Busca de marca](#branded-search), [Participação de voz em IA](#share-of-voice)
+
 #### Posição média
 
 <a id="average-position"></a>**EN:** Average Position
@@ -1239,6 +1399,16 @@ Média da posição mais alta em que a página apareceu nas consultas em que foi
 > *Average of the highest position the page held across the queries where it appeared.*
 
 Veja também: [Google Search Console](#google-search-console)
+
+#### Relatório de ciclo fechado
+
+<a id="closed-loop-reporting"></a>**EN:** Closed-loop Reporting
+
+Relatório que liga busca, sessão, contato, oportunidade e venda, com dados do CRM, para medir a contribuição real de um canal e não só o tráfego.
+
+> *Report linking search, session, lead, opportunity and sale, using CRM data, to measure a channel's real contribution, not just traffic.*
+
+Veja também: [Receita atribuída](#attributed-revenue), [Contato qualificado](#qualified-lead)
 
 #### Taxa de cliques
 
@@ -1259,6 +1429,16 @@ Porcentagem de visitas que realizam a ação desejada, como compra, contato ou c
 > *Percentage of visits that complete the desired action, such as a purchase, contact or sign-up.*
 
 Veja também: [Google Analytics 4](#ga4), [Otimização da taxa de conversão](#cro)
+
+#### Valor do tempo de vida do cliente
+
+<a id="ltv"></a>**EN:** Customer Lifetime Value (LTV)
+
+Receita, ou margem, que um cliente gera ao longo de todo o relacionamento. Comparado ao CAC, mostra quanto vale a pena pagar para conquistar cada cliente.
+
+> *Revenue, or margin, a customer generates over the whole relationship. Compared with CAC, it shows how much it is worth paying to win each customer.*
+
+Veja também: [Custo de aquisição de cliente](#cac)
 
 ### SEO · Qualidade e atualizações
 
@@ -1741,6 +1921,16 @@ Autor tratado como entidade identificável (Person em schema, página de autor, 
 
 Veja também: [Experiência, especialidade, autoridade e confiabilidade](#e-e-a-t), [Schema Article](#article-schema)
 
+#### Coisas, não palavras
+
+<a id="things-not-strings"></a>**EN:** Things, not Strings
+
+Frase com que o Google lançou o Knowledge Graph em 2012: a busca passa a entender entidades do mundo real (coisas) em vez de apenas casar sequências de caracteres (palavras).
+
+> *Phrase with which Google launched the Knowledge Graph in 2012: search starts understanding real-world entities (things) instead of just matching character sequences (strings).*
+
+Veja também: [Grafo de conhecimento](#knowledge-graph), [SEO de entidades](#entity-seo) · Fonte: <https://blog.google/products/search/introducing-knowledge-graph-things-not/>
+
 #### Consistência da entidade
 
 <a id="entity-consistency"></a>**EN:** Entity Consistency
@@ -1750,6 +1940,16 @@ Mesmo nome, descrição, contato e fatos em todas as fontes (site, schema, perfi
 > *Same name, description, contact details and facts on every source (site, schema, profiles, directories). Inconsistency makes AI hesitate or mix up entities.*
 
 Veja também: [Nome, endereço e telefone](#nap), [Deriva da entidade](#entity-drift)
+
+#### Corroboração externa
+
+<a id="external-corroboration"></a>**EN:** External Corroboration
+
+Confirmação de um fato sobre a entidade por fontes independentes dela, como imprensa, registros públicos e bases de terceiros. Fato só confirmado pela própria marca vale pouco para buscadores e IAs.
+
+> *Confirmation of a fact about the entity by sources independent of it, such as press, public records and third-party databases. A fact confirmed only by the brand itself counts for little with search engines and AI.*
+
+Veja também: [Fonte de terceiros](#third-party-source), [Afirmação](#claim), [Lei da Coerência Distribuída](#lei-da-coerencia-distribuida)
 
 #### Deriva da entidade
 
@@ -1801,6 +2001,16 @@ Rede de entidades que o site declara em JSON-LD (Organization, Person, WebSite, 
 
 Veja também: [Identificador @id](#schema-id), [Grafo de conhecimento](#knowledge-graph)
 
+#### Notoriedade
+
+<a id="notability"></a>**EN:** Notability
+
+Critério da Wikipédia para um tema ter verbete: cobertura significativa em fontes confiáveis e independentes. Empresas e pessoas sem essa cobertura não devem forçar verbete, e o Wikidata não aceita uso promocional.
+
+> *Wikipedia's criterion for a topic to have an article: significant coverage in reliable, independent sources. Companies and people without such coverage should not force an article, and Wikidata does not accept promotional use.*
+
+Veja também: [Wikidata](#wikidata), [Corroboração externa](#external-corroboration) · Fonte: <https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:Notoriedade>
+
 #### Ontologia
 
 <a id="ontology"></a>**EN:** Ontology
@@ -1841,6 +2051,16 @@ Processo do Google para a própria pessoa ou organização verificar que é a en
 
 Veja também: [Painel de conhecimento](#knowledge-panel), [Página-casa da entidade](#entity-home) · Fonte: <https://support.google.com/knowledgepanel/answer/7534902>
 
+#### Resolução de entidade
+
+<a id="entity-resolution"></a>**EN:** Entity Resolution (Reconciliation)
+
+Processo em que um sistema decide que menções diferentes ("Negócio no Mapa", "seonegocionomapa.com.br", "@negocionomapa") são a mesma entidade e as liga a um único identificador.
+
+> *Process in which a system decides that different mentions ("Negócio no Mapa", "seonegocionomapa.com.br", "@negocionomapa") are the same entity and links them to a single identifier.*
+
+Veja também: [Desambiguação de entidade](#entity-disambiguation), [Propriedade sameAs](#same-as), [Grafo de conhecimento](#knowledge-graph) · Fonte: <https://developers.google.com/knowledge-graph>
+
 #### Saliência da entidade
 
 <a id="entity-salience"></a>**EN:** Entity Salience
@@ -1850,6 +2070,16 @@ Quão central uma entidade é num texto. Páginas em que a marca é o assunto pr
 > *How central an entity is in a text. Pages where the brand is the main subject, not a passing mention, strengthen the association.*
 
 Veja também: [Entidade](#entity), [Associação de entidade](#entity-association)
+
+#### SEO de entidades
+
+<a id="entity-seo"></a>**EN:** Entity SEO
+
+Prática de reduzir a ambiguidade sobre uma marca, pessoa ou produto para que buscadores e IAs a reconheçam como entidade única, com atributos e relações, e não como uma sequência de palavras.
+
+> *Practice of reducing ambiguity about a brand, person or product so search engines and AI recognize it as a unique entity with attributes and relationships, not as a string of words.*
+
+Veja também: [Entidade](#entity), [Desambiguação de entidade](#entity-disambiguation), [Coisas, não palavras](#things-not-strings), [Grafo de conhecimento](#knowledge-graph)
 
 #### Tripla
 
@@ -1931,7 +2161,7 @@ O quanto a página traz de novo em relação ao que já existe sobre o tema: dad
 
 > *How much new the page brings compared with what already exists on the topic: own data, experience, examples and original conclusions.*
 
-Veja também: [Conteúdo útil](#helpful-content), [Pesquisa própria](#original-research)
+Veja também: [Conteúdo útil](#helpful-content), [Pesquisa própria](#original-research) · Fonte: <https://patents.google.com/patent/US9990421B2>
 
 #### Inclusão de citações
 
@@ -2290,6 +2520,16 @@ Compras feitas ou preparadas por agentes de IA em nome da pessoa, que comparam p
 > *Purchases made or prepared by AI agents on a person's behalf, which compare products, fill in forms and pay. It requires structured product data and machine-readable processes.*
 
 Veja também: [Agente de IA](#ai-agent), [Schema Product](#product-schema), [Prontidão para agentes](#agent-readiness)
+
+#### Google Merchant Center
+
+<a id="google-merchant-center"></a>**EN:** Google Merchant Center
+
+Plataforma do Google onde lojas enviam o feed de produtos (preço, estoque, frete, avaliações). Alimenta o Google Shopping e as respostas de compra nos recursos de IA do Google.
+
+> *Google platform where stores submit their product feed (price, stock, shipping, reviews). It feeds Google Shopping and shopping answers in Google's AI features.*
+
+Veja também: [Schema Product](#product-schema), [Comércio agêntico](#agentic-commerce) · Fonte: <https://support.google.com/merchants/answer/188924>
 
 #### Navegador agêntico
 

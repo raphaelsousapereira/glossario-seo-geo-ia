@@ -7,7 +7,7 @@
     "pt-BR",
     "en"
   ],
-  "version": "1.2.0",
+  "version": "1.3.0",
   "dateModified": "2026-10-23",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "url": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia",
@@ -420,6 +420,34 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#content-breadth",
+      "termCode": "content-breadth",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Amplitude de conteúdo"
+        },
+        {
+          "@language": "en",
+          "@value": "Content Breadth"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Quantos aspectos diferentes de um tema o site cobre. Junto com a profundidade, sustenta a autoridade temática."
+        },
+        {
+          "@language": "en",
+          "@value": "How many different aspects of a topic a site covers. Together with depth, it supports topical authority."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#grounding",
       "termCode": "grounding",
       "name": [
@@ -440,6 +468,34 @@
         {
           "@language": "en",
           "@value": "Tying the model's answer to verifiable documents or data retrieved at question time, to reduce fabrication and allow citing the source."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#content-gap-analysis",
+      "termCode": "content-gap-analysis",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Análise de lacunas de conteúdo"
+        },
+        {
+          "@language": "en",
+          "@value": "Content Gap Analysis"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Comparação entre o que concorrentes e fontes já cobrem e o que ninguém responde bem num tema. As lacunas são as melhores oportunidades de ganho de informação."
+        },
+        {
+          "@language": "en",
+          "@value": "Comparison between what competitors and sources already cover and what no one answers well on a topic. The gaps are the best information-gain opportunities."
         }
       ],
       "inDefinedTermSet": {
@@ -1583,6 +1639,34 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#branded-search",
+      "termCode": "branded-search",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Busca de marca"
+        },
+        {
+          "@language": "en",
+          "@value": "Branded Search"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Consulta que contém o nome da marca, sozinho ou com a categoria (\"Negócio no Mapa GEO\"). O volume dessas buscas é um sinal de reconhecimento que nenhuma otimização de página produz sozinha."
+        },
+        {
+          "@language": "en",
+          "@value": "Query containing the brand name, alone or with the category (\"Negócio no Mapa GEO\"). Its volume is a recognition signal that no page optimization produces on its own."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#hybrid-search",
       "termCode": "hybrid-search",
       "name": [
@@ -2259,6 +2343,34 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#headless-cms",
+      "termCode": "headless-cms",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "CMS headless"
+        },
+        {
+          "@language": "en",
+          "@value": "Headless CMS"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Arquitetura em que o gerenciador de conteúdo só entrega dados e a página é montada por um front-end separado, muitas vezes em JavaScript. Sem renderização no servidor, robôs que não executam JavaScript podem receber uma página vazia."
+        },
+        {
+          "@language": "en",
+          "@value": "Architecture in which the content manager only delivers data and the page is built by a separate front end, often in JavaScript. Without server-side rendering, bots that do not run JavaScript may receive an empty page."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#measurement-coverage",
       "termCode": "measurement-coverage",
       "name": [
@@ -2341,6 +2453,35 @@
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
       "subjectOf": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#things-not-strings",
+      "termCode": "things-not-strings",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Coisas, não palavras"
+        },
+        {
+          "@language": "en",
+          "@value": "Things, not Strings"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Frase com que o Google lançou o Knowledge Graph em 2012: a busca passa a entender entidades do mundo real (coisas) em vez de apenas casar sequências de caracteres (palavras)."
+        },
+        {
+          "@language": "en",
+          "@value": "Phrase with which Google launched the Knowledge Graph in 2012: search starts understanding real-world entities (things) instead of just matching character sequences (strings)."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://blog.google/products/search/introducing-knowledge-graph-things-not/"
     },
     {
       "@type": "DefinedTerm",
@@ -2710,6 +2851,34 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#ten-x-content",
+      "termCode": "ten-x-content",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Conteúdo 10x"
+        },
+        {
+          "@language": "en",
+          "@value": "10x Content"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Expressão popularizada por Rand Fishkin para conteúdo dez vezes melhor que o melhor resultado atual. Para IAs, o que conta é trazer informação nova, não só ser mais longo."
+        },
+        {
+          "@language": "en",
+          "@value": "Phrase popularized by Rand Fishkin for content ten times better than the best current result. For AI, what counts is bringing new information, not just being longer."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#comparison-content",
       "termCode": "comparison-content",
       "name": [
@@ -2851,6 +3020,34 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#assisted-conversion",
+      "termCode": "assisted-conversion",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Conversão assistida"
+        },
+        {
+          "@language": "en",
+          "@value": "Assisted Conversion"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Conversão em que um canal participou da jornada sem ser o último clique. A busca orgânica e as IAs costumam aparecer mais como assistentes do que como fechamento."
+        },
+        {
+          "@language": "en",
+          "@value": "Conversion in which a channel took part in the journey without being the last click. Organic search and AI tend to appear more as assists than as closers."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#core-web-vitals",
       "termCode": "core-web-vitals",
       "name": [
@@ -2877,6 +3074,62 @@
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
       "subjectOf": "https://web.dev/articles/vitals"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#external-corroboration",
+      "termCode": "external-corroboration",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Corroboração externa"
+        },
+        {
+          "@language": "en",
+          "@value": "External Corroboration"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Confirmação de um fato sobre a entidade por fontes independentes dela, como imprensa, registros públicos e bases de terceiros. Fato só confirmado pela própria marca vale pouco para buscadores e IAs."
+        },
+        {
+          "@language": "en",
+          "@value": "Confirmation of a fact about the entity by sources independent of it, such as press, public records and third-party databases. A fact confirmed only by the brand itself counts for little with search engines and AI."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#cac",
+      "termCode": "cac",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Custo de aquisição de cliente"
+        },
+        {
+          "@language": "en",
+          "@value": "Customer Acquisition Cost (CAC)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Total gasto em marketing e vendas num período dividido pelo número de clientes novos no mesmo período."
+        },
+        {
+          "@language": "en",
+          "@value": "Total marketing and sales spend in a period divided by the number of new customers in that period."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
     },
     {
       "@type": "DefinedTerm",
@@ -4325,7 +4578,8 @@
       ],
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
-      }
+      },
+      "subjectOf": "https://patents.google.com/patent/US9990421B2"
     },
     {
       "@type": "DefinedTerm",
@@ -4440,6 +4694,35 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#google-merchant-center",
+      "termCode": "google-merchant-center",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Google Merchant Center"
+        },
+        {
+          "@language": "en",
+          "@value": "Google Merchant Center"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Plataforma do Google onde lojas enviam o feed de produtos (preço, estoque, frete, avaliações). Alimenta o Google Shopping e as respostas de compra nos recursos de IA do Google."
+        },
+        {
+          "@language": "en",
+          "@value": "Google platform where stores submit their product feed (price, stock, shipping, reviews). It feeds Google Shopping and shopping answers in Google's AI features."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://support.google.com/merchants/answer/188924"
     },
     {
       "@type": "DefinedTerm",
@@ -5895,6 +6178,34 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#topical-map",
+      "termCode": "topical-map",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Mapa de tópicos"
+        },
+        {
+          "@language": "en",
+          "@value": "Topical Map"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Planejamento de todos os temas e subtemas que um site precisa cobrir para ser referência num assunto, com as relações entre eles. Vem antes dos clusters e das páginas pilar."
+        },
+        {
+          "@language": "en",
+          "@value": "Plan of every topic and subtopic a site needs to cover to be a reference on a subject, with the relationships between them. It comes before clusters and pillar pages."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#watermarking",
       "termCode": "watermarking",
       "name": [
@@ -6662,6 +6973,34 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#vanity-metrics",
+      "termCode": "vanity-metrics",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Métricas de vaidade"
+        },
+        {
+          "@language": "en",
+          "@value": "Vanity Metrics"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Números que parecem bons, como impressões, seguidores e posição de uma palavra, mas não se ligam a resultado de negócio."
+        },
+        {
+          "@language": "en",
+          "@value": "Numbers that look good, such as impressions, followers and a keyword's position, but are not tied to business results."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#agentic-browser",
       "termCode": "agentic-browser",
       "name": [
@@ -6772,6 +7111,35 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#notability",
+      "termCode": "notability",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Notoriedade"
+        },
+        {
+          "@language": "en",
+          "@value": "Notability"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Critério da Wikipédia para um tema ter verbete: cobertura significativa em fontes confiáveis e independentes. Empresas e pessoas sem essa cobertura não devem forçar verbete, e o Wikidata não aceita uso promocional."
+        },
+        {
+          "@language": "en",
+          "@value": "Wikipedia's criterion for a topic to have an article: significant coverage in reliable, independent sources. Companies and people without such coverage should not force an article, and Wikidata does not accept promotional use."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:Notoriedade"
     },
     {
       "@type": "DefinedTerm",
@@ -6918,6 +7286,34 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#sxo",
+      "termCode": "sxo",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Otimização da experiência de busca"
+        },
+        {
+          "@language": "en",
+          "@value": "Search Experience Optimization (SXO)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Junção de SEO e experiência do usuário: otimizar não só a posição, mas o clique, a continuidade entre a busca e a página e a conversão."
+        },
+        {
+          "@language": "en",
+          "@value": "Combination of SEO and user experience: optimizing not only position but the click, the continuity between search and page, and conversion."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#cro",
       "termCode": "cro",
       "name": [
@@ -7000,6 +7396,34 @@
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
       "subjectOf": "https://arxiv.org/abs/2305.18290"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#search-everywhere-optimization",
+      "termCode": "search-everywhere-optimization",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Otimização para busca em todo lugar"
+        },
+        {
+          "@language": "en",
+          "@value": "Search Everywhere Optimization"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Leitura ampliada da sigla SEO usada no mercado: otimizar a presença da marca em todos os lugares onde as pessoas buscam, como Google, YouTube, TikTok, marketplaces, mapas e assistentes de IA, e não só no buscador tradicional."
+        },
+        {
+          "@language": "en",
+          "@value": "Broadened reading of the SEO acronym used in the market: optimizing a brand's presence everywhere people search, such as Google, YouTube, TikTok, marketplaces, maps and AI assistants, not only the traditional search engine."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
     },
     {
       "@type": "DefinedTerm",
@@ -7306,6 +7730,34 @@
         {
           "@language": "en",
           "@value": "Share of AI answers, across a set of questions, in which the brand appears, compared with competitors."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#share-of-search",
+      "termCode": "share-of-search",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Participação nas buscas"
+        },
+        {
+          "@language": "en",
+          "@value": "Share of Search"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Buscas pela marca divididas pelas buscas de todas as marcas da categoria. Estudos de Les Binet associaram esse indicador à participação de mercado futura."
+        },
+        {
+          "@language": "en",
+          "@value": "Searches for the brand divided by searches for all brands in the category. Studies by Les Binet linked this indicator to future market share."
         }
       ],
       "inDefinedTermSet": {
@@ -7737,6 +8189,34 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#content-depth",
+      "termCode": "content-depth",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Profundidade de conteúdo"
+        },
+        {
+          "@language": "en",
+          "@value": "Content Depth"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Nível de detalhe com que cada aspecto de um tema é tratado: dados, exemplos, exceções e passos. Cobrir muitos subtemas sem profundidade gera conteúdo raso."
+        },
+        {
+          "@language": "en",
+          "@value": "Level of detail with which each aspect of a topic is covered: data, examples, exceptions and steps. Covering many subtopics without depth produces thin content."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#prompt",
       "termCode": "prompt",
       "name": [
@@ -7874,6 +8354,35 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#knowsabout",
+      "termCode": "knowsabout",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Propriedade knowsAbout"
+        },
+        {
+          "@language": "en",
+          "@value": "knowsAbout"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Propriedade Schema.org que declara os temas que uma pessoa ou organização domina. Ajuda a ligar o autor aos assuntos, mas só pesa quando há publicações que comprovem."
+        },
+        {
+          "@language": "en",
+          "@value": "Schema.org property declaring the topics a person or organization is knowledgeable about. It helps tie the author to subjects, but only carries weight when publications back it up."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://schema.org/knowsAbout"
     },
     {
       "@type": "DefinedTerm",
@@ -8730,6 +9239,34 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#closed-loop-reporting",
+      "termCode": "closed-loop-reporting",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Relatório de ciclo fechado"
+        },
+        {
+          "@language": "en",
+          "@value": "Closed-loop Reporting"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Relatório que liga busca, sessão, contato, oportunidade e venda, com dados do CRM, para medir a contribuição real de um canal e não só o tráfego."
+        },
+        {
+          "@language": "en",
+          "@value": "Report linking search, session, lead, opportunity and sale, using CRM data, to measure a channel's real contribution, not just traffic."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#index-coverage",
       "termCode": "index-coverage",
       "name": [
@@ -8896,6 +9433,35 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#entity-resolution",
+      "termCode": "entity-resolution",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Resolução de entidade"
+        },
+        {
+          "@language": "en",
+          "@value": "Entity Resolution (Reconciliation)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Processo em que um sistema decide que menções diferentes (\"Negócio no Mapa\", \"seonegocionomapa.com.br\", \"@negocionomapa\") são a mesma entidade e as liga a um único identificador."
+        },
+        {
+          "@language": "en",
+          "@value": "Process in which a system decides that different mentions (\"Negócio no Mapa\", \"seonegocionomapa.com.br\", \"@negocionomapa\") are the same entity and links them to a single identifier."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://developers.google.com/knowledge-graph"
     },
     {
       "@type": "DefinedTerm",
@@ -9298,6 +9864,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#profilepage-schema",
+      "termCode": "profilepage-schema",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Schema ProfilePage"
+        },
+        {
+          "@language": "en",
+          "@value": "ProfilePage Schema"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Tipo Schema.org para páginas focadas numa pessoa ou organização, como a página de autor. Liga o perfil à entidade Person ou Organization pela propriedade mainEntity."
+        },
+        {
+          "@language": "en",
+          "@value": "Schema.org type for pages focused on one person or organization, such as an author page. It ties the profile to the Person or Organization entity through the mainEntity property."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://developers.google.com/search/docs/appearance/structured-data/profile-page"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#speakable-schema",
       "termCode": "speakable-schema",
       "name": [
@@ -9404,6 +9999,34 @@
         {
           "@language": "en",
           "@value": "Tone in which AI answers describe the brand: positive, neutral or negative, and the reasons given."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#entity-seo",
+      "termCode": "entity-seo",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "SEO de entidades"
+        },
+        {
+          "@language": "en",
+          "@value": "Entity SEO"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Prática de reduzir a ambiguidade sobre uma marca, pessoa ou produto para que buscadores e IAs a reconheçam como entidade única, com atributos e relações, e não como uma sequência de palavras."
+        },
+        {
+          "@language": "en",
+          "@value": "Practice of reducing ambiguity about a brand, person or product so search engines and AI recognize it as a unique entity with attributes and relationships, not as a string of words."
         }
       ],
       "inDefinedTermSet": {
@@ -10830,6 +11453,34 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#skyscraper-technique",
+      "termCode": "skyscraper-technique",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Técnica arranha-céu"
+        },
+        {
+          "@language": "en",
+          "@value": "Skyscraper Technique"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Método de link building popularizado por Brian Dean (Backlinko): achar o conteúdo que mais recebe links num tema, publicar uma versão claramente melhor e oferecê-la a quem linkou o original."
+        },
+        {
+          "@language": "en",
+          "@value": "Link-building method popularized by Brian Dean (Backlinko): find the content that earns the most links on a topic, publish a clearly better version and offer it to those who linked to the original."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#unit-of-analysis",
       "termCode": "unit-of-analysis",
       "name": [
@@ -10992,6 +11643,34 @@
         {
           "@language": "en",
           "@value": "Authority value a link passes to the target page, depending on the source page, the context and the link's position."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#ltv",
+      "termCode": "ltv",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Valor do tempo de vida do cliente"
+        },
+        {
+          "@language": "en",
+          "@value": "Customer Lifetime Value (LTV)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Receita, ou margem, que um cliente gera ao longo de todo o relacionamento. Comparado ao CAC, mostra quanto vale a pena pagar para conquistar cada cliente."
+        },
+        {
+          "@language": "en",
+          "@value": "Revenue, or margin, a customer generates over the whole relationship. Compared with CAC, it shows how much it is worth paying to win each customer."
         }
       ],
       "inDefinedTermSet": {

@@ -1,6 +1,6 @@
 # Índice A–Z
 
-400 termos em ordem alfabética do termo em português.
+424 termos em ordem alfabética do termo em português.
 
 | Termo (pt-BR) | Term (en) | Categoria |
 |---|---|---|
@@ -18,7 +18,9 @@
 | [Alinhamento](GLOSSARIO.md#alignment) | Alignment | IA |
 | [Alucinação](GLOSSARIO.md#hallucination) | Hallucination (Confabulation) | IA |
 | [Amostra emparelhada](GLOSSARIO.md#paired-sample) | Paired Sample | GEO |
+| [Amplitude de conteúdo](GLOSSARIO.md#content-breadth) | Content Breadth | SEO |
 | [Ancoragem em fontes](GLOSSARIO.md#grounding) | Grounding | GEO |
+| [Análise de lacunas de conteúdo](GLOSSARIO.md#content-gap-analysis) | Content Gap Analysis | SEO |
 | [Análise de logs](GLOSSARIO.md#log-file-analysis) | Log File Analysis | SEO |
 | [Aprendizado autossupervisionado](GLOSSARIO.md#self-supervised-learning) | Self-supervised Learning | IA |
 | [Aprendizado de máquina](GLOSSARIO.md#machine-learning) | Machine Learning (ML) | IA |
@@ -59,6 +61,7 @@
 | [Bing Webmaster Tools](GLOSSARIO.md#bing-webmaster-tools) | Bing Webmaster Tools | SEO |
 | [Brand-Led Growth Architecture](GLOSSARIO.md#brand-led-growth-architecture) | Brand-Led Growth Architecture | Autorais |
 | [Busca com IA](GLOSSARIO.md#ai-search) | AI Search | GEO |
+| [Busca de marca](GLOSSARIO.md#branded-search) | Branded Search | SEO |
 | [Busca híbrida](GLOSSARIO.md#hybrid-search) | Hybrid Search | IA |
 | [Busca lexical](GLOSSARIO.md#lexical-search) | Lexical Search (BM25) | IA |
 | [Busca orgânica](GLOSSARIO.md#organic-search) | Organic Search | SEO |
@@ -83,9 +86,11 @@
 | [Claim Saturado](GLOSSARIO.md#claim-saturado) | Saturated Claim | Autorais |
 | [Cloaking](GLOSSARIO.md#cloaking) | Cloaking | SEO |
 | [Cluster de tópicos](GLOSSARIO.md#topic-cluster) | Topic Cluster | SEO |
+| [CMS headless](GLOSSARIO.md#headless-cms) | Headless CMS | SEO |
 | [Cobertura da medição](GLOSSARIO.md#measurement-coverage) | Measurement Coverage | GEO |
 | [Cocitação](GLOSSARIO.md#co-citation) | Co-citation | GEO |
 | [Coerência de Entidade Distribuída](GLOSSARIO.md#coerencia-de-entidade-distribuida) | Distributed Entity Coherence | Autorais |
+| [Coisas, não palavras](GLOSSARIO.md#things-not-strings) | Things, not Strings | GEO |
 | [Colapso de modelo](GLOSSARIO.md#model-collapse) | Model Collapse | IA |
 | [Common Crawl](GLOSSARIO.md#common-crawl) | Common Crawl | IA |
 | [Computação no momento da resposta](GLOSSARIO.md#test-time-compute) | Test-time Compute | IA |
@@ -99,12 +104,16 @@
 | [Consulta de fundamentação](GLOSSARIO.md#grounding-query) | Grounding Query | GEO |
 | [Contaminação de dados](GLOSSARIO.md#data-contamination) | Data Contamination | IA |
 | [Contato qualificado](GLOSSARIO.md#qualified-lead) | Qualified Lead | SEO |
+| [Conteúdo 10x](GLOSSARIO.md#ten-x-content) | 10x Content | SEO |
 | [Conteúdo comparativo](GLOSSARIO.md#comparison-content) | Comparison Content | GEO |
 | [Conteúdo duplicado](GLOSSARIO.md#duplicate-content) | Duplicate Content | SEO |
 | [Conteúdo gerado pelo usuário](GLOSSARIO.md#user-generated-content) | User-generated Content (UGC) | SEO |
 | [Conteúdo raso](GLOSSARIO.md#thin-content) | Thin Content | SEO |
 | [Conteúdo útil](GLOSSARIO.md#helpful-content) | Helpful Content | SEO |
+| [Conversão assistida](GLOSSARIO.md#assisted-conversion) | Assisted Conversion | SEO |
 | [Core Web Vitals](GLOSSARIO.md#core-web-vitals) | Core Web Vitals | SEO |
+| [Corroboração externa](GLOSSARIO.md#external-corroboration) | External Corroboration | GEO |
+| [Custo de aquisição de cliente](GLOSSARIO.md#cac) | Customer Acquisition Cost (CAC) | SEO |
 | [Custo por tarefa](GLOSSARIO.md#cost-per-task) | Cost per Task | GEO |
 | [Cápsula de resposta](GLOSSARIO.md#answer-capsule) | Answer Capsule | GEO |
 | [Código de status HTTP](GLOSSARIO.md#http-status-code) | HTTP Status Code | SEO |
@@ -160,6 +169,7 @@
 | [GEO Score](GLOSSARIO.md#geo-score) | GEO Score | GEO |
 | [Geração aumentada por recuperação](GLOSSARIO.md#rag) | Retrieval-Augmented Generation (RAG) | IA |
 | [Google Analytics 4](GLOSSARIO.md#ga4) | Google Analytics 4 (GA4) | SEO |
+| [Google Merchant Center](GLOSSARIO.md#google-merchant-center) | Google Merchant Center | GEO |
 | [Google Search Console](GLOSSARIO.md#google-search-console) | Google Search Console | SEO |
 | [Google-Extended](GLOSSARIO.md#google-extended) | Google-Extended | GEO |
 | [Governança de IA](GLOSSARIO.md#ai-governance) | AI Governance | IA |
@@ -211,6 +221,7 @@
 | [Loop de Feedback Semântico](GLOSSARIO.md#loop-de-feedback-semantico) | Semantic Feedback Loop | Autorais |
 | [LoRA (adaptação de baixo posto)](GLOSSARIO.md#lora) | LoRA (Low-Rank Adaptation) | IA |
 | [Maior renderização de conteúdo](GLOSSARIO.md#lcp) | Largest Contentful Paint (LCP) | SEO |
+| [Mapa de tópicos](GLOSSARIO.md#topical-map) | Topical Map | SEO |
 | [Marca d'água de IA](GLOSSARIO.md#watermarking) | AI Watermarking | IA |
 | [Markdown para agentes](GLOSSARIO.md#markdown-for-agents) | Markdown for Agents | GEO |
 | [Massa semântica](GLOSSARIO.md#semantic-mass) | Semantic Mass | Autorais |
@@ -238,18 +249,22 @@
 | [Motor generativo](GLOSSARIO.md#generative-engine) | Generative Engine | GEO |
 | [Mudança comparável](GLOSSARIO.md#comparable-change) | Comparable Change | GEO |
 | [Mudança cumulativa de layout](GLOSSARIO.md#cls) | Cumulative Layout Shift (CLS) | SEO |
+| [Métricas de vaidade](GLOSSARIO.md#vanity-metrics) | Vanity Metrics | SEO |
 | [Navegador agêntico](GLOSSARIO.md#agentic-browser) | Agentic Browser | GEO |
 | [Navegação facetada](GLOSSARIO.md#faceted-navigation) | Faceted Navigation | SEO |
 | [Negócio para agente](GLOSSARIO.md#b2a) | Business-to-Agent (B2A) | GEO |
 | [Nome, endereço e telefone](GLOSSARIO.md#nap) | NAP (Name, Address, Phone) | SEO |
+| [Notoriedade](GLOSSARIO.md#notability) | Notability | GEO |
 | [Ontologia](GLOSSARIO.md#ontology) | Ontology | GEO |
 | [Origem declarada](GLOSSARIO.md#self-reported-attribution) | Self-reported Attribution | GEO |
 | [Orquestração](GLOSSARIO.md#orchestration) | Orchestration | IA |
 | [Orçamento de rastreamento](GLOSSARIO.md#crawl-budget) | Crawl Budget | SEO |
 | [Os 6 Macrodomínios de GEO](GLOSSARIO.md#macrodominios-de-geo) | Six GEO Macrodomains | Autorais |
+| [Otimização da experiência de busca](GLOSSARIO.md#sxo) | Search Experience Optimization (SXO) | SEO |
 | [Otimização da taxa de conversão](GLOSSARIO.md#cro) | Conversion Rate Optimization (CRO) | SEO |
 | [Otimização de trechos](GLOSSARIO.md#chunk-optimization) | Chunk Optimization | GEO |
 | [Otimização direta de preferências](GLOSSARIO.md#dpo) | Direct Preference Optimization (DPO) | IA |
+| [Otimização para busca em todo lugar](GLOSSARIO.md#search-everywhere-optimization) | Search Everywhere Optimization | SEO |
 | [Otimização para LLMs](GLOSSARIO.md#llmo) | LLM Optimization (LLMO) | GEO |
 | [Otimização para mecanismos de busca](GLOSSARIO.md#seo) | Search Engine Optimization (SEO) | SEO |
 | [Otimização para motores de resposta](GLOSSARIO.md#aeo) | Answer Engine Optimization (AEO) | GEO |
@@ -261,6 +276,7 @@
 | [Palavra-chave](GLOSSARIO.md#keyword) | Keyword | SEO |
 | [Palavra-chave de cauda longa](GLOSSARIO.md#long-tail-keyword) | Long-tail Keyword | SEO |
 | [Participação de voz em IA](GLOSSARIO.md#share-of-voice) | Share of Voice (AI) | GEO |
+| [Participação nas buscas](GLOSSARIO.md#share-of-search) | Share of Search | SEO |
 | [Parâmetros (pesos)](GLOSSARIO.md#parameters) | Parameters (Weights) | IA |
 | [Passagem](GLOSSARIO.md#passage) | Passage | GEO |
 | [Pegada digital](GLOSSARIO.md#digital-footprint) | Digital Footprint | SEO |
@@ -276,11 +292,13 @@
 | [Previsão do próximo token](GLOSSARIO.md#next-token-prediction) | Next-token Prediction | IA |
 | [Processamento de linguagem natural](GLOSSARIO.md#nlp) | Natural Language Processing (NLP) | IA |
 | [Profundidade de clique](GLOSSARIO.md#crawl-depth) | Crawl Depth (Click Depth) | SEO |
+| [Profundidade de conteúdo](GLOSSARIO.md#content-depth) | Content Depth | SEO |
 | [Prompt](GLOSSARIO.md#prompt) | Prompt | IA |
 | [Prompt com poucos exemplos](GLOSSARIO.md#few-shot) | Few-shot Prompting | IA |
 | [Prompt de sistema](GLOSSARIO.md#system-prompt) | System Prompt | IA |
 | [Prompt sem exemplos](GLOSSARIO.md#zero-shot) | Zero-shot Prompting | IA |
 | [Prontidão para agentes](GLOSSARIO.md#agent-readiness) | Agent Readiness | GEO |
+| [Propriedade knowsAbout](GLOSSARIO.md#knowsabout) | knowsAbout | SEO |
 | [Propriedade sameAs](GLOSSARIO.md#same-as) | sameAs | SEO |
 | [Proteção de marca em IA](GLOSSARIO.md#brand-safety-ai) | Brand Protection in AI | GEO |
 | [Protocolo Agent2Agent](GLOSSARIO.md#a2a) | Agent2Agent Protocol (A2A) | IA |
@@ -311,12 +329,14 @@
 | [Rede neural](GLOSSARIO.md#neural-network) | Neural Network | IA |
 | [Redirecionamento 301](GLOSSARIO.md#redirect-301) | 301 Redirect | SEO |
 | [Reivindicar o painel de conhecimento](GLOSSARIO.md#knowledge-panel-claim) | Claiming a Knowledge Panel | GEO |
+| [Relatório de ciclo fechado](GLOSSARIO.md#closed-loop-reporting) | Closed-loop Reporting | SEO |
 | [Relatório de indexação](GLOSSARIO.md#index-coverage) | Index Coverage (Page Indexing Report) | SEO |
 | [Relações públicas digitais](GLOSSARIO.md#digital-pr) | Digital PR | SEO |
 | [Relevância, distância e proeminência](GLOSSARIO.md#proximity-relevance-prominence) | Relevance, Distance and Prominence | SEO |
 | [Renderização](GLOSSARIO.md#rendering) | Rendering | SEO |
 | [Renderização no servidor](GLOSSARIO.md#server-side-rendering) | Server-side Rendering (SSR) | SEO |
 | [Reordenação](GLOSSARIO.md#reranking) | Reranking | IA |
+| [Resolução de entidade](GLOSSARIO.md#entity-resolution) | Entity Resolution (Reconciliation) | GEO |
 | [Resposta válida](GLOSSARIO.md#valid-response) | Valid Response | GEO |
 | [Resultado incremental](GLOSSARIO.md#incrementality) | Incrementality | GEO |
 | [Resultados aprimorados](GLOSSARIO.md#rich-results) | Rich Results | SEO |
@@ -331,10 +351,12 @@
 | [Schema LocalBusiness](GLOSSARIO.md#local-business-schema) | LocalBusiness Schema | SEO |
 | [Schema Organization](GLOSSARIO.md#organization-schema) | Organization Schema | SEO |
 | [Schema Product](GLOSSARIO.md#product-schema) | Product Schema | SEO |
+| [Schema ProfilePage](GLOSSARIO.md#profilepage-schema) | ProfilePage Schema | SEO |
 | [Schema Speakable](GLOSSARIO.md#speakable-schema) | Speakable Schema | SEO |
 | [Schema.org](GLOSSARIO.md#schema-org) | Schema.org | SEO |
 | [Segurança de IA](GLOSSARIO.md#ai-safety) | AI Safety | IA |
 | [Sentimento da marca em IA](GLOSSARIO.md#brand-sentiment) | Brand Sentiment (AI) | GEO |
+| [SEO de entidades](GLOSSARIO.md#entity-seo) | Entity SEO | GEO |
 | [SEO de imagens](GLOSSARIO.md#image-seo) | Image SEO | SEO |
 | [SEO de Proteção de Marca](GLOSSARIO.md#seo-de-protecao-de-marca) | Brand Protection SEO | Autorais |
 | [SEO internacional](GLOSSARIO.md#international-seo) | International SEO | SEO |
@@ -385,12 +407,14 @@
 | [Triângulo de Citabilidade](GLOSSARIO.md#triangulo-de-citabilidade) | Citability Triangle | Autorais |
 | [Tráfego de IA não identificado](GLOSSARIO.md#dark-ai-traffic) | Dark AI Traffic | GEO |
 | [Tráfego vindo de IAs](GLOSSARIO.md#ai-referral-traffic) | AI Referral Traffic | GEO |
+| [Técnica arranha-céu](GLOSSARIO.md#skyscraper-technique) | Skyscraper Technique | SEO |
 | [Unidade de análise](GLOSSARIO.md#unit-of-analysis) | Unit of Analysis | GEO |
 | [URL canônica](GLOSSARIO.md#canonical-url) | Canonical URL | SEO |
 | [URL citada](GLOSSARIO.md#cited-url) | Cited URL | GEO |
 | [Uso do computador](GLOSSARIO.md#computer-use) | Computer Use | IA |
 | [Usuário Não-Linear](GLOSSARIO.md#usuario-nao-linear) | Non-linear User | Autorais |
 | [Valor de link](GLOSSARIO.md#link-equity) | Link Equity (Link Juice) | SEO |
+| [Valor do tempo de vida do cliente](GLOSSARIO.md#ltv) | Customer Lifetime Value (LTV) | SEO |
 | [Variância das respostas](GLOSSARIO.md#response-variance) | Response Variance | GEO |
 | [Vibe coding](GLOSSARIO.md#vibe-coding) | Vibe Coding | IA |
 | [Visibilidade em IA](GLOSSARIO.md#ai-visibility) | AI Visibility | GEO |

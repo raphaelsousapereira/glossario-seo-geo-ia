@@ -1,9 +1,9 @@
 {
   "meta": {
     "nome": "Glossário SEO, GEO e IA",
-    "versao": "1.2.0",
+    "versao": "1.3.0",
     "atualizado_em": "2026-10-23",
-    "total": 400,
+    "total": 424,
     "idiomas": [
       "pt-BR",
       "en"
@@ -257,6 +257,21 @@
       "fonte": ""
     },
     {
+      "slug": "content-breadth",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Content Breadth",
+      "termo_pt": "Amplitude de conteúdo",
+      "definicao_pt": "Quantos aspectos diferentes de um tema o site cobre. Junto com a profundidade, sustenta a autoridade temática.",
+      "definition_en": "How many different aspects of a topic a site covers. Together with depth, it supports topical authority.",
+      "relacionados": [
+        "content-depth",
+        "topical-authority",
+        "topical-map"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "grounding",
       "categoria": "GEO",
       "subcategoria": "Fundamentos",
@@ -268,6 +283,20 @@
         "rag",
         "hallucination",
         "ai-citation"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "content-gap-analysis",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Content Gap Analysis",
+      "termo_pt": "Análise de lacunas de conteúdo",
+      "definicao_pt": "Comparação entre o que concorrentes e fontes já cobrem e o que ninguém responde bem num tema. As lacunas são as melhores oportunidades de ganho de informação.",
+      "definition_en": "Comparison between what competitors and sources already cover and what no one answers well on a topic. The gaps are the best information-gain opportunities.",
+      "relacionados": [
+        "information-gain",
+        "topical-map"
       ],
       "fonte": ""
     },
@@ -840,6 +869,20 @@
       "fonte": ""
     },
     {
+      "slug": "branded-search",
+      "categoria": "SEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Branded Search",
+      "termo_pt": "Busca de marca",
+      "definicao_pt": "Consulta que contém o nome da marca, sozinho ou com a categoria (\"Negócio no Mapa GEO\"). O volume dessas buscas é um sinal de reconhecimento que nenhuma otimização de página produz sozinha.",
+      "definition_en": "Query containing the brand name, alone or with the category (\"Negócio no Mapa GEO\"). Its volume is a recognition signal that no page optimization produces on its own.",
+      "relacionados": [
+        "brand-serp",
+        "share-of-search"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "hybrid-search",
       "categoria": "IA",
       "subcategoria": "Recuperação (RAG) e busca semântica",
@@ -1180,6 +1223,21 @@
       "fonte": ""
     },
     {
+      "slug": "headless-cms",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "Headless CMS",
+      "termo_pt": "CMS headless",
+      "definicao_pt": "Arquitetura em que o gerenciador de conteúdo só entrega dados e a página é montada por um front-end separado, muitas vezes em JavaScript. Sem renderização no servidor, robôs que não executam JavaScript podem receber uma página vazia.",
+      "definition_en": "Architecture in which the content manager only delivers data and the page is built by a separate front end, often in JavaScript. Without server-side rendering, bots that do not run JavaScript may receive an empty page.",
+      "relacionados": [
+        "server-side-rendering",
+        "javascript-seo",
+        "page-source"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "measurement-coverage",
       "categoria": "GEO",
       "subcategoria": "Medição em GEO",
@@ -1220,6 +1278,20 @@
         "indice-de-coerencia-semantica"
       ],
       "fonte": "https://seonegocionomapa.com.br/fisica-semantica-raphael-sousa-pereira/"
+    },
+    {
+      "slug": "things-not-strings",
+      "categoria": "GEO",
+      "subcategoria": "Entidade e grafo de conhecimento",
+      "termo_en": "Things, not Strings",
+      "termo_pt": "Coisas, não palavras",
+      "definicao_pt": "Frase com que o Google lançou o Knowledge Graph em 2012: a busca passa a entender entidades do mundo real (coisas) em vez de apenas casar sequências de caracteres (palavras).",
+      "definition_en": "Phrase with which Google launched the Knowledge Graph in 2012: search starts understanding real-world entities (things) instead of just matching character sequences (strings).",
+      "relacionados": [
+        "knowledge-graph",
+        "entity-seo"
+      ],
+      "fonte": "https://blog.google/products/search/introducing-knowledge-graph-things-not/"
     },
     {
       "slug": "model-collapse",
@@ -1406,6 +1478,20 @@
       "fonte": ""
     },
     {
+      "slug": "ten-x-content",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "10x Content",
+      "termo_pt": "Conteúdo 10x",
+      "definicao_pt": "Expressão popularizada por Rand Fishkin para conteúdo dez vezes melhor que o melhor resultado atual. Para IAs, o que conta é trazer informação nova, não só ser mais longo.",
+      "definition_en": "Phrase popularized by Rand Fishkin for content ten times better than the best current result. For AI, what counts is bringing new information, not just being longer.",
+      "relacionados": [
+        "information-gain",
+        "skyscraper-technique"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "comparison-content",
       "categoria": "GEO",
       "subcategoria": "Conteúdo citável",
@@ -1475,6 +1561,20 @@
       "fonte": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
     },
     {
+      "slug": "assisted-conversion",
+      "categoria": "SEO",
+      "subcategoria": "Métricas e ferramentas",
+      "termo_en": "Assisted Conversion",
+      "termo_pt": "Conversão assistida",
+      "definicao_pt": "Conversão em que um canal participou da jornada sem ser o último clique. A busca orgânica e as IAs costumam aparecer mais como assistentes do que como fechamento.",
+      "definition_en": "Conversion in which a channel took part in the journey without being the last click. Organic search and AI tend to appear more as assists than as closers.",
+      "relacionados": [
+        "attributed-revenue",
+        "key-event"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "core-web-vitals",
       "categoria": "SEO",
       "subcategoria": "Técnico e desempenho",
@@ -1489,6 +1589,35 @@
         "page-experience"
       ],
       "fonte": "https://web.dev/articles/vitals"
+    },
+    {
+      "slug": "external-corroboration",
+      "categoria": "GEO",
+      "subcategoria": "Entidade e grafo de conhecimento",
+      "termo_en": "External Corroboration",
+      "termo_pt": "Corroboração externa",
+      "definicao_pt": "Confirmação de um fato sobre a entidade por fontes independentes dela, como imprensa, registros públicos e bases de terceiros. Fato só confirmado pela própria marca vale pouco para buscadores e IAs.",
+      "definition_en": "Confirmation of a fact about the entity by sources independent of it, such as press, public records and third-party databases. A fact confirmed only by the brand itself counts for little with search engines and AI.",
+      "relacionados": [
+        "third-party-source",
+        "claim",
+        "lei-da-coerencia-distribuida"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "cac",
+      "categoria": "SEO",
+      "subcategoria": "Métricas e ferramentas",
+      "termo_en": "Customer Acquisition Cost (CAC)",
+      "termo_pt": "Custo de aquisição de cliente",
+      "definicao_pt": "Total gasto em marketing e vendas num período dividido pelo número de clientes novos no mesmo período.",
+      "definition_en": "Total marketing and sales spend in a period divided by the number of new customers in that period.",
+      "relacionados": [
+        "ltv",
+        "attributed-revenue"
+      ],
+      "fonte": ""
     },
     {
       "slug": "cost-per-task",
@@ -2218,7 +2347,7 @@
         "helpful-content",
         "original-research"
       ],
-      "fonte": ""
+      "fonte": "https://patents.google.com/patent/US9990421B2"
     },
     {
       "slug": "geo-causal",
@@ -2278,6 +2407,20 @@
         "conversion-rate"
       ],
       "fonte": ""
+    },
+    {
+      "slug": "google-merchant-center",
+      "categoria": "GEO",
+      "subcategoria": "Agentes e comércio",
+      "termo_en": "Google Merchant Center",
+      "termo_pt": "Google Merchant Center",
+      "definicao_pt": "Plataforma do Google onde lojas enviam o feed de produtos (preço, estoque, frete, avaliações). Alimenta o Google Shopping e as respostas de compra nos recursos de IA do Google.",
+      "definition_en": "Google platform where stores submit their product feed (price, stock, shipping, reviews). It feeds Google Shopping and shopping answers in Google's AI features.",
+      "relacionados": [
+        "product-schema",
+        "agentic-commerce"
+      ],
+      "fonte": "https://support.google.com/merchants/answer/188924"
     },
     {
       "slug": "google-search-console",
@@ -2996,6 +3139,21 @@
       "fonte": "https://web.dev/articles/lcp"
     },
     {
+      "slug": "topical-map",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Topical Map",
+      "termo_pt": "Mapa de tópicos",
+      "definicao_pt": "Planejamento de todos os temas e subtemas que um site precisa cobrir para ser referência num assunto, com as relações entre eles. Vem antes dos clusters e das páginas pilar.",
+      "definition_en": "Plan of every topic and subtopic a site needs to cover to be a reference on a subject, with the relationships between them. It comes before clusters and pillar pages.",
+      "relacionados": [
+        "topic-cluster",
+        "topical-authority",
+        "pillar-page"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "watermarking",
       "categoria": "IA",
       "subcategoria": "Segurança e governança",
@@ -3369,6 +3527,20 @@
       "fonte": "https://web.dev/articles/cls"
     },
     {
+      "slug": "vanity-metrics",
+      "categoria": "SEO",
+      "subcategoria": "Métricas e ferramentas",
+      "termo_en": "Vanity Metrics",
+      "termo_pt": "Métricas de vaidade",
+      "definicao_pt": "Números que parecem bons, como impressões, seguidores e posição de uma palavra, mas não se ligam a resultado de negócio.",
+      "definition_en": "Numbers that look good, such as impressions, followers and a keyword's position, but are not tied to business results.",
+      "relacionados": [
+        "closed-loop-reporting",
+        "incrementality"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "agentic-browser",
       "categoria": "GEO",
       "subcategoria": "Agentes e comércio",
@@ -3424,6 +3596,20 @@
         "entity-consistency"
       ],
       "fonte": ""
+    },
+    {
+      "slug": "notability",
+      "categoria": "GEO",
+      "subcategoria": "Entidade e grafo de conhecimento",
+      "termo_en": "Notability",
+      "termo_pt": "Notoriedade",
+      "definicao_pt": "Critério da Wikipédia para um tema ter verbete: cobertura significativa em fontes confiáveis e independentes. Empresas e pessoas sem essa cobertura não devem forçar verbete, e o Wikidata não aceita uso promocional.",
+      "definition_en": "Wikipedia's criterion for a topic to have an article: significant coverage in reliable, independent sources. Companies and people without such coverage should not force an article, and Wikidata does not accept promotional use.",
+      "relacionados": [
+        "wikidata",
+        "external-corroboration"
+      ],
+      "fonte": "https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:Notoriedade"
     },
     {
       "slug": "ontology",
@@ -3495,6 +3681,21 @@
       "fonte": "https://raphaelsousapereira.com.br/os-6-macrodominios-de-geo-uma-macroarquitetura-para-pesquisa-tecnica-operacao-e-valor-economico-geo-ia/"
     },
     {
+      "slug": "sxo",
+      "categoria": "SEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Search Experience Optimization (SXO)",
+      "termo_pt": "Otimização da experiência de busca",
+      "definicao_pt": "Junção de SEO e experiência do usuário: otimizar não só a posição, mas o clique, a continuidade entre a busca e a página e a conversão.",
+      "definition_en": "Combination of SEO and user experience: optimizing not only position but the click, the continuity between search and page, and conversion.",
+      "relacionados": [
+        "page-experience",
+        "cro",
+        "ctr"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "cro",
       "categoria": "SEO",
       "subcategoria": "Métricas e ferramentas",
@@ -3533,6 +3734,21 @@
         "rlhf"
       ],
       "fonte": "https://arxiv.org/abs/2305.18290"
+    },
+    {
+      "slug": "search-everywhere-optimization",
+      "categoria": "SEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Search Everywhere Optimization",
+      "termo_pt": "Otimização para busca em todo lugar",
+      "definicao_pt": "Leitura ampliada da sigla SEO usada no mercado: otimizar a presença da marca em todos os lugares onde as pessoas buscam, como Google, YouTube, TikTok, marketplaces, mapas e assistentes de IA, e não só no buscador tradicional.",
+      "definition_en": "Broadened reading of the SEO acronym used in the market: optimizing a brand's presence everywhere people search, such as Google, YouTube, TikTok, marketplaces, maps and AI assistants, not only the traditional search engine.",
+      "relacionados": [
+        "seo",
+        "geo",
+        "ai-search"
+      ],
+      "fonte": ""
     },
     {
       "slug": "llmo",
@@ -3687,6 +3903,20 @@
       "relacionados": [
         "ai-visibility",
         "ai-mention"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "share-of-search",
+      "categoria": "SEO",
+      "subcategoria": "Métricas e ferramentas",
+      "termo_en": "Share of Search",
+      "termo_pt": "Participação nas buscas",
+      "definicao_pt": "Buscas pela marca divididas pelas buscas de todas as marcas da categoria. Estudos de Les Binet associaram esse indicador à participação de mercado futura.",
+      "definition_en": "Searches for the brand divided by searches for all brands in the category. Studies by Les Binet linked this indicator to future market share.",
+      "relacionados": [
+        "branded-search",
+        "share-of-voice"
       ],
       "fonte": ""
     },
@@ -3902,6 +4132,20 @@
       "fonte": ""
     },
     {
+      "slug": "content-depth",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Content Depth",
+      "termo_pt": "Profundidade de conteúdo",
+      "definicao_pt": "Nível de detalhe com que cada aspecto de um tema é tratado: dados, exemplos, exceções e passos. Cobrir muitos subtemas sem profundidade gera conteúdo raso.",
+      "definition_en": "Level of detail with which each aspect of a topic is covered: data, examples, exceptions and steps. Covering many subtopics without depth produces thin content.",
+      "relacionados": [
+        "content-breadth",
+        "thin-content"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "prompt",
       "categoria": "IA",
       "subcategoria": "Prompts",
@@ -3969,6 +4213,20 @@
         "machine-readability"
       ],
       "fonte": ""
+    },
+    {
+      "slug": "knowsabout",
+      "categoria": "SEO",
+      "subcategoria": "Dados estruturados",
+      "termo_en": "knowsAbout",
+      "termo_pt": "Propriedade knowsAbout",
+      "definicao_pt": "Propriedade Schema.org que declara os temas que uma pessoa ou organização domina. Ajuda a ligar o autor aos assuntos, mas só pesa quando há publicações que comprovem.",
+      "definition_en": "Schema.org property declaring the topics a person or organization is knowledgeable about. It helps tie the author to subjects, but only carries weight when publications back it up.",
+      "relacionados": [
+        "author-entity",
+        "e-e-a-t"
+      ],
+      "fonte": "https://schema.org/knowsAbout"
     },
     {
       "slug": "same-as",
@@ -4398,6 +4656,20 @@
       "fonte": "https://support.google.com/knowledgepanel/answer/7534902"
     },
     {
+      "slug": "closed-loop-reporting",
+      "categoria": "SEO",
+      "subcategoria": "Métricas e ferramentas",
+      "termo_en": "Closed-loop Reporting",
+      "termo_pt": "Relatório de ciclo fechado",
+      "definicao_pt": "Relatório que liga busca, sessão, contato, oportunidade e venda, com dados do CRM, para medir a contribuição real de um canal e não só o tráfego.",
+      "definition_en": "Report linking search, session, lead, opportunity and sale, using CRM data, to measure a channel's real contribution, not just traffic.",
+      "relacionados": [
+        "attributed-revenue",
+        "qualified-lead"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "index-coverage",
       "categoria": "SEO",
       "subcategoria": "Rastreamento e indexação",
@@ -4481,6 +4753,21 @@
         "rag"
       ],
       "fonte": ""
+    },
+    {
+      "slug": "entity-resolution",
+      "categoria": "GEO",
+      "subcategoria": "Entidade e grafo de conhecimento",
+      "termo_en": "Entity Resolution (Reconciliation)",
+      "termo_pt": "Resolução de entidade",
+      "definicao_pt": "Processo em que um sistema decide que menções diferentes (\"Negócio no Mapa\", \"seonegocionomapa.com.br\", \"@negocionomapa\") são a mesma entidade e as liga a um único identificador.",
+      "definition_en": "Process in which a system decides that different mentions (\"Negócio no Mapa\", \"seonegocionomapa.com.br\", \"@negocionomapa\") are the same entity and links them to a single identifier.",
+      "relacionados": [
+        "entity-disambiguation",
+        "same-as",
+        "knowledge-graph"
+      ],
+      "fonte": "https://developers.google.com/knowledge-graph"
     },
     {
       "slug": "valid-response",
@@ -4682,6 +4969,21 @@
       "fonte": "https://developers.google.com/search/docs/appearance/structured-data/product"
     },
     {
+      "slug": "profilepage-schema",
+      "categoria": "SEO",
+      "subcategoria": "Dados estruturados",
+      "termo_en": "ProfilePage Schema",
+      "termo_pt": "Schema ProfilePage",
+      "definicao_pt": "Tipo Schema.org para páginas focadas numa pessoa ou organização, como a página de autor. Liga o perfil à entidade Person ou Organization pela propriedade mainEntity.",
+      "definition_en": "Schema.org type for pages focused on one person or organization, such as an author page. It ties the profile to the Person or Organization entity through the mainEntity property.",
+      "relacionados": [
+        "author-entity",
+        "entity-home",
+        "schema-id"
+      ],
+      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/profile-page"
+    },
+    {
       "slug": "speakable-schema",
       "categoria": "SEO",
       "subcategoria": "Dados estruturados",
@@ -4734,6 +5036,22 @@
       "relacionados": [
         "ai-visibility",
         "online-reviews"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "entity-seo",
+      "categoria": "GEO",
+      "subcategoria": "Entidade e grafo de conhecimento",
+      "termo_en": "Entity SEO",
+      "termo_pt": "SEO de entidades",
+      "definicao_pt": "Prática de reduzir a ambiguidade sobre uma marca, pessoa ou produto para que buscadores e IAs a reconheçam como entidade única, com atributos e relações, e não como uma sequência de palavras.",
+      "definition_en": "Practice of reducing ambiguity about a brand, person or product so search engines and AI recognize it as a unique entity with attributes and relationships, not as a string of words.",
+      "relacionados": [
+        "entity",
+        "entity-disambiguation",
+        "things-not-strings",
+        "knowledge-graph"
       ],
       "fonte": ""
     },
@@ -5443,6 +5761,20 @@
       "fonte": ""
     },
     {
+      "slug": "skyscraper-technique",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Skyscraper Technique",
+      "termo_pt": "Técnica arranha-céu",
+      "definicao_pt": "Método de link building popularizado por Brian Dean (Backlinko): achar o conteúdo que mais recebe links num tema, publicar uma versão claramente melhor e oferecê-la a quem linkou o original.",
+      "definition_en": "Link-building method popularized by Brian Dean (Backlinko): find the content that earns the most links on a topic, publish a clearly better version and offer it to those who linked to the original.",
+      "relacionados": [
+        "link-building",
+        "ten-x-content"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "unit-of-analysis",
       "categoria": "GEO",
       "subcategoria": "Medição em GEO",
@@ -5523,6 +5855,19 @@
       "relacionados": [
         "pagerank",
         "nofollow"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "ltv",
+      "categoria": "SEO",
+      "subcategoria": "Métricas e ferramentas",
+      "termo_en": "Customer Lifetime Value (LTV)",
+      "termo_pt": "Valor do tempo de vida do cliente",
+      "definicao_pt": "Receita, ou margem, que um cliente gera ao longo de todo o relacionamento. Comparado ao CAC, mostra quanto vale a pena pagar para conquistar cada cliente.",
+      "definition_en": "Revenue, or margin, a customer generates over the whole relationship. Compared with CAC, it shows how much it is worth paying to win each customer.",
+      "relacionados": [
+        "cac"
       ],
       "fonte": ""
     },
