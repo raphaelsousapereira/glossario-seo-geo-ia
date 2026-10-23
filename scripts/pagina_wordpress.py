@@ -156,7 +156,7 @@ def main() -> None:
         {"@type": "Person", "@id": PESSOA, "name": "Raphael Sousa Pereira", "url": "https://raphaelsousapereira.com.br/"},
         {"@type": "Organization", "@id": ORG, "name": "Negócio no Mapa", "url": f"{SITE}/"},
     ]}
-    ld_txt = json.dumps(ld, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    ld_txt = json.dumps(ld, ensure_ascii=True, separators=(",", ":")).replace("</", "<\\/")
 
     pagina = f"""<article class="gsg" id="glossario-seo-geo-ia">
 <style>{CSS.strip()}</style>
@@ -195,7 +195,10 @@ def main() -> None:
 <script>{JS.strip()}</script>
 </article>
 """
-    (RAIZ / "dist" / "pagina-wordpress.html").write_text(pagina, encoding="utf-8")
+    # Só ASCII: acentos viram entidades HTML (o JSON-LD já sai com \\uXXXX), para o arquivo aparecer certo em
+    # qualquer visualizador, mesmo sem <meta charset>, já que é um trecho para colar no WordPress.
+    pagina = pagina.encode("ascii", "xmlcharrefreplace").decode("ascii")
+    (RAIZ / "dist" / "pagina-wordpress.html").write_text(pagina, encoding="ascii")
     print(f"dist/pagina-wordpress.html: {total} termos, {len(pagina.encode()) // 1024} KB")
 
 
