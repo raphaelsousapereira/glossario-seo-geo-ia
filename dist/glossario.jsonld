@@ -7,7 +7,7 @@
     "pt-BR",
     "en"
   ],
-  "version": "1.3.1",
+  "version": "1.3.2",
   "dateModified": "2026-10-23",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "url": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia",
@@ -1771,6 +1771,34 @@
         {
           "@language": "en",
           "@value": "Ads shown on the results page in exchange for payment, usually per click or impression."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#voice-search",
+      "termCode": "voice-search",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Busca por voz"
+        },
+        {
+          "@language": "en",
+          "@value": "Voice Search"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Consulta falada a um assistente (Google Assistente, Siri, Alexa, modos de voz dos chatbots). As perguntas são mais longas e conversacionais, e em geral só uma resposta é lida em voz alta."
+        },
+        {
+          "@language": "en",
+          "@value": "Spoken query to an assistant (Google Assistant, Siri, Alexa, chatbot voice modes). Questions are longer and more conversational, and usually only one answer is read aloud."
         }
       ],
       "inDefinedTermSet": {
@@ -5038,6 +5066,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#semantic-html",
+      "termCode": "semantic-html",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "HTML semântico"
+        },
+        {
+          "@language": "en",
+          "@value": "Semantic HTML"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Uso de tags que dizem o papel de cada parte da página (header, nav, main, article, section, h1–h6, table) em vez de só div e span. Facilita a extração de conteúdo por robôs, leitores de tela e sistemas de IA."
+        },
+        {
+          "@language": "en",
+          "@value": "Use of tags that state each part's role on the page (header, nav, main, article, section, h1–h6, table) instead of only div and span. It makes content easier to extract for bots, screen readers and AI systems."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://developer.mozilla.org/en-US/docs/Glossary/Semantics"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#https",
       "termCode": "https",
       "name": [
@@ -7455,6 +7512,34 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#aio",
+      "termCode": "aio",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Otimização para IA"
+        },
+        {
+          "@language": "en",
+          "@value": "AI Optimization (AIO)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Termo guarda-chuva usado comercialmente para reunir GEO, AEO e LLMO sob um só nome. Não tem definição técnica própria e não deve ser confundido com AI Overviews, que às vezes também é abreviado como AIO."
+        },
+        {
+          "@language": "en",
+          "@value": "Umbrella term used commercially to group GEO, AEO and LLMO under one name. It has no technical definition of its own and should not be confused with AI Overviews, sometimes also abbreviated AIO."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#llmo",
       "termCode": "llmo",
       "name": [
@@ -8898,6 +8983,34 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#crawlability",
+      "termCode": "crawlability",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Rastreabilidade"
+        },
+        {
+          "@language": "en",
+          "@value": "Crawlability"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Facilidade com que robôs chegam a uma página e baixam o conteúdo: links internos rastreáveis, robots.txt que não bloqueia, servidor respondendo 200 e sem barreiras como login, CAPTCHA ou bloqueio de CDN."
+        },
+        {
+          "@language": "en",
+          "@value": "How easily bots can reach a page and download its content: crawlable internal links, a robots.txt that does not block, a server returning 200 and no barriers such as login, CAPTCHA or CDN blocking."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#crawling",
       "termCode": "crawling",
       "name": [
@@ -8924,6 +9037,34 @@
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
       "subjectOf": "https://developers.google.com/search/docs/fundamentals/how-search-works"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#citation-to-mention-ratio",
+      "termCode": "citation-to-mention-ratio",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Razão entre citações e menções"
+        },
+        {
+          "@language": "en",
+          "@value": "Citation-to-Mention Ratio"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Número de respostas que citam o site da marca dividido pelo número de respostas que mencionam a marca. Valor baixo indica que a IA conhece a marca, mas busca a informação sobre ela em outras fontes."
+        },
+        {
+          "@language": "en",
+          "@value": "Number of answers citing the brand's site divided by the number of answers mentioning the brand. A low value means AI knows the brand but gets information about it from other sources."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
     },
     {
       "@type": "DefinedTerm",

@@ -1,9 +1,9 @@
 {
   "meta": {
     "nome": "Glossário SEO, GEO e IA",
-    "versao": "1.3.1",
+    "versao": "1.3.2",
     "atualizado_em": "2026-10-23",
-    "total": 426,
+    "total": 431,
     "idiomas": [
       "pt-BR",
       "en"
@@ -935,6 +935,21 @@
       "definition_en": "Ads shown on the results page in exchange for payment, usually per click or impression.",
       "relacionados": [
         "organic-search"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "voice-search",
+      "categoria": "SEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Voice Search",
+      "termo_pt": "Busca por voz",
+      "definicao_pt": "Consulta falada a um assistente (Google Assistente, Siri, Alexa, modos de voz dos chatbots). As perguntas são mais longas e conversacionais, e em geral só uma resposta é lida em voz alta.",
+      "definition_en": "Spoken query to an assistant (Google Assistant, Siri, Alexa, chatbot voice modes). Questions are longer and more conversational, and usually only one answer is read aloud.",
+      "relacionados": [
+        "conversational-query",
+        "speakable-schema",
+        "featured-snippet"
       ],
       "fonte": ""
     },
@@ -2583,6 +2598,21 @@
       "fonte": "https://seonegocionomapa.com.br/anatomia-de-um-hospedeiro-em-geo/"
     },
     {
+      "slug": "semantic-html",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "Semantic HTML",
+      "termo_pt": "HTML semântico",
+      "definicao_pt": "Uso de tags que dizem o papel de cada parte da página (header, nav, main, article, section, h1–h6, table) em vez de só div e span. Facilita a extração de conteúdo por robôs, leitores de tela e sistemas de IA.",
+      "definition_en": "Use of tags that state each part's role on the page (header, nav, main, article, section, h1–h6, table) instead of only div and span. It makes content easier to extract for bots, screen readers and AI systems.",
+      "relacionados": [
+        "heading-structure",
+        "machine-readability",
+        "page-source"
+      ],
+      "fonte": "https://developer.mozilla.org/en-US/docs/Glossary/Semantics"
+    },
+    {
       "slug": "https",
       "categoria": "SEO",
       "subcategoria": "Técnico e desempenho",
@@ -3766,6 +3796,22 @@
       "fonte": ""
     },
     {
+      "slug": "aio",
+      "categoria": "GEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "AI Optimization (AIO)",
+      "termo_pt": "Otimização para IA",
+      "definicao_pt": "Termo guarda-chuva usado comercialmente para reunir GEO, AEO e LLMO sob um só nome. Não tem definição técnica própria e não deve ser confundido com AI Overviews, que às vezes também é abreviado como AIO.",
+      "definition_en": "Umbrella term used commercially to group GEO, AEO and LLMO under one name. It has no technical definition of its own and should not be confused with AI Overviews, sometimes also abbreviated AIO.",
+      "relacionados": [
+        "geo",
+        "aeo",
+        "llmo",
+        "ai-overviews"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "llmo",
       "categoria": "GEO",
       "subcategoria": "Fundamentos",
@@ -4486,6 +4532,21 @@
       "fonte": "https://seonegocionomapa.com.br/geo-porto-alegre/"
     },
     {
+      "slug": "crawlability",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "Crawlability",
+      "termo_pt": "Rastreabilidade",
+      "definicao_pt": "Facilidade com que robôs chegam a uma página e baixam o conteúdo: links internos rastreáveis, robots.txt que não bloqueia, servidor respondendo 200 e sem barreiras como login, CAPTCHA ou bloqueio de CDN.",
+      "definition_en": "How easily bots can reach a page and download its content: crawlable internal links, a robots.txt that does not block, a server returning 200 and no barriers such as login, CAPTCHA or CDN blocking.",
+      "relacionados": [
+        "crawling",
+        "robots-txt",
+        "ai-crawler"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "crawling",
       "categoria": "SEO",
       "subcategoria": "Rastreamento e indexação",
@@ -4499,6 +4560,21 @@
         "crawl-budget"
       ],
       "fonte": "https://developers.google.com/search/docs/fundamentals/how-search-works"
+    },
+    {
+      "slug": "citation-to-mention-ratio",
+      "categoria": "GEO",
+      "subcategoria": "Medição em GEO",
+      "termo_en": "Citation-to-Mention Ratio",
+      "termo_pt": "Razão entre citações e menções",
+      "definicao_pt": "Número de respostas que citam o site da marca dividido pelo número de respostas que mencionam a marca. Valor baixo indica que a IA conhece a marca, mas busca a informação sobre ela em outras fontes.",
+      "definition_en": "Number of answers citing the brand's site divided by the number of answers mentioning the brand. A low value means AI knows the brand but gets information about it from other sources.",
+      "relacionados": [
+        "mention-rate",
+        "citation-rate",
+        "third-party-source"
+      ],
+      "fonte": ""
     },
     {
       "slug": "react-agent",

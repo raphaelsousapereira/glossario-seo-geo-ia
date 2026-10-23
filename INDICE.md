@@ -1,6 +1,6 @@
 # Índice A–Z
 
-426 termos em ordem alfabética do termo em português.
+431 termos em ordem alfabética do termo em português.
 
 | Termo (pt-BR) | Term (en) | Categoria |
 |---|---|---|
@@ -66,6 +66,7 @@
 | [Busca lexical](GLOSSARIO.md#lexical-search) | Lexical Search (BM25) | IA |
 | [Busca orgânica](GLOSSARIO.md#organic-search) | Organic Search | SEO |
 | [Busca paga](GLOSSARIO.md#paid-search) | Paid Search (SEM/PPC) | SEO |
+| [Busca por voz](GLOSSARIO.md#voice-search) | Voice Search | SEO |
 | [Busca sem clique](GLOSSARIO.md#zero-click-search) | Zero-click Search | SEO |
 | [Busca semântica](GLOSSARIO.md#semantic-search) | Semantic Search | IA |
 | [Cache de prompt](GLOSSARIO.md#prompt-caching) | Prompt Caching | IA |
@@ -181,6 +182,7 @@
 | [Grande modelo de linguagem](GLOSSARIO.md#llm) | Large Language Model (LLM) | IA |
 | [GraphRAG](GLOSSARIO.md#graphrag) | GraphRAG | IA |
 | [Hospedeiro (em GEO)](GLOSSARIO.md#hospedeiro-geo) | Host Site (GEO) | Autorais |
+| [HTML semântico](GLOSSARIO.md#semantic-html) | Semantic HTML | SEO |
 | [HTTPS](GLOSSARIO.md#https) | HTTPS | SEO |
 | [Humano no circuito](GLOSSARIO.md#human-in-the-loop) | Human in the Loop | IA |
 | [IA constitucional](GLOSSARIO.md#constitutional-ai) | Constitutional AI | IA |
@@ -266,6 +268,7 @@
 | [Otimização de trechos](GLOSSARIO.md#chunk-optimization) | Chunk Optimization | GEO |
 | [Otimização direta de preferências](GLOSSARIO.md#dpo) | Direct Preference Optimization (DPO) | IA |
 | [Otimização para busca em todo lugar](GLOSSARIO.md#search-everywhere-optimization) | Search Everywhere Optimization | SEO |
+| [Otimização para IA](GLOSSARIO.md#aio) | AI Optimization (AIO) | GEO |
 | [Otimização para LLMs](GLOSSARIO.md#llmo) | LLM Optimization (LLMO) | GEO |
 | [Otimização para mecanismos de busca](GLOSSARIO.md#seo) | Search Engine Optimization (SEO) | SEO |
 | [Otimização para motores de resposta](GLOSSARIO.md#aeo) | Answer Engine Optimization (AEO) | GEO |
@@ -317,7 +320,9 @@
 | [Pós-treinamento](GLOSSARIO.md#post-training) | Post-training | IA |
 | [Quantização](GLOSSARIO.md#quantization) | Quantization | IA |
 | [Quem Você Acompanha](GLOSSARIO.md#quem-voce-acompanha) | Who You Travel With | Autorais |
+| [Rastreabilidade](GLOSSARIO.md#crawlability) | Crawlability | SEO |
 | [Rastreamento](GLOSSARIO.md#crawling) | Crawling | SEO |
+| [Razão entre citações e menções](GLOSSARIO.md#citation-to-mention-ratio) | Citation-to-Mention Ratio | GEO |
 | [ReAct](GLOSSARIO.md#react-agent) | ReAct | IA |
 | [Receita atribuída](GLOSSARIO.md#attributed-revenue) | Attributed Revenue | GEO |
 | [Recomendação por IA](GLOSSARIO.md#ai-recommendation) | AI Recommendation | GEO |

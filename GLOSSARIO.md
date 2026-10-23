@@ -1,11 +1,11 @@
-# Glossário SEO, GEO e IA — 426 termos
+# Glossário SEO, GEO e IA — 431 termos
 
-Versão 1.3.1 · atualizado em 2026-10-23 · português do Brasil e inglês · [CC BY 4.0](LICENSE) · Raphael Sousa Pereira, [Negócio no Mapa](https://seonegocionomapa.com.br)
+Versão 1.3.2 · atualizado em 2026-10-23 · português do Brasil e inglês · [CC BY 4.0](LICENSE) · Raphael Sousa Pereira, [Negócio no Mapa](https://seonegocionomapa.com.br)
 
 Arquivo gerado por `scripts/construir.py` a partir de `termos/`. Não edite à mão.
 
-- [SEO](#categoria-seo) — Busca orgânica, SEO técnico, local e dados estruturados (151 termos)
-- [GEO](#categoria-geo) — Visibilidade e citação em motores generativos (109 termos)
+- [SEO](#categoria-seo) — Busca orgânica, SEO técnico, local e dados estruturados (154 termos)
+- [GEO](#categoria-geo) — Visibilidade e citação em motores generativos (111 termos)
 - [IA](#categoria-ia) — Inteligência artificial aplicada à busca e ao conteúdo (117 termos)
 - [Autorais](#categoria-autorais) — Conceitos cunhados por Raphael Sousa Pereira (49 termos)
 
@@ -43,6 +43,16 @@ Anúncios exibidos na página de resultados em troca de pagamento, normalmente p
 > *Ads shown on the results page in exchange for payment, usually per click or impression.*
 
 Veja também: [Busca orgânica](#organic-search)
+
+#### Busca por voz
+
+<a id="voice-search"></a>**EN:** Voice Search
+
+Consulta falada a um assistente (Google Assistente, Siri, Alexa, modos de voz dos chatbots). As perguntas são mais longas e conversacionais, e em geral só uma resposta é lida em voz alta.
+
+> *Spoken query to an assistant (Google Assistant, Siri, Alexa, chatbot voice modes). Questions are longer and more conversational, and usually only one answer is read aloud.*
+
+Veja também: [Consulta conversacional](#conversational-query), [Schema Speakable](#speakable-schema), [Trecho em destaque](#featured-snippet)
 
 #### Busca sem clique
 
@@ -336,6 +346,16 @@ Página sem nenhum link interno apontando para ela. Robôs e pessoas têm dificu
 
 Veja também: [Linkagem interna](#internal-linking), [Profundidade de clique](#crawl-depth)
 
+#### Rastreabilidade
+
+<a id="crawlability"></a>**EN:** Crawlability
+
+Facilidade com que robôs chegam a uma página e baixam o conteúdo: links internos rastreáveis, robots.txt que não bloqueia, servidor respondendo 200 e sem barreiras como login, CAPTCHA ou bloqueio de CDN.
+
+> *How easily bots can reach a page and download its content: crawlable internal links, a robots.txt that does not block, a server returning 200 and no barriers such as login, CAPTCHA or CDN blocking.*
+
+Veja também: [Rastreamento](#crawling), [Arquivo robots.txt](#robots-txt), [Robô de IA](#ai-crawler)
+
 #### Rastreamento
 
 <a id="crawling"></a>**EN:** Crawling
@@ -467,6 +487,16 @@ Conjunto de sinais sobre como é usar a página: Core Web Vitals, HTTPS, ausênc
 > *Set of signals about using a page: Core Web Vitals, HTTPS, no intrusive interstitials and good mobile display.*
 
 Veja também: [Core Web Vitals](#core-web-vitals), [Indexação mobile-first](#mobile-first-indexing) · Fonte: <https://developers.google.com/search/docs/appearance/page-experience>
+
+#### HTML semântico
+
+<a id="semantic-html"></a>**EN:** Semantic HTML
+
+Uso de tags que dizem o papel de cada parte da página (header, nav, main, article, section, h1–h6, table) em vez de só div e span. Facilita a extração de conteúdo por robôs, leitores de tela e sistemas de IA.
+
+> *Use of tags that state each part's role on the page (header, nav, main, article, section, h1–h6, table) instead of only div and span. It makes content easier to extract for bots, screen readers and AI systems.*
+
+Veja também: [Estrutura de headings](#heading-structure), [Legibilidade por máquina](#machine-readability), [Código-fonte da página](#page-source) · Fonte: <https://developer.mozilla.org/en-US/docs/Glossary/Semantics>
 
 #### HTTPS
 
@@ -1647,6 +1677,16 @@ Sistema que responde a uma pergunta com texto gerado por um modelo de linguagem,
 
 Veja também: [Otimização para motores generativos](#geo), [Grande modelo de linguagem](#llm), [Geração aumentada por recuperação](#rag) · Fonte: <https://arxiv.org/abs/2311.09735>
 
+#### Otimização para IA
+
+<a id="aio"></a>**EN:** AI Optimization (AIO)
+
+Termo guarda-chuva usado comercialmente para reunir GEO, AEO e LLMO sob um só nome. Não tem definição técnica própria e não deve ser confundido com AI Overviews, que às vezes também é abreviado como AIO.
+
+> *Umbrella term used commercially to group GEO, AEO and LLMO under one name. It has no technical definition of its own and should not be confused with AI Overviews, sometimes also abbreviated AIO.*
+
+Veja também: [Otimização para motores generativos](#geo), [Otimização para motores de resposta](#aeo), [Otimização para LLMs](#llmo), [Visão geral criada por IA](#ai-overviews)
+
 #### Otimização para LLMs
 
 <a id="llmo"></a>**EN:** LLM Optimization (LLMO)
@@ -2436,6 +2476,16 @@ Proporção das citações em que a fonte citada de fato sustenta a afirmação 
 > *Share of citations in which the cited source actually supports the claim it is attached to. AI may cite a page that does not say what the answer claims.*
 
 Veja também: [Fidelidade](#faithfulness), [Citação por IA](#ai-citation), [URL citada](#cited-url)
+
+#### Razão entre citações e menções
+
+<a id="citation-to-mention-ratio"></a>**EN:** Citation-to-Mention Ratio
+
+Número de respostas que citam o site da marca dividido pelo número de respostas que mencionam a marca. Valor baixo indica que a IA conhece a marca, mas busca a informação sobre ela em outras fontes.
+
+> *Number of answers citing the brand's site divided by the number of answers mentioning the brand. A low value means AI knows the brand but gets information about it from other sources.*
+
+Veja também: [Taxa de menção](#mention-rate), [Taxa de citação](#citation-rate), [Fonte de terceiros](#third-party-source)
 
 #### Resposta válida
 
