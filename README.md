@@ -1,6 +1,6 @@
 # Glossário SEO, GEO e IA
 
-**306 termos de SEO, GEO (Generative Engine Optimization) e inteligência artificial, em português do Brasil e
+**351 termos de SEO, GEO (Generative Engine Optimization) e inteligência artificial, em português do Brasil e
 inglês, com definição nos dois idiomas, termos relacionados e fonte primária quando existe.**
 
 Mantido por Raphael Sousa Pereira, profissional, pesquisador e consultor em Generative Engine Optimization (GEO) e IA
@@ -16,16 +16,16 @@ aplicada à busca, CEO e fundador da [Negócio no Mapa](https://seonegocionomapa
 
 | Categoria | Termos | Subcategorias |
 |---|---|---|
-| SEO | 123 | Fundamentos, rastreamento e indexação, técnico e desempenho, conteúdo, links, local, internacional, dados estruturados, métricas, qualidade |
-| GEO | 71 | Fundamentos, citação e visibilidade, entidade e grafo, conteúdo citável, acesso das IAs, medição, riscos, agentes e comércio |
-| IA | 112 | Fundamentos, modelos de linguagem, treinamento, inferência, prompts, RAG e busca semântica, agentes, avaliação, segurança e governança |
+| SEO | 132 | Fundamentos, rastreamento e indexação, técnico e desempenho, conteúdo, links, local, internacional, dados estruturados, métricas, qualidade |
+| GEO | 102 | Fundamentos, citação e visibilidade, entidade e grafo, conteúdo citável, acesso das IAs, medição, resultado de negócio, riscos, agentes e comércio |
+| IA | 117 | Fundamentos, modelos de linguagem, treinamento, inferência, prompts, RAG e busca semântica, agentes, avaliação, segurança e governança |
 
 Cada termo tem:
 
 - **termo em português e em inglês**: o nome que o mercado usa e a tradução;
 - **definição em português e em inglês**, curta o bastante para ser citada sozinha;
 - **termos relacionados**, ligados entre si (o script recusa um link para um termo que não existe);
-- **fonte primária** em 86 termos: documentação do Google Search Central, RFCs, Schema.org, W3C e os artigos
+- **fonte primária** em 97 termos: documentação do Google Search Central, RFCs, Schema.org, W3C e os artigos
   originais (GEO, RAG, Transformer, RLHF, LoRA e outros). Todas as URLs foram abertas e responderam em 23/10/2026.
   Quando não há fonte primária estável, o campo fica vazio em vez de apontar para um blog.
 

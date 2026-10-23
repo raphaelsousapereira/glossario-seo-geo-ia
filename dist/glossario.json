@@ -1,9 +1,9 @@
 {
   "meta": {
     "nome": "Glossário SEO, GEO e IA",
-    "versao": "1.0.0",
+    "versao": "1.1.0",
     "atualizado_em": "2026-10-23",
-    "total": 306,
+    "total": 351,
     "idiomas": [
       "pt-BR",
       "en"
@@ -40,6 +40,21 @@
         "scaled-content-abuse"
       ],
       "fonte": "https://developers.google.com/search/docs/essentials/spam-policies"
+    },
+    {
+      "slug": "claim",
+      "categoria": "GEO",
+      "subcategoria": "Entidade e grafo de conhecimento",
+      "termo_en": "Claim",
+      "termo_pt": "Afirmação",
+      "definicao_pt": "Proposição verificável sobre uma entidade, como \"atende em Porto Alegre\" ou \"fundada em 2016\". É a unidade usada para conferir se a IA repete os fatos certos.",
+      "definition_en": "Verifiable proposition about an entity, such as \"serves Porto Alegre\" or \"founded in 2016\". It is the unit used to check whether AI repeats the right facts.",
+      "relacionados": [
+        "citable-fact",
+        "answer-accuracy",
+        "brand-facts-page"
+      ],
+      "fonte": ""
     },
     {
       "slug": "dated-claim",
@@ -165,6 +180,20 @@
         "grounding",
         "faithfulness",
         "answer-accuracy"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "paired-sample",
+      "categoria": "GEO",
+      "subcategoria": "Medição em GEO",
+      "termo_en": "Paired Sample",
+      "termo_pt": "Amostra emparelhada",
+      "definicao_pt": "Comparação em que as mesmas perguntas são feitas, nas mesmas plataformas, antes e depois de uma mudança. Reduz o ruído de comparar conjuntos diferentes.",
+      "definition_en": "Comparison in which the same questions are asked, on the same platforms, before and after a change. It reduces the noise of comparing different sets.",
+      "relacionados": [
+        "comparable-change",
+        "response-variance"
       ],
       "fonte": ""
     },
@@ -833,6 +862,20 @@
       "fonte": ""
     },
     {
+      "slug": "semantic-layer",
+      "categoria": "IA",
+      "subcategoria": "Recuperação (RAG) e busca semântica",
+      "termo_en": "Semantic Layer",
+      "termo_pt": "Camada semântica",
+      "definicao_pt": "Camada que dá significado comum aos dados de uma organização (o que é um cliente, uma venda, um serviço), para que pessoas, sistemas e IAs usem as mesmas definições.",
+      "definition_en": "Layer that gives an organization's data a shared meaning (what a customer, a sale or a service is), so people, systems and AI use the same definitions.",
+      "relacionados": [
+        "ontology",
+        "knowledge-base"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "keyword-cannibalization",
       "categoria": "SEO",
       "subcategoria": "Conteúdo e on-page",
@@ -884,6 +927,36 @@
       "relacionados": [
         "llm",
         "ai-assistant"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "citability",
+      "categoria": "GEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Citability",
+      "termo_pt": "Citabilidade",
+      "definicao_pt": "Quanto um conteúdo está pronto para ser usado e citado por uma IA: acessível aos robôs, com respostas autossuficientes, fatos específicos com fonte e autoria e entidade claras. Prontidão não garante citação.",
+      "definition_en": "How ready content is to be used and cited by AI: accessible to bots, with self-contained answers, specific sourced facts and clear authorship and entity. Readiness does not guarantee citation.",
+      "relacionados": [
+        "answer-capsule",
+        "citable-fact",
+        "retrievability"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "linked-citation",
+      "categoria": "GEO",
+      "subcategoria": "Citação e visibilidade",
+      "termo_en": "Linked Citation",
+      "termo_pt": "Citação com link",
+      "definicao_pt": "Citação em que a resposta de IA traz um link clicável para a página de origem. Só ela gera tráfego; uma menção sem link gera reconhecimento, não visita.",
+      "definition_en": "Citation in which the AI answer includes a clickable link to the source page. Only this kind generates traffic; a mention without a link builds recognition, not visits.",
+      "relacionados": [
+        "ai-citation",
+        "ai-mention",
+        "ai-referral-traffic"
       ],
       "fonte": ""
     },
@@ -941,6 +1014,20 @@
         "pillar-page",
         "topical-authority",
         "internal-linking"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "measurement-coverage",
+      "categoria": "GEO",
+      "subcategoria": "Medição em GEO",
+      "termo_en": "Measurement Coverage",
+      "termo_pt": "Cobertura da medição",
+      "definicao_pt": "Quanto do que se queria medir foi de fato medido: plataformas, perguntas, regiões e repetições coletadas com sucesso. Uma nota sem cobertura declarada não pode ser comparada.",
+      "definition_en": "How much of what was meant to be measured was actually measured: platforms, questions, regions and repetitions collected successfully. A score without stated coverage cannot be compared.",
+      "relacionados": [
+        "valid-response",
+        "prompt-set"
       ],
       "fonte": ""
     },
@@ -1087,6 +1174,20 @@
       "fonte": ""
     },
     {
+      "slug": "grounding-query",
+      "categoria": "GEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Grounding Query",
+      "termo_pt": "Consulta de fundamentação",
+      "definicao_pt": "Busca que o próprio sistema de IA faz na web ou num índice para ancorar a resposta. Pode ser bem diferente da pergunta do usuário, e é ela que decide quais páginas são lidas.",
+      "definition_en": "Search the AI system itself runs on the web or an index to ground its answer. It can differ greatly from the user's question, and it decides which pages get read.",
+      "relacionados": [
+        "grounding",
+        "query-fan-out"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "data-contamination",
       "categoria": "IA",
       "subcategoria": "Avaliação e confiabilidade",
@@ -1096,6 +1197,20 @@
       "definition_en": "When test questions were in the training data, making the model look better than it is.",
       "relacionados": [
         "benchmark"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "qualified-lead",
+      "categoria": "SEO",
+      "subcategoria": "Métricas e ferramentas",
+      "termo_en": "Qualified Lead",
+      "termo_pt": "Contato qualificado",
+      "definicao_pt": "Contato que atende aos critérios definidos de potencial cliente (perfil, necessidade, orçamento, região). Medir só contatos qualificados evita confundir volume com resultado.",
+      "definition_en": "Contact that meets the defined criteria for a potential customer (profile, need, budget, region). Measuring only qualified leads avoids confusing volume with results.",
+      "relacionados": [
+        "key-event",
+        "conversion-rate"
       ],
       "fonte": ""
     },
@@ -1185,6 +1300,20 @@
       "fonte": "https://web.dev/articles/vitals"
     },
     {
+      "slug": "cost-per-task",
+      "categoria": "GEO",
+      "subcategoria": "Resultado de negócio",
+      "termo_en": "Cost per Task",
+      "termo_pt": "Custo por tarefa",
+      "definicao_pt": "Custo total para um agente de IA concluir uma tarefa (tokens, chamadas de ferramenta, tentativas e revisão humana). É a métrica certa para comparar automações, mais que o preço por token.",
+      "definition_en": "Total cost for an AI agent to complete a task (tokens, tool calls, retries and human review). It is the right metric for comparing automations, more than the price per token.",
+      "relacionados": [
+        "ai-agent",
+        "token"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "answer-capsule",
       "categoria": "GEO",
       "subcategoria": "Conteúdo citável",
@@ -1212,6 +1341,21 @@
         "redirect-301"
       ],
       "fonte": "https://www.rfc-editor.org/rfc/rfc9110"
+    },
+    {
+      "slug": "page-source",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "Page Source (Raw HTML)",
+      "termo_pt": "Código-fonte da página",
+      "definicao_pt": "HTML que o servidor entrega antes de qualquer JavaScript rodar, visto em \"Exibir código-fonte\". É o que a maioria dos robôs de IA lê; o que só aparece depois do JavaScript pode não existir para eles.",
+      "definition_en": "HTML the server delivers before any JavaScript runs, seen with \"View source\". It is what most AI bots read; what only appears after JavaScript may not exist for them.",
+      "relacionados": [
+        "rendering",
+        "server-side-rendering",
+        "ai-crawler"
+      ],
+      "fonte": ""
     },
     {
       "slug": "training-data",
@@ -1313,6 +1457,20 @@
       "fonte": "https://schema.org/DefinedTerm"
     },
     {
+      "slug": "measurement-denominator",
+      "categoria": "GEO",
+      "subcategoria": "Medição em GEO",
+      "termo_en": "Denominator",
+      "termo_pt": "Denominador",
+      "definicao_pt": "Base sobre a qual uma taxa é calculada, como \"respostas válidas\" ou \"perguntas do conjunto\". Duas taxas com denominadores diferentes não são comparáveis.",
+      "definition_en": "Base on which a rate is calculated, such as \"valid answers\" or \"questions in the set\". Two rates with different denominators are not comparable.",
+      "relacionados": [
+        "mention-rate",
+        "valid-response"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "entity-drift",
       "categoria": "GEO",
       "subcategoria": "Entidade e grafo de conhecimento",
@@ -1410,6 +1568,20 @@
         "ai-overviews"
       ],
       "fonte": "https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag"
+    },
+    {
+      "slug": "cited-domain",
+      "categoria": "GEO",
+      "subcategoria": "Citação e visibilidade",
+      "termo_en": "Cited Domain",
+      "termo_pt": "Domínio citado",
+      "definicao_pt": "Domínio (site) das fontes citadas nas respostas. Agrupar por domínio mostra quais sites dominam um tema nas IAs e onde a marca precisa estar presente.",
+      "definition_en": "Domain (site) of the sources cited in answers. Grouping by domain shows which sites dominate a topic in AI and where the brand needs to be present.",
+      "relacionados": [
+        "cited-url",
+        "citation-source-type"
+      ],
+      "fonte": ""
     },
     {
       "slug": "cctld",
@@ -1535,6 +1707,34 @@
       "relacionados": [
         "answer-capsule",
         "chunking"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "key-event",
+      "categoria": "SEO",
+      "subcategoria": "Métricas e ferramentas",
+      "termo_en": "Key Event",
+      "termo_pt": "Evento principal",
+      "definicao_pt": "No GA4, evento marcado como importante para o negócio, como envio de formulário, clique no WhatsApp ou compra. Substituiu o nome \"conversão\" no GA4 em 2024.",
+      "definition_en": "In GA4, an event marked as important to the business, such as a form submission, a WhatsApp click or a purchase. It replaced the name \"conversion\" in GA4 in 2024.",
+      "relacionados": [
+        "ga4",
+        "conversion-rate"
+      ],
+      "fonte": "https://support.google.com/analytics/answer/13128484"
+    },
+    {
+      "slug": "causal-evidence",
+      "categoria": "GEO",
+      "subcategoria": "Resultado de negócio",
+      "termo_en": "Causal Evidence",
+      "termo_pt": "Evidência causal",
+      "definicao_pt": "Prova de que uma mudança causou um efeito, obtida com experimento controlado ou desenho comparável. Antes e depois, sozinho, mostra só que as duas coisas aconteceram juntas.",
+      "definition_en": "Proof that a change caused an effect, obtained through a controlled experiment or comparable design. A before-and-after alone only shows that both things happened together.",
+      "relacionados": [
+        "incrementality",
+        "paired-sample"
       ],
       "fonte": ""
     },
@@ -1797,6 +1997,20 @@
       "fonte": ""
     },
     {
+      "slug": "code-graph",
+      "categoria": "IA",
+      "subcategoria": "Agentes e ferramentas",
+      "termo_en": "Code Graph",
+      "termo_pt": "Grafo de código",
+      "definicao_pt": "Representação de um projeto de software como grafo de arquivos, funções e dependências, usada por agentes de programação para entender o impacto de cada mudança.",
+      "definition_en": "Representation of a software project as a graph of files, functions and dependencies, used by coding agents to understand the impact of each change.",
+      "relacionados": [
+        "ai-agent",
+        "knowledge-graph"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "entity-graph",
       "categoria": "GEO",
       "subcategoria": "Entidade e grafo de conhecimento",
@@ -1867,6 +2081,20 @@
       "fonte": ""
     },
     {
+      "slug": "constitutional-ai",
+      "categoria": "IA",
+      "subcategoria": "Treinamento e ajuste",
+      "termo_en": "Constitutional AI",
+      "termo_pt": "IA constitucional",
+      "definicao_pt": "Método da Anthropic em que o modelo critica e revisa as próprias respostas seguindo uma lista escrita de princípios, reduzindo a dependência de rótulos humanos para segurança.",
+      "definition_en": "Anthropic method in which the model critiques and revises its own answers by following a written list of principles, reducing reliance on human labels for safety.",
+      "relacionados": [
+        "alignment",
+        "rlhf"
+      ],
+      "fonte": "https://arxiv.org/abs/2212.08073"
+    },
+    {
       "slug": "generative-ai",
       "categoria": "IA",
       "subcategoria": "Fundamentos",
@@ -1891,6 +2119,35 @@
       "relacionados": [
         "json-ld",
         "entity-graph"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "place-id",
+      "categoria": "SEO",
+      "subcategoria": "SEO local",
+      "termo_en": "Place ID / CID",
+      "termo_pt": "Identificador da ficha no Google",
+      "definicao_pt": "Código único que o Google atribui a cada lugar no Maps (Place ID na API, CID na URL da ficha). Serve para ligar o site, o schema e os relatórios à ficha certa, sem confusão com homônimos.",
+      "definition_en": "Unique code Google assigns to each place on Maps (Place ID in the API, CID in the listing URL). It links the site, schema and reports to the right listing, without confusion with namesakes.",
+      "relacionados": [
+        "google-business-profile",
+        "entity-disambiguation"
+      ],
+      "fonte": "https://developers.google.com/maps/documentation/places/web-service/place-id"
+    },
+    {
+      "slug": "generative-impression",
+      "categoria": "GEO",
+      "subcategoria": "Citação e visibilidade",
+      "termo_en": "Generative Impression",
+      "termo_pt": "Impressão generativa",
+      "definicao_pt": "Exibição de uma página ou marca dentro de uma resposta gerada por IA, com ou sem clique. No Search Console, aparições nos recursos de IA do Google entram no total de impressões da busca, sem relatório separado.",
+      "definition_en": "Display of a page or brand inside an AI-generated answer, with or without a click. In Search Console, appearances in Google's AI features count in overall search impressions, with no separate report.",
+      "relacionados": [
+        "impressions",
+        "ai-overviews",
+        "linked-citation"
       ],
       "fonte": ""
     },
@@ -2085,6 +2342,20 @@
       "relacionados": [
         "token",
         "function-calling"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "confidence-interval",
+      "categoria": "GEO",
+      "subcategoria": "Medição em GEO",
+      "termo_en": "Confidence Interval",
+      "termo_pt": "Intervalo de confiança",
+      "definicao_pt": "Faixa de valores em que a medida verdadeira provavelmente está, dada a variação das respostas. Uma taxa de 40% com intervalo de 25% a 55% diz muito menos do que parece.",
+      "definition_en": "Range of values in which the true measure probably lies, given the variation in answers. A 40% rate with an interval of 25% to 55% says much less than it seems.",
+      "relacionados": [
+        "response-variance",
+        "paired-sample"
       ],
       "fonte": ""
     },
@@ -2573,6 +2844,20 @@
       "fonte": "https://arxiv.org/abs/2311.09735"
     },
     {
+      "slug": "comparable-change",
+      "categoria": "GEO",
+      "subcategoria": "Medição em GEO",
+      "termo_en": "Comparable Change",
+      "termo_pt": "Mudança comparável",
+      "definicao_pt": "Diferença entre duas medições feitas com o mesmo conjunto de perguntas, plataformas, método e denominador. Só ela pode ser tratada como evolução real.",
+      "definition_en": "Difference between two measurements made with the same question set, platforms, method and denominator. Only this kind can be treated as real progress.",
+      "relacionados": [
+        "paired-sample",
+        "measurement-denominator"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "cls",
       "categoria": "SEO",
       "subcategoria": "Técnico e desempenho",
@@ -2639,6 +2924,35 @@
       "relacionados": [
         "local-citation",
         "entity-consistency"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "ontology",
+      "categoria": "GEO",
+      "subcategoria": "Entidade e grafo de conhecimento",
+      "termo_en": "Ontology",
+      "termo_pt": "Ontologia",
+      "definicao_pt": "Definição formal dos tipos de coisa de um domínio, das propriedades e das relações permitidas entre eles. O Schema.org funciona como uma ontologia leve para a web.",
+      "definition_en": "Formal definition of a domain's kinds of things, their properties and the relationships allowed between them. Schema.org works as a lightweight ontology for the web.",
+      "relacionados": [
+        "schema-org",
+        "rdf-triple",
+        "knowledge-graph"
+      ],
+      "fonte": "https://www.w3.org/TR/owl2-overview/"
+    },
+    {
+      "slug": "self-reported-attribution",
+      "categoria": "GEO",
+      "subcategoria": "Resultado de negócio",
+      "termo_en": "Self-reported Attribution",
+      "termo_pt": "Origem declarada",
+      "definicao_pt": "Pergunta \"como nos conheceu?\" no formulário ou no atendimento. Capta indicações de IA que a análise de tráfego não vê, com o limite da memória de quem responde.",
+      "definition_en": "The \"how did you hear about us?\" question on a form or in service. It captures AI referrals that traffic analytics misses, limited by the respondent's memory.",
+      "relacionados": [
+        "dark-ai-traffic",
+        "qualified-lead"
       ],
       "fonte": ""
     },
@@ -2880,6 +3194,35 @@
       "fonte": ""
     },
     {
+      "slug": "passage",
+      "categoria": "GEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Passage",
+      "termo_pt": "Passagem",
+      "definicao_pt": "Trecho de texto (um parágrafo ou uma seção) tratado como unidade de recuperação e de ranqueamento. Buscadores e sistemas RAG avaliam passagens, não só páginas inteiras.",
+      "definition_en": "Piece of text (a paragraph or a section) treated as a unit of retrieval and ranking. Search engines and RAG systems assess passages, not only whole pages.",
+      "relacionados": [
+        "chunking",
+        "answer-capsule",
+        "dense-retrieval"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "digital-footprint",
+      "categoria": "SEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Digital Footprint",
+      "termo_pt": "Pegada digital",
+      "definicao_pt": "Conjunto de rastros públicos de uma pessoa ou empresa na internet: site, perfis, menções, avaliações, cadastros e publicações. Quanto maior e mais coerente, mais fácil para buscadores e IAs reconhecerem a entidade.",
+      "definition_en": "Set of public traces a person or company leaves online: site, profiles, mentions, reviews, listings and publications. The larger and more consistent it is, the easier it is for search engines and AI to recognize the entity.",
+      "relacionados": [
+        "entity-consistency",
+        "brand-mention"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "lost-in-the-middle",
       "categoria": "IA",
       "subcategoria": "Recuperação (RAG) e busca semântica",
@@ -2906,6 +3249,20 @@
         "primary-category"
       ],
       "fonte": "https://support.google.com/business"
+    },
+    {
+      "slug": "multi-hop-question",
+      "categoria": "IA",
+      "subcategoria": "Recuperação (RAG) e busca semântica",
+      "termo_en": "Multi-hop Question",
+      "termo_pt": "Pergunta de vários saltos",
+      "definicao_pt": "Pergunta que só se responde juntando fatos de fontes diferentes, como \"o fundador da empresa X estudou onde?\". É onde grafos de conhecimento e GraphRAG mais ajudam.",
+      "definition_en": "Question that can only be answered by combining facts from different sources, such as \"where did the founder of company X study?\". It is where knowledge graphs and GraphRAG help most.",
+      "relacionados": [
+        "graphrag",
+        "knowledge-graph"
+      ],
+      "fonte": ""
     },
     {
       "slug": "original-research",
@@ -2958,6 +3315,21 @@
       "definition_en": "Average of the highest position the page held across the queries where it appeared.",
       "relacionados": [
         "google-search-console"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "citation-precision",
+      "categoria": "GEO",
+      "subcategoria": "Medição em GEO",
+      "termo_en": "Citation Precision",
+      "termo_pt": "Precisão da citação",
+      "definicao_pt": "Proporção das citações em que a fonte citada de fato sustenta a afirmação a que está ligada. Uma IA pode citar uma página que não diz o que a resposta afirma.",
+      "definition_en": "Share of citations in which the cited source actually supports the claim it is attached to. AI may cite a page that does not say what the answer claims.",
+      "relacionados": [
+        "faithfulness",
+        "ai-citation",
+        "cited-url"
       ],
       "fonte": ""
     },
@@ -3114,6 +3486,21 @@
         "ai-agent"
       ],
       "fonte": "https://a2a-protocol.org"
+    },
+    {
+      "slug": "acp",
+      "categoria": "GEO",
+      "subcategoria": "Agentes e comércio",
+      "termo_en": "Agentic Commerce Protocol (ACP)",
+      "termo_pt": "Protocolo de comércio agêntico",
+      "definicao_pt": "Padrão aberto, lançado pela OpenAI e pela Stripe em 2025, para agentes de IA concluírem compras com lojistas, que continuam como vendedores responsáveis pelo pedido.",
+      "definition_en": "Open standard, launched by OpenAI and Stripe in 2025, for AI agents to complete purchases with merchants, who remain the seller of record.",
+      "relacionados": [
+        "agentic-commerce",
+        "a2a",
+        "mcp"
+      ],
+      "fonte": "https://www.agenticcommerce.dev"
     },
     {
       "slug": "mcp",
@@ -3286,6 +3673,34 @@
       "fonte": "https://arxiv.org/abs/2210.03629"
     },
     {
+      "slug": "attributed-revenue",
+      "categoria": "GEO",
+      "subcategoria": "Resultado de negócio",
+      "termo_en": "Attributed Revenue",
+      "termo_pt": "Receita atribuída",
+      "definicao_pt": "Receita de pedidos ligados a uma origem (busca orgânica, IA, anúncio) por uma regra de atribuição declarada. Mostra associação, não prova que a origem causou a venda.",
+      "definition_en": "Revenue from orders tied to a source (organic search, AI, ads) by a stated attribution rule. It shows association, not proof that the source caused the sale.",
+      "relacionados": [
+        "incrementality",
+        "key-event"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "ai-recommendation",
+      "categoria": "GEO",
+      "subcategoria": "Citação e visibilidade",
+      "termo_en": "AI Recommendation",
+      "termo_pt": "Recomendação por IA",
+      "definicao_pt": "Quando a resposta de IA indica a marca como opção para a necessidade do usuário, e não só a menciona. É o resultado que mais se aproxima de uma indicação comercial.",
+      "definition_en": "When an AI answer suggests the brand as an option for the user's need instead of merely mentioning it. It is the outcome closest to a commercial referral.",
+      "relacionados": [
+        "ai-mention",
+        "recommendation-rate"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "named-entity-recognition",
       "categoria": "IA",
       "subcategoria": "Fundamentos",
@@ -3296,6 +3711,21 @@
       "relacionados": [
         "nlp",
         "entity"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "retrievability",
+      "categoria": "GEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Retrievability",
+      "termo_pt": "Recuperabilidade",
+      "definicao_pt": "Chance de uma página ser encontrada pela camada de recuperação para as perguntas que ela responde. Vem antes da citação: o que não é recuperado não entra na resposta.",
+      "definition_en": "Chance of a page being found by the retrieval layer for the questions it answers. It comes before citation: what is not retrieved does not enter the answer.",
+      "relacionados": [
+        "retrieval-layer",
+        "citability",
+        "chunking"
       ],
       "fonte": ""
     },
@@ -3385,6 +3815,20 @@
       "fonte": "https://developers.google.com/search/docs/crawling-indexing/301-redirects"
     },
     {
+      "slug": "knowledge-panel-claim",
+      "categoria": "GEO",
+      "subcategoria": "Entidade e grafo de conhecimento",
+      "termo_en": "Claiming a Knowledge Panel",
+      "termo_pt": "Reivindicar o painel de conhecimento",
+      "definicao_pt": "Processo do Google para a própria pessoa ou organização verificar que é a entidade do painel e poder sugerir correções. Exige entrar por uma conta ligada a um site ou perfil oficial.",
+      "definition_en": "Google process by which a person or organization verifies it is the panel's entity and can suggest corrections. It requires signing in with an account tied to an official site or profile.",
+      "relacionados": [
+        "knowledge-panel",
+        "entity-home"
+      ],
+      "fonte": "https://support.google.com/knowledgepanel/answer/7534902"
+    },
+    {
       "slug": "index-coverage",
       "categoria": "SEO",
       "subcategoria": "Rastreamento e indexação",
@@ -3466,6 +3910,34 @@
       "relacionados": [
         "hybrid-search",
         "rag"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "valid-response",
+      "categoria": "GEO",
+      "subcategoria": "Medição em GEO",
+      "termo_en": "Valid Response",
+      "termo_pt": "Resposta válida",
+      "definicao_pt": "Resposta que entra na conta da medição: a coleta funcionou e a IA respondeu ao que foi perguntado. Recusas, erros e respostas fora do tema ficam de fora e precisam ser informados.",
+      "definition_en": "Answer that counts in the measurement: collection worked and the AI answered what was asked. Refusals, errors and off-topic answers are excluded and must be reported.",
+      "relacionados": [
+        "measurement-denominator",
+        "prompt-set"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "incrementality",
+      "categoria": "GEO",
+      "subcategoria": "Resultado de negócio",
+      "termo_en": "Incrementality",
+      "termo_pt": "Resultado incremental",
+      "definicao_pt": "O que aconteceu por causa de uma ação e não teria acontecido sem ela, medido comparando com um grupo ou período de controle.",
+      "definition_en": "What happened because of an action and would not have happened without it, measured against a control group or period.",
+      "relacionados": [
+        "causal-evidence",
+        "attributed-revenue"
       ],
       "fonte": ""
     },
@@ -3627,6 +4099,20 @@
       "fonte": "https://developers.google.com/search/docs/appearance/structured-data/product"
     },
     {
+      "slug": "speakable-schema",
+      "categoria": "SEO",
+      "subcategoria": "Dados estruturados",
+      "termo_en": "Speakable Schema",
+      "termo_pt": "Schema Speakable",
+      "definicao_pt": "Propriedade Schema.org que marca os trechos de uma página mais adequados para leitura em voz alta por assistentes. No Google, é recurso beta, restrito a notícias e a alguns países.",
+      "definition_en": "Schema.org property marking the parts of a page best suited to be read aloud by assistants. At Google it is a beta feature, limited to news and some countries.",
+      "relacionados": [
+        "structured-data",
+        "answer-capsule"
+      ],
+      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/speakable"
+    },
+    {
       "slug": "schema-org",
       "categoria": "SEO",
       "subcategoria": "Dados estruturados",
@@ -3786,6 +4272,21 @@
       "fonte": ""
     },
     {
+      "slug": "brand-serp",
+      "categoria": "SEO",
+      "subcategoria": "Fundamentos",
+      "termo_en": "Brand SERP",
+      "termo_pt": "SERP da marca",
+      "definicao_pt": "Página de resultados que aparece quando alguém busca o nome da marca: site oficial, painel de conhecimento, perfis, avaliações e notícias. É o primeiro retrato público da empresa e uma fonte que as IAs também leem.",
+      "definition_en": "Results page shown when someone searches for the brand name: official site, knowledge panel, profiles, reviews and news. It is the company's first public portrait and a source AI also reads.",
+      "relacionados": [
+        "knowledge-panel",
+        "entity-home",
+        "online-reviews"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "ymyl",
       "categoria": "SEO",
       "subcategoria": "Conteúdo e on-page",
@@ -3810,6 +4311,21 @@
         "embedding"
       ],
       "fonte": ""
+    },
+    {
+      "slug": "content-signals",
+      "categoria": "GEO",
+      "subcategoria": "Arquivos e acesso das IAs",
+      "termo_en": "Content Signals",
+      "termo_pt": "Sinais de conteúdo",
+      "definicao_pt": "Proposta publicada pela Cloudflare em 2025 para declarar no robots.txt como o conteúdo pode ser usado depois de coletado: busca (search), entrada de IA para respostas (ai-input) e treino (ai-train). É uma declaração de preferência, não um bloqueio técnico.",
+      "definition_en": "Proposal published by Cloudflare in 2025 for declaring in robots.txt how content may be used after it is collected: search, AI input for answers (ai-input) and training (ai-train). It is a statement of preference, not a technical block.",
+      "relacionados": [
+        "robots-txt",
+        "training-opt-out",
+        "ai-crawler"
+      ],
+      "fonte": "https://contentsignals.org"
     },
     {
       "slug": "multi-agent-system",
@@ -3977,6 +4493,35 @@
       "fonte": ""
     },
     {
+      "slug": "mention-rate",
+      "categoria": "GEO",
+      "subcategoria": "Medição em GEO",
+      "termo_en": "Mention Rate",
+      "termo_pt": "Taxa de menção",
+      "definicao_pt": "Porcentagem das respostas válidas, num conjunto de perguntas, em que a marca aparece no texto.",
+      "definition_en": "Percentage of valid answers, over a set of questions, in which the brand appears in the text.",
+      "relacionados": [
+        "ai-mention",
+        "valid-response",
+        "measurement-denominator"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "recommendation-rate",
+      "categoria": "GEO",
+      "subcategoria": "Medição em GEO",
+      "termo_en": "Recommendation Rate",
+      "termo_pt": "Taxa de recomendação",
+      "definicao_pt": "Porcentagem das respostas válidas em que a IA indica a marca como opção. É mais exigente que a taxa de menção e mais ligada a resultado comercial.",
+      "definition_en": "Percentage of valid answers in which AI suggests the brand as an option. It is stricter than the mention rate and more tied to commercial results.",
+      "relacionados": [
+        "ai-recommendation",
+        "mention-rate"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "temperature",
       "categoria": "IA",
       "subcategoria": "Inferência e uso",
@@ -4003,6 +4548,20 @@
         "cdn"
       ],
       "fonte": "https://web.dev/articles/ttfb"
+    },
+    {
+      "slug": "rich-results-test",
+      "categoria": "SEO",
+      "subcategoria": "Dados estruturados",
+      "termo_en": "Rich Results Test",
+      "termo_pt": "Teste de pesquisa aprimorada",
+      "definicao_pt": "Ferramenta gratuita do Google que lê uma URL ou um trecho de código e mostra quais dados estruturados encontrou, se são válidos e quais resultados aprimorados podem gerar.",
+      "definition_en": "Free Google tool that reads a URL or a code snippet and shows which structured data it found, whether it is valid and which rich results it can produce.",
+      "relacionados": [
+        "rich-results",
+        "structured-data"
+      ],
+      "fonte": "https://search.google.com/test/rich-results"
     },
     {
       "slug": "alt-text",
@@ -4143,6 +4702,35 @@
       "fonte": ""
     },
     {
+      "slug": "rdf-triple",
+      "categoria": "GEO",
+      "subcategoria": "Entidade e grafo de conhecimento",
+      "termo_en": "Triple (RDF)",
+      "termo_pt": "Tripla",
+      "definicao_pt": "Unidade mínima de um grafo de conhecimento: sujeito, predicado e objeto, como \"Negócio no Mapa – fundada em – 2016\". Dados estruturados em JSON-LD são, por baixo, conjuntos de triplas.",
+      "definition_en": "Smallest unit of a knowledge graph: subject, predicate and object, such as \"Negócio no Mapa – founded in – 2016\". JSON-LD structured data is, underneath, a set of triples.",
+      "relacionados": [
+        "knowledge-graph",
+        "json-ld",
+        "ontology"
+      ],
+      "fonte": "https://www.w3.org/TR/rdf11-concepts/"
+    },
+    {
+      "slug": "dark-ai-traffic",
+      "categoria": "GEO",
+      "subcategoria": "Resultado de negócio",
+      "termo_en": "Dark AI Traffic",
+      "termo_pt": "Tráfego de IA não identificado",
+      "definicao_pt": "Visitas vindas de IAs que chegam sem referência e aparecem como tráfego direto, por exemplo quando o usuário copia o endereço da resposta ou o aplicativo não envia a origem. Faz o tráfego de IA parecer menor do que é.",
+      "definition_en": "Visits from AI that arrive without a referrer and show up as direct traffic, for example when the user copies the address from the answer or the app does not send the source. It makes AI traffic look smaller than it is.",
+      "relacionados": [
+        "ai-referral-traffic",
+        "self-reported-attribution"
+      ],
+      "fonte": ""
+    },
+    {
       "slug": "ai-referral-traffic",
       "categoria": "GEO",
       "subcategoria": "Citação e visibilidade",
@@ -4153,6 +4741,19 @@
       "relacionados": [
         "ga4",
         "ai-visibility"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "unit-of-analysis",
+      "categoria": "GEO",
+      "subcategoria": "Medição em GEO",
+      "termo_en": "Unit of Analysis",
+      "termo_pt": "Unidade de análise",
+      "definicao_pt": "O que se conta em cada medição: a resposta, a pergunta, a citação ou a sessão. Trocar a unidade muda o resultado e precisa estar declarado.",
+      "definition_en": "What is counted in each measurement: the answer, the question, the citation or the session. Changing the unit changes the result and must be stated.",
+      "relacionados": [
+        "measurement-denominator"
       ],
       "fonte": ""
     },
@@ -4169,6 +4770,20 @@
         "indexing"
       ],
       "fonte": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls"
+    },
+    {
+      "slug": "cited-url",
+      "categoria": "GEO",
+      "subcategoria": "Citação e visibilidade",
+      "termo_en": "Cited URL",
+      "termo_pt": "URL citada",
+      "definicao_pt": "Endereço exato que a IA usou como fonte numa resposta. Mostra quais páginas do site, ou de terceiros, estão de fato sustentando o que a IA diz.",
+      "definition_en": "Exact address the AI used as a source in an answer. It shows which pages, on the site or elsewhere, actually support what the AI says.",
+      "relacionados": [
+        "cited-domain",
+        "ai-citation"
+      ],
+      "fonte": ""
     },
     {
       "slug": "computer-use",
@@ -4209,6 +4824,20 @@
       "relacionados": [
         "temperature",
         "prompt-set"
+      ],
+      "fonte": ""
+    },
+    {
+      "slug": "vibe-coding",
+      "categoria": "IA",
+      "subcategoria": "Agentes e ferramentas",
+      "termo_en": "Vibe Coding",
+      "termo_pt": "Vibe coding",
+      "definicao_pt": "Programar descrevendo o que se quer em linguagem natural e aceitando o código gerado pela IA, quase sem lê-lo. Termo criado por Andrej Karpathy em 2025. Funciona para protótipos e é arriscado em produção.",
+      "definition_en": "Programming by describing what you want in natural language and accepting the AI-generated code, barely reading it. Term coined by Andrej Karpathy in 2025. It works for prototypes and is risky in production.",
+      "relacionados": [
+        "ai-agent",
+        "human-in-the-loop"
       ],
       "fonte": ""
     },
@@ -4310,6 +4939,20 @@
         "entity-disambiguation"
       ],
       "fonte": "https://www.wikidata.org"
+    },
+    {
+      "slug": "sitemap-index",
+      "categoria": "SEO",
+      "subcategoria": "Rastreamento e indexação",
+      "termo_en": "Sitemap Index",
+      "termo_pt": "Índice de sitemaps",
+      "definicao_pt": "Arquivo que lista vários sitemaps XML, usado quando o site passa do limite de 50 mil URLs ou 50 MB por sitemap ou quer separar sitemaps por tipo de conteúdo.",
+      "definition_en": "File listing several XML sitemaps, used when a site exceeds the limit of 50,000 URLs or 50 MB per sitemap or wants separate sitemaps by content type.",
+      "relacionados": [
+        "xml-sitemap",
+        "lastmod"
+      ],
+      "fonte": "https://www.sitemaps.org/protocol.html"
     }
   ]
 }

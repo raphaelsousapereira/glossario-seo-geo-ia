@@ -1,12 +1,12 @@
-# Glossário SEO, GEO e IA — 306 termos
+# Glossário SEO, GEO e IA — 351 termos
 
-Versão 1.0.0 · atualizado em 2026-10-23 · português do Brasil e inglês · [CC BY 4.0](LICENSE) · Raphael Sousa Pereira, [Negócio no Mapa](https://seonegocionomapa.com.br)
+Versão 1.1.0 · atualizado em 2026-10-23 · português do Brasil e inglês · [CC BY 4.0](LICENSE) · Raphael Sousa Pereira, [Negócio no Mapa](https://seonegocionomapa.com.br)
 
 Arquivo gerado por `scripts/construir.py` a partir de `termos/`. Não edite à mão.
 
-- [SEO](#categoria-seo) — Busca orgânica, SEO técnico, local e dados estruturados (123 termos)
-- [GEO](#categoria-geo) — Visibilidade e citação em motores generativos (71 termos)
-- [IA](#categoria-ia) — Inteligência artificial aplicada à busca e ao conteúdo (112 termos)
+- [SEO](#categoria-seo) — Busca orgânica, SEO técnico, local e dados estruturados (132 termos)
+- [GEO](#categoria-geo) — Visibilidade e citação em motores generativos (102 termos)
+- [IA](#categoria-ia) — Inteligência artificial aplicada à busca e ao conteúdo (117 termos)
 
 <a id="categoria-seo"></a>
 ## SEO — Busca orgânica, SEO técnico, local e dados estruturados
@@ -103,6 +103,16 @@ Consulta mais específica e longa, com volume menor, concorrência menor e inten
 
 Veja também: [Palavra-chave](#keyword)
 
+#### Pegada digital
+
+<a id="digital-footprint"></a>**EN:** Digital Footprint
+
+Conjunto de rastros públicos de uma pessoa ou empresa na internet: site, perfis, menções, avaliações, cadastros e publicações. Quanto maior e mais coerente, mais fácil para buscadores e IAs reconhecerem a entidade.
+
+> *Set of public traces a person or company leaves online: site, profiles, mentions, reviews, listings and publications. The larger and more consistent it is, the easier it is for search engines and AI to recognize the entity.*
+
+Veja também: [Consistência da entidade](#entity-consistency), [Menção à marca](#brand-mention)
+
 #### Página de resultados do buscador
 
 <a id="serp"></a>**EN:** Search Engine Results Page (SERP)
@@ -112,6 +122,16 @@ Página que o buscador devolve para uma consulta, com resultados orgânicos, an�
 > *Page a search engine returns for a query, combining organic results, ads and features such as maps, videos, related questions and AI-generated summaries.*
 
 Veja também: [Recurso da página de resultados](#serp-feature), [Visão geral criada por IA](#ai-overviews), [Busca orgânica](#organic-search)
+
+#### SERP da marca
+
+<a id="brand-serp"></a>**EN:** Brand SERP
+
+Página de resultados que aparece quando alguém busca o nome da marca: site oficial, painel de conhecimento, perfis, avaliações e notícias. É o primeiro retrato público da empresa e uma fonte que as IAs também leem.
+
+> *Results page shown when someone searches for the brand name: official site, knowledge panel, profiles, reviews and news. It is the company's first public portrait and a source AI also reads.*
+
+Veja também: [Painel de conhecimento](#knowledge-panel), [Página-casa da entidade](#entity-home), [Avaliações online](#online-reviews)
 
 #### Volume de busca
 
@@ -184,6 +204,16 @@ Número de três dígitos que o servidor devolve em cada requisição: 200 (suce
 > *Three-digit number the server returns for each request: 200 (success), 301/302 (redirect), 404/410 (not found) and 5xx (server error).*
 
 Veja também: [Soft 404](#soft-404), [Redirecionamento 301](#redirect-301) · Fonte: <https://www.rfc-editor.org/rfc/rfc9110>
+
+#### Código-fonte da página
+
+<a id="page-source"></a>**EN:** Page Source (Raw HTML)
+
+HTML que o servidor entrega antes de qualquer JavaScript rodar, visto em "Exibir código-fonte". É o que a maioria dos robôs de IA lê; o que só aparece depois do JavaScript pode não existir para eles.
+
+> *HTML the server delivers before any JavaScript runs, seen with "View source". It is what most AI bots read; what only appears after JavaScript may not exist for them.*
+
+Veja também: [Renderização](#rendering), [Renderização no servidor](#server-side-rendering), [Robô de IA](#ai-crawler)
 
 #### Data de última modificação
 
@@ -354,6 +384,16 @@ Versão preferida de uma página entre várias URLs com conteúdo igual ou muito
 > *Preferred version of a page among several URLs with the same or very similar content, indicated with rel="canonical". It is a hint; the search engine may choose another.*
 
 Veja também: [Conteúdo duplicado](#duplicate-content), [Indexação](#indexing) · Fonte: <https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls>
+
+#### Índice de sitemaps
+
+<a id="sitemap-index"></a>**EN:** Sitemap Index
+
+Arquivo que lista vários sitemaps XML, usado quando o site passa do limite de 50 mil URLs ou 50 MB por sitemap ou quer separar sitemaps por tipo de conteúdo.
+
+> *File listing several XML sitemaps, used when a site exceeds the limit of 50,000 URLs or 50 MB per sitemap or wants separate sitemaps by content type.*
+
+Veja também: [Sitemap XML](#xml-sitemap), [Data de última modificação](#lastmod) · Fonte: <https://www.sitemaps.org/protocol.html>
 
 ### SEO · Técnico e desempenho
 
@@ -873,6 +913,16 @@ Empresa que atende no endereço do cliente, como encanadores, e pode ocultar o e
 
 Veja também: [Perfil da Empresa no Google](#google-business-profile)
 
+#### Identificador da ficha no Google
+
+<a id="place-id"></a>**EN:** Place ID / CID
+
+Código único que o Google atribui a cada lugar no Maps (Place ID na API, CID na URL da ficha). Serve para ligar o site, o schema e os relatórios à ficha certa, sem confusão com homônimos.
+
+> *Unique code Google assigns to each place on Maps (Place ID in the API, CID in the listing URL). It links the site, schema and reports to the right listing, without confusion with namesakes.*
+
+Veja também: [Perfil da Empresa no Google](#google-business-profile), [Desambiguação de entidade](#entity-disambiguation) · Fonte: <https://developers.google.com/maps/documentation/places/web-service/place-id>
+
 #### Nome, endereço e telefone
 
 <a id="nap"></a>**EN:** NAP (Name, Address, Phone)
@@ -1067,6 +1117,16 @@ Marcação de produto com nome, imagem, preço, disponibilidade, avaliações e 
 
 Veja também: [Dados estruturados](#structured-data), [Comércio agêntico](#agentic-commerce) · Fonte: <https://developers.google.com/search/docs/appearance/structured-data/product>
 
+#### Schema Speakable
+
+<a id="speakable-schema"></a>**EN:** Speakable Schema
+
+Propriedade Schema.org que marca os trechos de uma página mais adequados para leitura em voz alta por assistentes. No Google, é recurso beta, restrito a notícias e a alguns países.
+
+> *Schema.org property marking the parts of a page best suited to be read aloud by assistants. At Google it is a beta feature, limited to news and some countries.*
+
+Veja também: [Dados estruturados](#structured-data), [Cápsula de resposta](#answer-capsule) · Fonte: <https://developers.google.com/search/docs/appearance/structured-data/speakable>
+
 #### Schema.org
 
 <a id="schema-org"></a>**EN:** Schema.org
@@ -1076,6 +1136,16 @@ Vocabulário mantido por Google, Microsoft, Yahoo e Yandex para descrever entida
 > *Vocabulary maintained by Google, Microsoft, Yahoo and Yandex to describe entities (Organization, Person, Product, LocalBusiness, FAQPage and hundreds more) and their properties.*
 
 Veja também: [Dados estruturados](#structured-data), [JSON-LD](#json-ld) · Fonte: <https://schema.org>
+
+#### Teste de pesquisa aprimorada
+
+<a id="rich-results-test"></a>**EN:** Rich Results Test
+
+Ferramenta gratuita do Google que lê uma URL ou um trecho de código e mostra quais dados estruturados encontrou, se são válidos e quais resultados aprimorados podem gerar.
+
+> *Free Google tool that reads a URL or a code snippet and shows which structured data it found, whether it is valid and which rich results it can produce.*
+
+Veja também: [Resultados aprimorados](#rich-results), [Dados estruturados](#structured-data) · Fonte: <https://search.google.com/test/rich-results>
 
 ### SEO · Métricas e ferramentas
 
@@ -1088,6 +1158,26 @@ Ferramenta da Microsoft equivalente ao Search Console para o Bing, cujo índice 
 > *Microsoft's Search Console equivalent for Bing, whose index also feeds Copilot and other assistants.*
 
 Veja também: [IndexNow](#indexnow) · Fonte: <https://www.bing.com/webmasters>
+
+#### Contato qualificado
+
+<a id="qualified-lead"></a>**EN:** Qualified Lead
+
+Contato que atende aos critérios definidos de potencial cliente (perfil, necessidade, orçamento, região). Medir só contatos qualificados evita confundir volume com resultado.
+
+> *Contact that meets the defined criteria for a potential customer (profile, need, budget, region). Measuring only qualified leads avoids confusing volume with results.*
+
+Veja também: [Evento principal](#key-event), [Taxa de conversão](#conversion-rate)
+
+#### Evento principal
+
+<a id="key-event"></a>**EN:** Key Event
+
+No GA4, evento marcado como importante para o negócio, como envio de formulário, clique no WhatsApp ou compra. Substituiu o nome "conversão" no GA4 em 2024.
+
+> *In GA4, an event marked as important to the business, such as a form submission, a WhatsApp click or a purchase. It replaced the name "conversion" in GA4 in 2024.*
+
+Veja também: [Google Analytics 4](#ga4), [Taxa de conversão](#conversion-rate) · Fonte: <https://support.google.com/analytics/answer/13128484>
 
 #### Google Analytics 4
 
@@ -1296,6 +1386,16 @@ Parte do sistema de IA que busca documentos (na web, num índice próprio ou num
 
 Veja também: [Geração aumentada por recuperação](#rag), [Busca com IA](#ai-search), [Banco de dados vetorial](#vector-database)
 
+#### Citabilidade
+
+<a id="citability"></a>**EN:** Citability
+
+Quanto um conteúdo está pronto para ser usado e citado por uma IA: acessível aos robôs, com respostas autossuficientes, fatos específicos com fonte e autoria e entidade claras. Prontidão não garante citação.
+
+> *How ready content is to be used and cited by AI: accessible to bots, with self-contained answers, specific sourced facts and clear authorship and entity. Readiness does not guarantee citation.*
+
+Veja também: [Cápsula de resposta](#answer-capsule), [Fato citável](#citable-fact), [Recuperabilidade](#retrievability)
+
 #### Conhecimento paramétrico
 
 <a id="parametric-knowledge"></a>**EN:** Parametric Knowledge
@@ -1305,6 +1405,16 @@ O que o modelo "sabe" porque aprendeu no treinamento e ficou guardado nos pesos,
 > *What the model "knows" from training, stored in its weights, without consulting sources. It goes stale after the cutoff date.*
 
 Veja também: [Data de corte do conhecimento](#knowledge-cutoff), [Ancoragem em fontes](#grounding), [Dados de treino](#training-data)
+
+#### Consulta de fundamentação
+
+<a id="grounding-query"></a>**EN:** Grounding Query
+
+Busca que o próprio sistema de IA faz na web ou num índice para ancorar a resposta. Pode ser bem diferente da pergunta do usuário, e é ela que decide quais páginas são lidas.
+
+> *Search the AI system itself runs on the web or an index to ground its answer. It can differ greatly from the user's question, and it decides which pages get read.*
+
+Veja também: [Ancoragem em fontes](#grounding), [Desdobramento da consulta](#query-fan-out)
 
 #### Desdobramento da consulta
 
@@ -1376,6 +1486,26 @@ Disciplina que aumenta a chance de uma marca, página ou fato ser encontrado, us
 
 Veja também: [Otimização para mecanismos de busca](#seo), [Otimização para motores de resposta](#aeo), [Motor generativo](#generative-engine), [Citação por IA](#ai-citation) · Fonte: <https://arxiv.org/abs/2311.09735>
 
+#### Passagem
+
+<a id="passage"></a>**EN:** Passage
+
+Trecho de texto (um parágrafo ou uma seção) tratado como unidade de recuperação e de ranqueamento. Buscadores e sistemas RAG avaliam passagens, não só páginas inteiras.
+
+> *Piece of text (a paragraph or a section) treated as a unit of retrieval and ranking. Search engines and RAG systems assess passages, not only whole pages.*
+
+Veja também: [Fragmentação em trechos](#chunking), [Cápsula de resposta](#answer-capsule), [Recuperação densa](#dense-retrieval)
+
+#### Recuperabilidade
+
+<a id="retrievability"></a>**EN:** Retrievability
+
+Chance de uma página ser encontrada pela camada de recuperação para as perguntas que ela responde. Vem antes da citação: o que não é recuperado não entra na resposta.
+
+> *Chance of a page being found by the retrieval layer for the questions it answers. It comes before citation: what is not retrieved does not enter the answer.*
+
+Veja também: [Camada de recuperação](#retrieval-layer), [Citabilidade](#citability), [Fragmentação em trechos](#chunking)
+
 #### Visão geral criada por IA
 
 <a id="ai-overviews"></a>**EN:** AI Overviews
@@ -1408,6 +1538,16 @@ Como o sistema de IA indica de onde veio cada informação: link inline, nota nu
 
 Veja também: [Citação por IA](#ai-citation)
 
+#### Citação com link
+
+<a id="linked-citation"></a>**EN:** Linked Citation
+
+Citação em que a resposta de IA traz um link clicável para a página de origem. Só ela gera tráfego; uma menção sem link gera reconhecimento, não visita.
+
+> *Citation in which the AI answer includes a clickable link to the source page. Only this kind generates traffic; a mention without a link builds recognition, not visits.*
+
+Veja também: [Citação por IA](#ai-citation), [Menção por IA](#ai-mention), [Tráfego vindo de IAs](#ai-referral-traffic)
+
 #### Citação por IA
 
 <a id="ai-citation"></a>**EN:** AI Citation
@@ -1428,6 +1568,16 @@ Quando duas entidades aparecem juntas nas mesmas fontes ou respostas. Faz a IA a
 
 Veja também: [Menção à marca](#brand-mention), [Associação de entidade](#entity-association)
 
+#### Domínio citado
+
+<a id="cited-domain"></a>**EN:** Cited Domain
+
+Domínio (site) das fontes citadas nas respostas. Agrupar por domínio mostra quais sites dominam um tema nas IAs e onde a marca precisa estar presente.
+
+> *Domain (site) of the sources cited in answers. Grouping by domain shows which sites dominate a topic in AI and where the brand needs to be present.*
+
+Veja também: [URL citada](#cited-url), [Tipo de fonte citada](#citation-source-type)
+
 #### Fonte de terceiros
 
 <a id="third-party-source"></a>**EN:** Third-party Source
@@ -1437,6 +1587,16 @@ Página fora do controle da marca que fala dela, como notícia, avaliação, ver
 > *Page outside the brand's control that talks about it, such as news, a review, an encyclopedia entry or a forum. AI tends to trust these more than the brand's own site.*
 
 Veja também: [Tipo de fonte citada](#citation-source-type), [Menção à marca](#brand-mention)
+
+#### Impressão generativa
+
+<a id="generative-impression"></a>**EN:** Generative Impression
+
+Exibição de uma página ou marca dentro de uma resposta gerada por IA, com ou sem clique. No Search Console, aparições nos recursos de IA do Google entram no total de impressões da busca, sem relatório separado.
+
+> *Display of a page or brand inside an AI-generated answer, with or without a click. In Search Console, appearances in Google's AI features count in overall search impressions, with no separate report.*
+
+Veja também: [Impressões](#impressions), [Visão geral criada por IA](#ai-overviews), [Citação com link](#linked-citation)
 
 #### Inclusão na resposta
 
@@ -1488,6 +1648,16 @@ Ordem em que a fonte aparece na resposta ou na lista de fontes. Fontes citadas p
 
 Veja também: [Citação por IA](#ai-citation)
 
+#### Recomendação por IA
+
+<a id="ai-recommendation"></a>**EN:** AI Recommendation
+
+Quando a resposta de IA indica a marca como opção para a necessidade do usuário, e não só a menciona. É o resultado que mais se aproxima de uma indicação comercial.
+
+> *When an AI answer suggests the brand as an option for the user's need instead of merely mentioning it. It is the outcome closest to a commercial referral.*
+
+Veja também: [Menção por IA](#ai-mention), [Taxa de recomendação](#recommendation-rate)
+
 #### Sentimento da marca em IA
 
 <a id="brand-sentiment"></a>**EN:** Brand Sentiment (AI)
@@ -1528,6 +1698,16 @@ Visitas ao site originadas de cliques em respostas de IA (chatgpt.com, perplexit
 
 Veja também: [Google Analytics 4](#ga4), [Visibilidade em IA](#ai-visibility)
 
+#### URL citada
+
+<a id="cited-url"></a>**EN:** Cited URL
+
+Endereço exato que a IA usou como fonte numa resposta. Mostra quais páginas do site, ou de terceiros, estão de fato sustentando o que a IA diz.
+
+> *Exact address the AI used as a source in an answer. It shows which pages, on the site or elsewhere, actually support what the AI says.*
+
+Veja também: [Domínio citado](#cited-domain), [Citação por IA](#ai-citation)
+
 #### Visibilidade em IA
 
 <a id="ai-visibility"></a>**EN:** AI Visibility
@@ -1539,6 +1719,16 @@ Quanto e como uma marca aparece nas respostas de IA para um conjunto de pergunta
 Veja também: [Participação de voz em IA](#share-of-voice), [Taxa de citação](#citation-rate), [Conjunto de prompts](#prompt-set)
 
 ### GEO · Entidade e grafo de conhecimento
+
+#### Afirmação
+
+<a id="claim"></a>**EN:** Claim
+
+Proposição verificável sobre uma entidade, como "atende em Porto Alegre" ou "fundada em 2016". É a unidade usada para conferir se a IA repete os fatos certos.
+
+> *Verifiable proposition about an entity, such as "serves Porto Alegre" or "founded in 2016". It is the unit used to check whether AI repeats the right facts.*
+
+Veja também: [Fato citável](#citable-fact), [Exatidão das respostas sobre a marca](#answer-accuracy), [Página de fatos da marca](#brand-facts-page)
 
 #### Autor como entidade
 
@@ -1610,6 +1800,16 @@ Rede de entidades que o site declara em JSON-LD (Organization, Person, WebSite, 
 
 Veja também: [Identificador @id](#schema-id), [Grafo de conhecimento](#knowledge-graph)
 
+#### Ontologia
+
+<a id="ontology"></a>**EN:** Ontology
+
+Definição formal dos tipos de coisa de um domínio, das propriedades e das relações permitidas entre eles. O Schema.org funciona como uma ontologia leve para a web.
+
+> *Formal definition of a domain's kinds of things, their properties and the relationships allowed between them. Schema.org works as a lightweight ontology for the web.*
+
+Veja também: [Schema.org](#schema-org), [Tripla](#rdf-triple), [Grafo de conhecimento](#knowledge-graph) · Fonte: <https://www.w3.org/TR/owl2-overview/>
+
 #### Página de fatos da marca
 
 <a id="brand-facts-page"></a>**EN:** Brand Facts Page
@@ -1630,6 +1830,16 @@ Página que a própria entidade controla e que define oficialmente quem ela é, 
 
 Veja também: [Entidade](#entity), [Schema Organization](#organization-schema)
 
+#### Reivindicar o painel de conhecimento
+
+<a id="knowledge-panel-claim"></a>**EN:** Claiming a Knowledge Panel
+
+Processo do Google para a própria pessoa ou organização verificar que é a entidade do painel e poder sugerir correções. Exige entrar por uma conta ligada a um site ou perfil oficial.
+
+> *Google process by which a person or organization verifies it is the panel's entity and can suggest corrections. It requires signing in with an account tied to an official site or profile.*
+
+Veja também: [Painel de conhecimento](#knowledge-panel), [Página-casa da entidade](#entity-home) · Fonte: <https://support.google.com/knowledgepanel/answer/7534902>
+
 #### Saliência da entidade
 
 <a id="entity-salience"></a>**EN:** Entity Salience
@@ -1639,6 +1849,16 @@ Quão central uma entidade é num texto. Páginas em que a marca é o assunto pr
 > *How central an entity is in a text. Pages where the brand is the main subject, not a passing mention, strengthen the association.*
 
 Veja também: [Entidade](#entity), [Associação de entidade](#entity-association)
+
+#### Tripla
+
+<a id="rdf-triple"></a>**EN:** Triple (RDF)
+
+Unidade mínima de um grafo de conhecimento: sujeito, predicado e objeto, como "Negócio no Mapa – fundada em – 2016". Dados estruturados em JSON-LD são, por baixo, conjuntos de triplas.
+
+> *Smallest unit of a knowledge graph: subject, predicate and object, such as "Negócio no Mapa – founded in – 2016". JSON-LD structured data is, underneath, a set of triples.*
+
+Veja também: [Grafo de conhecimento](#knowledge-graph), [JSON-LD](#json-ld), [Ontologia](#ontology) · Fonte: <https://www.w3.org/TR/rdf11-concepts/>
 
 #### Wikidata
 
@@ -1834,7 +2054,27 @@ Robô que coleta páginas para empresas de IA. Há três usos: treino (GPTBot, C
 
 Veja também: [Robô de rastreamento](#crawler), [Arquivo robots.txt](#robots-txt), [Google-Extended](#google-extended)
 
+#### Sinais de conteúdo
+
+<a id="content-signals"></a>**EN:** Content Signals
+
+Proposta publicada pela Cloudflare em 2025 para declarar no robots.txt como o conteúdo pode ser usado depois de coletado: busca (search), entrada de IA para respostas (ai-input) e treino (ai-train). É uma declaração de preferência, não um bloqueio técnico.
+
+> *Proposal published by Cloudflare in 2025 for declaring in robots.txt how content may be used after it is collected: search, AI input for answers (ai-input) and training (ai-train). It is a statement of preference, not a technical block.*
+
+Veja também: [Arquivo robots.txt](#robots-txt), [Recusa de uso para treino](#training-opt-out), [Robô de IA](#ai-crawler) · Fonte: <https://contentsignals.org>
+
 ### GEO · Medição em GEO
+
+#### Amostra emparelhada
+
+<a id="paired-sample"></a>**EN:** Paired Sample
+
+Comparação em que as mesmas perguntas são feitas, nas mesmas plataformas, antes e depois de uma mudança. Reduz o ruído de comparar conjuntos diferentes.
+
+> *Comparison in which the same questions are asked, on the same platforms, before and after a change. It reduces the noise of comparing different sets.*
+
+Veja também: [Mudança comparável](#comparable-change), [Variância das respostas](#response-variance)
 
 #### Auditoria de visibilidade em IA
 
@@ -1846,6 +2086,16 @@ Diagnóstico de como a marca aparece em várias IAs, das fontes que elas usam e 
 
 Veja também: [Visibilidade em IA](#ai-visibility), [Alucinação](#hallucination), [Tipo de fonte citada](#citation-source-type)
 
+#### Cobertura da medição
+
+<a id="measurement-coverage"></a>**EN:** Measurement Coverage
+
+Quanto do que se queria medir foi de fato medido: plataformas, perguntas, regiões e repetições coletadas com sucesso. Uma nota sem cobertura declarada não pode ser comparada.
+
+> *How much of what was meant to be measured was actually measured: platforms, questions, regions and repetitions collected successfully. A score without stated coverage cannot be compared.*
+
+Veja também: [Resposta válida](#valid-response), [Conjunto de prompts](#prompt-set)
+
 #### Conjunto de prompts
 
 <a id="prompt-set"></a>**EN:** Prompt Set (Query Set)
@@ -1855,6 +2105,16 @@ Lista fixa de perguntas usada para medir a visibilidade em IA ao longo do tempo.
 > *Fixed list of questions used to measure AI visibility over time. It must represent real questions and stay stable for comparisons to hold.*
 
 Veja também: [Visibilidade em IA](#ai-visibility), [Taxa de citação](#citation-rate)
+
+#### Denominador
+
+<a id="measurement-denominator"></a>**EN:** Denominator
+
+Base sobre a qual uma taxa é calculada, como "respostas válidas" ou "perguntas do conjunto". Duas taxas com denominadores diferentes não são comparáveis.
+
+> *Base on which a rate is calculated, such as "valid answers" or "questions in the set". Two rates with different denominators are not comparable.*
+
+Veja também: [Taxa de menção](#mention-rate), [Resposta válida](#valid-response)
 
 #### Exatidão das respostas sobre a marca
 
@@ -1895,6 +2155,76 @@ Nota de prontidão de um site para ser lido e citado por IAs, calculada a partir
 > *Score of a site's readiness to be read and cited by AI, calculated from what it publishes (bot access, identity, schema, citable answers, E-E-A-T). It measures readiness and does not guarantee citation.*
 
 Veja também: [Auditoria de visibilidade em IA](#ai-audit), [Legibilidade por máquina](#machine-readability)
+
+#### Intervalo de confiança
+
+<a id="confidence-interval"></a>**EN:** Confidence Interval
+
+Faixa de valores em que a medida verdadeira provavelmente está, dada a variação das respostas. Uma taxa de 40% com intervalo de 25% a 55% diz muito menos do que parece.
+
+> *Range of values in which the true measure probably lies, given the variation in answers. A 40% rate with an interval of 25% to 55% says much less than it seems.*
+
+Veja também: [Variância das respostas](#response-variance), [Amostra emparelhada](#paired-sample)
+
+#### Mudança comparável
+
+<a id="comparable-change"></a>**EN:** Comparable Change
+
+Diferença entre duas medições feitas com o mesmo conjunto de perguntas, plataformas, método e denominador. Só ela pode ser tratada como evolução real.
+
+> *Difference between two measurements made with the same question set, platforms, method and denominator. Only this kind can be treated as real progress.*
+
+Veja também: [Amostra emparelhada](#paired-sample), [Denominador](#measurement-denominator)
+
+#### Precisão da citação
+
+<a id="citation-precision"></a>**EN:** Citation Precision
+
+Proporção das citações em que a fonte citada de fato sustenta a afirmação a que está ligada. Uma IA pode citar uma página que não diz o que a resposta afirma.
+
+> *Share of citations in which the cited source actually supports the claim it is attached to. AI may cite a page that does not say what the answer claims.*
+
+Veja também: [Fidelidade](#faithfulness), [Citação por IA](#ai-citation), [URL citada](#cited-url)
+
+#### Resposta válida
+
+<a id="valid-response"></a>**EN:** Valid Response
+
+Resposta que entra na conta da medição: a coleta funcionou e a IA respondeu ao que foi perguntado. Recusas, erros e respostas fora do tema ficam de fora e precisam ser informados.
+
+> *Answer that counts in the measurement: collection worked and the AI answered what was asked. Refusals, errors and off-topic answers are excluded and must be reported.*
+
+Veja também: [Denominador](#measurement-denominator), [Conjunto de prompts](#prompt-set)
+
+#### Taxa de menção
+
+<a id="mention-rate"></a>**EN:** Mention Rate
+
+Porcentagem das respostas válidas, num conjunto de perguntas, em que a marca aparece no texto.
+
+> *Percentage of valid answers, over a set of questions, in which the brand appears in the text.*
+
+Veja também: [Menção por IA](#ai-mention), [Resposta válida](#valid-response), [Denominador](#measurement-denominator)
+
+#### Taxa de recomendação
+
+<a id="recommendation-rate"></a>**EN:** Recommendation Rate
+
+Porcentagem das respostas válidas em que a IA indica a marca como opção. É mais exigente que a taxa de menção e mais ligada a resultado comercial.
+
+> *Percentage of valid answers in which AI suggests the brand as an option. It is stricter than the mention rate and more tied to commercial results.*
+
+Veja também: [Recomendação por IA](#ai-recommendation), [Taxa de menção](#mention-rate)
+
+#### Unidade de análise
+
+<a id="unit-of-analysis"></a>**EN:** Unit of Analysis
+
+O que se conta em cada medição: a resposta, a pergunta, a citação ou a sessão. Trocar a unidade muda o resultado e precisa estar declarado.
+
+> *What is counted in each measurement: the answer, the question, the citation or the session. Changing the unit changes the result and must be stated.*
+
+Veja também: [Denominador](#measurement-denominator)
 
 #### Variância das respostas
 
@@ -1989,6 +2319,78 @@ Quanto um site pode ser usado por agentes de IA: conteúdo legível, formulário
 > *How usable a site is for AI agents: readable content, correctly labeled forms, declared actions, documented APIs and clear policies.*
 
 Veja também: [Comércio agêntico](#agentic-commerce), [Protocolo de contexto de modelo](#mcp), [Legibilidade por máquina](#machine-readability)
+
+#### Protocolo de comércio agêntico
+
+<a id="acp"></a>**EN:** Agentic Commerce Protocol (ACP)
+
+Padrão aberto, lançado pela OpenAI e pela Stripe em 2025, para agentes de IA concluírem compras com lojistas, que continuam como vendedores responsáveis pelo pedido.
+
+> *Open standard, launched by OpenAI and Stripe in 2025, for AI agents to complete purchases with merchants, who remain the seller of record.*
+
+Veja também: [Comércio agêntico](#agentic-commerce), [Protocolo Agent2Agent](#a2a), [Protocolo de contexto de modelo](#mcp) · Fonte: <https://www.agenticcommerce.dev>
+
+### GEO · Resultado de negócio
+
+#### Custo por tarefa
+
+<a id="cost-per-task"></a>**EN:** Cost per Task
+
+Custo total para um agente de IA concluir uma tarefa (tokens, chamadas de ferramenta, tentativas e revisão humana). É a métrica certa para comparar automações, mais que o preço por token.
+
+> *Total cost for an AI agent to complete a task (tokens, tool calls, retries and human review). It is the right metric for comparing automations, more than the price per token.*
+
+Veja também: [Agente de IA](#ai-agent), [Token](#token)
+
+#### Evidência causal
+
+<a id="causal-evidence"></a>**EN:** Causal Evidence
+
+Prova de que uma mudança causou um efeito, obtida com experimento controlado ou desenho comparável. Antes e depois, sozinho, mostra só que as duas coisas aconteceram juntas.
+
+> *Proof that a change caused an effect, obtained through a controlled experiment or comparable design. A before-and-after alone only shows that both things happened together.*
+
+Veja também: [Resultado incremental](#incrementality), [Amostra emparelhada](#paired-sample)
+
+#### Origem declarada
+
+<a id="self-reported-attribution"></a>**EN:** Self-reported Attribution
+
+Pergunta "como nos conheceu?" no formulário ou no atendimento. Capta indicações de IA que a análise de tráfego não vê, com o limite da memória de quem responde.
+
+> *The "how did you hear about us?" question on a form or in service. It captures AI referrals that traffic analytics misses, limited by the respondent's memory.*
+
+Veja também: [Tráfego de IA não identificado](#dark-ai-traffic), [Contato qualificado](#qualified-lead)
+
+#### Receita atribuída
+
+<a id="attributed-revenue"></a>**EN:** Attributed Revenue
+
+Receita de pedidos ligados a uma origem (busca orgânica, IA, anúncio) por uma regra de atribuição declarada. Mostra associação, não prova que a origem causou a venda.
+
+> *Revenue from orders tied to a source (organic search, AI, ads) by a stated attribution rule. It shows association, not proof that the source caused the sale.*
+
+Veja também: [Resultado incremental](#incrementality), [Evento principal](#key-event)
+
+#### Resultado incremental
+
+<a id="incrementality"></a>**EN:** Incrementality
+
+O que aconteceu por causa de uma ação e não teria acontecido sem ela, medido comparando com um grupo ou período de controle.
+
+> *What happened because of an action and would not have happened without it, measured against a control group or period.*
+
+Veja também: [Evidência causal](#causal-evidence), [Receita atribuída](#attributed-revenue)
+
+#### Tráfego de IA não identificado
+
+<a id="dark-ai-traffic"></a>**EN:** Dark AI Traffic
+
+Visitas vindas de IAs que chegam sem referência e aparecem como tráfego direto, por exemplo quando o usuário copia o endereço da resposta ou o aplicativo não envia a origem. Faz o tráfego de IA parecer menor do que é.
+
+> *Visits from AI that arrive without a referrer and show up as direct traffic, for example when the user copies the address from the answer or the app does not send the source. It makes AI traffic look smaller than it is.*
+
+Veja também: [Tráfego vindo de IAs](#ai-referral-traffic), [Origem declarada](#self-reported-attribution)
 
 <a id="categoria-ia"></a>
 ## IA — Inteligência artificial aplicada à busca e ao conteúdo
@@ -2409,6 +2811,16 @@ Treinar um modelo menor para imitar as respostas de um maior, obtendo desempenho
 
 Veja também: [Modelo de linguagem pequeno](#slm) · Fonte: <https://arxiv.org/abs/1503.02531>
 
+#### IA constitucional
+
+<a id="constitutional-ai"></a>**EN:** Constitutional AI
+
+Método da Anthropic em que o modelo critica e revisa as próprias respostas seguindo uma lista escrita de princípios, reduzindo a dependência de rótulos humanos para segurança.
+
+> *Anthropic method in which the model critiques and revises its own answers by following a written list of principles, reducing reliance on human labels for safety.*
+
+Veja também: [Alinhamento](#alignment), [Aprendizado por reforço com feedback humano](#rlhf) · Fonte: <https://arxiv.org/abs/2212.08073>
+
 #### Leis de escala
 
 <a id="scaling-laws"></a>**EN:** Scaling Laws
@@ -2715,6 +3127,16 @@ Busca pelo significado da consulta, e não só pelas palavras exatas, normalment
 
 Veja também: [Embedding (vetor semântico)](#embedding), [Busca lexical](#lexical-search), [Busca híbrida](#hybrid-search)
 
+#### Camada semântica
+
+<a id="semantic-layer"></a>**EN:** Semantic Layer
+
+Camada que dá significado comum aos dados de uma organização (o que é um cliente, uma venda, um serviço), para que pessoas, sistemas e IAs usem as mesmas definições.
+
+> *Layer that gives an organization's data a shared meaning (what a customer, a sale or a service is), so people, systems and AI use the same definitions.*
+
+Veja também: [Ontologia](#ontology), [Base de conhecimento](#knowledge-base)
+
 #### Embedding (vetor semântico)
 
 <a id="embedding"></a>**EN:** Embedding
@@ -2774,6 +3196,16 @@ Efeito observado em LLMs que usam pior as informações no meio de um contexto l
 > *Effect observed in LLMs, which use information in the middle of a long context worse than at the start and end.*
 
 Veja também: [Janela de contexto](#context-window), [Fragmentação em trechos](#chunking) · Fonte: <https://arxiv.org/abs/2307.03172>
+
+#### Pergunta de vários saltos
+
+<a id="multi-hop-question"></a>**EN:** Multi-hop Question
+
+Pergunta que só se responde juntando fatos de fontes diferentes, como "o fundador da empresa X estudou onde?". É onde grafos de conhecimento e GraphRAG mais ajudam.
+
+> *Question that can only be answered by combining facts from different sources, such as "where did the founder of company X study?". It is where knowledge graphs and GraphRAG help most.*
+
+Veja também: [GraphRAG](#graphrag), [Grafo de conhecimento](#knowledge-graph)
 
 #### Recuperação densa
 
@@ -2836,6 +3268,16 @@ Capacidade do modelo de pedir a execução de uma função descrita (buscar, con
 > *Model's ability to request running a described function (search, query an API, calculate) and use the result in its answer.*
 
 Veja também: [Agente de IA](#ai-agent), [Saída estruturada](#structured-output)
+
+#### Grafo de código
+
+<a id="code-graph"></a>**EN:** Code Graph
+
+Representação de um projeto de software como grafo de arquivos, funções e dependências, usada por agentes de programação para entender o impacto de cada mudança.
+
+> *Representation of a software project as a graph of files, functions and dependencies, used by coding agents to understand the impact of each change.*
+
+Veja também: [Agente de IA](#ai-agent), [Grafo de conhecimento](#knowledge-graph)
 
 #### Humano no circuito
 
@@ -2916,6 +3358,16 @@ Capacidade de um modelo operar telas como uma pessoa: ver capturas, mover o mous
 > *A model's ability to operate screens like a person: viewing screenshots, moving the mouse, clicking and typing.*
 
 Veja também: [Navegador agêntico](#agentic-browser), [Agente de IA](#ai-agent)
+
+#### Vibe coding
+
+<a id="vibe-coding"></a>**EN:** Vibe Coding
+
+Programar descrevendo o que se quer em linguagem natural e aceitando o código gerado pela IA, quase sem lê-lo. Termo criado por Andrej Karpathy em 2025. Funciona para protótipos e é arriscado em produção.
+
+> *Programming by describing what you want in natural language and accepting the AI-generated code, barely reading it. Term coined by Andrej Karpathy in 2025. It works for prototypes and is risky in production.*
+
+Veja também: [Agente de IA](#ai-agent), [Humano no circuito](#human-in-the-loop)
 
 ### IA · Avaliação e confiabilidade
 
