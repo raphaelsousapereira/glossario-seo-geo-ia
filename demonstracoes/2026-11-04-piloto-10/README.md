@@ -12,7 +12,7 @@ Este material reúne uma coleta pública do site raphaelsousapereira.com.br e ex
 - Nas três páginas, os três sinais selecionados (resposta, autoria e conceito) estão no texto extraído.
 - Dez páginas do piloto com links de ida e volta para a central de perguntas.
 - Quatorze trechos de evidência dos exercícios foram localizados literalmente nas fontes preservadas.
-- Quatro exercícios com textos redigidos e anotações humanas explícitas. Não são respostas capturadas de provedores de IA.
+- Quatro exercícios com textos redigidos e anotações editoriais assistidas por IA, explícitas. Não são respostas capturadas de provedores de IA.
 - Nenhum run de LLM e nenhum teste de efeito causal em ranking, citação ou conversão.
 
 A disponibilidade de uma resposta nesta coleta não demonstra como um provedor específico a recupera. As relações dos mapas de necessidades informacionais foram propostas para auditoria externa; não são observações de consultas internas do Google.
