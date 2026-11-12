@@ -1,6 +1,6 @@
 # Glossário SEO, GEO e IA
 
-**463 termos de SEO, GEO (Generative Engine Optimization) e inteligência artificial, em português do Brasil e
+**476 termos de SEO, GEO (Generative Engine Optimization) e inteligência artificial, em português do Brasil e
 inglês, com definição nos dois idiomas, termos relacionados e fonte primária quando existe. Inclui 49 conceitos
 cunhados por Raphael Sousa Pereira, cada um ligado à página em que ele o definiu.**
 

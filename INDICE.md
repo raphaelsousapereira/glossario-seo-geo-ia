@@ -1,6 +1,6 @@
 # Índice A–Z
 
-463 termos em ordem alfabética do termo em português.
+476 termos em ordem alfabética do termo em português.
 
 | Termo (pt-BR) | Term (en) | Categoria |
 |---|---|---|
@@ -78,6 +78,7 @@
 | [Camada semântica](GLOSSARIO.md#semantic-layer) | Semantic Layer | IA |
 | [Campo semântico digital](GLOSSARIO.md#campo-semantico-digital) | Digital Semantic Field | Autorais |
 | [Canibalização de palavras-chave](GLOSSARIO.md#keyword-cannibalization) | Keyword Cannibalization | SEO |
+| [Carregamento sob demanda](GLOSSARIO.md#lazy-loading) | Lazy Loading | SEO |
 | [Categoria principal](GLOSSARIO.md#primary-category) | Primary Category | SEO |
 | [Chamada de funções](GLOSSARIO.md#function-calling) | Function Calling (Tool Use) | IA |
 | [Chatbot](GLOSSARIO.md#chatbot) | Chatbot | IA |
@@ -100,6 +101,7 @@
 | [Common Crawl](GLOSSARIO.md#common-crawl) | Common Crawl | IA |
 | [Comparação com concorrentes em IA](GLOSSARIO.md#competitive-benchmarking) | Competitive Benchmarking (AI) | GEO |
 | [Computação no momento da resposta](GLOSSARIO.md#test-time-compute) | Test-time Compute | IA |
+| [Comunicado à imprensa](GLOSSARIO.md#press-release) | Press Release | SEO |
 | [Comércio agêntico](GLOSSARIO.md#agentic-commerce) | Agentic Commerce | GEO |
 | [Concentração de autoridade de fontes](GLOSSARIO.md#source-authority-concentration) | Source Authority Concentration | Autorais |
 | [Conhecimento paramétrico](GLOSSARIO.md#parametric-knowledge) | Parametric Knowledge | GEO |
@@ -175,6 +177,7 @@
 | [Fidelidade](GLOSSARIO.md#faithfulness) | Faithfulness | GEO |
 | [Fidelidade de compressão](GLOSSARIO.md#compression-fidelity) | Compression Fidelity | Autorais |
 | [Fonte de terceiros](GLOSSARIO.md#third-party-source) | Third-party Source | GEO |
+| [Formatos modernos de imagem](GLOSSARIO.md#modern-image-formats) | WebP / AVIF | SEO |
 | [Fragmentação em trechos](GLOSSARIO.md#chunking) | Chunking | IA |
 | [Física Semântica](GLOSSARIO.md#fisica-semantica) | Semantic Physics | Autorais |
 | [Ganho de informação](GLOSSARIO.md#information-gain) | Information Gain | GEO |
@@ -211,6 +214,7 @@
 | [Indexação](GLOSSARIO.md#indexing) | Indexing | SEO |
 | [Indexação mobile-first](GLOSSARIO.md#mobile-first-indexing) | Mobile-first Indexing | SEO |
 | [IndexNow](GLOSSARIO.md#indexnow) | IndexNow | SEO |
+| [Indicador-chave de desempenho](GLOSSARIO.md#kpi) | Key Performance Indicator (KPI) | SEO |
 | [Inferência](GLOSSARIO.md#inference) | Inference | IA |
 | [Injeção de prompt](GLOSSARIO.md#prompt-injection) | Prompt Injection | IA |
 | [Inteligência artificial (IA)](GLOSSARIO.md#artificial-intelligence) | Artificial Intelligence (AI) | IA |
@@ -231,6 +235,7 @@
 | [Leis de escala](GLOSSARIO.md#scaling-laws) | Scaling Laws | IA |
 | [LGPD e IA](GLOSSARIO.md#lgpd-ai) | LGPD and AI | IA |
 | [Liderança de pensamento](GLOSSARIO.md#thought-leadership) | Thought Leadership | SEO |
+| [Lighthouse](GLOSSARIO.md#lighthouse) | Lighthouse | SEO |
 | [Limiar de confiança (Θ)](GLOSSARIO.md#limiar-de-confianca) | Trust Threshold (Θ) | Autorais |
 | [Linguagem com autoridade](GLOSSARIO.md#authoritative-language) | Authoritative Language | GEO |
 | [Linguagem fácil de entender](GLOSSARIO.md#easy-to-understand) | Easy-to-Understand Language | GEO |
@@ -296,6 +301,7 @@
 | [Otimização para motores generativos](GLOSSARIO.md#geo) | Generative Engine Optimization (GEO) | GEO |
 | [Pacote local](GLOSSARIO.md#local-pack) | Local Pack (Map Pack) | SEO |
 | [PageRank](GLOSSARIO.md#pagerank) | PageRank | SEO |
+| [PageSpeed Insights](GLOSSARIO.md#pagespeed-insights) | PageSpeed Insights | SEO |
 | [Paginação](GLOSSARIO.md#pagination) | Pagination | SEO |
 | [Painel de conhecimento](GLOSSARIO.md#knowledge-panel) | Knowledge Panel | SEO |
 | [Palavra-chave](GLOSSARIO.md#keyword) | Keyword | SEO |
@@ -305,6 +311,7 @@
 | [Parâmetros (pesos)](GLOSSARIO.md#parameters) | Parameters (Weights) | IA |
 | [Passagem](GLOSSARIO.md#passage) | Passage | GEO |
 | [Pegada digital](GLOSSARIO.md#digital-footprint) | Digital Footprint | SEO |
+| [Percentil 75](GLOSSARIO.md#p75) | 75th Percentile (p75) | SEO |
 | [Perdido no meio](GLOSSARIO.md#lost-in-the-middle) | Lost in the Middle | IA |
 | [Perfil da Empresa no Google](GLOSSARIO.md#google-business-profile) | Google Business Profile (GBP) | SEO |
 | [Pergunta de vários saltos](GLOSSARIO.md#multi-hop-question) | Multi-hop Question | IA |
@@ -312,11 +319,13 @@
 | [Pesquisa aprofundada](GLOSSARIO.md#deep-research) | Deep Research | GEO |
 | [Pesquisa própria](GLOSSARIO.md#original-research) | Original Research | GEO |
 | [Poda de conteúdo](GLOSSARIO.md#content-pruning) | Content Pruning | SEO |
+| [Ponto de contato (Schema.org)](GLOSSARIO.md#contact-point) | ContactPoint | SEO |
 | [Posição da citação](GLOSSARIO.md#citation-position) | Citation Position | GEO |
 | [Posição média](GLOSSARIO.md#average-position) | Average Position | SEO |
 | [Precisão da citação](GLOSSARIO.md#citation-precision) | Citation Precision | GEO |
 | [Preservação do escopo da afirmação](GLOSSARIO.md#claim-scope-preservation) | Claim-Scope Preservation | Autorais |
 | [Previsão do próximo token](GLOSSARIO.md#next-token-prediction) | Next-token Prediction | IA |
+| [Prioridade de download](GLOSSARIO.md#fetchpriority) | fetchpriority | SEO |
 | [Processamento de linguagem natural](GLOSSARIO.md#nlp) | Natural Language Processing (NLP) | IA |
 | [Profundidade de clique](GLOSSARIO.md#crawl-depth) | Crawl Depth (Click Depth) | SEO |
 | [Profundidade de conteúdo](GLOSSARIO.md#content-depth) | Content Depth | SEO |
@@ -333,6 +342,7 @@
 | [Protocolo de comércio agêntico](GLOSSARIO.md#acp) | Agentic Commerce Protocol (ACP) | GEO |
 | [Protocolo de contexto de modelo](GLOSSARIO.md#mcp) | Model Context Protocol (MCP) | IA |
 | [Protocolo Evidência, Inferência e Hipótese](GLOSSARIO.md#protocolo-evidencia-inferencia-hipotese) | Evidence, Inference and Hypothesis Protocol | Autorais |
+| [Protocolo Open Graph](GLOSSARIO.md#open-graph) | Open Graph | SEO |
 | [Proveniência de conteúdo](GLOSSARIO.md#content-provenance) | Content Provenance (C2PA) | IA |
 | [Pré-treinamento](GLOSSARIO.md#pretraining) | Pretraining | IA |
 | [Página de fatos da marca](GLOSSARIO.md#brand-facts-page) | Brand Facts Page | GEO |
@@ -361,6 +371,7 @@
 | [Redirecionamento 301](GLOSSARIO.md#redirect-301) | 301 Redirect | SEO |
 | [Reivindicar o painel de conhecimento](GLOSSARIO.md#knowledge-panel-claim) | Claiming a Knowledge Panel | GEO |
 | [Relatório de ciclo fechado](GLOSSARIO.md#closed-loop-reporting) | Closed-loop Reporting | SEO |
+| [Relatório de experiência do usuário do Chrome](GLOSSARIO.md#crux) | Chrome UX Report (CrUX) | SEO |
 | [Relatório de indexação](GLOSSARIO.md#index-coverage) | Index Coverage (Page Indexing Report) | SEO |
 | [Relações públicas digitais](GLOSSARIO.md#digital-pr) | Digital PR | SEO |
 | [Relevância, distância e proeminência](GLOSSARIO.md#proximity-relevance-prominence) | Relevance, Distance and Prominence | SEO |
@@ -374,6 +385,7 @@
 | [Resumo inicial](GLOSSARIO.md#tldr) | TL;DR (Executive Summary) | SEO |
 | [Robô de IA](GLOSSARIO.md#ai-crawler) | AI Crawler | GEO |
 | [Robô de rastreamento](GLOSSARIO.md#crawler) | Crawler (Bot, Spider) | SEO |
+| [Sala de imprensa](GLOSSARIO.md#press-room) | Press Room (Newsroom) | SEO |
 | [Saliência da entidade](GLOSSARIO.md#entity-salience) | Entity Salience | GEO |
 | [Salvaguardas](GLOSSARIO.md#guardrails) | Guardrails | IA |
 | [Saída estruturada](GLOSSARIO.md#structured-output) | Structured Output | IA |
@@ -389,6 +401,7 @@
 | [Schema Speakable](GLOSSARIO.md#speakable-schema) | Speakable Schema | SEO |
 | [Schema.org](GLOSSARIO.md#schema-org) | Schema.org | SEO |
 | [Segurança de IA](GLOSSARIO.md#ai-safety) | AI Safety | IA |
+| [Segurança estrita de transporte HTTP](GLOSSARIO.md#hsts) | HTTP Strict Transport Security (HSTS) | SEO |
 | [Sentimento da marca em IA](GLOSSARIO.md#brand-sentiment) | Brand Sentiment (AI) | GEO |
 | [SEO de entidades](GLOSSARIO.md#entity-seo) | Entity SEO | GEO |
 | [SEO de imagens](GLOSSARIO.md#image-seo) | Image SEO | SEO |
