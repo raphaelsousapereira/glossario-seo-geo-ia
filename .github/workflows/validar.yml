@@ -14,3 +14,5 @@ jobs:
           python-version: "3.12"
       - name: Termos válidos e arquivos gerados em dia
         run: python scripts/construir.py --check
+      - name: Perguntas válidas e arquivos gerados em dia
+        run: python scripts/perguntas.py --check

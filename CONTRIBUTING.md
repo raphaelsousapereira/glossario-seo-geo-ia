@@ -23,3 +23,26 @@ slug | termo em inglês | termo em português | definição pt-BR | definition (
 2. Fato que muda com o tempo leva data ("desde março de 2024").
 3. Termo de mercado sem consenso é descrito como tal ("outro nome usado no mercado para...").
 4. Rode `python3 scripts/construir.py` e inclua os arquivos gerados no mesmo commit.
+
+## Perguntas
+
+Perguntas e respostas ficam em `perguntas/<grupo>.txt`, em blocos que começam com `? id`:
+
+```
+? o-que-e-geo
+P: O que é GEO?
+C: resposta curta, de 1 a 2 frases, que responde sozinha (60 a 360 caracteres)
+R: resposta completa, com contexto e exemplo (200 a 1400 caracteres)
+T: geo, ai-citation
+F: https://arxiv.org/abs/2311.09735
+N: iniciante
+```
+
+- **id**: slug único; é a âncora em `PERGUNTAS.md` e o `@id` do JSON-LD. Não mude o id de uma pergunta publicada.
+- **T**: slugs de termos do glossário. O script recusa um slug que não existe.
+- **F**: obrigatória e já presente no glossário (fonte ou artigo de algum termo). Para usar uma fonte nova, acrescente-a
+  primeiro ao termo correspondente.
+- **N**: `iniciante` ou `avancado`.
+- Mesmos critérios dos termos: nada de "o melhor" ou "o único", fato que muda com o tempo leva data, e nenhuma resposta
+  promete resultado.
+- Rode `python3 scripts/perguntas.py` e inclua `PERGUNTAS.md` e `dist/perguntas*` no mesmo commit.
