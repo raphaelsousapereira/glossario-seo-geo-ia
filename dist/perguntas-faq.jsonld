@@ -1,0 +1,472 @@
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "inLanguage": "pt-BR",
+ "name": "Perguntas do Glossário SEO, GEO e IA",
+ "url": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md",
+ "author": {
+  "@type": "Person",
+  "@id": "https://raphaelsousapereira.com.br/#raphael",
+  "name": "Raphael Sousa Pereira",
+  "description": "Profissional, pesquisador e consultor em Generative Engine Optimization (GEO) e IA aplicada à busca, CEO e fundador da Negócio no Mapa.",
+  "worksFor": {
+   "@type": "Organization",
+   "name": "Negócio no Mapa",
+   "url": "https://seonegocionomapa.com.br"
+  }
+ },
+ "license": "https://creativecommons.org/licenses/by/4.0/",
+ "dateModified": "2026-11-12",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-e-geo",
+   "name": "O que é GEO?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "GEO (Generative Engine Optimization, ou otimização para motores generativos) é a disciplina que aumenta a chance de uma marca, página ou fato ser encontrado, usado e citado corretamente por IAs generativas como ChatGPT, Gemini, Perplexity e os resumos de IA do Google. GEO é para as respostas de IA o que o SEO é para a lista de resultados do Google. Em vez de disputar uma posição entre dez links, o objetivo é que a IA encontre o seu conteúdo, use as informações dele na resposta e cite a sua marca ou o seu site como fonte, com os fatos certos. O trabalho envolve deixar o site legível para os robôs das IAs, escrever respostas claras e verificáveis, deixar a identidade da empresa inequívoca e estar presente nas fontes de terceiros em que as IAs confiam. O termo vem do artigo de Aggarwal e colegas, publicado em 2023."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#de-onde-vem-o-termo-geo",
+   "name": "De onde vem o termo GEO?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "O termo GEO (Generative Engine Optimization) vem do artigo acadêmico de Aggarwal e colegas, de 2023, que testou métodos para aumentar a visibilidade de páginas nas respostas de motores generativos. O artigo que deu nome à disciplina comparou vários métodos de reescrita de conteúdo e mediu quanto cada um aumentava a presença das páginas nas respostas geradas por IA. Entre os que mais ajudaram estavam acrescentar citações de fontes confiáveis, citações atribuídas a especialistas e estatísticas com fonte. Desde então, o mercado também usa outros nomes para a mesma ideia, como AEO e LLMO, mas GEO é o termo com origem acadêmica."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#diferenca-entre-seo-e-geo",
+   "name": "Qual a diferença entre SEO e GEO?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "SEO busca posicionar páginas na lista de resultados dos buscadores; GEO busca que a IA use o conteúdo e cite a marca dentro da resposta que ela mesma escreve. No SEO, o resultado é uma posição entre links, e o usuário escolhe em qual clicar. No GEO, a IA lê várias fontes, escreve uma resposta e decide quais marcas e sites mencionar ou citar, muitas vezes sem que o usuário clique em nada. As bases se sobrepõem: rastreamento, conteúdo de qualidade e autoridade continuam importando. O GEO acrescenta preocupações próprias, como a identidade da empresa ser inequívoca para as máquinas, os fatos estarem escritos de forma citável e a marca estar presente nas fontes de terceiros que as IAs consultam."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#geo-substitui-o-seo",
+   "name": "GEO substitui o SEO?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Não. GEO se apoia no SEO: a maioria das buscas com IA recupera páginas da web antes de responder, e uma página que não é rastreada, indexada e encontrada não tem como ser citada. As IAs com busca, como ChatGPT Search, Perplexity e os recursos de IA do Google, consultam a web ou um índice antes de escrever a resposta. Se o site tem problemas de rastreamento, indexação ou autoridade, ele também tende a ficar de fora dessas consultas. Por isso o GEO não descarta o SEO: ele acrescenta camadas, como a escrita citável, a consistência da entidade e a presença em fontes de terceiros. Na prática, as duas frentes são trabalhadas juntas."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#geo-aeo-e-llmo-sao-a-mesma-coisa",
+   "name": "GEO, AEO e LLMO são a mesma coisa?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "São nomes próximos. GEO tem origem acadêmica; AEO foca em ser a resposta direta (trechos em destaque, voz e IA); LLMO é outro nome de mercado para GEO, com foco em como os modelos de linguagem representam a marca. AEO (Answer Engine Optimization) é anterior às IAs generativas e nasceu para trechos em destaque e assistentes de voz; hoje é muitas vezes usado como sinônimo parcial de GEO. LLMO (LLM Optimization) é um termo comercial para a mesma ideia. Também existe AIO, um termo guarda-chuva que reúne todos eles e não deve ser confundido com AI Overviews, às vezes abreviado do mesmo jeito. Mais importante que o nome é o método: medir, corrigir e conferir se a IA fala da marca com os fatos certos."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-e-um-motor-generativo",
+   "name": "O que é um motor generativo?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "É um sistema que responde a uma pergunta com texto gerado por um modelo de linguagem, em geral com base em documentos recuperados da web ou de um índice. ChatGPT com busca, Perplexity, Gemini e os AI Overviews do Google são motores generativos: em vez de devolver uma lista de links, eles escrevem a resposta. Para isso, a maioria busca documentos relevantes, entrega esses trechos ao modelo e o modelo redige o texto, às vezes citando as fontes. É justamente esse processo que o GEO tenta influenciar: ser recuperado na busca e ser usado e citado na resposta."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-e-busca-com-ia",
+   "name": "O que é busca com IA?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "É a busca em que a resposta é redigida por um modelo de IA a partir de fontes recuperadas, em vez de uma lista de links. Exemplos: ChatGPT Search, Perplexity e o Modo IA do Google. Na busca com IA, a pessoa faz uma pergunta em linguagem natural e recebe um texto pronto, muitas vezes com links para as fontes usadas. Por trás, o sistema faz uma ou várias buscas, seleciona trechos de páginas e os entrega ao modelo de linguagem. Para uma empresa, isso muda o jogo: não basta aparecer na lista de resultados; é preciso que o seu conteúdo seja escolhido entre os trechos lidos e que a marca seja mencionada na resposta."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-sao-os-ai-overviews",
+   "name": "O que são os AI Overviews do Google?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "São resumos gerados pelo Gemini no topo de parte dos resultados do Google, com links para as fontes. Chegaram ao Brasil em 2024. Os AI Overviews (no Brasil, \"Visão geral criada por IA\") aparecem acima dos resultados tradicionais em algumas buscas e respondem a pergunta com um texto curto e links para as páginas usadas. Eles nasceram do experimento SGE, lançado em 2023. Para um site, aparecer como fonte de um AI Overview pode trazer visibilidade mesmo sem clique; no Search Console, essas aparições entram no total de impressões da busca, sem relatório separado."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-e-o-modo-ia-do-google",
+   "name": "O que é o Modo IA do Google?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "É o modo de busca conversacional do Google, em aba própria, que divide a pergunta em várias buscas e responde com um texto que cita as fontes. No Modo IA, a pessoa conversa com a busca do Google como faria com um assistente. Para responder, o sistema desdobra a pergunta em várias subconsultas (o chamado query fan-out), lê os resultados de cada uma e junta tudo numa resposta com links. Isso significa que uma página pode ser citada por responder bem a uma subconsulta que o usuário nem chegou a digitar."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#como-a-ia-escolhe-as-fontes",
+   "name": "Como uma IA escolhe as fontes que cita?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Nas IAs com busca, um sistema de recuperação primeiro encontra páginas e trechos relevantes para a pergunta; o modelo escreve a resposta a partir deles e cita parte dessas fontes. Quem não é recuperado não pode ser citado. Esse mecanismo se chama geração aumentada por recuperação (RAG). A IA transforma a pergunta em uma ou várias buscas, avalia trechos de páginas (não só páginas inteiras) e entrega os mais relevantes ao modelo. Pesam fatores como o trecho responder diretamente à pergunta, ser autossuficiente, trazer fatos específicos com fonte e vir de uma entidade clara e confiável. A forma de mostrar as fontes varia por plataforma: link no texto, nota numerada, lista no final ou nenhuma."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-e-rag",
+   "name": "O que é RAG?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "RAG (geração aumentada por recuperação) é a arquitetura em que o sistema busca documentos relevantes e os entrega ao modelo junto com a pergunta, para que a resposta se baseie neles e possa citá-los. Sem RAG, o modelo responderia só com o que aprendeu no treinamento, que fica desatualizado e não tem fonte para mostrar. Com RAG, ele consulta documentos no momento da pergunta, o que reduz invenções e permite citar de onde veio cada informação. É o mecanismo por trás da maioria das buscas com IA. Para quem produz conteúdo, a lição prática é escrever seções que funcionem sozinhas quando forem recortadas em pedaços pelo sistema."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#a-ia-responde-so-com-o-que-aprendeu",
+   "name": "A IA responde só com o que aprendeu no treinamento?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Depende. Sem busca, ela usa o conhecimento paramétrico, aprendido no treino e desatualizado após a data de corte; com busca, ela consulta fontes no momento da pergunta e pode citá-las. O que o modelo \"sabe\" de cor fica guardado nos pesos da rede neural e não muda até um novo treinamento. Por isso, sem busca, uma IA pode repetir informações antigas sobre uma empresa. Quando a busca está ligada, ela ancora a resposta em documentos recuperados na hora. Para uma marca, as duas coisas importam: estar bem representada nas fontes que alimentam o treino e estar acessível e clara nas fontes consultadas em tempo real."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-e-citacao-por-ia",
+   "name": "O que é citação por IA?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "É quando uma resposta de IA liga uma afirmação a uma fonte, com link ou com nome. É o principal resultado visível do trabalho de GEO. Uma citação mostra que a IA usou o seu conteúdo como base para o que disse. Ela pode aparecer como link no meio do texto, como nota numerada ou numa lista de fontes no final. Nem toda citação é igual: só a citação com link clicável gera visitas, e uma fonte citada primeiro tende a receber mais atenção. Também vale conferir se a página citada de fato sustenta a afirmação, porque as IAs às vezes citam fontes que não dizem o que a resposta afirma."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#diferenca-entre-mencao-e-citacao",
+   "name": "Qual a diferença entre ser mencionado e ser citado pela IA?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Menção é quando o nome da marca aparece no texto da resposta; citação é quando a resposta usa o site da marca como fonte, com link ou referência. Só a citação com link gera visitas. Uma marca pode ser mencionada muitas vezes e quase nunca citada. Isso indica que a IA conhece a marca, mas busca as informações sobre ela em outras fontes, como notícias, diretórios ou fóruns. A razão entre citações e menções ajuda a enxergar esse problema. Mencionar gera reconhecimento; citar com link gera tráfego e mostra que o seu próprio site é a referência sobre o assunto."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-e-recomendacao-por-ia",
+   "name": "O que é recomendação por IA?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "É quando a resposta de IA indica a marca como opção para a necessidade do usuário, e não só a menciona. É o resultado que mais se aproxima de uma indicação comercial. Perguntas como \"qual a melhor clínica de fisioterapia na zona sul?\" levam a IA a recomendar empresas. Ser recomendado é mais exigente que ser mencionado: a IA precisa entender o que a empresa faz, onde atua e por que ela é uma boa opção, com base em fontes que confirmem isso. Por isso a taxa de recomendação é uma das métricas mais ligadas a resultado comercial em GEO."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-e-participacao-de-voz-em-ia",
+   "name": "O que é participação de voz em IA?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "É a proporção das respostas de IA, num conjunto de perguntas, em que a sua marca aparece, comparada aos concorrentes. Para medir participação de voz (share of voice), faz-se um conjunto fixo de perguntas relevantes para o negócio, nas mesmas plataformas, e conta-se em quantas respostas cada marca aparece. O número só faz sentido em comparação: com os concorrentes e com medições anteriores feitas com as mesmas perguntas e o mesmo método. Como as respostas de IA variam, medições sérias repetem as perguntas e informam a margem de variação."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-e-taxa-de-citacao",
+   "name": "O que é taxa de citação?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "É a porcentagem das respostas que citam o domínio da marca como fonte, num conjunto definido de perguntas e plataformas. Se, em 100 respostas válidas, o site da marca aparece como fonte em 12, a taxa de citação é de 12%. Para que o número seja confiável, é preciso declarar quais perguntas foram feitas, em quais plataformas, quantas vezes cada uma e o que contou como resposta válida. Duas taxas calculadas com bases diferentes não podem ser comparadas."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#ser-citado-pela-ia-traz-visitas",
+   "name": "Ser citado pela IA traz visitas para o site?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Só quando a citação tem link clicável e a pessoa decide clicar. Muitas respostas resolvem a dúvida sem clique, então a citação também vale como reconhecimento e autoridade. Plataformas como o Perplexity sempre mostram as fontes com links, o que facilita gerar e medir visitas. Em outras, a marca pode ser mencionada sem link, ou a pessoa se satisfaz com a resposta e não clica (a chamada busca sem clique). Por isso o GEO mede mais que tráfego: menções, citações, recomendações e se a IA fala da marca com os fatos certos."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#como-saber-se-recebo-visitas-de-ias",
+   "name": "Como saber se o meu site recebe visitas vindas de IAs?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No Google Analytics 4, procure visitas com origem em domínios como chatgpt.com, perplexity.ai, gemini.google.com e copilot, e parâmetros como utm_source=chatgpt.com. Crie um segmento ou um grupo de canais para essas origens e acompanhe a evolução mês a mês. Saiba que esse número subestima a realidade: parte das visitas de IA chega sem referência e aparece como tráfego direto. Para completar a medição, vale perguntar \"como nos conheceu?\" no formulário de contato ou no atendimento, o que capta indicações de IA que a análise de tráfego não vê."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#por-que-o-trafego-de-ia-parece-menor",
+   "name": "Por que o tráfego vindo de IAs parece menor do que é?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Porque parte das visitas chega sem referência e aparece como tráfego direto, por exemplo quando a pessoa copia o endereço da resposta ou quando o aplicativo não envia a origem. Esse \"tráfego de IA não identificado\" faz os relatórios mostrarem menos visitas de IA do que de fato acontecem. Uma forma de enxergar o efeito é cruzar dados: crescimento de tráfego direto em páginas que as IAs citam, aumento de buscas pela marca e respostas à pergunta \"como nos conheceu?\". Nenhum desses sinais prova a origem sozinho, mas juntos dão uma ideia mais realista."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-e-busca-sem-clique",
+   "name": "O que é busca sem clique?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "É a consulta resolvida na própria página de resultados, sem clique para nenhum site, por causa de trechos em destaque, painéis ou respostas geradas por IA. Com os AI Overviews e as buscas com IA, cada vez mais perguntas são respondidas sem que a pessoa precise visitar um site. Isso reduz cliques, mas não reduz a importância de aparecer: a marca citada na resposta ganha reconhecimento e pode ser lembrada na hora da decisão. Por isso o GEO acompanha menções e citações, e não só visitas."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-e-desdobramento-da-consulta",
+   "name": "O que é o desdobramento da consulta (query fan-out)?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "É a técnica em que a IA divide a pergunta do usuário em várias subconsultas, busca cada uma e junta os resultados na resposta. Quando alguém pergunta \"qual o melhor plano de saúde para uma família em Porto Alegre?\", a IA pode buscar separadamente preços, rede credenciada, avaliações e regras de carência. Uma página pode ser citada por responder bem a uma dessas subconsultas, mesmo que o usuário nunca a tenha digitado. Na prática, isso favorece conteúdos que cobrem as dúvidas relacionadas a um tema, com cada uma respondida de forma clara."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-e-visibilidade-em-ia",
+   "name": "O que é visibilidade em IA?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "É quanto e como uma marca aparece nas respostas de IA para um conjunto de perguntas: presença, posição, citação, sentimento e exatidão. Visibilidade em IA não é um número só. Uma marca pode aparecer muito, mas em posição secundária, com tom negativo ou com fatos errados. Uma avaliação completa olha em quantas respostas a marca aparece, se é citada ou recomendada, em que ordem, com que tom e se o que a IA diz confere com os fatos oficiais da empresa."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#por-que-a-ia-da-respostas-diferentes",
+   "name": "Por que a IA dá respostas diferentes para a mesma pergunta?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Porque os modelos de IA geram texto com variação: a mesma pergunta, feita várias vezes, pode trazer marcas, fontes e ordens diferentes. Essa variância das respostas é normal e precisa ser levada em conta na medição. Um único teste no ChatGPT não diz se a marca \"aparece\" ou \"não aparece\". Medições sérias repetem cada pergunta várias vezes, em várias plataformas, e informam a margem de variação. Sem isso, uma diferença de um mês para o outro pode ser só acaso."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#quais-robos-de-ia-visitam-meu-site",
+   "name": "Quais robôs de IA visitam o meu site?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Há três tipos: robôs de treino (como GPTBot e ClaudeBot), robôs de busca (como OAI-SearchBot, Claude-SearchBot e PerplexityBot) e acessos a pedido do usuário (como ChatGPT-User, Claude-User e Perplexity-User). Os robôs de treino coletam páginas para treinar modelos; os de busca montam o índice usado para responder em tempo real; e os acessos a pedido do usuário acontecem quando alguém pede à IA para ler uma página específica. Cada um pode ser liberado ou bloqueado separadamente no robots.txt. Para aparecer nas respostas com busca, o importante é não bloquear os robôs de busca."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#se-bloquear-o-gptbot-saio-do-chatgpt",
+   "name": "Se eu bloquear o GPTBot, minha empresa some do ChatGPT?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Não necessariamente. O GPTBot é o robô de treino da OpenAI; a busca do ChatGPT usa o OAI-SearchBot. É possível bloquear o treino e continuar aparecendo nas respostas com busca. Essa estratégia se chama recusa de uso para treino: bloquear robôs de treino, como GPTBot, sem bloquear os de busca, como OAI-SearchBot e ChatGPT-User. Assim a empresa não cede conteúdo para treinar modelos e continua elegível para ser lida e citada nas respostas em tempo real. Antes de bloquear qualquer robô, vale conferir no robots.txt o que já está liberado, para não sair das respostas por engano."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-e-llms-txt",
+   "name": "O que é o llms.txt?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "É uma proposta de arquivo em Markdown na raiz do site que resume a marca e lista as páginas mais úteis para modelos de linguagem. Não é padrão oficial e não há confirmação pública de uso pelos grandes buscadores. O llms.txt funciona como um mapa do site escrito para IAs: diz quem é a empresa, o que ela faz e quais páginas valem a pena ler. Existe também a variante llms-full.txt, com o conteúdo completo das páginas num único arquivo. Como não há confirmação de uso pelos grandes buscadores, ele deve ser tratado como complemento de baixo custo, e não como substituto de um site rastreável, bem estruturado e com dados estruturados."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#preciso-ter-llms-txt",
+   "name": "Preciso ter llms.txt para aparecer nas IAs?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Não. O llms.txt não é padrão oficial e não há confirmação pública de que os grandes buscadores o usem. Ele pode ajudar ferramentas que o leem, mas não substitui um site acessível e bem estruturado. O que mais pesa para aparecer nas respostas é o básico: os robôs de busca das IAs conseguirem ler o site, as páginas terem respostas claras e verificáveis, a identidade da empresa estar consistente e haver fontes de terceiros falando dela. O llms.txt é barato de publicar e pode ser útil para agentes e ferramentas que o consultam, mas deve vir depois dessas bases."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-o-robots-txt-tem-a-ver-com-geo",
+   "name": "O que o robots.txt tem a ver com GEO?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "O robots.txt diz aos robôs quais caminhos do site podem rastrear. Se ele bloqueia os robôs de busca das IAs, o site deixa de ser lido e não pode ser citado nas respostas. Muitos sites bloqueiam robôs de IA sem saber, por regras antigas, por plugins de segurança ou por configurações da CDN. Vale lembrar que o robots.txt controla o rastreamento, não a indexação, e que ele é uma instrução seguida pelos robôs que a respeitam. Conferir o robots.txt e testar o acesso de cada robô de IA é um dos primeiros passos de um diagnóstico de GEO."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-e-google-extended",
+   "name": "O que é o Google-Extended?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "É um token do robots.txt que controla se o conteúdo rastreado pelo Google pode ser usado para treinar e ancorar os modelos Gemini. Ele não afeta a busca nem os AI Overviews. Bloquear o Google-Extended não tira o site da busca do Google nem dos AI Overviews, que dependem do rastreamento normal do Googlebot. Ele serve para quem não quer que o conteúdo seja usado nos modelos Gemini fora da busca. Antes de decidir, vale entender o que se perde e o que se protege, porque cada robô e cada token têm um papel diferente."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#por-que-a-ia-nao-consegue-ler-meu-site",
+   "name": "Por que a IA não consegue ler o meu site?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "As causas mais comuns são bloqueio dos robôs no robots.txt ou na CDN, conteúdo que só aparece depois de rodar JavaScript, páginas atrás de login e desafios do tipo CAPTCHA. Para ser lida por máquinas, a página precisa entregar o conteúdo em HTML já no servidor, com estrutura semântica clara e sem barreiras. Sites montados inteiramente no navegador, firewalls que tratam robôs de IA como ataque e páginas pesadas ou lentas reduzem a chance de leitura. Um teste com os principais robôs de IA mostra quais deles conseguem acessar o site e o que eles recebem."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-e-markdown-para-agentes",
+   "name": "O que é Markdown para agentes?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "É a prática de oferecer versões em Markdown das páginas, por exemplo a mesma URL terminada em .md, para que agentes e modelos de linguagem leiam o conteúdo sem o ruído do layout. Uma página HTML traz menus, rodapés, scripts e estilos que não interessam a uma IA. Uma versão em Markdown entrega só o texto e a estrutura (títulos, listas, tabelas), o que facilita a leitura por agentes e ferramentas. É um complemento, assim como o llms.txt, e não substitui a página HTML que pessoas e buscadores acessam."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-e-citabilidade",
+   "name": "O que é citabilidade?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "É o quanto um conteúdo está pronto para ser usado e citado por uma IA: acessível aos robôs, com respostas autossuficientes, fatos específicos com fonte e autoria e entidade claras. Prontidão não garante citação. Um conteúdo citável facilita o trabalho da IA: ela encontra a resposta logo no começo do trecho, entende de quem é a informação e consegue verificar os fatos. Textos vagos, sem dados, sem autor e sem fonte são mais difíceis de usar com segurança. Mesmo um conteúdo muito citável pode não ser citado, porque a decisão depende também da pergunta, da concorrência e de cada plataforma."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-e-capsula-de-resposta",
+   "name": "O que é uma cápsula de resposta?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "É um parágrafo curto e autossuficiente, logo depois de um título, que responde à pergunta do título sem depender do resto da página. É o trecho que a IA mais facilmente extrai e cita. Um bom exemplo: o título \"Quanto custa uma auditoria de GEO?\" seguido de um parágrafo que já traz a faixa de preço, o que está incluso e o prazo. Como os sistemas de IA recortam as páginas em trechos, uma resposta que funciona sozinha tem mais chance de ser usada. Depois da cápsula, o texto pode aprofundar o assunto com exemplos e detalhes."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#como-escrever-para-ser-citado",
+   "name": "Como escrever um texto para ser citado pela IA?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Coloque a resposta direta na primeira frase, faça cada seção funcionar sozinha, use fatos específicos com fonte e deixe claro quem é o autor e a empresa por trás do conteúdo. Algumas práticas ajudam: títulos em forma de pergunta, uma cápsula de resposta logo abaixo, frases sem pronomes soltos (diga \"a clínica\" em vez de \"ela\" no começo do trecho), números com data e fonte, e exemplos próprios. O estudo original de GEO mostrou que acrescentar fontes, citações de especialistas e estatísticas estava entre o que mais aumentava a visibilidade. Escrever bem para a IA é, em grande parte, escrever com clareza para pessoas."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-e-um-fato-citavel",
+   "name": "O que é um fato citável?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "É uma afirmação específica, verificável e com fonte, como um número, uma data ou uma definição, que uma IA pode reproduzir com segurança. \"Atendemos mais de 300 clientes desde 2016 em Porto Alegre\" é mais citável que \"somos referência no mercado\". Fatos que mudam com o tempo precisam de data, para que a IA não repita uma informação vencida. Uma página com os fatos oficiais da empresa, com fonte e data, ajuda pessoas e IAs a encontrarem a versão correta."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-mais-aumentou-a-visibilidade-no-estudo-de-geo",
+   "name": "O que mais aumentou a visibilidade no estudo original de GEO?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Acrescentar referências a fontes confiáveis, citações atribuídas a especialistas e estatísticas com fonte ficaram entre os métodos que mais aumentaram a presença das páginas nas respostas. O artigo de Aggarwal e colegas (2023) testou vários métodos de reescrita. Melhorar a fluência e simplificar a linguagem ajudou de forma moderada; deixar o tom mais assertivo teve efeito menor e variável. O que mais se destacou foi dar à IA material verificável: fontes, citações e dados. Esses resultados vêm de um experimento e não garantem o mesmo efeito em todas as plataformas e temas."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#tom-confiante-ajuda-no-geo",
+   "name": "Escrever com um tom mais confiante ajuda no GEO?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Pouco. No estudo original de GEO, reescrever o texto com tom mais assertivo teve efeito menor e variável. Tom sem prova não substitui fonte. Frases como \"somos os melhores\" ou \"a solução definitiva\" não dão à IA nada para verificar. O que ajuda mais é trocar adjetivos por fatos: números com fonte, prazos, certificações, exemplos de clientes e citações de especialistas. Usar a terminologia correta do setor também pode ajudar quando a pergunta do usuário usa o mesmo vocabulário."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-e-ganho-de-informacao",
+   "name": "O que é ganho de informação?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "É o quanto uma página traz de novo em relação ao que já existe sobre o tema: dados próprios, experiência, exemplos e conclusões originais. Se dez páginas dizem a mesma coisa, há pouco motivo para a IA citar a décima primeira. Conteúdo com pesquisa própria, casos reais, números do próprio negócio e opinião fundamentada oferece algo que só aquela fonte tem. É também a melhor defesa contra o conteúdo genérico produzido em massa."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#conteudo-comparativo-ajuda",
+   "name": "Vale a pena criar conteúdo comparativo para as IAs?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Sim, quando é honesto. Páginas que comparam opções com critérios claros (X ou Y, alternativas a Z) respondem a perguntas de decisão, que são muito comuns nos assistentes de IA. Perguntas como \"qual a diferença entre implante e prótese?\" ou \"vale mais a pena alugar ou financiar?\" pedem comparação. Uma página com critérios explícitos, tabela e conclusão para cada perfil de cliente tem boa chance de ser usada. A comparação precisa ser justa: comparativos que só elogiam a própria marca perdem credibilidade com pessoas e com as IAs."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#listas-de-melhores-funcionam",
+   "name": "Listas do tipo \"as 10 melhores empresas\" funcionam para aparecer nas IAs?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Elas estão entre os formatos mais citados por IAs em perguntas de recomendação, o que atrai abuso. Listas autopromocionais, em que a própria empresa se coloca em primeiro, são tratadas como manipulação. Uma lista de \"melhores\" publicada por uma fonte independente, com critérios claros, pode ser uma referência legítima. Já criar listas falsas, ou colocar a própria marca no topo de rankings feitos por ela mesma, entra no que se chama de spam de GEO e pode prejudicar a confiança na marca. É melhor buscar presença em listas independentes e confiáveis do seu setor."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#posso-produzir-conteudo-em-massa-com-ia",
+   "name": "Posso produzir conteúdo em massa com IA para fazer GEO?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Não é recomendado. Conteúdo gerado em massa, genérico e sem verificação (\"lixo gerado por IA\") perde confiança e pode ser enquadrado como abuso de conteúdo em escala. A IA pode ajudar a escrever, revisar e organizar, mas o valor de um conteúdo para GEO está no que ele traz de próprio: dados, experiência, exemplos e fatos verificados. Centenas de páginas parecidas, sem revisão humana, não oferecem ganho de informação e ainda poluem a imagem da marca. A regra prática é usar a IA como ferramenta e manter uma pessoa responsável pela verificação de cada texto."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-e-entidade",
+   "name": "O que é uma entidade, em GEO?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "É uma coisa única e identificável, como uma pessoa, empresa, lugar, produto ou conceito, com atributos e relações. Buscadores e IAs organizam o conhecimento em entidades, não em palavras. Para a IA, a sua empresa é uma entidade com nome, endereço, área de atuação, fundador, serviços e relações com outras entidades. Quanto mais claros e consistentes esses dados estiverem no site, nos dados estruturados e em fontes de terceiros, mais fácil fica para a IA reconhecer a empresa e falar dela corretamente. O Google resumiu essa mudança em 2012 com a frase \"coisas, não palavras\"."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#por-que-a-ia-confunde-minha-empresa",
+   "name": "Por que a IA confunde a minha empresa com outra?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Geralmente por nomes parecidos e dados inconsistentes: nome, descrição, endereço ou contato diferentes em cada fonte fazem a IA hesitar ou misturar entidades. A solução passa por duas frentes. A primeira é a consistência: o mesmo nome, descrição e contato no site, nos dados estruturados, no Perfil da Empresa no Google, em redes sociais e em diretórios. A segunda é a desambiguação: deixar claro qual entidade é a sua, com identificadores, links para perfis oficiais (sameAs), descrição distintiva e fatos que só a sua empresa tem."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#dados-estruturados-ajudam-no-geo",
+   "name": "Dados estruturados ajudam no GEO?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Ajudam a máquina a entender quem é a empresa, o que vende e onde fica, de forma explícita. Em geral, são escritos com o vocabulário Schema.org no formato JSON-LD. Os dados estruturados descrevem a organização, os serviços, os produtos, os autores e as relações entre eles num bloco separado do texto visível. Com isso, buscadores e IAs não precisam adivinhar essas informações a partir do layout. Eles não garantem citação, mas reduzem a ambiguidade sobre a entidade e reforçam a consistência dos fatos."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#por-que-a-ia-confia-mais-em-sites-de-terceiros",
+   "name": "Por que a IA confia mais em sites de terceiros do que no meu?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Porque fatos confirmados por fontes independentes, como imprensa, avaliações, registros públicos e enciclopédias, valem mais do que o que a própria marca diz de si mesma. Para uma IA, uma afirmação repetida por várias fontes independentes é mais confiável do que uma afirmação feita só pela empresa interessada. Por isso a presença em fontes de terceiros (notícias, diretórios do setor, avaliações, fóruns) pesa tanto em GEO. O site próprio continua essencial como fonte oficial dos fatos, mas precisa ser corroborado por fora."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#preciso-estar-na-wikipedia",
+   "name": "Preciso estar na Wikipédia para aparecer nas IAs?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Não. A Wikipédia está entre as fontes mais usadas pelas IAs, mas só aceita verbete de quem tem notoriedade comprovada por fontes independentes. Forçar um verbete sem essa cobertura costuma dar errado. Para a maioria das empresas, o caminho é outro: site claro, dados estruturados, Perfil da Empresa no Google, presença em diretórios e veículos do setor e avaliações reais. Quando a empresa já tem cobertura significativa em fontes independentes, a Wikipédia e o Wikidata podem ser considerados, sempre seguindo as regras deles, que não aceitam uso promocional."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-e-geo-score",
+   "name": "O que é GEO Score?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "É uma nota de prontidão de um site para ser lido e citado por IAs, calculada a partir do que ele publica: acesso dos robôs, identidade, dados estruturados, respostas citáveis e E-E-A-T. Mede prontidão, não garante citação. O GEO Score funciona como um diagnóstico técnico: mostra o que no site facilita ou atrapalha o trabalho das IAs e em que ordem corrigir. Ele é diferente das métricas de visibilidade, como menções e citações, que medem o que as IAs de fato respondem. O ideal é acompanhar as duas coisas: a prontidão do site e a presença real nas respostas."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#geo-garante-citacao",
+   "name": "GEO garante que a minha empresa vai ser citada pelas IAs?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Não. Nenhum serviço controla as respostas das IAs. O GEO aumenta a chance de a marca ser encontrada, entendida e citada corretamente, e mede essa evolução, mas não garante resultado. As respostas dependem da pergunta, da plataforma, da concorrência e da variação natural dos modelos. Um trabalho sério de GEO mostra o que foi feito, mede antes e depois com o mesmo método e é transparente sobre os limites da medição. Desconfie de promessas de \"primeiro lugar no ChatGPT\" ou de percentuais garantidos de visibilidade."
+   }
+  },
+  {
+   "@type": "Question",
+   "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia/blob/main/PERGUNTAS.md#o-que-fazer-quando-a-ia-fala-algo-errado",
+   "name": "O que fazer quando a IA fala algo errado sobre a minha empresa?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Descubra de onde vem o erro, corrija os fatos na fonte oficial (o próprio site) e nas fontes de terceiros que a IA usa, e acompanhe se a resposta muda. A IA não é corrigida diretamente. Erros sobre empresas, chamados de alucinação quando a IA afirma algo sem base, costumam vir de fontes desatualizadas ou contraditórias. O caminho é publicar uma página com os fatos oficiais e verificáveis, alinhar nome, descrição e contato em todos os perfis, corrigir diretórios e perfis antigos e, quando for o caso, reivindicar o painel de conhecimento do Google. Depois, repita as mesmas perguntas nas IAs para conferir a evolução."
+   }
+  }
+ ]
+}
