@@ -1,10 +1,10 @@
-# Glossário SEO, GEO e IA — 463 termos
+# Glossário SEO, GEO e IA — 476 termos
 
-Versão 1.5.0 · atualizado em 2026-10-23 · português do Brasil e inglês · [CC BY 4.0](LICENSE) · Raphael Sousa Pereira, [Negócio no Mapa](https://seonegocionomapa.com.br)
+Versão 1.6.0 · atualizado em 2026-11-12 · português do Brasil e inglês · [CC BY 4.0](LICENSE) · Raphael Sousa Pereira, [Negócio no Mapa](https://seonegocionomapa.com.br)
 
 Arquivo gerado por `scripts/construir.py` a partir de `termos/`. Não edite à mão.
 
-- [SEO](#categoria-seo) — Busca orgânica, SEO técnico, local e dados estruturados (162 termos)
+- [SEO](#categoria-seo) — Busca orgânica, SEO técnico, local e dados estruturados (175 termos)
 - [GEO](#categoria-geo) — Visibilidade e citação em motores generativos (134 termos)
 - [IA](#categoria-ia) — Inteligência artificial aplicada à busca e ao conteúdo (118 termos)
 - [Autorais](#categoria-autorais) — Conceitos cunhados por Raphael Sousa Pereira (49 termos)
@@ -458,6 +458,16 @@ Organização das páginas em categorias, hierarquia e links, que define como ro
 
 Veja também: [Linkagem interna](#internal-linking), [Profundidade de clique](#crawl-depth), [Cluster de tópicos](#topic-cluster)
 
+#### Carregamento sob demanda
+
+<a id="lazy-loading"></a>**EN:** Lazy Loading
+
+Técnica que só baixa uma imagem ou iframe quando ele está perto de aparecer na tela (loading="lazy"). Ajuda o resto da página, mas atrasa o LCP se for aplicada à imagem do topo.
+
+> *Technique that only downloads an image or iframe when it is about to appear on screen (loading="lazy"). It helps the rest of the page but delays LCP if applied to the top image.*
+
+Veja também: [Maior renderização de conteúdo](#lcp), [SEO de imagens](#image-seo) · Fonte: <https://web.dev/articles/browser-level-image-lazy-loading>
+
 #### CMS headless
 
 <a id="headless-cms"></a>**EN:** Headless CMS
@@ -487,6 +497,16 @@ Conjunto de sinais sobre como é usar a página: Core Web Vitals, HTTPS, ausênc
 > *Set of signals about using a page: Core Web Vitals, HTTPS, no intrusive interstitials and good mobile display.*
 
 Veja também: [Core Web Vitals](#core-web-vitals), [Indexação mobile-first](#mobile-first-indexing) · Fonte: <https://developers.google.com/search/docs/appearance/page-experience>
+
+#### Formatos modernos de imagem
+
+<a id="modern-image-formats"></a>**EN:** WebP / AVIF
+
+Formatos de imagem que, com a mesma qualidade visual, costumam ficar bem menores que JPEG e PNG, deixando a página mais leve.
+
+> *Image formats that, at the same visual quality, are usually much smaller than JPEG and PNG, making pages lighter.*
+
+Veja também: [SEO de imagens](#image-seo), [Maior renderização de conteúdo](#lcp) · Fonte: <https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Image_types>
 
 #### HTML semântico
 
@@ -528,6 +548,16 @@ Tempo que a página leva para responder visualmente às interações do usuário
 
 Veja também: [Core Web Vitals](#core-web-vitals) · Fonte: <https://web.dev/articles/inp> · Leia no site: <https://seonegocionomapa.com.br/como-otimizar-inp-guia-completo-de-core-web-vitals-2026/>
 
+#### Lighthouse
+
+<a id="lighthouse"></a>**EN:** Lighthouse
+
+Ferramenta de código aberto do Google que carrega a página num ambiente simulado e dá notas de 0 a 100 para performance, acessibilidade, boas práticas e SEO. É medição de laboratório, não de visitas reais.
+
+> *Google's open-source tool that loads a page in a simulated environment and scores performance, accessibility, best practices and SEO from 0 to 100. It is a lab measurement, not real visits.*
+
+Veja também: [PageSpeed Insights](#pagespeed-insights), [Maior renderização de conteúdo](#lcp) · Fonte: <https://developer.chrome.com/docs/lighthouse/overview>
+
 #### Maior renderização de conteúdo
 
 <a id="lcp"></a>**EN:** Largest Contentful Paint (LCP)
@@ -558,6 +588,16 @@ Filtros de listagem (cor, tamanho, preço) que geram muitas combinações de URL
 
 Veja também: [Orçamento de rastreamento](#crawl-budget), [Conteúdo duplicado](#duplicate-content) · Fonte: <https://developers.google.com/search/docs/crawling-indexing/crawling-managing-faceted-navigation>
 
+#### PageSpeed Insights
+
+<a id="pagespeed-insights"></a>**EN:** PageSpeed Insights
+
+Serviço do Google que roda o Lighthouse na página e, quando há tráfego suficiente, mostra também os dados de usuários reais do CrUX. Tem API gratuita com chave.
+
+> *Google service that runs Lighthouse on a page and, when there is enough traffic, also shows real-user data from CrUX. It has a free API with a key.*
+
+Veja também: [Lighthouse](#lighthouse), [Relatório de experiência do usuário do Chrome](#crux), [Core Web Vitals](#core-web-vitals) · Fonte: <https://developers.google.com/speed/docs/insights/v5/about>
+
 #### Paginação
 
 <a id="pagination"></a>**EN:** Pagination
@@ -567,6 +607,26 @@ Divisão de uma lista longa em várias páginas. Cada página deve ter URL próp
 > *Splitting a long list across several pages. Each page needs its own crawlable URL and links to the others.*
 
 Veja também: [Rastreamento](#crawling)
+
+#### Percentil 75
+
+<a id="p75"></a>**EN:** 75th Percentile (p75)
+
+Valor que 75% das visitas atingem ou superam. O Google avalia os Core Web Vitals no p75: três em cada quatro visitas precisam estar dentro do limite.
+
+> *Value that 75% of visits meet or beat. Google assesses Core Web Vitals at p75: three out of four visits must be within the threshold.*
+
+Veja também: [Core Web Vitals](#core-web-vitals), [Relatório de experiência do usuário do Chrome](#crux) · Fonte: <https://web.dev/articles/vitals>
+
+#### Prioridade de download
+
+<a id="fetchpriority"></a>**EN:** fetchpriority
+
+Atributo HTML (fetchpriority="high" ou "low") que indica ao navegador o que baixar primeiro. Na imagem principal do topo, costuma melhorar o LCP.
+
+> *HTML attribute (fetchpriority="high" or "low") that tells the browser what to download first. On the main top image it usually improves LCP.*
+
+Veja também: [Maior renderização de conteúdo](#lcp), [Carregamento sob demanda](#lazy-loading) · Fonte: <https://web.dev/articles/fetch-priority>
 
 #### Rede de distribuição de conteúdo
 
@@ -578,6 +638,16 @@ Rede de servidores espalhados que entrega arquivos do ponto mais próximo do vis
 
 Veja também: [Tempo até o primeiro byte](#ttfb), [Robô de IA](#ai-crawler)
 
+#### Relatório de experiência do usuário do Chrome
+
+<a id="crux"></a>**EN:** Chrome UX Report (CrUX)
+
+Base pública do Google com o desempenho medido nas visitas reais de usuários do Chrome, numa janela móvel de 28 dias. Só existe para páginas e sites com tráfego suficiente; sem ele, não há dado de usuários reais.
+
+> *Google's public dataset of performance measured on real Chrome user visits over a rolling 28-day window. It only exists for pages and sites with enough traffic; without it there is no real-user data.*
+
+Veja também: [Core Web Vitals](#core-web-vitals), [Percentil 75](#p75), [PageSpeed Insights](#pagespeed-insights) · Fonte: <https://developer.chrome.com/docs/crux>
+
 #### Renderização no servidor
 
 <a id="server-side-rendering"></a>**EN:** Server-side Rendering (SSR)
@@ -587,6 +657,16 @@ O servidor entrega o HTML já montado, em vez de deixar o navegador montar a pá
 > *The server delivers fully built HTML instead of letting the browser build the page with JavaScript. Bots, including AI bots that do not run JavaScript, read the content immediately.*
 
 Veja também: [Renderização](#rendering), [SEO para JavaScript](#javascript-seo), [Robô de IA](#ai-crawler)
+
+#### Segurança estrita de transporte HTTP
+
+<a id="hsts"></a>**EN:** HTTP Strict Transport Security (HSTS)
+
+Cabeçalho (Strict-Transport-Security) que manda o navegador usar sempre HTTPS no site por um período, mesmo que alguém digite http://. Evita que o acesso seja rebaixado para conexão sem criptografia.
+
+> *Header (Strict-Transport-Security) that tells the browser to always use HTTPS on the site for a period, even if someone types http://. It prevents downgrading to an unencrypted connection.*
+
+Veja também: [HTTPS](#https) · Fonte: <https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Strict-Transport-Security>
 
 #### SEO para JavaScript
 
@@ -840,6 +920,16 @@ Nível de detalhe com que cada aspecto de um tema é tratado: dados, exemplos, e
 
 Veja também: [Amplitude de conteúdo](#content-breadth), [Conteúdo raso](#thin-content)
 
+#### Protocolo Open Graph
+
+<a id="open-graph"></a>**EN:** Open Graph
+
+Conjunto de metatags og: (og:title, og:description, og:image) que diz a redes sociais e aplicativos qual título, descrição e imagem mostrar quando um link é compartilhado.
+
+> *Set of og: meta tags (og:title, og:description, og:image) that tells social networks and apps which title, description and image to show when a link is shared.*
+
+Veja também: [Meta descrição](#meta-description), [Tag de título](#title-tag) · Fonte: <https://ogp.me/>
+
 #### Página pilar
 
 <a id="pillar-page"></a>**EN:** Pillar Page
@@ -972,6 +1062,16 @@ Link de outro site apontando para o seu. Links de fontes relevantes e confiávei
 
 Veja também: [Construção de links](#link-building), [Texto âncora](#anchor-text), [PageRank](#pagerank) · Leia no site: <https://seonegocionomapa.com.br/como-usar-backlinks-em-sua-estrategia-de-seo-e-geo-guia-2026/>
 
+#### Comunicado à imprensa
+
+<a id="press-release"></a>**EN:** Press Release
+
+Texto oficial que uma organização envia a jornalistas para divulgar um fato novo. Quando vários veículos o republicam sem apuração própria, as cópias contam como uma única origem.
+
+> *Official text an organization sends to journalists to announce something new. When several outlets republish it without their own reporting, the copies count as a single origin.*
+
+Veja também: [Relações públicas digitais](#digital-pr), [Sala de imprensa](#press-room), [Fonte de terceiros](#third-party-source)
+
 #### Construção de links
 
 <a id="link-building"></a>**EN:** Link Building
@@ -1021,6 +1121,16 @@ Produção de notícias, dados e histórias para conseguir menções e links em 
 > *Producing news, data and stories to earn mentions and links from media and authoritative sites.*
 
 Veja também: [Construção de links](#link-building), [Menção à marca](#brand-mention)
+
+#### Sala de imprensa
+
+<a id="press-room"></a>**EN:** Press Room (Newsroom)
+
+Página do site feita para jornalistas: resumo da organização, comunicados, matérias publicadas, kit de imagens e contato da assessoria.
+
+> *Site page built for journalists: organization summary, press releases, published coverage, media kit and press contact.*
+
+Veja também: [Comunicado à imprensa](#press-release), [Relações públicas digitais](#digital-pr), [Ponto de contato (Schema.org)](#contact-point)
 
 #### SEO off-page
 
@@ -1237,6 +1347,16 @@ Formato de dados ligados em JSON, recomendado pelo Google para dados estruturado
 > *JSON-based linked-data format recommended by Google for structured data. It lives in a <script> block separate from the visible HTML.*
 
 Veja também: [Dados estruturados](#structured-data), [Identificador @id](#schema-id) · Fonte: <https://www.w3.org/TR/json-ld11/> · Leia no site: <https://raphaelsousapereira.com.br/schema-markup-json-ld-entidades-grafo-conhecimento-geo-2026/>
+
+#### Ponto de contato (Schema.org)
+
+<a id="contact-point"></a>**EN:** ContactPoint
+
+Tipo do Schema.org que descreve um canal de contato da organização, com tipo de atendimento (por exemplo "media relations" para imprensa), e-mail, telefone e idiomas.
+
+> *Schema.org type that describes an organization's contact channel, with its contact type (for example "media relations" for press), email, phone and languages.*
+
+Veja também: [Schema Organization](#organization-schema), [Dados estruturados](#structured-data), [Sala de imprensa](#press-room) · Fonte: <https://schema.org/ContactPoint>
 
 #### Propriedade knowsAbout
 
@@ -1459,6 +1579,14 @@ Quantas vezes uma página apareceu nos resultados para alguém, mesmo sem clique
 > *How many times a page appeared in someone's results, even without a click.*
 
 Veja também: [Taxa de cliques](#ctr), [Google Search Console](#google-search-console)
+
+#### Indicador-chave de desempenho
+
+<a id="kpi"></a>**EN:** Key Performance Indicator (KPI)
+
+Número escolhido para acompanhar se um objetivo está sendo atingido, com meta e período definidos.
+
+> *Number chosen to track whether a goal is being met, with a defined target and period.*
 
 #### Monitoramento de posições
 

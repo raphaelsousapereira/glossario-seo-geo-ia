@@ -7,8 +7,8 @@
     "pt-BR",
     "en"
   ],
-  "version": "1.5.0",
-  "dateModified": "2026-10-23",
+  "version": "1.6.0",
+  "dateModified": "2026-11-12",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "url": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia",
   "author": {
@@ -2131,6 +2131,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#lazy-loading",
+      "termCode": "lazy-loading",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Carregamento sob demanda"
+        },
+        {
+          "@language": "en",
+          "@value": "Lazy Loading"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Técnica que só baixa uma imagem ou iframe quando ele está perto de aparecer na tela (loading=\"lazy\"). Ajuda o resto da página, mas atrasa o LCP se for aplicada à imagem do topo."
+        },
+        {
+          "@language": "en",
+          "@value": "Technique that only downloads an image or iframe when it is about to appear on screen (loading=\"lazy\"). It helps the rest of the page but delays LCP if applied to the top image."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://web.dev/articles/browser-level-image-lazy-loading"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#primary-category",
       "termCode": "primary-category",
       "name": [
@@ -2749,6 +2778,34 @@
         {
           "@language": "en",
           "@value": "Spending more processing while answering, for example reasoning over more steps, to get better results."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#press-release",
+      "termCode": "press-release",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Comunicado à imprensa"
+        },
+        {
+          "@language": "en",
+          "@value": "Press Release"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Texto oficial que uma organização envia a jornalistas para divulgar um fato novo. Quando vários veículos o republicam sem apuração própria, as cópias contam como uma única origem."
+        },
+        {
+          "@language": "en",
+          "@value": "Official text an organization sends to journalists to announce something new. When several outlets republish it without their own reporting, the copies count as a single origin."
         }
       ],
       "inDefinedTermSet": {
@@ -4904,6 +4961,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#modern-image-formats",
+      "termCode": "modern-image-formats",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Formatos modernos de imagem"
+        },
+        {
+          "@language": "en",
+          "@value": "WebP / AVIF"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Formatos de imagem que, com a mesma qualidade visual, costumam ficar bem menores que JPEG e PNG, deixando a página mais leve."
+        },
+        {
+          "@language": "en",
+          "@value": "Image formats that, at the same visual quality, are usually much smaller than JPEG and PNG, making pages lighter."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Image_types"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#chunking",
       "termCode": "chunking",
       "name": [
@@ -5948,6 +6034,34 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#kpi",
+      "termCode": "kpi",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Indicador-chave de desempenho"
+        },
+        {
+          "@language": "en",
+          "@value": "Key Performance Indicator (KPI)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Número escolhido para acompanhar se um objetivo está sendo atingido, com meta e período definidos."
+        },
+        {
+          "@language": "en",
+          "@value": "Number chosen to track whether a goal is being met, with a defined target and period."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#inference",
       "termCode": "inference",
       "name": [
@@ -6529,6 +6643,35 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#lighthouse",
+      "termCode": "lighthouse",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Lighthouse"
+        },
+        {
+          "@language": "en",
+          "@value": "Lighthouse"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Ferramenta de código aberto do Google que carrega a página num ambiente simulado e dá notas de 0 a 100 para performance, acessibilidade, boas práticas e SEO. É medição de laboratório, não de visitas reais."
+        },
+        {
+          "@language": "en",
+          "@value": "Google's open-source tool that loads a page in a simulated environment and scores performance, accessibility, best practices and SEO from 0 to 100. It is a lab measurement, not real visits."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://developer.chrome.com/docs/lighthouse/overview"
     },
     {
       "@type": "DefinedTerm",
@@ -8404,6 +8547,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#pagespeed-insights",
+      "termCode": "pagespeed-insights",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "PageSpeed Insights"
+        },
+        {
+          "@language": "en",
+          "@value": "PageSpeed Insights"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Serviço do Google que roda o Lighthouse na página e, quando há tráfego suficiente, mostra também os dados de usuários reais do CrUX. Tem API gratuita com chave."
+        },
+        {
+          "@language": "en",
+          "@value": "Google service that runs Lighthouse on a page and, when there is enough traffic, also shows real-user data from CrUX. It has a free API with a key."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://developers.google.com/speed/docs/insights/v5/about"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#pagination",
       "termCode": "pagination",
       "name": [
@@ -8656,6 +8828,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#p75",
+      "termCode": "p75",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Percentil 75"
+        },
+        {
+          "@language": "en",
+          "@value": "75th Percentile (p75)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Valor que 75% das visitas atingem ou superam. O Google avalia os Core Web Vitals no p75: três em cada quatro visitas precisam estar dentro do limite."
+        },
+        {
+          "@language": "en",
+          "@value": "Value that 75% of visits meet or beat. Google assesses Core Web Vitals at p75: three out of four visits must be within the threshold."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://web.dev/articles/vitals"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#lost-in-the-middle",
       "termCode": "lost-in-the-middle",
       "name": [
@@ -8859,6 +9060,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#contact-point",
+      "termCode": "contact-point",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Ponto de contato (Schema.org)"
+        },
+        {
+          "@language": "en",
+          "@value": "ContactPoint"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Tipo do Schema.org que descreve um canal de contato da organização, com tipo de atendimento (por exemplo \"media relations\" para imprensa), e-mail, telefone e idiomas."
+        },
+        {
+          "@language": "en",
+          "@value": "Schema.org type that describes an organization's contact channel, with its contact type (for example \"media relations\" for press), email, phone and languages."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://schema.org/ContactPoint"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#citation-position",
       "termCode": "citation-position",
       "name": [
@@ -8997,6 +9227,35 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#fetchpriority",
+      "termCode": "fetchpriority",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Prioridade de download"
+        },
+        {
+          "@language": "en",
+          "@value": "fetchpriority"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Atributo HTML (fetchpriority=\"high\" ou \"low\") que indica ao navegador o que baixar primeiro. Na imagem principal do topo, costuma melhorar o LCP."
+        },
+        {
+          "@language": "en",
+          "@value": "HTML attribute (fetchpriority=\"high\" or \"low\") that tells the browser what to download first. On the main top image it usually improves LCP."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://web.dev/articles/fetch-priority"
     },
     {
       "@type": "DefinedTerm",
@@ -9461,6 +9720,35 @@
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       },
       "subjectOf": "https://raphaelsousapereira.com.br/raphael-sousa-pereira/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#open-graph",
+      "termCode": "open-graph",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Protocolo Open Graph"
+        },
+        {
+          "@language": "en",
+          "@value": "Open Graph"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Conjunto de metatags og: (og:title, og:description, og:image) que diz a redes sociais e aplicativos qual título, descrição e imagem mostrar quando um link é compartilhado."
+        },
+        {
+          "@language": "en",
+          "@value": "Set of og: meta tags (og:title, og:description, og:image) that tells social networks and apps which title, description and image to show when a link is shared."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://ogp.me/"
     },
     {
       "@type": "DefinedTerm",
@@ -10264,6 +10552,35 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#crux",
+      "termCode": "crux",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Relatório de experiência do usuário do Chrome"
+        },
+        {
+          "@language": "en",
+          "@value": "Chrome UX Report (CrUX)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Base pública do Google com o desempenho medido nas visitas reais de usuários do Chrome, numa janela móvel de 28 dias. Só existe para páginas e sites com tráfego suficiente; sem ele, não há dado de usuários reais."
+        },
+        {
+          "@language": "en",
+          "@value": "Google's public dataset of performance measured on real Chrome user visits over a rolling 28-day window. It only exists for pages and sites with enough traffic; without it there is no real-user data."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://developer.chrome.com/docs/crux"
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#index-coverage",
       "termCode": "index-coverage",
       "name": [
@@ -10624,6 +10941,34 @@
         {
           "@language": "en",
           "@value": "Program that visits pages automatically to collect content, such as Googlebot, Bingbot and AI companies' bots."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#press-room",
+      "termCode": "press-room",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Sala de imprensa"
+        },
+        {
+          "@language": "en",
+          "@value": "Press Room (Newsroom)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Página do site feita para jornalistas: resumo da organização, comunicados, matérias publicadas, kit de imagens e contato da assessoria."
+        },
+        {
+          "@language": "en",
+          "@value": "Site page built for journalists: organization summary, press releases, published coverage, media kit and press contact."
         }
       ],
       "inDefinedTermSet": {
@@ -11063,6 +11408,35 @@
       "inDefinedTermSet": {
         "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
       }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#hsts",
+      "termCode": "hsts",
+      "name": [
+        {
+          "@language": "pt-BR",
+          "@value": "Segurança estrita de transporte HTTP"
+        },
+        {
+          "@language": "en",
+          "@value": "HTTP Strict Transport Security (HSTS)"
+        }
+      ],
+      "description": [
+        {
+          "@language": "pt-BR",
+          "@value": "Cabeçalho (Strict-Transport-Security) que manda o navegador usar sempre HTTPS no site por um período, mesmo que alguém digite http://. Evita que o acesso seja rebaixado para conexão sem criptografia."
+        },
+        {
+          "@language": "en",
+          "@value": "Header (Strict-Transport-Security) that tells the browser to always use HTTPS on the site for a period, even if someone types http://. It prevents downgrading to an unencrypted connection."
+        }
+      ],
+      "inDefinedTermSet": {
+        "@id": "https://github.com/raphaelsousapereira/glossario-seo-geo-ia#glossario"
+      },
+      "subjectOf": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Strict-Transport-Security"
     },
     {
       "@type": "DefinedTerm",

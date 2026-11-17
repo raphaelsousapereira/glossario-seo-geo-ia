@@ -1,6 +1,6 @@
 # Glossário SEO, GEO e IA
 
-**463 termos de SEO, GEO (Generative Engine Optimization) e inteligência artificial, em português do Brasil e
+**476 termos de SEO, GEO (Generative Engine Optimization) e inteligência artificial, em português do Brasil e
 inglês, com definição nos dois idiomas, termos relacionados e fonte primária quando existe. Inclui 49 conceitos
 cunhados por Raphael Sousa Pereira, cada um ligado à página em que ele o definiu.**
 
@@ -17,7 +17,7 @@ aplicada à busca, CEO e fundador da [Negócio no Mapa](https://seonegocionomapa
 
 | Categoria | Termos | Subcategorias |
 |---|---|---|
-| SEO | 162 | Fundamentos, rastreamento e indexação, técnico e desempenho, conteúdo, links, local, internacional, dados estruturados, métricas, qualidade |
+| SEO | 175 | Fundamentos, rastreamento e indexação, técnico e desempenho, conteúdo, links, local, internacional, dados estruturados, métricas, qualidade |
 | GEO | 134 | Fundamentos, citação e visibilidade, entidade e grafo, conteúdo citável, acesso das IAs, medição, resultado de negócio, riscos, agentes e comércio, plataformas e fontes |
 | IA | 118 | Fundamentos, modelos de linguagem, treinamento, inferência, prompts, RAG e busca semântica, agentes, avaliação, segurança e governança |
 | Autorais | 49 | Autoridade e manipulação de citação, Física Semântica, citabilidade e entidade, fidelidade e alucinação, medição e método, campo, disciplina e ética |
