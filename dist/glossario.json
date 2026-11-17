@@ -1,9 +1,9 @@
 {
   "meta": {
     "nome": "Glossário SEO, GEO e IA",
-    "versao": "1.5.0",
-    "atualizado_em": "2026-10-23",
-    "total": 463,
+    "versao": "1.6.0",
+    "atualizado_em": "2026-11-12",
+    "total": 476,
     "idiomas": [
       "pt-BR",
       "en"
@@ -1185,6 +1185,21 @@
       "artigo": ""
     },
     {
+      "slug": "lazy-loading",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "Lazy Loading",
+      "termo_pt": "Carregamento sob demanda",
+      "definicao_pt": "Técnica que só baixa uma imagem ou iframe quando ele está perto de aparecer na tela (loading=\"lazy\"). Ajuda o resto da página, mas atrasa o LCP se for aplicada à imagem do topo.",
+      "definition_en": "Technique that only downloads an image or iframe when it is about to appear on screen (loading=\"lazy\"). It helps the rest of the page but delays LCP if applied to the top image.",
+      "relacionados": [
+        "lcp",
+        "image-seo"
+      ],
+      "fonte": "https://web.dev/articles/browser-level-image-lazy-loading",
+      "artigo": ""
+    },
+    {
       "slug": "primary-category",
       "categoria": "SEO",
       "subcategoria": "SEO local",
@@ -1518,6 +1533,22 @@
       "relacionados": [
         "reasoning-model",
         "chain-of-thought"
+      ],
+      "fonte": "",
+      "artigo": ""
+    },
+    {
+      "slug": "press-release",
+      "categoria": "SEO",
+      "subcategoria": "Links e autoridade",
+      "termo_en": "Press Release",
+      "termo_pt": "Comunicado à imprensa",
+      "definicao_pt": "Texto oficial que uma organização envia a jornalistas para divulgar um fato novo. Quando vários veículos o republicam sem apuração própria, as cópias contam como uma única origem.",
+      "definition_en": "Official text an organization sends to journalists to announce something new. When several outlets republish it without their own reporting, the copies count as a single origin.",
+      "relacionados": [
+        "digital-pr",
+        "press-room",
+        "third-party-source"
       ],
       "fonte": "",
       "artigo": ""
@@ -2666,6 +2697,21 @@
       "artigo": ""
     },
     {
+      "slug": "modern-image-formats",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "WebP / AVIF",
+      "termo_pt": "Formatos modernos de imagem",
+      "definicao_pt": "Formatos de imagem que, com a mesma qualidade visual, costumam ficar bem menores que JPEG e PNG, deixando a página mais leve.",
+      "definition_en": "Image formats that, at the same visual quality, are usually much smaller than JPEG and PNG, making pages lighter.",
+      "relacionados": [
+        "image-seo",
+        "lcp"
+      ],
+      "fonte": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Image_types",
+      "artigo": ""
+    },
+    {
       "slug": "chunking",
       "categoria": "IA",
       "subcategoria": "Recuperação (RAG) e busca semântica",
@@ -3218,6 +3264,18 @@
       "artigo": ""
     },
     {
+      "slug": "kpi",
+      "categoria": "SEO",
+      "subcategoria": "Métricas e ferramentas",
+      "termo_en": "Key Performance Indicator (KPI)",
+      "termo_pt": "Indicador-chave de desempenho",
+      "definicao_pt": "Número escolhido para acompanhar se um objetivo está sendo atingido, com meta e período definidos.",
+      "definition_en": "Number chosen to track whether a goal is being met, with a defined target and period.",
+      "relacionados": [],
+      "fonte": "",
+      "artigo": ""
+    },
+    {
       "slug": "inference",
       "categoria": "IA",
       "subcategoria": "Inferência e uso",
@@ -3515,6 +3573,21 @@
         "information-gain"
       ],
       "fonte": "",
+      "artigo": ""
+    },
+    {
+      "slug": "lighthouse",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "Lighthouse",
+      "termo_pt": "Lighthouse",
+      "definicao_pt": "Ferramenta de código aberto do Google que carrega a página num ambiente simulado e dá notas de 0 a 100 para performance, acessibilidade, boas práticas e SEO. É medição de laboratório, não de visitas reais.",
+      "definition_en": "Google's open-source tool that loads a page in a simulated environment and scores performance, accessibility, best practices and SEO from 0 to 100. It is a lab measurement, not real visits.",
+      "relacionados": [
+        "pagespeed-insights",
+        "lcp"
+      ],
+      "fonte": "https://developer.chrome.com/docs/lighthouse/overview",
       "artigo": ""
     },
     {
@@ -4491,6 +4564,22 @@
       "artigo": "https://raphaelsousapereira.com.br/matematica-esquecida-do-pagerank/"
     },
     {
+      "slug": "pagespeed-insights",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "PageSpeed Insights",
+      "termo_pt": "PageSpeed Insights",
+      "definicao_pt": "Serviço do Google que roda o Lighthouse na página e, quando há tráfego suficiente, mostra também os dados de usuários reais do CrUX. Tem API gratuita com chave.",
+      "definition_en": "Google service that runs Lighthouse on a page and, when there is enough traffic, also shows real-user data from CrUX. It has a free API with a key.",
+      "relacionados": [
+        "lighthouse",
+        "crux",
+        "core-web-vitals"
+      ],
+      "fonte": "https://developers.google.com/speed/docs/insights/v5/about",
+      "artigo": ""
+    },
+    {
       "slug": "pagination",
       "categoria": "SEO",
       "subcategoria": "Técnico e desempenho",
@@ -4626,6 +4715,21 @@
       "artigo": ""
     },
     {
+      "slug": "p75",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "75th Percentile (p75)",
+      "termo_pt": "Percentil 75",
+      "definicao_pt": "Valor que 75% das visitas atingem ou superam. O Google avalia os Core Web Vitals no p75: três em cada quatro visitas precisam estar dentro do limite.",
+      "definition_en": "Value that 75% of visits meet or beat. Google assesses Core Web Vitals at p75: three out of four visits must be within the threshold.",
+      "relacionados": [
+        "core-web-vitals",
+        "crux"
+      ],
+      "fonte": "https://web.dev/articles/vitals",
+      "artigo": ""
+    },
+    {
       "slug": "lost-in-the-middle",
       "categoria": "IA",
       "subcategoria": "Recuperação (RAG) e busca semântica",
@@ -4732,6 +4836,22 @@
       "artigo": ""
     },
     {
+      "slug": "contact-point",
+      "categoria": "SEO",
+      "subcategoria": "Dados estruturados",
+      "termo_en": "ContactPoint",
+      "termo_pt": "Ponto de contato (Schema.org)",
+      "definicao_pt": "Tipo do Schema.org que descreve um canal de contato da organização, com tipo de atendimento (por exemplo \"media relations\" para imprensa), e-mail, telefone e idiomas.",
+      "definition_en": "Schema.org type that describes an organization's contact channel, with its contact type (for example \"media relations\" for press), email, phone and languages.",
+      "relacionados": [
+        "organization-schema",
+        "structured-data",
+        "press-room"
+      ],
+      "fonte": "https://schema.org/ContactPoint",
+      "artigo": ""
+    },
+    {
       "slug": "citation-position",
       "categoria": "GEO",
       "subcategoria": "Citação e visibilidade",
@@ -4804,6 +4924,21 @@
         "self-supervised-learning"
       ],
       "fonte": "",
+      "artigo": ""
+    },
+    {
+      "slug": "fetchpriority",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "fetchpriority",
+      "termo_pt": "Prioridade de download",
+      "definicao_pt": "Atributo HTML (fetchpriority=\"high\" ou \"low\") que indica ao navegador o que baixar primeiro. Na imagem principal do topo, costuma melhorar o LCP.",
+      "definition_en": "HTML attribute (fetchpriority=\"high\" or \"low\") that tells the browser what to download first. On the main top image it usually improves LCP.",
+      "relacionados": [
+        "lcp",
+        "lazy-loading"
+      ],
+      "fonte": "https://web.dev/articles/fetch-priority",
       "artigo": ""
     },
     {
@@ -5047,6 +5182,21 @@
         "claim"
       ],
       "fonte": "https://raphaelsousapereira.com.br/raphael-sousa-pereira/",
+      "artigo": ""
+    },
+    {
+      "slug": "open-graph",
+      "categoria": "SEO",
+      "subcategoria": "Conteúdo e on-page",
+      "termo_en": "Open Graph",
+      "termo_pt": "Protocolo Open Graph",
+      "definicao_pt": "Conjunto de metatags og: (og:title, og:description, og:image) que diz a redes sociais e aplicativos qual título, descrição e imagem mostrar quando um link é compartilhado.",
+      "definition_en": "Set of og: meta tags (og:title, og:description, og:image) that tells social networks and apps which title, description and image to show when a link is shared.",
+      "relacionados": [
+        "meta-description",
+        "title-tag"
+      ],
+      "fonte": "https://ogp.me/",
       "artigo": ""
     },
     {
@@ -5476,6 +5626,22 @@
       "artigo": ""
     },
     {
+      "slug": "crux",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "Chrome UX Report (CrUX)",
+      "termo_pt": "Relatório de experiência do usuário do Chrome",
+      "definicao_pt": "Base pública do Google com o desempenho medido nas visitas reais de usuários do Chrome, numa janela móvel de 28 dias. Só existe para páginas e sites com tráfego suficiente; sem ele, não há dado de usuários reais.",
+      "definition_en": "Google's public dataset of performance measured on real Chrome user visits over a rolling 28-day window. It only exists for pages and sites with enough traffic; without it there is no real-user data.",
+      "relacionados": [
+        "core-web-vitals",
+        "p75",
+        "pagespeed-insights"
+      ],
+      "fonte": "https://developer.chrome.com/docs/crux",
+      "artigo": ""
+    },
+    {
       "slug": "index-coverage",
       "categoria": "SEO",
       "subcategoria": "Rastreamento e indexação",
@@ -5670,6 +5836,22 @@
         "crawling",
         "ai-crawler",
         "user-agent"
+      ],
+      "fonte": "",
+      "artigo": ""
+    },
+    {
+      "slug": "press-room",
+      "categoria": "SEO",
+      "subcategoria": "Links e autoridade",
+      "termo_en": "Press Room (Newsroom)",
+      "termo_pt": "Sala de imprensa",
+      "definicao_pt": "Página do site feita para jornalistas: resumo da organização, comunicados, matérias publicadas, kit de imagens e contato da assessoria.",
+      "definition_en": "Site page built for journalists: organization summary, press releases, published coverage, media kit and press contact.",
+      "relacionados": [
+        "press-release",
+        "digital-pr",
+        "contact-point"
       ],
       "fonte": "",
       "artigo": ""
@@ -5899,6 +6081,20 @@
         "guardrails"
       ],
       "fonte": "",
+      "artigo": ""
+    },
+    {
+      "slug": "hsts",
+      "categoria": "SEO",
+      "subcategoria": "Técnico e desempenho",
+      "termo_en": "HTTP Strict Transport Security (HSTS)",
+      "termo_pt": "Segurança estrita de transporte HTTP",
+      "definicao_pt": "Cabeçalho (Strict-Transport-Security) que manda o navegador usar sempre HTTPS no site por um período, mesmo que alguém digite http://. Evita que o acesso seja rebaixado para conexão sem criptografia.",
+      "definition_en": "Header (Strict-Transport-Security) that tells the browser to always use HTTPS on the site for a period, even if someone types http://. It prevents downgrading to an unencrypted connection.",
+      "relacionados": [
+        "https"
+      ],
+      "fonte": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Strict-Transport-Security",
       "artigo": ""
     },
     {
