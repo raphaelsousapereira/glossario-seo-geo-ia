@@ -1,0 +1,118 @@
+{
+  "formato": "pandora-bom/1",
+  "kit": "1.0.0",
+  "projeto": "glossario-seo-geo-ia",
+  "gerado_em": "2026-11-24T04:07:18+00:00",
+  "base": "5bb563d0843798acbdcfbc695884e89d7f373071",
+  "head": "f9ee09dbaf418a7f06db08451802356f967e1323",
+  "commits": [
+    {
+      "sha": "f9ee09dbaf418a7f06db08451802356f967e1323",
+      "autor": "Claude",
+      "data": "2026-11-24T04:05:28+00:00",
+      "titulo": "Instala PANDORA GOVERNANÇA 1.0.0: contrato, portão e registro",
+      "agentes_ia": [
+        "Claude"
+      ],
+      "sessoes": [
+        "https://claude.ai/code/session_01PLQo94EZS329tmdy4fduE2"
+      ]
+    }
+  ],
+  "ia": {
+    "agentes": [
+      "Claude"
+    ],
+    "sessoes": [
+      "https://claude.ai/code/session_01PLQo94EZS329tmdy4fduE2"
+    ],
+    "commits_com_ia": 1,
+    "commits": 1
+  },
+  "arquivos": [
+    {
+      "caminho": ".github/pull_request_template.md",
+      "estado": "A",
+      "sha256": "13cee5a6fec47cc2f3d364c7d9128d141d1caec7bec7d0b1a624a0e3b83be79c"
+    },
+    {
+      "caminho": ".github/workflows/governanca.yml",
+      "estado": "A",
+      "sha256": "e5c1850a5bdd8a213da4bf1efe48c96dcb358b6531e3ece72b7f50f9bfeca726"
+    },
+    {
+      "caminho": ".pandora/arquitetura.json",
+      "estado": "A",
+      "sha256": "1d6cbeb1ec46c7d862b48f8b5a64f39fd1b5a8312de22f81e99d013bc21dac3f"
+    },
+    {
+      "caminho": "AGENTS.md",
+      "estado": "A",
+      "sha256": "25158d79ab378ede483b25a0de5d9edc29088d9c06c63f3b4b6cf748d48b7883"
+    },
+    {
+      "caminho": "CLAUDE.md",
+      "estado": "A",
+      "sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49"
+    },
+    {
+      "caminho": "specs/README.md",
+      "estado": "A",
+      "sha256": "4a5793566fc3afed2cb500e157b3488b457b682cf26651bee578c693c936bf64"
+    },
+    {
+      "caminho": "tools/pandora_governanca.py",
+      "estado": "A",
+      "sha256": "b7f0e07dbb3ffcb917245fb6800618044417977d8bc67dbf1d1edb64d5118c08"
+    }
+  ],
+  "especificacao": {
+    "itens": [
+      "SPEC-GOV-1@pandora-saas-forge",
+      "SPEC-GOV-8@pandora-saas-forge.",
+      "SPEC-GOV-9@pandora-saas-forge"
+    ],
+    "sem_spec": null
+  },
+  "memoria": {
+    "commit": "516ef90"
+  },
+  "portao": {
+    "aprovado": true,
+    "itens": [
+      {
+        "id": "G1",
+        "status": "aprovado"
+      },
+      {
+        "id": "G2",
+        "status": "aprovado"
+      },
+      {
+        "id": "G3",
+        "status": "aprovado"
+      },
+      {
+        "id": "G4",
+        "status": "aprovado"
+      },
+      {
+        "id": "G5",
+        "status": "aprovado"
+      },
+      {
+        "id": "G6",
+        "status": "aprovado"
+      },
+      {
+        "id": "G7",
+        "status": "aprovado"
+      }
+    ]
+  },
+  "aprovacao_humana": {
+    "tipo": "pull_request",
+    "estado": "pendente",
+    "nota": "A aprovação humana é o review e o merge deste PR no GitHub."
+  }
+}
