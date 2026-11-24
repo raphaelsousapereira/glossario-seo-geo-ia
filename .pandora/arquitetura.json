@@ -1,0 +1,76 @@
+{
+  "kit": "pandora-governanca/1.0.0",
+  "projeto": "glossario-seo-geo-ia",
+  "ramo_principal": "main",
+  "dependencias": {
+    "permitidas": [],
+    "proibidas": [],
+    "_como": "Nova dependência entra aqui no mesmo PR, com o motivo no texto do PR. Prefixos: py: e npm:."
+  },
+  "caminhos_proibidos": [
+    ".env",
+    "*/.env",
+    ".env.*",
+    "*/.env.*",
+    "*.pem",
+    "*.key",
+    "*.p12",
+    "*.pfx",
+    "id_rsa*",
+    "*/id_rsa*",
+    "id_ed25519*",
+    "*/id_ed25519*",
+    "*.sqlite",
+    "*.db"
+  ],
+  "excecoes_caminhos": [
+    "*.example",
+    "*.sample",
+    "*.dist"
+  ],
+  "segredos_permitidos_em": [],
+  "gerados": [
+    {
+      "arquivo": "GLOSSARIO.md",
+      "fontes": [
+        "termos/",
+        "scripts/construir.py"
+      ],
+      "regenerar": "python scripts/construir.py"
+    },
+    {
+      "arquivo": "INDICE.md",
+      "fontes": [
+        "termos/",
+        "scripts/construir.py"
+      ],
+      "regenerar": "python scripts/construir.py"
+    },
+    {
+      "arquivo": "dist/glossario.json",
+      "fontes": [
+        "termos/",
+        "scripts/construir.py"
+      ],
+      "regenerar": "python scripts/construir.py"
+    },
+    {
+      "arquivo": "dist/glossario.csv",
+      "fontes": [
+        "termos/",
+        "scripts/construir.py"
+      ],
+      "regenerar": "python scripts/construir.py"
+    },
+    {
+      "arquivo": "dist/glossario.jsonld",
+      "fontes": [
+        "termos/",
+        "scripts/construir.py"
+      ],
+      "regenerar": "python scripts/construir.py"
+    }
+  ],
+  "exigir_spec": true,
+  "exigir_memoria": true
+}
