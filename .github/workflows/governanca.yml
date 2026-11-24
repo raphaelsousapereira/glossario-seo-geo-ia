@@ -1,0 +1,27 @@
+# Gerado por PANDORA GOVERNANÇA 1.0.0 (`python tools/pandora_governanca.py instalar`). Não edite à mão.
+# Os passos não usam expressões do GitHub: rodam iguais aqui e no tools/ci_local.py.
+name: PANDORA GOVERNANÇA
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  governanca:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Portão de governança
+        run: python tools/pandora_governanca.py verificar
+      - name: Registro encadeado
+        run: python tools/pandora_governanca.py registro
